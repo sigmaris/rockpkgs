@@ -1,3 +1,60 @@
+Package: libshairplay-dev
+Source: shairplay
+Version: 0.9.0.1-2~buster
+Architecture: arm64
+Maintainer: Hugh Cole-Baker <hugh@sigmaris.info>
+Installed-Size: 19
+Depends: libao-dev, libshairplay0 (= 0.9.0.1-2~buster)
+Multi-Arch: same
+Homepage: https://github.com/juhovh/shairplay
+Priority: extra
+Section: libdevel
+Filename: pool/main/s/shairplay/libshairplay-dev_0.9.0.1-2~buster_arm64.deb
+Size: 4096
+SHA256: df864ab2b0a1f6875d30bac98f19af4ae09ce2fd1d167747d6b12df345bfb9af
+SHA1: 7b1e00ce10b297e70b355b3b03df500511ae952f
+MD5sum: 6372a0722be4baee86b6b602c387df92
+Description: Free portable AirPlay server implementation (development files)
+ Free portable AirPlay server implementation similar to ShairPort.
+
+Package: libshairplay0
+Source: shairplay
+Version: 0.9.0.1-2~buster
+Architecture: arm64
+Maintainer: Hugh Cole-Baker <hugh@sigmaris.info>
+Installed-Size: 114
+Depends: libao4, libc6 (>= 2.17)
+Multi-Arch: same
+Homepage: https://github.com/juhovh/shairplay
+Priority: extra
+Section: net
+Filename: pool/main/s/shairplay/libshairplay0_0.9.0.1-2~buster_arm64.deb
+Size: 44512
+SHA256: bec878edaa767678b081dd4b29c7e80386f6ead919170e5ee9b67f069e1e9de9
+SHA1: b784e7f8a3e54d9867b915adf84fe763c628f234
+MD5sum: e224c70a204b2891e5580def680617ea
+Description: Free portable AirPlay server implementation (development files)
+ Free portable AirPlay server implementation similar to ShairPort.
+
+Package: libshairplay0-dbgsym
+Source: shairplay
+Version: 0.9.0.1-2~buster
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Hugh Cole-Baker <hugh@sigmaris.info>
+Installed-Size: 159
+Depends: libshairplay0 (= 0.9.0.1-2~buster)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/s/shairplay/libshairplay0-dbgsym_0.9.0.1-2~buster_arm64.deb
+Size: 135084
+SHA256: 48c93df6e24666bdf85b895d5b9655843b204c06c5860255ae476151ccefdd53
+SHA1: d05430b5dee3b3cebf4f6abc0b937bc4d51a71a6
+MD5sum: 6bdc94121962594c95941db9fbbd19b9
+Description: debug symbols for libshairplay0
+Build-Ids: 17abe73605c031b7e2f1130c801aefd4f60a39d4
+
 Package: linux-headers-5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris
 Source: linux-5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris
 Version: 5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris
