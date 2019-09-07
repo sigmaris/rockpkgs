@@ -1,19 +1,28 @@
 Origin: sigmaris.github.io/rockpkgs
 Label: sigmaris.github.io/rockpkgs
 Codename: buster
-Date: Sat, 07 Sep 2019 21:05:51 UTC
+Date: Sat, 07 Sep 2019 22:50:13 UTC
 Architectures: arm64
 Components: main
 Description: Packages for Rockchip SBC
 MD5Sum:
- cd0b6735bb773de81fab56957ecfc409 3973 main/binary-arm64/Packages
- 81267996b0d9cef1b868545e331dcb57 1121 main/binary-arm64/Packages.gz
+ 419c6cc8d467ce0c3e76e52efca3f88b 4637 main/binary-arm64/Packages
+ 37f0b9aa689101e627829cd0e80217d3 1423 main/binary-arm64/Packages.gz
  11c6287517cbf1008610f047f2259f1d 146 main/binary-arm64/Release
+ f13dc6652d6b11ef5613bca85af59f83 1435 main/source/Sources
+ 4cdbf30be631761721f40374a52b8d2d 714 main/source/Sources.gz
+ 297ae971788c1bd21e5084e1efe81343 147 main/source/Release
 SHA1:
- 0f64a9c7a758c2a970a837717878d542a544d838 3973 main/binary-arm64/Packages
- a652fe730246728623a8d7a85ec4dd1b2bb66888 1121 main/binary-arm64/Packages.gz
+ fc728cce48263ec3bdca40a5ce1f861ebaa1c91a 4637 main/binary-arm64/Packages
+ 4be1ffd6bffafb22d64260c5d5a9ae20b985d27e 1423 main/binary-arm64/Packages.gz
  0ae31c1e533cb0ef3e2224c158c1502a6a2f79c1 146 main/binary-arm64/Release
+ 05e38efd6b682a2da3602ea39c7149aa3a258fcf 1435 main/source/Sources
+ 1b2b7ccf801be0e7d3bf58ed4d20eb61d473bd3c 714 main/source/Sources.gz
+ c8ba739883a2eaa367d435a81f1d134804c121a3 147 main/source/Release
 SHA256:
- 3e4aa48c530060c716b01d2efedd6e66a49a7ca7410a86eab783a6417fd9dc4a 3973 main/binary-arm64/Packages
- 10d2519627d3e482990c6166c8249fce1e40ac97722d5ef19105ffb5d8601ab9 1121 main/binary-arm64/Packages.gz
+ 7c961b7449752738e806d2734513ecf540ff7dc55add9f02d20025f54500d14f 4637 main/binary-arm64/Packages
+ 8b587a893fa03b61bbf648e309be753d7227cd25d7c0034058000dc81b57ecde 1423 main/binary-arm64/Packages.gz
  d9558fa39916a3053702ee52cc4f15260c3b6edfed5452a99e81d895a4de196a 146 main/binary-arm64/Release
+ 43007e75200bfd33c77f09bfb0c197eb86053b608e0342ac6dede44075385913 1435 main/source/Sources
+ e6d72137029929614df8eaa74a408939988d9c3d428bda0b00229bc55a0e3e66 714 main/source/Sources.gz
+ 5c14bf987f5faff088ee1987565e9adf8b5d512e00b90391804ea1b08e767dea 147 main/source/Release

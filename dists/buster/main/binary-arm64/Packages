@@ -76,3 +76,20 @@ Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers
  are used by the installed headers for GNU glibc and other system libraries.
 
+Package: shairplay
+Version: 0.9.0.1-2~buster
+Architecture: arm64
+Maintainer: Hugh Cole-Baker <hugh@sigmaris.info>
+Installed-Size: 35
+Depends: libshairplay0, libavahi-compat-libdnssd-dev, libao4 (>= 1.1.0), libc6 (>= 2.17)
+Homepage: https://github.com/juhovh/shairplay
+Priority: extra
+Section: net
+Filename: pool/main/s/shairplay/shairplay_0.9.0.1-2~buster_arm64.deb
+Size: 10460
+SHA256: ab55f78b13dfdd034658225f545d7abef544dd0040e70e4980ffaf06707165b4
+SHA1: 6cd4657798f87bb331b0501bbf619d16cba1bd18
+MD5sum: d4a2d9f94973eefdc1f6a6286dc8501d
+Description: Free portable AirPlay server implementation
+ Free portable AirPlay server implementation similar to ShairPort.
+
