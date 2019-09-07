@@ -1,0 +1,78 @@
+Package: linux-headers-5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris
+Source: linux-5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris
+Version: 5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris
+Architecture: arm64
+Maintainer: root <root@runner-fa6cab46-project-12285715-concurrent-0>
+Installed-Size: 71708
+Provides: linux-mainline-headers
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris/linux-headers-5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris_5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris_arm64.deb
+Size: 11085736
+SHA256: 14431f307879fc50620a30f07f167561203d2a5ddbbf67a6c5e101677ea94b08
+SHA1: fce0f4106810f7b080a981e133a4f727c88502dc
+MD5sum: 5ee83ef7d0bf1f10f53927761a357a11
+Description: Linux kernel headers for 5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris on arm64
+ This package provides kernel header files for 5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris on arm64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-image-5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris
+Source: linux-5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris
+Version: 5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris
+Architecture: arm64
+Maintainer: root <root@runner-fa6cab46-project-12285715-concurrent-0>
+Installed-Size: 34025
+Provides: linux-mainline-image
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris/linux-image-5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris_5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris_arm64.deb
+Size: 9490564
+SHA256: e68674fb73a3ed73894ba10c788375bf07d1c777112f4122a659b8926f5a805a
+SHA1: 851c0ceb7bf4d850e65ef280087e92601cc7cfd0
+MD5sum: 3c9e44edb8426508c4f01b977b7ab27d
+Description: Linux kernel, version 5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris.
+
+Package: linux-image-5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris-dbg
+Source: linux-5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris
+Version: 5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris
+Architecture: arm64
+Maintainer: root <root@runner-fa6cab46-project-12285715-concurrent-0>
+Installed-Size: 474608
+Provides: linux-mainline-image-dbg, linux-mainline-image-rockchip-dbg
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: debug
+Filename: pool/main/l/linux-5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris/linux-image-5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris-dbg_5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris_arm64.deb
+Size: 100761644
+SHA256: c19bf6eadc3628c26b08ae616b64119574db03aafcfedea4f5d44a934480e875
+SHA1: 8b6d94c77969e20c316dc3c8f070547689fcfe01
+MD5sum: c37bc98cd79250c31b25dda741ea0e31
+Description: Linux kernel debugging symbols for 5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris
+ This package will come in handy if you need to debug the kernel. It provides
+ all the necessary debug symbols for the kernel and its modules.
+
+Package: linux-libc-dev
+Source: linux-5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris
+Version: 5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris
+Architecture: arm64
+Maintainer: root <root@runner-fa6cab46-project-12285715-concurrent-0>
+Installed-Size: 5404
+Provides: linux-kernel-headers
+Multi-Arch: same
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux-5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris/linux-libc-dev_5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris_arm64.deb
+Size: 1044976
+SHA256: bb282f7a0f9bcc705dbe237e5e980d588c77e0f5f8aa87ed1b33b7c1189c7384
+SHA1: 4b95e44fc3293c92159ca9f5f630066553372831
+MD5sum: 126bbfe3123fe75dca35b12c3e4769de
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+

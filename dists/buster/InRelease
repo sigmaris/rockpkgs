@@ -1,0 +1,33 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: sigmaris.github.io/rockpkgs
+Label: sigmaris.github.io/rockpkgs
+Codename: buster
+Date: Sat, 07 Sep 2019 21:05:51 UTC
+Architectures: arm64
+Components: main
+Description: Packages for Rockchip SBC
+MD5Sum:
+ cd0b6735bb773de81fab56957ecfc409 3973 main/binary-arm64/Packages
+ 81267996b0d9cef1b868545e331dcb57 1121 main/binary-arm64/Packages.gz
+ 11c6287517cbf1008610f047f2259f1d 146 main/binary-arm64/Release
+SHA1:
+ 0f64a9c7a758c2a970a837717878d542a544d838 3973 main/binary-arm64/Packages
+ a652fe730246728623a8d7a85ec4dd1b2bb66888 1121 main/binary-arm64/Packages.gz
+ 0ae31c1e533cb0ef3e2224c158c1502a6a2f79c1 146 main/binary-arm64/Release
+SHA256:
+ 3e4aa48c530060c716b01d2efedd6e66a49a7ca7410a86eab783a6417fd9dc4a 3973 main/binary-arm64/Packages
+ 10d2519627d3e482990c6166c8249fce1e40ac97722d5ef19105ffb5d8601ab9 1121 main/binary-arm64/Packages.gz
+ d9558fa39916a3053702ee52cc4f15260c3b6edfed5452a99e81d895a4de196a 146 main/binary-arm64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCgAdFiEElT+Uum0AYi4D0/qRuUCI6L6d6aMFAl10G7MACgkQuUCI6L6d
+6aP1Agf/aWGt3GoWdaeiwMV8VEvL/7vMpzRRdHmV/lzAX6s4gWHVszoaJw/sGkb6
+qS272d1RP1mej9Mh3Sw5Y0IQ41t8cw12QWPR23AkrZVVznyKVhHuVyStXpY4uwGk
+bDI36vFA0zQSJ3pkOMTIrRuJ0hC03ipCCkMdfkAaQG07oipx2BuEV0NmLA7p/ojt
+LP+Ch3AdsHamECaFXkleE1E5e2IruWUs8T1G/0bJ4kobdpjTSIuY7+iDV039WTgq
+4PoSVGGD4z0H7e6Q8/vsZXmkaabWLpNgbUoiQ2CiQzCYawlLXPKJFV4t8ZtwCrTe
+E0quq3s4v3r8PwuKz9Z4Y+vMrs4BHw==
+=m6ih
+-----END PGP SIGNATURE-----
