@@ -88,6 +88,23 @@ MD5sum: b3b07ac9fba9a413941f6f5315d83c65
 Description: 2SF audio decoder for Kodi
   2SF audio decoder for Kodi
 
+Package: kodi-audiodecoder-2sf-dbg
+Source: kodi-audiodecoder-2sf
+Version: 2.0.1-1~buster
+Architecture: arm64
+Maintainer: Arne Morten Kvarving <cptspiff@gmail.com>
+Installed-Size: 66
+Depends: kodi-audiodecoder-2sf (= 2.0.1-1~buster)
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-audiodecoder-2sf/kodi-audiodecoder-2sf-dbg_2.0.1-1~buster_arm64.deb
+Size: 12544
+SHA256: 60ac2f747d9b18efaccd8a4072f1897efae2b219cf03b07fda4d7a6a1101d1fc
+SHA1: be547f0a54034a9208014b8abcbb0025a76b745b
+MD5sum: 8839f4718ab27192e45064f3ee8e8936
+Description: debug symbols for 2SF audio decoder for Kodi
+  debug symbols for 2SF audio decoder for Kodi
+
 Package: kodi-audiodecoder-asap
 Version: 2.0.1-1~buster
 Architecture: arm64
@@ -104,6 +121,23 @@ MD5sum: 6b07899afac595d50e1a1c6d20437a38
 Description: ASAP audio decoder for Kodi
   ASAP audio decoder for Kodi
 
+Package: kodi-audiodecoder-asap-dbg
+Source: kodi-audiodecoder-asap
+Version: 2.0.1-1~buster
+Architecture: arm64
+Maintainer: Arne Morten Kvarving <cptspiff@gmail.com>
+Installed-Size: 32
+Depends: kodi-audiodecoder-asap (= 2.0.1-1~buster)
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-audiodecoder-asap/kodi-audiodecoder-asap-dbg_2.0.1-1~buster_arm64.deb
+Size: 5340
+SHA256: 82137bd87e3990c4cea2e99f7fdc22fb555e740d41202412abd032daf3f978d2
+SHA1: bc88d418b3b35f015d9c21b05de66595bfa6fe51
+MD5sum: 647a665d71a5a34c73f447e29356ab86
+Description: debug symbols for ASAP audio decoder for Kodi
+  debug symbols for ASAP audio decoder for Kodi
+
 Package: kodi-audiodecoder-dumb
 Version: 2.0.1-1~buster
 Architecture: arm64
@@ -119,6 +153,23 @@ SHA1: 9e1e984b6ecf7dd92c0e7f38239479823102366e
 MD5sum: a0be2ef869fe1135e7e0c8055ecd6daf
 Description: DUMB audio decoder for Kodi
   DUMB audio decoder for Kodi
+
+Package: kodi-audiodecoder-dumb-dbg
+Source: kodi-audiodecoder-dumb
+Version: 2.0.1-1~buster
+Architecture: arm64
+Maintainer: Arne Morten Kvarving <cptspiff@gmail.com>
+Installed-Size: 41
+Depends: kodi-audiodecoder-dumb (= 2.0.1-1~buster)
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-audiodecoder-dumb/kodi-audiodecoder-dumb-dbg_2.0.1-1~buster_arm64.deb
+Size: 7476
+SHA256: 2bb462b944c53db7b364bb43bbcf1e8a28beb4335e53b935163db1aef583c134
+SHA1: 9849d1e2dde68f69f4390c4693ed4d38600ac680
+MD5sum: a12ffd4e755fe67bd7e38ca599205a08
+Description: debug symbols for DUMB audio decoder for Kodi
+  debug symbols for DUMB audio decoder for Kodi
 
 Package: kodi-audiodecoder-fluidsynth
 Version: 2.0.0-1~buster
@@ -137,6 +188,24 @@ MD5sum: ef5fa2b56f9f3ca67fa1cd8aa8d303de
 Description: Fluidsynth audio decoder for Kodi
  Fluidsynth Midi audio decoder for Kodi
 
+Package: kodi-audiodecoder-fluidsynth-dbg
+Source: kodi-audiodecoder-fluidsynth
+Version: 2.0.0-1~buster
+Architecture: arm64
+Maintainer: wsnipex <wsnipex@a1.net>
+Installed-Size: 26
+Depends: kodi-audiodecoder-fluidsynth (= 2.0.0-1~buster)
+Homepage: http://kodi.tv
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-audiodecoder-fluidsynth/kodi-audiodecoder-fluidsynth-dbg_2.0.0-1~buster_arm64.deb
+Size: 3948
+SHA256: 5fa00f7b23a5974d2cc5455777e3ad06b4eec39a570448d723314816e4643af0
+SHA1: 9d50fbe8820a0243acbff720455a8bf045ad4673
+MD5sum: dbe5713d5bfe27760e9a316186a46ab8
+Description: debug symbols for Fluidsynth audio decoder for Kodi
+ debug symbols for Fluidsynth Midi audio decoder for Kodi
+
 Package: kodi-audiodecoder-gme
 Version: 2.0.1-1~buster
 Architecture: arm64
@@ -152,6 +221,23 @@ SHA1: 70718088ab0a6f47d13f4d2111db9151554ecdc2
 MD5sum: fbc74b4b44f41cf64adb006686415dff
 Description: 2SF audio decoder for Kodi
   GME audio decoder for Kodi
+
+Package: kodi-audiodecoder-gme-dbg
+Source: kodi-audiodecoder-gme
+Version: 2.0.1-1~buster
+Architecture: arm64
+Maintainer: Arne Morten Kvarving <cptspiff@gmail.com>
+Installed-Size: 148
+Depends: kodi-audiodecoder-gme (= 2.0.1-1~buster)
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-audiodecoder-gme/kodi-audiodecoder-gme-dbg_2.0.1-1~buster_arm64.deb
+Size: 31232
+SHA256: 49d694411cd12af9f7fd2bc998f4d486bf5230b2784597dba7ae93ddf87d62ed
+SHA1: 2b3b9c11a19a5b0bfedcbac7e060027f8070bd3b
+MD5sum: b3ec0cbf683a7b3017b724b348241833
+Description: debug symbols for GME audio decoder for Kodi
+  debug symbols for GME audio decoder for Kodi
 
 Package: kodi-audiodecoder-gsf
 Version: 2.0.1-1~buster
@@ -169,6 +255,23 @@ MD5sum: f380d892350669f795608f2e6a0ef912
 Description: 2SF audio decoder for Kodi
   GSF audio decoder for Kodi
 
+Package: kodi-audiodecoder-gsf-dbg
+Source: kodi-audiodecoder-gsf
+Version: 2.0.1-1~buster
+Architecture: arm64
+Maintainer: Arne Morten Kvarving <cptspiff@gmail.com>
+Installed-Size: 93
+Depends: kodi-audiodecoder-gsf (= 2.0.1-1~buster)
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-audiodecoder-gsf/kodi-audiodecoder-gsf-dbg_2.0.1-1~buster_arm64.deb
+Size: 16068
+SHA256: f13bb8cfe156e0b5673dc1deb2ddbbf0dae364e50604a0e1208f715ea0e0b9d2
+SHA1: e5164c36c4720b8304234b2f3cd9d705dbc0b817
+MD5sum: 58cae39edec32b31fef20ab556e5cdc0
+Description: debug symbols for GSF audio decoder for Kodi
+  debug symbols for GSF audio decoder for Kodi
+
 Package: kodi-audiodecoder-modplug
 Version: 2.0.1-1~buster
 Architecture: arm64
@@ -184,6 +287,23 @@ SHA1: 226098087eab7e15d3b61e25daa63946ec4857bc
 MD5sum: 4030b131dad5f3f63d8c2f21a4a394ce
 Description: Modplug audio decoder for Kodi
   Modplug audio decoder for Kodi
+
+Package: kodi-audiodecoder-modplug-dbg
+Source: kodi-audiodecoder-modplug
+Version: 2.0.1-1~buster
+Architecture: arm64
+Maintainer: Arne Morten Kvarving <cptspiff@gmail.com>
+Installed-Size: 26
+Depends: kodi-audiodecoder-modplug (= 2.0.1-1~buster)
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-audiodecoder-modplug/kodi-audiodecoder-modplug-dbg_2.0.1-1~buster_arm64.deb
+Size: 3872
+SHA256: 1c894873b99cad93c43ab775979e02a77dd2851a9d6ca845e47749f8808830a3
+SHA1: f053c4fc9afd44506ec3f9cba359711540b828e4
+MD5sum: b38a5b816b13a7d85360098e1a37c15e
+Description: debug symbols for Modplug audio decoder for Kodi
+  debug symbols for Modplug audio decoder for Kodi
 
 Package: kodi-audiodecoder-ncsf
 Version: 2.0.0-1~buster
@@ -201,6 +321,23 @@ MD5sum: afd073fea0378c3942d9d6d7cc36b77b
 Description: NCSF audio decoder for Kodi
   NCSF audio decoder for Kodi
 
+Package: kodi-audiodecoder-ncsf-dbg
+Source: kodi-audiodecoder-ncsf
+Version: 2.0.0-1~buster
+Architecture: arm64
+Maintainer: Arne Morten Kvarving <cptspiff@gmail.com>
+Installed-Size: 48
+Depends: kodi-audiodecoder-ncsf (= 2.0.0-1~buster)
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-audiodecoder-ncsf/kodi-audiodecoder-ncsf-dbg_2.0.0-1~buster_arm64.deb
+Size: 8240
+SHA256: c3e46b32442a4e0b50d82287720d9357e5c5d12b7ae2d03eff2aa648a8e84457
+SHA1: 3487d545d347649ec2783d39e22f67e538e32a3d
+MD5sum: c4c9466ef15b7bc37377d7e24f3e0c28
+Description: debug symbols for NCSF audio decoder for Kodi
+  debug symbols for NCSF audio decoder for Kodi
+
 Package: kodi-audiodecoder-nosefart
 Version: 2.0.0-1~buster
 Architecture: arm64
@@ -216,6 +353,23 @@ SHA1: 47341658fe35472c7645ef3de87f400850b36bbf
 MD5sum: 3509a62b80a7738c9a41adfd6484b50c
 Description: NoseFart audio decoder for Kodi
   NoseFart audio decoder for Kodi
+
+Package: kodi-audiodecoder-nosefart-dbg
+Source: kodi-audiodecoder-nosefart
+Version: 2.0.0-1~buster
+Architecture: arm64
+Maintainer: Arne Morten Kvarving <cptspiff@gmail.com>
+Installed-Size: 33
+Depends: kodi-audiodecoder-nosefart (= 2.0.0-1~buster)
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-audiodecoder-nosefart/kodi-audiodecoder-nosefart-dbg_2.0.0-1~buster_arm64.deb
+Size: 5676
+SHA256: 3dc0f1d66034efcb3552a541a853aea9bc967ef67a481e35e6819e1a49990944
+SHA1: 7364ec23fd741b33e1efb48edbccb48aced4530f
+MD5sum: df841c4bea46b4d6ac66168b73e82e15
+Description: debug symbols for NoseFart audio decoder for Kodi
+  debug symbols for NoseFart audio decoder for Kodi
 
 Package: kodi-audiodecoder-openmpt
 Version: 2.0.1-1~buster
@@ -233,6 +387,23 @@ MD5sum: efbd9d80c4fdef7b8f36ed1b108b7a54
 Description: OpenMPT audio decoder for Kodi
   OpenMPT audio decoder for Kodi
 
+Package: kodi-audiodecoder-openmpt-dbg
+Source: kodi-audiodecoder-openmpt
+Version: 2.0.1-1~buster
+Architecture: arm64
+Maintainer: Arne Morten Kvarving <cptspiff@gmail.com>
+Installed-Size: 26
+Depends: kodi-audiodecoder-openmpt (= 2.0.1-1~buster)
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-audiodecoder-openmpt/kodi-audiodecoder-openmpt-dbg_2.0.1-1~buster_arm64.deb
+Size: 3980
+SHA256: 0d4a6ab6227625acc6f76f81f162aff1afce402f3d1ec25654c2c1af3a1d227b
+SHA1: 68980a9112c6fd0bf40df971e071abc0c9214e6e
+MD5sum: 2a7ed6b650ac65ecf0ef3d2d3fee5471
+Description: debug symbols for OpenMPT audio decoder for Kodi
+  debug symbols for OpenMPT audio decoder for Kodi
+
 Package: kodi-audiodecoder-organya
 Version: 1.1.3-1~buster
 Architecture: arm64
@@ -248,6 +419,23 @@ SHA1: f46ea629eb7b1d1d67dca5fdbfd90b6d5458e894
 MD5sum: 361f69b811c0e9867969024c48b0d69d
 Description: ORG audio decoder for Kodi
   ORG audio decoder for Kodi
+
+Package: kodi-audiodecoder-organya-dbg
+Source: kodi-audiodecoder-organya
+Version: 1.1.3-1~buster
+Architecture: arm64
+Maintainer: Arne Morten Kvarving <cptspiff@gmail.com>
+Installed-Size: 30
+Depends: kodi-audiodecoder-organya (= 1.1.3-1~buster)
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-audiodecoder-organya/kodi-audiodecoder-organya-dbg_1.1.3-1~buster_arm64.deb
+Size: 4844
+SHA256: 7f9e710dad445b02f0c9c7c3211f4c190d8fd9693fde7be5ff84e22e680a6816
+SHA1: b7f436442052f86a9ce8efd0966cdc674c9daffa
+MD5sum: bb02489a6a89bf846abbbd36028acce0
+Description: debug symbols for ORG audio decoder for Kodi
+  debug symbols for ORG audio decoder for Kodi
 
 Package: kodi-audiodecoder-qsf
 Version: 2.0.0-1~buster
@@ -265,6 +453,23 @@ MD5sum: d80af9d3199656b1dd33075eff98088f
 Description: QSF audio decoder for Kodi
   QSF audio decoder for Kodi
 
+Package: kodi-audiodecoder-qsf-dbg
+Source: kodi-audiodecoder-qsf
+Version: 2.0.0-1~buster
+Architecture: arm64
+Maintainer: Arne Morten Kvarving <cptspiff@gmail.com>
+Installed-Size: 33
+Depends: kodi-audiodecoder-qsf (= 2.0.0-1~buster)
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-audiodecoder-qsf/kodi-audiodecoder-qsf-dbg_2.0.0-1~buster_arm64.deb
+Size: 5664
+SHA256: 5a445e38f5fb81991286db4c341c9a1de27f3e917e6ec4947563ae484adc3617
+SHA1: e6cca536f2b663d44bf15068c92d8792e42d2af0
+MD5sum: 673c18f730951b664b080ba74bb17709
+Description: debug symbols for QSF audio decoder for Kodi
+  debug symbols for QSF audio decoder for Kodi
+
 Package: kodi-audiodecoder-sidplay
 Version: 1.1.3-1~buster
 Architecture: arm64
@@ -280,6 +485,23 @@ SHA1: 2b1243833642f292e4dcc3fb7c842c6cc2026c32
 MD5sum: 71b5310dc1138945e239eede1fe3b825
 Description: SidPlay audio decoder for Kodi
   SidPlay audio decoder for Kodi
+
+Package: kodi-audiodecoder-sidplay-dbg
+Source: kodi-audiodecoder-sidplay
+Version: 1.1.3-1~buster
+Architecture: arm64
+Maintainer: Arne Morten Kvarving <cptspiff@gmail.com>
+Installed-Size: 27
+Depends: kodi-audiodecoder-sidplay (= 1.1.3-1~buster)
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-audiodecoder-sidplay/kodi-audiodecoder-sidplay-dbg_1.1.3-1~buster_arm64.deb
+Size: 4068
+SHA256: 38d2d271e7b93433e55ba5e67fa6a95a7bcd45bde27fb32bec5f5160644ffc77
+SHA1: 118f5cd086ff2b2ab00d337854e37e6f639753f1
+MD5sum: 612ebe0e2cd83a632427abbbddda317e
+Description: debug symbols for SidPlay audio decoder for Kodi
+  debug symbols for SidPlay audio decoder for Kodi
 
 Package: kodi-audiodecoder-snesapu
 Version: 2.0.0-1~buster
@@ -297,6 +519,23 @@ MD5sum: d49f86c4cc6324c26d1de70531062642
 Description: SnesAPU audio decoder for Kodi
   SnesAPU audio decoder for Kodi
 
+Package: kodi-audiodecoder-snesapu-dbg
+Source: kodi-audiodecoder-snesapu
+Version: 2.0.0-1~buster
+Architecture: arm64
+Maintainer: Arne Morten Kvarving <cptspiff@gmail.com>
+Installed-Size: 29
+Depends: kodi-audiodecoder-snesapu (= 2.0.0-1~buster)
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-audiodecoder-snesapu/kodi-audiodecoder-snesapu-dbg_2.0.0-1~buster_arm64.deb
+Size: 4788
+SHA256: 0845e0b11d77ce2ad673326f5dd9d1710b94c8aaac6860af5b55ed799f2c8b83
+SHA1: bf1819ad9527b6365b334c7858d87ee912ddfbce
+MD5sum: b48e26a64283eeb92378b508ef9d11d4
+Description: debug symbols for SnesAPU audio decoder for Kodi
+  debug symbols for SnesAPU audio decoder for Kodi
+
 Package: kodi-audiodecoder-ssf
 Version: 2.0.0-1~buster
 Architecture: arm64
@@ -312,6 +551,23 @@ SHA1: 8ce82ffea20f5c766f6697ac7e77930d4674336c
 MD5sum: 9bcb82b164b5cc56e0927537c08185bd
 Description: SSF audio decoder for Kodi
   SSF audio decoder for Kodi
+
+Package: kodi-audiodecoder-ssf-dbg
+Source: kodi-audiodecoder-ssf
+Version: 2.0.0-1~buster
+Architecture: arm64
+Maintainer: Arne Morten Kvarving <cptspiff@gmail.com>
+Installed-Size: 149
+Depends: kodi-audiodecoder-ssf (= 2.0.0-1~buster)
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-audiodecoder-ssf/kodi-audiodecoder-ssf-dbg_2.0.0-1~buster_arm64.deb
+Size: 27308
+SHA256: bb0f0a83257ef8cd6f26a4c96d40b5bdce2dd302c674184d9bb79c0f0e222a26
+SHA1: 7287145bd0e79dbc80afb82afdf5160ddcba19c6
+MD5sum: b51a2f341bf8f3786bdd763f0ce8fb1c
+Description: debug symbols for SSF audio decoder for Kodi
+  debug symbols for SSF audio decoder for Kodi
 
 Package: kodi-audiodecoder-stsound
 Version: 2.0.0-1~buster
@@ -329,6 +585,23 @@ MD5sum: f9770bf34e9f950c3f12652bd25cae30
 Description: StSound audio decoder for Kodi
   StSound audio decoder for Kodi
 
+Package: kodi-audiodecoder-stsound-dbg
+Source: kodi-audiodecoder-stsound
+Version: 2.0.0-1~buster
+Architecture: arm64
+Maintainer: Arne Morten Kvarving <cptspiff@gmail.com>
+Installed-Size: 33
+Depends: kodi-audiodecoder-stsound (= 2.0.0-1~buster)
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-audiodecoder-stsound/kodi-audiodecoder-stsound-dbg_2.0.0-1~buster_arm64.deb
+Size: 5760
+SHA256: b965c545e1858a590b1e9344da6b231b7136dc0287226687905713361e8349e8
+SHA1: ded43d36187a41b1b42742c610a5ff2925d6b4e9
+MD5sum: b3bca8b4193f0a0ece968b0db0e5c523
+Description: debug symbols for StSound audio decoder for Kodi
+  debug symbols for StSound audio decoder for Kodi
+
 Package: kodi-audiodecoder-timidity
 Version: 2.0.2-1~buster
 Architecture: arm64
@@ -344,6 +617,23 @@ SHA1: 077b689cc90a08ed8799dc8d8b54190c7e38a3a4
 MD5sum: cbc2c1650d8383a13161519122775be7
 Description: Timidity audio decoder for Kodi
   Timidity audio decoder for Kodi
+
+Package: kodi-audiodecoder-timidity-dbg
+Source: kodi-audiodecoder-timidity
+Version: 2.0.2-1~buster
+Architecture: arm64
+Maintainer: Arne Morten Kvarving <cptspiff@gmail.com>
+Installed-Size: 78
+Depends: kodi-audiodecoder-timidity (= 2.0.2-1~buster)
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-audiodecoder-timidity/kodi-audiodecoder-timidity-dbg_2.0.2-1~buster_arm64.deb
+Size: 17348
+SHA256: 33765db1b4f0d5aa0165f65a1e9f5f4c46347b635150cb84bb9c7f2f12eacf9d
+SHA1: e2dc915004b1df9c61813f445a2c15966c7e0f95
+MD5sum: 83682d10e52e12ab95828344f43cd71b
+Description: debug symbols for Timidity audio decoder for Kodi
+  debug symbols for Timidity audio decoder for Kodi
 
 Package: kodi-audiodecoder-upse
 Version: 2.0.0-1~buster
@@ -361,6 +651,23 @@ MD5sum: f0d5153830af9bfda73e589e66325f3b
 Description: PSF audio decoder for Kodi
   PSF audio decoder for Kodi
 
+Package: kodi-audiodecoder-upse-dbg
+Source: kodi-audiodecoder-upse
+Version: 2.0.0-1~buster
+Architecture: arm64
+Maintainer: Arne Morten Kvarving <cptspiff@gmail.com>
+Installed-Size: 40
+Depends: kodi-audiodecoder-upse (= 2.0.0-1~buster)
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-audiodecoder-upse/kodi-audiodecoder-upse-dbg_2.0.0-1~buster_arm64.deb
+Size: 7428
+SHA256: 58c561cdb42046f713c4cd963189e7e01b9b0a7b3297ab1dc0f4e1fe998b9bf8
+SHA1: ed09e3cb336d88e2e22a1d194b4c0741156fdcba
+MD5sum: 6984d4fe63c35540e6ae80007d78b193
+Description: debug symbols for PSF audio decoder for Kodi
+  debug symbols for PSF audio decoder for Kodi
+
 Package: kodi-audiodecoder-usf
 Version: 2.0.1-1~buster
 Architecture: arm64
@@ -376,6 +683,23 @@ SHA1: 7125a1b801e58d30bdd9a4d324565bafbdf030a4
 MD5sum: 347eeced403a079706f4f3007b40faa3
 Description: USF audio decoder for Kodi
   USF audio decoder for Kodi
+
+Package: kodi-audiodecoder-usf-dbg
+Source: kodi-audiodecoder-usf
+Version: 2.0.1-1~buster
+Architecture: arm64
+Maintainer: Arne Morten Kvarving <cptspiff@gmail.com>
+Installed-Size: 48
+Depends: kodi-audiodecoder-usf (= 2.0.1-1~buster)
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-audiodecoder-usf/kodi-audiodecoder-usf-dbg_2.0.1-1~buster_arm64.deb
+Size: 9688
+SHA256: 633d8defa86d38dedbf2bfcf95d492bef16cf3dfe31608b9df0dfb2e9cc818a6
+SHA1: 88a7f1841695ffde4499af3cca604682e5abd3f6
+MD5sum: ac5807a69869c6d9a23e34199c72b480
+Description: debug symbols for USF audio decoder for Kodi
+  debug symbols for USF audio decoder for Kodi
 
 Package: kodi-audiodecoder-vgmstream
 Version: 1.1.4-1~buster
@@ -393,6 +717,23 @@ MD5sum: 1259707bd868318791a728c8b566949b
 Description: VGMStream audio decoder for Kodi
   VGMStream audio decoder for Kodi
 
+Package: kodi-audiodecoder-vgmstream-dbg
+Source: kodi-audiodecoder-vgmstream
+Version: 1.1.4-1~buster
+Architecture: arm64
+Maintainer: Arne Morten Kvarving <cptspiff@gmail.com>
+Installed-Size: 67
+Depends: kodi-audiodecoder-vgmstream (= 1.1.4-1~buster)
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-audiodecoder-vgmstream/kodi-audiodecoder-vgmstream-dbg_1.1.4-1~buster_arm64.deb
+Size: 12388
+SHA256: 9d8c11e751b908d2aa742bc85a5294b5cee67a1c0512f9d8adcc0c693ec1ec52
+SHA1: 0f0a462b39c32b399f59554721bd0a495a811c4c
+MD5sum: ebf3d9358f45505152c0f2f8b4826117
+Description: debug symbols for VGMStream audio decoder for Kodi
+  debug symbols for VGMStream audio decoder for Kodi
+
 Package: kodi-audiodecoder-wsr
 Version: 2.0.1-1~buster
 Architecture: arm64
@@ -408,6 +749,23 @@ SHA1: 68814696ac21ac7899796fdb39a8fa8154c99a78
 MD5sum: ddf434200f66fd5f6d50e70bf9a2e5e0
 Description: WSR audio decoder for Kodi
   WSR audio decoder for Kodi
+
+Package: kodi-audiodecoder-wsr-dbg
+Source: kodi-audiodecoder-wsr
+Version: 2.0.1-1~buster
+Architecture: arm64
+Maintainer: Arne Morten Kvarving <cptspiff@gmail.com>
+Installed-Size: 45
+Depends: kodi-audiodecoder-wsr (= 2.0.1-1~buster)
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-audiodecoder-wsr/kodi-audiodecoder-wsr-dbg_2.0.1-1~buster_arm64.deb
+Size: 7728
+SHA256: bdade891320303af092089371cb35664bc27bc83b9b4f2e9883c0708e615ee21
+SHA1: 06080b26c09678d4813622052856de77ca58f067
+MD5sum: ea0355677a69a5fa5e3f89c864eb1a18
+Description: debug symbols for WSR audio decoder for Kodi
+  debug symbols for WSR audio decoder for Kodi
 
 Package: kodi-audioencoder-flac
 Version: 2.0.1-1~buster
@@ -426,6 +784,24 @@ MD5sum: 150b088ca7dd9f6eb7fa42b0eb922b91
 Description: FLAC audio encoder for Kodi
  FLAC audio encoder for Kodi
 
+Package: kodi-audioencoder-flac-dbg
+Source: kodi-audioencoder-flac
+Version: 2.0.1-1~buster
+Architecture: arm64
+Maintainer: wsnipex <wsnipex@a1.net>
+Installed-Size: 26
+Depends: kodi-audioencoder-flac (= 2.0.1-1~buster)
+Homepage: http://kodi.tv
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-audioencoder-flac/kodi-audioencoder-flac-dbg_2.0.1-1~buster_arm64.deb
+Size: 3772
+SHA256: e6b5cf6e7865c23c2c84dda9297e8ad219e26ae7bf0775213ae560766f83b822
+SHA1: 7e0efa670e8c240e3ce0d100e9dcca9cd642460d
+MD5sum: 0fc7af76ebd2fedfb9ebf9491b538aaa
+Description: debug symbols for FLAC audio encoder for Kodi
+ debug symbols for FLAC audio encoder for Kodi
+
 Package: kodi-audioencoder-lame
 Version: 2.0.1-1~buster
 Architecture: arm64
@@ -442,6 +818,24 @@ SHA1: daa0f94f729ad336a54a117db48b2869eacc69e5
 MD5sum: 6958f83e67565335f0f80258d8ecb33f
 Description: FLAC audio encoder for Kodi
  FLAC audio encoder for Kodi
+
+Package: kodi-audioencoder-lame-dbg
+Source: kodi-audioencoder-lame
+Version: 2.0.1-1~buster
+Architecture: arm64
+Maintainer: Arne Morten Kvarving <spiff@xbmc.org>
+Installed-Size: 26
+Depends: kodi-audioencoder-lame (= 2.0.1-1~buster)
+Homepage: http://kodi.tv
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-audioencoder-lame/kodi-audioencoder-lame-dbg_2.0.1-1~buster_arm64.deb
+Size: 3772
+SHA256: 1fb288f905da0eb8683210fb15837f77b9e4811726875de2d85b7f10498b7ce0
+SHA1: b8dfd0da98f866ee14fd9059ffdbf4a62056a403
+MD5sum: 7fdcf40775cdfef1260c90df1f4002b4
+Description: debug symbols for FLAC audio encoder for Kodi
+ debug symbols for FLAC audio encoder for Kodi
 
 Package: kodi-audioencoder-vorbis
 Version: 2.0.2-1~buster
@@ -460,6 +854,24 @@ MD5sum: c053ac51f960b1f5506fc757d8375d8f
 Description: Vorbis audio encoder for Kodi
  Vorbis audio encoder for Kodi
 
+Package: kodi-audioencoder-vorbis-dbg
+Source: kodi-audioencoder-vorbis
+Version: 2.0.2-1~buster
+Architecture: arm64
+Maintainer: Arne Morten Kvarving <spiff@xbmc.org>
+Installed-Size: 26
+Depends: kodi-audioencoder-vorbis (= 2.0.2-1~buster)
+Homepage: http://kodi.org
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-audioencoder-vorbis/kodi-audioencoder-vorbis-dbg_2.0.2-1~buster_arm64.deb
+Size: 3888
+SHA256: 9d34ab2a118251dab9fd67b15236cde18c0a875bf6e2580f40510e03fa6e1c8e
+SHA1: 33d0158d5b73f07f6ddb6572040903f0adc8e73c
+MD5sum: 1a9c316c77f7a411611500ade3af9409
+Description: debug symbols for Vorbis audio encoder for Kodi
+ debug symbols for Vorbis audio encoder for Kodi
+
 Package: kodi-audioencoder-wav
 Version: 2.0.1-1~buster
 Architecture: arm64
@@ -476,6 +888,24 @@ SHA1: 22833c6508ed9ed1b695b76a3365b384b0f3e259
 MD5sum: a0425b7222d000a07a9f49d9e7f36dc3
 Description: WAV audio encoder for Kodi
  WAV audio encoder for Kodi
+
+Package: kodi-audioencoder-wav-dbg
+Source: kodi-audioencoder-wav
+Version: 2.0.1-1~buster
+Architecture: arm64
+Maintainer: wsnipex <wsnipex@kodi.org>
+Installed-Size: 25
+Depends: kodi-audioencoder-wav (= 2.0.1-1~buster)
+Homepage: http://kodi.org
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-audioencoder-wav/kodi-audioencoder-wav-dbg_2.0.1-1~buster_arm64.deb
+Size: 3436
+SHA256: 96546319d99b45fa794cac269863e3522228f7a7e1877092a0840240006f85a0
+SHA1: d8838807263bc130d130ebb523b55f511c2691f0
+MD5sum: 7c872c639f5ce51b0d504433263c7c13
+Description: debug symbols for WAV audio encoder for Kodi
+ debug symbols for WAV audio encoder for Kodi
 
 Package: kodi-bin
 Architecture: arm64
@@ -706,6 +1136,24 @@ MD5sum: f7bf0a7d2441862fd1be699317f55344
 Description: Libretro wrapper for Kodi's Game API
   Libretro wrapper for Kodi's Game API
 
+Package: kodi-game-libretro-dbg
+Source: kodi-game-libretro
+Version: 1.1.0-1~buster
+Architecture: arm64
+Maintainer: Garrett Brown <themagnificentmrb@gmail.com>
+Installed-Size: 1583
+Depends: kodi-game-libretro (= 1.1.0-1~buster)
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-game-libretro/kodi-game-libretro-dbg_1.1.0-1~buster_arm64.deb
+Size: 1558688
+SHA256: 644672214c2073622c8930cb5ebb7b67c35231c6a3083941d02d2822af30831a
+SHA1: 59bb5af5027e1415285c128d0d161ccb5b7bf3ce
+MD5sum: 1b72bd6f9c1eaedbfedd7371a7dca835
+Description: debug symbols for Libretro wrapper for Kodi's Game API
+  debug symbols for Libretro wrapper for Kodi's Game API
+Build-Ids: dcc0201a9378c01ed576b1992f27bf75f4d3817c
+
 Package: kodi-imagedecoder-heif
 Version: 1.0.3-1~buster
 Architecture: arm64
@@ -721,6 +1169,23 @@ SHA1: 1ac0ab038105acaa9605a9a916dacf91b71c38f4
 MD5sum: b68e413b49d5cbcbd5e366242b976186
 Description: HEIF image decoder for Kodi
   HEIF image decoder for Kodi
+
+Package: kodi-imagedecoder-heif-dbg
+Source: kodi-imagedecoder-heif
+Version: 1.0.3-1~buster
+Architecture: arm64
+Maintainer: Arne Morten Kvarving <cptspiff@gmail.com>
+Installed-Size: 177
+Depends: kodi-imagedecoder-heif (= 1.0.3-1~buster)
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-imagedecoder-heif/kodi-imagedecoder-heif-dbg_1.0.3-1~buster_arm64.deb
+Size: 41856
+SHA256: 9899907061494ef44895da6e667e7ccd1453f65607a450c2c5614bd823d09b8e
+SHA1: 7814a471bfc60c1b6367fac98c54ebc01e7f6285
+MD5sum: ea65317120388b3900ec023ba4230dc2
+Description: debug symbols for HEIF image decoder for Kodi
+  debug symbols for HEIF image decoder for Kodi
 
 Package: kodi-imagedecoder-mpo
 Version: 1.0.1-1~buster
@@ -738,6 +1203,23 @@ MD5sum: c3bf557ff3816d2ec112c868b12caafd
 Description: MPO image decoder for Kodi
   MPO image decoder for Kodi
 
+Package: kodi-imagedecoder-mpo-dbg
+Source: kodi-imagedecoder-mpo
+Version: 1.0.1-1~buster
+Architecture: arm64
+Maintainer: Arne Morten Kvarving <cptspiff@gmail.com>
+Installed-Size: 27
+Depends: kodi-imagedecoder-mpo (= 1.0.1-1~buster)
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-imagedecoder-mpo/kodi-imagedecoder-mpo-dbg_1.0.1-1~buster_arm64.deb
+Size: 4292
+SHA256: e7199feb7487212d3991dfebea7e0a66a9c77131a11f5451672543ff26827b46
+SHA1: 387b51f244e7175e9d49b646b2d8fef25cd12cfb
+MD5sum: 962d5049fe1ae0dd29ff61e5bc117d3c
+Description: debug symbols for MPO image decoder for Kodi
+  debug symbols for MPO image decoder for Kodi
+
 Package: kodi-imagedecoder-raw
 Version: 2.0.1-1~buster
 Architecture: arm64
@@ -753,6 +1235,23 @@ SHA1: dc9bf9328f02056b988d92429f4c6727f9080713
 MD5sum: c45d2692f06191d02c95b50351c56466
 Description: RAW image decoder for Kodi
   RAW image decoder for Kodi
+
+Package: kodi-imagedecoder-raw-dbg
+Source: kodi-imagedecoder-raw
+Version: 2.0.1-1~buster
+Architecture: arm64
+Maintainer: Arne Morten Kvarving <cptspiff@gmail.com>
+Installed-Size: 25
+Depends: kodi-imagedecoder-raw (= 2.0.1-1~buster)
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-imagedecoder-raw/kodi-imagedecoder-raw-dbg_2.0.1-1~buster_arm64.deb
+Size: 3536
+SHA256: a5226b97d6c4014f1ceac4c9884dd5c874983c3edc07261b334102672047b3d2
+SHA1: 520bc37609412de3c24d11763a49151fc2660bad
+MD5sum: 925f88148ee2494523fb4058fe17e87c
+Description: debug symbols for RAW image decoder for Kodi
+  debug symbols for RAW image decoder for Kodi
 
 Package: kodi-inputstream-adaptive
 Version: 2.4.2-1~buster
@@ -789,6 +1288,23 @@ MD5sum: 913dd86112336f6253d6dbda5fc10435
 Description: Rtmp inputstream addon for Kodi
  This is the RTMP inputstream addon for Kodi
 
+Package: kodi-inputstream-rtmp-dbg
+Source: kodi-inputstream-rtmp
+Version: 2.0.5-1~buster
+Architecture: arm64
+Maintainer: Arne Morten Kvarving <spiff@xbmc.org>
+Installed-Size: 32
+Depends: kodi-inputstream-rtmp (= 2.0.5-1~buster)
+Priority: extra
+Section: libs
+Filename: pool/main/k/kodi-inputstream-rtmp/kodi-inputstream-rtmp-dbg_2.0.5-1~buster_arm64.deb
+Size: 4744
+SHA256: 56d69f3678105ed9d55ddcb8e32da7508d62c2d5879ccf0a874caa4054ce34ab
+SHA1: 23bf9af67134f51d6ba214ba4a153e15268e938a
+MD5sum: 2c3f747fd0db27da13878c5a979112c4
+Description: debug symbols for RTMP inputstream addon for Kodi
+ debug symbols for RTMP inputstream addon for Kodi
+
 Package: kodi-peripheral-joystick
 Version: 1.4.8-1~buster
 Architecture: arm64
@@ -804,6 +1320,23 @@ SHA1: 5c2b503927376efcb016efd805788f91c6035259
 MD5sum: 680f4317445ff9c792f1b10f0d955c6d
 Description: Joystick peripheral addon for Kodi
  Joystick peripheral addon for Kodi
+
+Package: kodi-peripheral-joystick-dbg
+Source: kodi-peripheral-joystick
+Version: 1.4.8-1~buster
+Architecture: arm64
+Maintainer: wsnipex <wsnipex@a1.net>
+Installed-Size: 167
+Depends: kodi-peripheral-joystick (= 1.4.8-1~buster)
+Priority: extra
+Section: libs
+Filename: pool/main/k/kodi-peripheral-joystick/kodi-peripheral-joystick-dbg_1.4.8-1~buster_arm64.deb
+Size: 24524
+SHA256: 0bd4f946e96c912afd78cc34a8b14240553f29806d7470268f40921fbbe9cac3
+SHA1: 2d9170d7fa47bae2b94b6969fb8ac24ae0819695
+MD5sum: 8074f0d889bc18b9af5a609de6df6e36
+Description: Joystick peripheral addon for Kodi, debug symbols
+ debug symbols for joystick peripheral addon for Kodi
 
 Package: kodi-pvr-argustv
 Version: 3.5.5-1~buster
@@ -955,6 +1488,25 @@ MD5sum: e90f0540df2310f5803e7dca2e0aa605
 Description: MythTV PVR for Kodi
  MythTV PVR for Kodi
 
+Package: kodi-pvr-mythtv-dbg
+Source: kodi-pvr-mythtv
+Version: 5.10.9-1~buster
+Architecture: arm64
+Maintainer: janbar <jlbarriere68@gmail.com>
+Installed-Size: 5397
+Depends: kodi-pvr-mythtv (= 5.10.9-1~buster)
+Homepage: http://kodi.tv
+Priority: extra
+Section: libs
+Filename: pool/main/k/kodi-pvr-mythtv/kodi-pvr-mythtv-dbg_5.10.9-1~buster_arm64.deb
+Size: 5230724
+SHA256: 0199518596034d67c9864569c131fba84aebaf858ad8fb05e023862c7ad2f4a0
+SHA1: 7f8f250c8cebefb74df6d415570309e6d096ca3d
+MD5sum: 22410659be1c51a430fea53d5afe2ada
+Description: debug symbols for MythTV PVR for Kodi
+ debug symbols for MythTV PVR for Kodi
+Build-Ids: b5cfa92d9e29638a418ff66e440858367f36a584
+
 Package: kodi-pvr-nextpvr
 Version: 3.3.16-1~buster
 Architecture: arm64
@@ -1018,6 +1570,23 @@ SHA1: 49939b3ac1c5ad5b2a3bd2bff1759a3d9b6027ae
 MD5sum: d3f1f04cd11e12c674ea1c6edd284ecb
 Description: sledovanitv.cz PVR for Kodi
  sledovanitv.cz PVR for Kodi
+
+Package: kodi-pvr-sledovanitv-cz-dbg
+Source: kodi-pvr-sledovanitv-cz
+Version: 1.5.0-1~buster
+Architecture: arm64
+Maintainer: Nobody <nobody@kodi.tv>
+Installed-Size: 6
+Depends: kodi-pvr-sledovanitv-cz (= 1.5.0-1~buster)
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-pvr-sledovanitv-cz/kodi-pvr-sledovanitv-cz-dbg_1.5.0-1~buster_arm64.deb
+Size: 864
+SHA256: faefe63d0d455ff79eb567fc8408abb88f59ad30da60695df5ca885b78f835c6
+SHA1: 05aee1739182012d15edbbcdec082e20420b7a68
+MD5sum: 558fb2c37c996014c3683f15facf2315
+Description: debug symbols for sledovanitv.cz PVR for Kodi
+ debug symbols for sledovanitv.cz PVR for Kodi
 
 Package: kodi-pvr-stalker
 Version: 3.4.9-1~buster
@@ -1169,6 +1738,25 @@ MD5sum: 3af1aa8b8ff96123e590dd23ae00e192
 Description: Asteroids screensaver for Kodi
  Asteroids screensaver for Kodi
 
+Package: kodi-screensaver-asteroids-dbg
+Source: kodi-screensaver-asteroids
+Version: 2.3.0-1~buster
+Architecture: arm64
+Maintainer: Nobody <nobody@kodi.tv>
+Installed-Size: 243
+Depends: kodi-screensaver-asteroids (= 2.3.0-1~buster)
+Homepage: http://kodi.tv
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-screensaver-asteroids/kodi-screensaver-asteroids-dbg_2.3.0-1~buster_arm64.deb
+Size: 220004
+SHA256: 4f42cfb2fe0a23cc85b30ca66cb460a25a8c94253e2dba4150f62f5cd4820124
+SHA1: 4cb2fbe6bfa4150f4d841582eef208a289d3369f
+MD5sum: 02251fdcdd6eb8d118b8af950dbf254d
+Description: debug symbols for Asteroids screensaver for Kodi
+ debug symbols for Asteroids screensaver for Kodi
+Build-Ids: fcfa2438bc4a4ff3614c4d58a9be26e4b07399ee
+
 Package: kodi-screensaver-asterwave
 Version: 3.0.3-1~buster
 Architecture: arm64
@@ -1185,6 +1773,25 @@ SHA1: 11bb8ae18a39a80becd93c4ca83608b09965e7f4
 MD5sum: a78582eb41534ae4603ae9fb8ac16d02
 Description: Asterwave screensaver for Kodi
  Asterwave screensaver for Kodi
+
+Package: kodi-screensaver-asterwave-dbg
+Source: kodi-screensaver-asterwave
+Version: 3.0.3-1~buster
+Architecture: arm64
+Maintainer: Nobody <nobody@kodi.tv>
+Installed-Size: 542
+Depends: kodi-screensaver-asterwave (= 3.0.3-1~buster)
+Homepage: http://kodi.tv
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-screensaver-asterwave/kodi-screensaver-asterwave-dbg_3.0.3-1~buster_arm64.deb
+Size: 497932
+SHA256: 78e592d2abcf99887834aaf6b7b348c145655344b579211a29ca2d898db2fe85
+SHA1: 7a0f402168d0c7eb349b23c8c398ffc43412b8e0
+MD5sum: bd79f78999ad791abcd284d91750dc59
+Description: debug symbols for Asterwave screensaver for Kodi
+ debug symbols for Asterwave screensaver for Kodi
+Build-Ids: 22c909a44b2e9e131244380121e4dcb25a573665
 
 Package: kodi-screensaver-biogenesis
 Version: 2.2.2-1~buster
@@ -1203,6 +1810,25 @@ MD5sum: 71a0ff0a4c8e4934e9af0e4a0d75644f
 Description: BioGenesis screensaver for Kodi
  BioGenesis screensaver for Kodi
 
+Package: kodi-screensaver-biogenesis-dbg
+Source: kodi-screensaver-biogenesis
+Version: 2.2.2-1~buster
+Architecture: arm64
+Maintainer: Nobody <nobody@kodi.tv>
+Installed-Size: 152
+Depends: kodi-screensaver-biogenesis (= 2.2.2-1~buster)
+Homepage: http://kodi.tv
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-screensaver-biogenesis/kodi-screensaver-biogenesis-dbg_2.2.2-1~buster_arm64.deb
+Size: 128916
+SHA256: 79765c89731af91411fa15f0b5b21c835b4e34bffe247354f230a8b1b085ff7e
+SHA1: 819adb14ee666ac64788aa95d82f548b69fee4d0
+MD5sum: 979513bf09bdfae646515d5b47f0acde
+Description: debug symbols for BioGenesis screensaver for Kodi
+ debug symbols for BioGenesis screensaver for Kodi
+Build-Ids: 85a5bfea08eb5652dad0bea233c995ff0e3c87b7
+
 Package: kodi-screensaver-cpblobs
 Version: 3.0.2-1~buster
 Architecture: arm64
@@ -1219,6 +1845,25 @@ SHA1: e3b7814422184111057fa8bcd227f89c6622f34c
 MD5sum: 1eee5f37d71c454890db0248ada6cacb
 Description: CpBlobs screensaver for Kodi
  CpBlobs screensaver for Kodi
+
+Package: kodi-screensaver-cpblobs-dbg
+Source: kodi-screensaver-cpblobs
+Version: 3.0.2-1~buster
+Architecture: arm64
+Maintainer: Nobody <nobody@kodi.tv>
+Installed-Size: 489
+Depends: kodi-screensaver-cpblobs (= 3.0.2-1~buster)
+Homepage: http://kodi.tv
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-screensaver-cpblobs/kodi-screensaver-cpblobs-dbg_3.0.2-1~buster_arm64.deb
+Size: 448924
+SHA256: d3698b10381078bc8cc763d123c86c74f8c8a27c5c286fa6eaa8b8586347750c
+SHA1: c9317770cb821757d1f8d8178d9b81fa7d7ad813
+MD5sum: 23617fff396140fd8e8cc36c04e9d405
+Description: debug symbols for CpBlobs screensaver for Kodi
+ debug symbols for CpBlobs screensaver for Kodi
+Build-Ids: 4fe5059dbf7e08c1100cc46f25c5816deb31a354
 
 Package: kodi-screensaver-greynetic
 Version: 2.2.1-1~buster
@@ -1237,6 +1882,25 @@ MD5sum: 1a50d4dce4795727d0ff5b8b01b77a37
 Description: Greynetic screensaver for Kodi
  Greynetic screensaver for Kodi
 
+Package: kodi-screensaver-greynetic-dbg
+Source: kodi-screensaver-greynetic
+Version: 2.2.1-1~buster
+Architecture: arm64
+Maintainer: Nobody <nobody@kodi.tv>
+Installed-Size: 154
+Depends: kodi-screensaver-greynetic (= 2.2.1-1~buster)
+Homepage: http://kodi.tv
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-screensaver-greynetic/kodi-screensaver-greynetic-dbg_2.2.1-1~buster_arm64.deb
+Size: 130936
+SHA256: 3153e90d7f936885a3eaf6873097fb2ef78ceeeb69be1f4fd816daf2ca70222e
+SHA1: 884df128ebb5f55510fd969efc2006e81e126ef0
+MD5sum: 69a8f8b15c24d85885cab518dd74f0e5
+Description: debug symbols for Greynetic screensaver for Kodi
+ debug symbols for Greynetic screensaver for Kodi
+Build-Ids: 2b91079e140903c2adfad2ceceb2ccf03b4137b8
+
 Package: kodi-screensaver-matrixtrails
 Version: 2.2.1-1~buster
 Architecture: arm64
@@ -1253,6 +1917,24 @@ SHA1: d42ad1a69bbdc71abe53bb517f25d8a112a20edd
 MD5sum: c94fd3c7df1f9cdc648dbdbe836a4aea
 Description: Matrix Trails screensaver for Kodi
  Matrix Trails screensaver for Kodi
+
+Package: kodi-screensaver-matrixtrails-dbg
+Source: kodi-screensaver-matrixtrails
+Version: 2.2.1-1~buster
+Architecture: arm64
+Maintainer: Arne Morten Kvarving <cptspiff@gmail.com>
+Installed-Size: 45
+Depends: kodi-screensaver-matrixtrails (= 2.2.1-1~buster)
+Homepage: http://kodi.tv
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-screensaver-matrixtrails/kodi-screensaver-matrixtrails-dbg_2.2.1-1~buster_arm64.deb
+Size: 8476
+SHA256: 8392a5d75c808c0a6f04b4e3472d7bf0e3600bf4ed1995591a2ef208431fb9f6
+SHA1: 1eb2e62a22cb9caab7a3cfeeb19c217b878b6d13
+MD5sum: 6f069f1ae938ffee1c56f34b1b9256da
+Description: debug symbols for Matrix Trails screensaver for Kodi
+ debug symbols for Matrix Trails screensaver for Kodi
 
 Package: kodi-screensaver-pingpong
 Version: 2.1.1-1~buster
@@ -1271,6 +1953,24 @@ MD5sum: 579bf3fe859a35f32666ad374cb04f13
 Description: Pingpong screensaver for Kodi
  Pingpong screensaver for Kodi
 
+Package: kodi-screensaver-pingpong-dbg
+Source: kodi-screensaver-pingpong
+Version: 2.1.1-1~buster
+Architecture: arm64
+Maintainer: Nobody <nobody@kodi.tv>
+Installed-Size: 30
+Depends: kodi-screensaver-pingpong (= 2.1.1-1~buster)
+Homepage: http://kodi.tv
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-screensaver-pingpong/kodi-screensaver-pingpong-dbg_2.1.1-1~buster_arm64.deb
+Size: 4488
+SHA256: 2d76514505d142dfb77304aaa35ac4927e95bebad93ec83b57784f587b0c9f79
+SHA1: aea835a1dfb9d432319b83cdaa3c258bd3bcc885
+MD5sum: 3318997a4cc80a78f8d02b340c224722
+Description: debug symbols for Pingpong screensaver for Kodi
+ debug symbols for Pingpong screensaver for Kodi
+
 Package: kodi-screensaver-pyro
 Version: 3.0.0-1~buster
 Architecture: arm64
@@ -1288,6 +1988,24 @@ MD5sum: 254ffe079fc92e4587d7783d4bacd624
 Description: Pyro screensaver for Kodi
  Pyro screensaver for Kodi
 
+Package: kodi-screensaver-pyro-dbg
+Source: kodi-screensaver-pyro
+Version: 3.0.0-1~buster
+Architecture: arm64
+Maintainer: Nobody <nobody@kodi.tv>
+Installed-Size: 30
+Depends: kodi-screensaver-pyro (= 3.0.0-1~buster)
+Homepage: http://kodi.tv
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-screensaver-pyro/kodi-screensaver-pyro-dbg_3.0.0-1~buster_arm64.deb
+Size: 4236
+SHA256: 21462733883c0c56d4f280714ec31e5d42f961b8066d798c23e45c5423b9d702
+SHA1: 25ce7a48cb27279b30fcdd0224f54a818337cc56
+MD5sum: 5ac9c2ed9741501247a606831e23e0f5
+Description: debug symbols for Pyro screensaver for Kodi
+ debug symbols for Pyro screensaver for Kodi
+
 Package: kodi-screensaver-stars
 Version: 2.1.2-1~buster
 Architecture: arm64
@@ -1304,6 +2022,25 @@ SHA1: eb5b11b1b6c2dcdacdf5a826053f828c57afd491
 MD5sum: 5c64255ced37fd08b362a95fd188ba4b
 Description: Stars screensaver for Kodi
  Stars screensaver for Kodi
+
+Package: kodi-screensaver-stars-dbg
+Source: kodi-screensaver-stars
+Version: 2.1.2-1~buster
+Architecture: arm64
+Maintainer: Nobody <nobody@kodi.tv>
+Installed-Size: 174
+Depends: kodi-screensaver-stars (= 2.1.2-1~buster)
+Homepage: http://kodi.tv
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-screensaver-stars/kodi-screensaver-stars-dbg_2.1.2-1~buster_arm64.deb
+Size: 151532
+SHA256: 23b553c1931a9d5ed5462f2b817eeffb76be2fe2f7d9cb1e5e8f6a024eeff51b
+SHA1: 5ee422180ee5e7774bf37821e1c634437dee1b61
+MD5sum: f96aa4133995f05560a905dd91530d33
+Description: debug symbols for Stars screensaver for Kodi
+ debug symbols for Stars screensaver for Kodi
+Build-Ids: d2b3adf01953ebff3e3f0de937684de10b819f40
 
 Package: kodi-tools-texturepacker
 Architecture: arm64
@@ -1355,6 +2092,24 @@ MD5sum: 935b507315ed333ec48e7950a1143c89
 Description: libarchive VFS for Kodi
  libarchive VFS for Kodi
 
+Package: kodi-vfs-libarchive-dbg
+Source: kodi-vfs-libarchive
+Version: 1.0.5-1~buster
+Architecture: arm64
+Maintainer: Arne Morten Kvarving <spiff@kodi.tv>
+Installed-Size: 887
+Depends: kodi-vfs-libarchive (= 1.0.5-1~buster)
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-vfs-libarchive/kodi-vfs-libarchive-dbg_1.0.5-1~buster_arm64.deb
+Size: 836712
+SHA256: 36eef676382be7486367eda98decd9b2530a33cb3cb233c8591d176d55e00f53
+SHA1: 39c349dd9cacb0a94ae1ea0b4d4e230227df78ee
+MD5sum: 20d843f019971ac214e3113138d2b0cf
+Description: debug symbols for libarchive VFS for Kodi
+ debug symbols for libarchive VFS for Kodi
+Build-Ids: b8839252a8074bfa4bfaed8b8c20c8b33b5877d2
+
 Package: kodi-vfs-nfs
 Version: 1.1.0-1~buster
 Architecture: arm64
@@ -1387,6 +2142,24 @@ MD5sum: a575617c296b8e7989065353d4b5d3f9
 Description: RAR VFS for Kodi
  RAR VFS for Kodi
 
+Package: kodi-vfs-rar-dbg
+Source: kodi-vfs-rar
+Version: 2.0.7-1~buster
+Architecture: arm64
+Maintainer: Arne Morten Kvarving <spiff@xbmc.org>
+Installed-Size: 2190
+Depends: kodi-vfs-rar (= 2.0.7-1~buster)
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-vfs-rar/kodi-vfs-rar-dbg_2.0.7-1~buster_arm64.deb
+Size: 2133772
+SHA256: 2730b6f6f068936bbc5b79573e94088a7a59a3856b36689e095c93133f010333
+SHA1: e4a39c7ce9c93af01ffdca7270d91dc91e8b997b
+MD5sum: bad541654334711e16d5a020f3120a46
+Description: debug symbols for RAR VFS for Kodi
+ debug symbols for RAR VFS for Kodi
+Build-Ids: c49cc03c8a756618d3858d8e33dd867cb84c4bd0
+
 Package: kodi-vfs-sacd
 Version: 1.0.0-1~buster
 Architecture: arm64
@@ -1403,6 +2176,24 @@ MD5sum: 94f2d230d02dbcb83cf558ac20e7cc25
 Description: sacd VFS for Kodi
  sacd VFS for Kodi
 
+Package: kodi-vfs-sacd-dbg
+Source: kodi-vfs-sacd
+Version: 1.0.0-1~buster
+Architecture: arm64
+Maintainer: wsnipex <wsnipex@a1.net>
+Installed-Size: 406
+Depends: kodi-vfs-sacd (= 1.0.0-1~buster)
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-vfs-sacd/kodi-vfs-sacd-dbg_1.0.0-1~buster_arm64.deb
+Size: 365760
+SHA256: e1d94548855f260ae1c1e24b1d4185a057f9ab59b745cdb85e8dab62aba910b6
+SHA1: 48f447bceb45470229d9e32899336040bc0ec660
+MD5sum: 6ba4ccbceef932b455f7483eb68224ae
+Description: debug symbols for sacd VFS for Kodi
+ debug symbols for sacd VFS for Kodi
+Build-Ids: 0e46a21a0fcab0412e64f652fd443937a2dbbf48
+
 Package: kodi-vfs-sftp
 Version: 1.0.2-1~buster
 Architecture: arm64
@@ -1418,6 +2209,24 @@ SHA1: 86f5831ffd02f2a6f4b7d5231638d1d2bcd20521
 MD5sum: 322c6119863fe78cd54d73b2467311a6
 Description: SFTP VFS for Kodi
  SFTP VFS for Kodi
+
+Package: kodi-vfs-sftp-dbg
+Source: kodi-vfs-sftp
+Version: 1.0.2-1~buster
+Architecture: arm64
+Maintainer: Arne Morten Kvarving <spiff@xbmc.org>
+Installed-Size: 351
+Depends: kodi-vfs-sftp (= 1.0.2-1~buster)
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-vfs-sftp/kodi-vfs-sftp-dbg_1.0.2-1~buster_arm64.deb
+Size: 325512
+SHA256: 5c85158f2990d32dbd77d6a4024d14a23c6f39fd71b49570b8c62c8aa10af3a7
+SHA1: 097f46bcd11cad77311dcba9d457960ad268ac7c
+MD5sum: 12f9154fe6e180a5a480907b19ed0c58
+Description: debug symbols for SFTP VFS for Kodi
+ debug symbols for SFTP VFS for Kodi
+Build-Ids: 0fcd115e451bb352bf241b160b345c5cbfab0df2
 
 Package: kodi-visualization-goom
 Version: 2.0.0-1~buster
@@ -1436,6 +2245,24 @@ MD5sum: cc6d6b29f98bc6601f6a507bd40231e0
 Description: GOOM visualization for Kodi
  GOOM visualization for Kodi
 
+Package: kodi-visualization-goom-dbg
+Source: kodi-visualization-goom
+Version: 2.0.0-1~buster
+Architecture: arm64
+Maintainer: Arne Morten Kvarving <spiff@xbmc.org>
+Installed-Size: 408
+Depends: kodi-visualization-goom (= 2.0.0-1~buster)
+Homepage: http://xbmc.org
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-visualization-goom/kodi-visualization-goom-dbg_2.0.0-1~buster_arm64.deb
+Size: 109536
+SHA256: 9d62f7f0b73e45dd3129d53802dc6f3d34640b2846c031d9693b859ec348f57e
+SHA1: 05c79bad78588ea0361e44375650b266a7624b3e
+MD5sum: 485071cc2607565fef5041f910fc9d32
+Description: debug symbols for GOOM visualization for Kodi
+ debug symbols for GOOM visualization for Kodi
+
 Package: kodi-visualization-shadertoy
 Version: 1.2.1-1~buster
 Architecture: arm64
@@ -1452,6 +2279,24 @@ SHA1: 655e4fae69f09b89a9b746d0edfe49c779f04f3e
 MD5sum: b6a31672819b97640b3ba50de478d710
 Description: Shadertoy visualization for Kodi
  Shadertoy visualization for Kodi
+
+Package: kodi-visualization-shadertoy-dbg
+Source: kodi-visualization-shadertoy
+Version: 1.2.1-1~buster
+Architecture: arm64
+Maintainer: wsnipex <wsnipex@a1.net>
+Installed-Size: 48
+Depends: kodi-visualization-shadertoy (= 1.2.1-1~buster)
+Homepage: http://kodi.tv
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-visualization-shadertoy/kodi-visualization-shadertoy-dbg_1.2.1-1~buster_arm64.deb
+Size: 8532
+SHA256: fdcc873ade2847888384201d7ad1f6ce6ee7a88ff576eb1caedc361532558dea
+SHA1: eac9971294074db221c9f869faa972f20b516d27
+MD5sum: 8584f3286c7fceefd6ac7a91b5a7c357
+Description: debug symbols for Shadertoy visualization for Kodi
+ debug symbols for Shadertoy visualization for Kodi
 
 Package: kodi-visualization-spectrum
 Version: 3.0.0-1~buster
@@ -1470,6 +2315,25 @@ MD5sum: 82cdbf56d5a8d83ff9567faaf2e76516
 Description: Spectrum visualizer for Kodi
  Spectrum visualizer for Kodi
 
+Package: kodi-visualization-spectrum-dbg
+Source: kodi-visualization-spectrum
+Version: 3.0.0-1~buster
+Architecture: arm64
+Maintainer: Nobody <nobody@kodi.tv>
+Installed-Size: 184
+Depends: kodi-visualization-spectrum (= 3.0.0-1~buster)
+Homepage: http://kodi.tv
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-visualization-spectrum/kodi-visualization-spectrum-dbg_3.0.0-1~buster_arm64.deb
+Size: 159544
+SHA256: a9a2fc49622fcd7a98b7a3ca85b6f4cfc125afdf4d82452c952f904ad315696f
+SHA1: c27fe6079f706e9ae346c813f0c6605d5579250c
+MD5sum: 583fb3cbe08068e6a31a02030fe22ddf
+Description: debug symbols for Spectrum visualizer for Kodi
+ debug symbols for Spectrum visualizer for Kodi
+Build-Ids: 91face4836c9e3a27f2286ea7f442b5923bc0e85
+
 Package: kodi-visualization-waveform
 Version: 3.0.1-1~buster
 Architecture: arm64
@@ -1486,6 +2350,25 @@ SHA1: ce1c83863ae9ed6d68b33e0d74f19a732b756aae
 MD5sum: 94805fca60cc5458f51725230e6c397f
 Description: Waveform visualization for Kodi
  Waveform visualization for Kodi
+
+Package: kodi-visualization-waveform-dbg
+Source: kodi-visualization-waveform
+Version: 3.0.1-1~buster
+Architecture: arm64
+Maintainer: Nobody <nobody@kodi.tv>
+Installed-Size: 160
+Depends: kodi-visualization-waveform (= 3.0.1-1~buster)
+Homepage: http://kodi.tv
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-visualization-waveform/kodi-visualization-waveform-dbg_3.0.1-1~buster_arm64.deb
+Size: 136112
+SHA256: f67abc13def8251cfaf1a00fac7aeb6a4bec115811cf8a95805266ad2e99fb97
+SHA1: 1c289819f711f4a1505b035a12d60a8a602c1901
+MD5sum: 2323516f2ec3b5d198f3338e375a4680
+Description: debug symbols for Waveform visualization for Kodi
+ debug symbols for Waveform visualization for Kodi
+Build-Ids: 068abd26d529ed997c18cd5f22f9394cfb5151a3
 
 Package: libkodiplatform-dev
 Source: kodiplatform
@@ -1693,4 +2576,22 @@ SHA1: 9fa0a395e1433ac2e4a557f4afbc4ad1c6835665
 MD5sum: 94c0fe2fd2d239776183cb30b2e91b04
 Description: Fishbmc visualization for XBMC
  Fishbmc visualization for XBMC
+
+Package: xbmc-visualization-fishbmc-dbg
+Source: xbmc-visualization-fishbmc
+Version: 5.1.0-1~buster
+Architecture: arm64
+Maintainer: Arne Morten Kvarving <spiff@xbmc.org>
+Installed-Size: 39
+Depends: xbmc-visualization-fishbmc (= 5.1.0-1~buster)
+Homepage: http://xbmc.org
+Priority: extra
+Section: debug
+Filename: pool/main/x/xbmc-visualization-fishbmc/xbmc-visualization-fishbmc-dbg_5.1.0-1~buster_arm64.deb
+Size: 6304
+SHA256: 2f2236c3815717fe0422f17c61e704ea98bfa3e1eb204170181ccd84725909fc
+SHA1: c1a9e0a0937f81918e02adcb0114a4612e8b3cf8
+MD5sum: 22b3da56f62badb9b16c141fe6ed5e0a
+Description: debug symbols for Fishbmc visualization for XBMC
+ debug symbols for Fishbmc visualization for XBMC
 
