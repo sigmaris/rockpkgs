@@ -2485,6 +2485,26 @@ Description: Linux kernel headers for 5.3.0-rc6-next-20190830-g18ae9759e72c-sigm
  .
  This is useful for people who need to build external modules
 
+Package: linux-headers-5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris
+Source: linux-5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris
+Version: 5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris
+Architecture: arm64
+Maintainer: vsts_azpcontainer <vsts_azpcontainer@3c4b56b0e334>
+Installed-Size: 71768
+Provides: linux-mainline-headers
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris/linux-headers-5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris_5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris_arm64.deb
+Size: 11095192
+SHA256: 1fdca2f3ace50816261f1bc9650a974e6147b7ee5225dd50b7da392f809fcc01
+SHA1: a502a9cdf43029b89e5e5548bbde16c13a71cfa5
+MD5sum: 1c9a4924ba11a2d7e23f46c53a070d11
+Description: Linux kernel headers for 5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris on arm64
+ This package provides kernel header files for 5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris on arm64
+ .
+ This is useful for people who need to build external modules
+
 Package: linux-image-5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris
 Source: linux-5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris
 Version: 5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris
@@ -2523,22 +2543,60 @@ Description: Linux kernel debugging symbols for 5.3.0-rc6-next-20190830-g18ae975
  This package will come in handy if you need to debug the kernel. It provides
  all the necessary debug symbols for the kernel and its modules.
 
-Package: linux-libc-dev
-Source: linux-5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris
-Version: 5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris
+Package: linux-image-5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris
+Source: linux-5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris
+Version: 5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris
 Architecture: arm64
-Maintainer: root <root@runner-fa6cab46-project-12285715-concurrent-0>
-Installed-Size: 5404
+Maintainer: vsts_azpcontainer <vsts_azpcontainer@3c4b56b0e334>
+Installed-Size: 33980
+Provides: linux-mainline-image
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris/linux-image-5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris_5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris_arm64.deb
+Size: 9494848
+SHA256: bcdf69b7c7568a8fcedce68b0970bb74651c183ae1e549c269fd3c8cfaad5b8d
+SHA1: 6ba38984f50e0253ea589279d8f3552d20296e53
+MD5sum: 0b09e09a023d188598cb846b43e1f9a6
+Description: Linux kernel, version 5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris.
+
+Package: linux-image-5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris-dbg
+Source: linux-5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris
+Version: 5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris
+Architecture: arm64
+Maintainer: vsts_azpcontainer <vsts_azpcontainer@3c4b56b0e334>
+Installed-Size: 475283
+Provides: linux-mainline-image-dbg, linux-mainline-image-rockchip-dbg
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: debug
+Filename: pool/main/l/linux-5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris/linux-image-5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris-dbg_5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris_arm64.deb
+Size: 100916400
+SHA256: 3bb5a95381cc363d26ba323d919c4d70478fa9f8df836a0daba60f584fa73084
+SHA1: 76c9a86a7e662532cd88c6b32057c51afc43a637
+MD5sum: 9833c28e84f506ec4984d1dffd362496
+Description: Linux kernel debugging symbols for 5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris
+ This package will come in handy if you need to debug the kernel. It provides
+ all the necessary debug symbols for the kernel and its modules.
+
+Package: linux-libc-dev
+Source: linux-5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris
+Version: 5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris
+Architecture: arm64
+Maintainer: vsts_azpcontainer <vsts_azpcontainer@3c4b56b0e334>
+Installed-Size: 5413
 Provides: linux-kernel-headers
 Multi-Arch: same
 Homepage: http://www.kernel.org/
 Priority: optional
 Section: devel
-Filename: pool/main/l/linux-5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris/linux-libc-dev_5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris_arm64.deb
-Size: 1044976
-SHA256: bb282f7a0f9bcc705dbe237e5e980d588c77e0f5f8aa87ed1b33b7c1189c7384
-SHA1: 4b95e44fc3293c92159ca9f5f630066553372831
-MD5sum: 126bbfe3123fe75dca35b12c3e4769de
+Filename: pool/main/l/linux-5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris/linux-libc-dev_5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris_arm64.deb
+Size: 1046568
+SHA256: 11ab60131cd2227bc2ff7c20de1fa4fe29de75189a90c02834285ddb42b8dd4e
+SHA1: a13ad90095febf5885ba48e485648f18ca103dfb
+MD5sum: dc127c3ca725e56b581ba7a51d8dd59d
 Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers
  are used by the installed headers for GNU glibc and other system libraries.
