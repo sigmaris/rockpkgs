@@ -1,14 +1,14 @@
 Package: kodi
 Architecture: all
 Breaks: xbmc (<< 2:14.0~git20141019), xbmc-data, xbmc-standalone
-Depends: kodi-bin (>= 2:18.4~git20190907.2325-sigmaris-1~buster), kodi-bin (<< 2:18.4~git20190907.2325-sigmaris-1~buster.1~), curl, libcurl4 | libcurl3, mesa-utils, x11-utils, fonts-liberation | ttf-liberation, fonts-dejavu-core | ttf-dejavu-core, python-bluez | python-lightblue, python-imaging | python-pil, python-simplejson, libass9 | libass5 | libass4, libgif5 | libgif7, libnfs8 | libnfs4 | libnfs1 | libnfs12, libbluray1 | libbluray2, libvorbisfile3, libaacs0, libcec4, libgnutls30 | libgnutls-deb0-28 | libgnutls28 | libgnutls26, libxslt1.1
+Depends: kodi-bin (>= 2:18.4~git20190916.2005-sigmaris-1~buster), kodi-bin (<< 2:18.4~git20190916.2005-sigmaris-1~buster.1~), curl, libcurl4 | libcurl3, mesa-utils, x11-utils, fonts-liberation | ttf-liberation, fonts-dejavu-core | ttf-dejavu-core, python-bluez | python-lightblue, python-imaging | python-pil, python-simplejson, libass9 | libass5 | libass4, libgif5 | libgif7, libnfs8 | libnfs4 | libnfs1 | libnfs12, libbluray1 | libbluray2, libshairplay0, libvorbisfile3, libaacs0, libcec4, libgnutls30 | libgnutls-deb0-28 | libgnutls28 | libgnutls26, libxslt1.1
 Priority: optional
 Section: video
-Filename: pool/main/k/kodi/kodi_18.4~git20190907.2325-sigmaris-1~buster_all.deb
-Size: 22925788
-SHA256: dca52f9dfc483aecf77c7d397d0bf91ebb4efe3026ad48072fbd0c4550c351b7
-SHA1: 1899a72dd17c246b2495d49b17c1a974b2abe84c
-MD5sum: d317fc55ad1d11ce6ef9a4f9fe9ae874
+Filename: pool/main/k/kodi/kodi_18.4~git20190916.2005-sigmaris-1~buster_all.deb
+Size: 22925618
+SHA256: acf5a3ab165cc489497e97958ea159444b23d96259b994cfd725fdd01db8010d
+SHA1: 6a8894e148de6125dd405f4ab761cd39b71c136a
+MD5sum: ea85d38d8c75847ca0dd0db16c30e176
 Description: Kodi Media Center (arch-independent data package)
  Kodi, formerly known as XBMC Media Center, is an award winning free and open
  source software media-player and entertainment hub for all your digital media.
@@ -34,18 +34,18 @@ Recommends: libvdpau1, libva-intel-vaapi-driver, libva1
 Replaces: xbmc (<< 2:14.0~git20141019), xbmc-data, xbmc-standalone
 Source: kodi
 Suggests: kodi-pvr-mythtv, kodi-pvr-vuplus, kodi-pvr-vdr-vnsi, kodi-pvr-njoy, kodi-pvr-nextpvr, kodi-pvr-mediaportal-tvserver, kodi-pvr-tvheadend-hts, kodi-pvr-dvbviewer, kodi-pvr-argustv, kodi-pvr-iptvsimple, kodi-audioencoder-vorbis, kodi-audioencoder-flac, kodi-audioencoder-lame
-Version: 2:18.4~git20190907.2325-sigmaris-1~buster
-Installed-Size: 36108
+Version: 2:18.4~git20190916.2005-sigmaris-1~buster
+Installed-Size: 36107
 
 Package: kodi-addon-dev
 Architecture: all
 Priority: optional
 Section: libdevel
-Filename: pool/main/k/kodi/kodi-addon-dev_18.4~git20190907.2325-sigmaris-1~buster_all.deb
-Size: 193870
-SHA256: 94bd0c50c83bd658bf9690802b577f9fea73d5d1002c035bf874d5e49f433d45
-SHA1: 573d5704f45cc003b84c8b651f2fc901b920c9b0
-MD5sum: 147ee8f3fe35aacd6141b78abb5fb038
+Filename: pool/main/k/kodi/kodi-addon-dev_18.4~git20190916.2005-sigmaris-1~buster_all.deb
+Size: 193428
+SHA256: 3c3031d39674a69bd6fedd97566eced89dcef2346fc49e020b7c0bec44d85f38
+SHA1: d9ed410ab17f8036527e2b615856bcfeff7fe6e3
+MD5sum: d9134264774322236689a38457e7dacc
 Description: Kodi Media Center (general add-on dev package)
  Kodi, formerly known as XBMC Media Center, is an award winning free and open
  source software media-player and entertainment hub for all your digital media.
@@ -69,7 +69,7 @@ Maintainer:  <>
 Provides: xbmc-addon-dev
 Replaces: kodi-audio-dev, kodi-inputstream-dev, kodi-pvr-dev, kodi-screensaver-dev, kodi-visualization-dev
 Source: kodi
-Version: 2:18.4~git20190907.2325-sigmaris-1~buster
+Version: 2:18.4~git20190916.2005-sigmaris-1~buster
 Installed-Size: 1056
 
 Package: kodi-audiodecoder-2sf
@@ -372,101 +372,101 @@ Description: debug symbols for NoseFart audio decoder for Kodi
   debug symbols for NoseFart audio decoder for Kodi
 
 Package: kodi-audiodecoder-openmpt
-Version: 2.0.1-1~buster
+Version: 2.0.2-1~buster
 Architecture: arm64
 Maintainer: Arne Morten Kvarving <cptspiff@gmail.com>
-Installed-Size: 48
+Installed-Size: 147
 Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.3.1), libopenmpt0 (>= 0.3.0), libstdc++6 (>= 5.2), zlib1g (>= 1:1.1.4)
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-audiodecoder-openmpt/kodi-audiodecoder-openmpt_2.0.1-1~buster_arm64.deb
-Size: 10716
-SHA256: 9c78bcfa8e9f62187e95da0ea4f94f475df2e874fc9b8cfcb6a9fd67813483f4
-SHA1: 6c475c28c52090e2e26e55b86295d7bd003e9e69
-MD5sum: efbd9d80c4fdef7b8f36ed1b108b7a54
+Filename: pool/main/k/kodi-audiodecoder-openmpt/kodi-audiodecoder-openmpt_2.0.2-1~buster_arm64.deb
+Size: 91276
+SHA256: daa4c1d83cfad8412eb3b298eacb3c7fd2bd9f3fdad885c4c580d0eb72b425dc
+SHA1: 1ae38d79289f97f0f703f17271f49780b80f23fa
+MD5sum: a99d1b3e69077e1d530c7cbd5ac44865
 Description: OpenMPT audio decoder for Kodi
   OpenMPT audio decoder for Kodi
 
 Package: kodi-audiodecoder-openmpt-dbg
 Source: kodi-audiodecoder-openmpt
-Version: 2.0.1-1~buster
+Version: 2.0.2-1~buster
 Architecture: arm64
 Maintainer: Arne Morten Kvarving <cptspiff@gmail.com>
-Installed-Size: 26
-Depends: kodi-audiodecoder-openmpt (= 2.0.1-1~buster)
+Installed-Size: 27
+Depends: kodi-audiodecoder-openmpt (= 2.0.2-1~buster)
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-audiodecoder-openmpt/kodi-audiodecoder-openmpt-dbg_2.0.1-1~buster_arm64.deb
-Size: 3980
-SHA256: 0d4a6ab6227625acc6f76f81f162aff1afce402f3d1ec25654c2c1af3a1d227b
-SHA1: 68980a9112c6fd0bf40df971e071abc0c9214e6e
-MD5sum: 2a7ed6b650ac65ecf0ef3d2d3fee5471
+Filename: pool/main/k/kodi-audiodecoder-openmpt/kodi-audiodecoder-openmpt-dbg_2.0.2-1~buster_arm64.deb
+Size: 4024
+SHA256: c34a71b75a95d310b9f8c685213f0907bfc68b9c21f83f75461d0043631e8c9d
+SHA1: 9bd07cd887812903546c9e2589fb7a8b6eae754b
+MD5sum: 77dea24685b81e980d4de373d5d6d97e
 Description: debug symbols for OpenMPT audio decoder for Kodi
   debug symbols for OpenMPT audio decoder for Kodi
 
 Package: kodi-audiodecoder-organya
-Version: 1.1.3-1~buster
+Version: 1.2.0-1~buster
 Architecture: arm64
 Maintainer: Arne Morten Kvarving <cptspiff@gmail.com>
-Installed-Size: 295
-Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.3.1), libp8-platform2 (>= 1.0.10), libstdc++6 (>= 5.2)
+Installed-Size: 318
+Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.3.1), libstdc++6 (>= 5.2)
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-audiodecoder-organya/kodi-audiodecoder-organya_1.1.3-1~buster_arm64.deb
-Size: 66144
-SHA256: 2b7b202efaebe021a973a88d55a55f452ebd16f68adcef6a548e821990cbcf35
-SHA1: f46ea629eb7b1d1d67dca5fdbfd90b6d5458e894
-MD5sum: 361f69b811c0e9867969024c48b0d69d
+Filename: pool/main/k/kodi-audiodecoder-organya/kodi-audiodecoder-organya_1.2.0-1~buster_arm64.deb
+Size: 87264
+SHA256: 62dad057c3c3f29f1732e74f7aeba575465b864178be14fe65cd3317939a8245
+SHA1: 969c8bad8f9b6eb7b6421d94c0488df182a0e773
+MD5sum: 8109f6743dbe45e86f8f4dfd11e8d69f
 Description: ORG audio decoder for Kodi
   ORG audio decoder for Kodi
 
 Package: kodi-audiodecoder-organya-dbg
 Source: kodi-audiodecoder-organya
-Version: 1.1.3-1~buster
+Version: 1.2.0-1~buster
 Architecture: arm64
 Maintainer: Arne Morten Kvarving <cptspiff@gmail.com>
-Installed-Size: 30
-Depends: kodi-audiodecoder-organya (= 1.1.3-1~buster)
+Installed-Size: 28
+Depends: kodi-audiodecoder-organya (= 1.2.0-1~buster)
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-audiodecoder-organya/kodi-audiodecoder-organya-dbg_1.1.3-1~buster_arm64.deb
-Size: 4844
-SHA256: 7f9e710dad445b02f0c9c7c3211f4c190d8fd9693fde7be5ff84e22e680a6816
-SHA1: b7f436442052f86a9ce8efd0966cdc674c9daffa
-MD5sum: bb02489a6a89bf846abbbd36028acce0
+Filename: pool/main/k/kodi-audiodecoder-organya/kodi-audiodecoder-organya-dbg_1.2.0-1~buster_arm64.deb
+Size: 4392
+SHA256: 978f250f75e02ac788808f70871a30300cba9560741628d09cebaab75759676a
+SHA1: 174874337de747634ea03f3bfd6bb79a5ec42f7b
+MD5sum: 27744fb36b6e8d1206f6a9b7608b5a61
 Description: debug symbols for ORG audio decoder for Kodi
   debug symbols for ORG audio decoder for Kodi
 
 Package: kodi-audiodecoder-qsf
-Version: 2.0.0-1~buster
+Version: 2.0.1-1~buster
 Architecture: arm64
 Maintainer: Arne Morten Kvarving <cptspiff@gmail.com>
-Installed-Size: 153
-Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.3.1), libp8-platform2 (>= 1.0.10), libstdc++6 (>= 5.2), zlib1g (>= 1:1.1.4)
+Installed-Size: 182
+Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.3.1), libstdc++6 (>= 5.2), zlib1g (>= 1:1.1.4)
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-audiodecoder-qsf/kodi-audiodecoder-qsf_2.0.0-1~buster_arm64.deb
-Size: 42280
-SHA256: f580c362ac1feda4dce1920f5a4cb33bd6b441b548bdf3a33c6080f1f33b0b9f
-SHA1: 5df8ff9a26606372458345b046e79b25a6a801aa
-MD5sum: d80af9d3199656b1dd33075eff98088f
+Filename: pool/main/k/kodi-audiodecoder-qsf/kodi-audiodecoder-qsf_2.0.1-1~buster_arm64.deb
+Size: 70176
+SHA256: da90bffdf66b3c439547611faa87ac2add597c3644744dd74308c7f22a01696b
+SHA1: 68139f6fdd0859cc630b6f70563c73ccd517d392
+MD5sum: ee37c681db6f9bc67e3d8c697acbfb20
 Description: QSF audio decoder for Kodi
   QSF audio decoder for Kodi
 
 Package: kodi-audiodecoder-qsf-dbg
 Source: kodi-audiodecoder-qsf
-Version: 2.0.0-1~buster
+Version: 2.0.1-1~buster
 Architecture: arm64
 Maintainer: Arne Morten Kvarving <cptspiff@gmail.com>
-Installed-Size: 33
-Depends: kodi-audiodecoder-qsf (= 2.0.0-1~buster)
+Installed-Size: 32
+Depends: kodi-audiodecoder-qsf (= 2.0.1-1~buster)
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-audiodecoder-qsf/kodi-audiodecoder-qsf-dbg_2.0.0-1~buster_arm64.deb
-Size: 5664
-SHA256: 5a445e38f5fb81991286db4c341c9a1de27f3e917e6ec4947563ae484adc3617
-SHA1: e6cca536f2b663d44bf15068c92d8792e42d2af0
-MD5sum: 673c18f730951b664b080ba74bb17709
+Filename: pool/main/k/kodi-audiodecoder-qsf/kodi-audiodecoder-qsf-dbg_2.0.1-1~buster_arm64.deb
+Size: 5348
+SHA256: 28f7421c62f572d8d9c95e414ab72701f3d16fb49c834cdd0fa63605532cad33
+SHA1: 331185f4fe21780fbe53e23c4cdd1dfc3caad66e
+MD5sum: e5b6e6eb0d5e6e9d3abe3ac0f137ad6b
 Description: debug symbols for QSF audio decoder for Kodi
   debug symbols for QSF audio decoder for Kodi
 
@@ -504,35 +504,35 @@ Description: debug symbols for SidPlay audio decoder for Kodi
   debug symbols for SidPlay audio decoder for Kodi
 
 Package: kodi-audiodecoder-snesapu
-Version: 2.0.0-1~buster
+Version: 2.0.1-1~buster
 Architecture: arm64
 Maintainer: Arne Morten Kvarving <cptspiff@gmail.com>
-Installed-Size: 76
+Installed-Size: 105
 Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.3.1), libstdc++6 (>= 5.2)
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-audiodecoder-snesapu/kodi-audiodecoder-snesapu_2.0.0-1~buster_arm64.deb
-Size: 23180
-SHA256: 4c73623291f352cde28e383bb3707a5fe39072d361316d75b3a595260a99e290
-SHA1: 3fb13a6b17f52c225068014e065ad797b874431a
-MD5sum: d49f86c4cc6324c26d1de70531062642
+Filename: pool/main/k/kodi-audiodecoder-snesapu/kodi-audiodecoder-snesapu_2.0.1-1~buster_arm64.deb
+Size: 49648
+SHA256: e0a407ae45f482baa3fad5c30e957d4f26b77eb8ce614e451a6b77ad4d878bd1
+SHA1: 2c00aa5f8cbfd24aab8b8f0813442219a1a3f4cb
+MD5sum: 36177da2dd2c358fde6a5f044e7801e0
 Description: SnesAPU audio decoder for Kodi
   SnesAPU audio decoder for Kodi
 
 Package: kodi-audiodecoder-snesapu-dbg
 Source: kodi-audiodecoder-snesapu
-Version: 2.0.0-1~buster
+Version: 2.0.1-1~buster
 Architecture: arm64
 Maintainer: Arne Morten Kvarving <cptspiff@gmail.com>
 Installed-Size: 29
-Depends: kodi-audiodecoder-snesapu (= 2.0.0-1~buster)
+Depends: kodi-audiodecoder-snesapu (= 2.0.1-1~buster)
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-audiodecoder-snesapu/kodi-audiodecoder-snesapu-dbg_2.0.0-1~buster_arm64.deb
-Size: 4788
-SHA256: 0845e0b11d77ce2ad673326f5dd9d1710b94c8aaac6860af5b55ed799f2c8b83
-SHA1: bf1819ad9527b6365b334c7858d87ee912ddfbce
-MD5sum: b48e26a64283eeb92378b508ef9d11d4
+Filename: pool/main/k/kodi-audiodecoder-snesapu/kodi-audiodecoder-snesapu-dbg_2.0.1-1~buster_arm64.deb
+Size: 4744
+SHA256: d7bedcb63dc536daa310b20ee59ea54401ccc5038cd4db25eea9e16252c2767b
+SHA1: b4708890dc7344261784c70ae0cc8dfd2bc4d9f1
+MD5sum: 9a80766280a349557cd1462a02441a98
 Description: debug symbols for SnesAPU audio decoder for Kodi
   debug symbols for SnesAPU audio decoder for Kodi
 
@@ -570,101 +570,101 @@ Description: debug symbols for SSF audio decoder for Kodi
   debug symbols for SSF audio decoder for Kodi
 
 Package: kodi-audiodecoder-stsound
-Version: 2.0.0-1~buster
+Version: 2.0.1-1~buster
 Architecture: arm64
 Maintainer: Arne Morten Kvarving <cptspiff@gmail.com>
-Installed-Size: 109
+Installed-Size: 132
 Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.3.1), libstdc++6 (>= 5.2)
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-audiodecoder-stsound/kodi-audiodecoder-stsound_2.0.0-1~buster_arm64.deb
-Size: 42468
-SHA256: ee27f4821342376317a3f4bbfec883a3aae788614f6ab3df227db9a8f5f45f7d
-SHA1: c9732cc3a7c430a8615ce5a1724c2b19a7b1070d
-MD5sum: f9770bf34e9f950c3f12652bd25cae30
+Filename: pool/main/k/kodi-audiodecoder-stsound/kodi-audiodecoder-stsound_2.0.1-1~buster_arm64.deb
+Size: 67120
+SHA256: 82b3787c5d62d6ac8252c346fabba29843a06b2b90018fed8d80dcca0047dfb3
+SHA1: d00acbce17c0aead92dada96d3e4fbb633883a9a
+MD5sum: b5161e10ebb77a929ea67347170de9d1
 Description: StSound audio decoder for Kodi
   StSound audio decoder for Kodi
 
 Package: kodi-audiodecoder-stsound-dbg
 Source: kodi-audiodecoder-stsound
-Version: 2.0.0-1~buster
+Version: 2.0.1-1~buster
 Architecture: arm64
 Maintainer: Arne Morten Kvarving <cptspiff@gmail.com>
 Installed-Size: 33
-Depends: kodi-audiodecoder-stsound (= 2.0.0-1~buster)
+Depends: kodi-audiodecoder-stsound (= 2.0.1-1~buster)
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-audiodecoder-stsound/kodi-audiodecoder-stsound-dbg_2.0.0-1~buster_arm64.deb
-Size: 5760
-SHA256: b965c545e1858a590b1e9344da6b231b7136dc0287226687905713361e8349e8
-SHA1: ded43d36187a41b1b42742c610a5ff2925d6b4e9
-MD5sum: b3bca8b4193f0a0ece968b0db0e5c523
+Filename: pool/main/k/kodi-audiodecoder-stsound/kodi-audiodecoder-stsound-dbg_2.0.1-1~buster_arm64.deb
+Size: 5724
+SHA256: b59f8ab8d82d70d545ae0aef4935bfd979d5dda08c2a74810f04e537dfa1b52c
+SHA1: ccf21eb21e5e60a9e5817d859a281f55eebecfd7
+MD5sum: 8869a92d2fc348d22b4062d8f2eeba57
 Description: debug symbols for StSound audio decoder for Kodi
   debug symbols for StSound audio decoder for Kodi
 
 Package: kodi-audiodecoder-timidity
-Version: 2.0.2-1~buster
+Version: 2.0.3-1~buster
 Architecture: arm64
 Maintainer: Arne Morten Kvarving <cptspiff@gmail.com>
-Installed-Size: 742
-Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.3.1), libp8-platform2 (>= 1.0.10), libstdc++6 (>= 5.2)
+Installed-Size: 1441
+Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.3.1), libstdc++6 (>= 5.2)
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-audiodecoder-timidity/kodi-audiodecoder-timidity_2.0.2-1~buster_arm64.deb
-Size: 255644
-SHA256: bfe448886f40c8823ac989eefc57dd6c52082d80a0036a94084baae9c5940911
-SHA1: 077b689cc90a08ed8799dc8d8b54190c7e38a3a4
-MD5sum: cbc2c1650d8383a13161519122775be7
+Filename: pool/main/k/kodi-audiodecoder-timidity/kodi-audiodecoder-timidity_2.0.3-1~buster_arm64.deb
+Size: 278036
+SHA256: 5e9d10822a091624b09a8a5b383385576cab8dc20c651cab3bfd9128050b547f
+SHA1: 0b7c3639c19848c0d424d24b870dcd95b6237274
+MD5sum: 574d63d5c91da8d2315a9c1d0b95812e
 Description: Timidity audio decoder for Kodi
   Timidity audio decoder for Kodi
 
 Package: kodi-audiodecoder-timidity-dbg
 Source: kodi-audiodecoder-timidity
-Version: 2.0.2-1~buster
+Version: 2.0.3-1~buster
 Architecture: arm64
 Maintainer: Arne Morten Kvarving <cptspiff@gmail.com>
-Installed-Size: 78
-Depends: kodi-audiodecoder-timidity (= 2.0.2-1~buster)
+Installed-Size: 130
+Depends: kodi-audiodecoder-timidity (= 2.0.3-1~buster)
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-audiodecoder-timidity/kodi-audiodecoder-timidity-dbg_2.0.2-1~buster_arm64.deb
-Size: 17348
-SHA256: 33765db1b4f0d5aa0165f65a1e9f5f4c46347b635150cb84bb9c7f2f12eacf9d
-SHA1: e2dc915004b1df9c61813f445a2c15966c7e0f95
-MD5sum: 83682d10e52e12ab95828344f43cd71b
+Filename: pool/main/k/kodi-audiodecoder-timidity/kodi-audiodecoder-timidity-dbg_2.0.3-1~buster_arm64.deb
+Size: 17656
+SHA256: 7467fb50ab960d13c36f7e70453a4ea9ec9a0f19daf3e655a8929c75e2ec9577
+SHA1: 9221bd4fe1dc32b79972f5e6686c360690e23918
+MD5sum: cf3d4e689c79c0ef88f4a507ae7d3c6b
 Description: debug symbols for Timidity audio decoder for Kodi
   debug symbols for Timidity audio decoder for Kodi
 
 Package: kodi-audiodecoder-upse
-Version: 2.0.0-1~buster
+Version: 2.0.1-1~buster
 Architecture: arm64
 Maintainer: Arne Morten Kvarving <cptspiff@gmail.com>
-Installed-Size: 197
+Installed-Size: 209
 Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.3.1), libstdc++6 (>= 5.2), zlib1g (>= 1:1.1.4)
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-audiodecoder-upse/kodi-audiodecoder-upse_2.0.0-1~buster_arm64.deb
-Size: 58492
-SHA256: b87d20a7cb62003301e923009110324466e09679f03827aaf67f0c2cd801ab99
-SHA1: b21aa492d993475faf226bbeee6a04c87e597402
-MD5sum: f0d5153830af9bfda73e589e66325f3b
+Filename: pool/main/k/kodi-audiodecoder-upse/kodi-audiodecoder-upse_2.0.1-1~buster_arm64.deb
+Size: 69440
+SHA256: 90e75eefea087da6e4f7f345361ff4bf3eac0c652dfa8ebd37aac0405c112f3b
+SHA1: db65c8d184c82395db3d29cbf9b2aa02c669b0bc
+MD5sum: 07a8469eab2aa54486869eb7d39c8431
 Description: PSF audio decoder for Kodi
   PSF audio decoder for Kodi
 
 Package: kodi-audiodecoder-upse-dbg
 Source: kodi-audiodecoder-upse
-Version: 2.0.0-1~buster
+Version: 2.0.1-1~buster
 Architecture: arm64
 Maintainer: Arne Morten Kvarving <cptspiff@gmail.com>
 Installed-Size: 40
-Depends: kodi-audiodecoder-upse (= 2.0.0-1~buster)
+Depends: kodi-audiodecoder-upse (= 2.0.1-1~buster)
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-audiodecoder-upse/kodi-audiodecoder-upse-dbg_2.0.0-1~buster_arm64.deb
-Size: 7428
-SHA256: 58c561cdb42046f713c4cd963189e7e01b9b0a7b3297ab1dc0f4e1fe998b9bf8
-SHA1: ed09e3cb336d88e2e22a1d194b4c0741156fdcba
-MD5sum: 6984d4fe63c35540e6ae80007d78b193
+Filename: pool/main/k/kodi-audiodecoder-upse/kodi-audiodecoder-upse-dbg_2.0.1-1~buster_arm64.deb
+Size: 7388
+SHA256: dbcd14e2458deaf2b65bb6f6066dee43d813f4c6abe5c32bccadabc164c426f4
+SHA1: 2178f684209064dbd4c00a0549896f6582ee701f
+MD5sum: 6695c87a334179fa7283519e3e9d734f
 Description: debug symbols for PSF audio decoder for Kodi
   debug symbols for PSF audio decoder for Kodi
 
@@ -913,11 +913,11 @@ Breaks: xbmc-bin (<< 2:14.0~git20141019), xbmc-common
 Depends: libasound2 (>= 1.0.27), libass9 (>= 1:0.13.6), libatomic1 (>= 4.8), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libbluetooth3 (>= 4.91), libbluray2 (>= 1:0.9.3), libbz2-1.0, libc6 (>= 2.28), libcap2 (>= 1:2.10), libcdio18 (>= 2.0.0), libcec4 (>= 2.1.4), libcrossguid0 (>= 0.0+git200150803), libcurl3-gnutls (>= 7.18.0), libdbus-1-3 (>= 1.9.14), libdrm2 (>= 2.4.74), libegl1, libexpat1 (>= 2.0.1), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), libfstrcmp0, libgbm1 (>= 17.1.0~rc2), libgcc1 (>= 1:4.5), libgles2, libgmp10, libgnutls30 (>= 3.6.6), libhogweed4, libidn2-0 (>= 0.6), libinput10 (>= 0.21.0), libiso9660-11 (>= 2.0.0), liblcms2-2 (>= 2.2+git20110628), liblirc-client0, liblzma5 (>= 5.1.1alpha+20120614), liblzo2-2, libmariadb3 (>= 3.0.0), libmicrohttpd12 (>= 0.9.50), libnettle6, libnfs12 (>= 1.9.7), libp11-kit0 (>= 0.2), libpcre3, libpcrecpp0v5 (>= 7.7), libpulse-mainloop-glib0 (>= 0.99.1), libpulse0 (>= 0.99.4), libpython2.7 (>= 2.7), libsmbclient (>= 2:4.0.3+dfsg1), libsqlite3-0 (>= 3.7.11), libssl1.1 (>= 1.1.0), libstdc++6 (>= 5.2), libtag1v5 (>= 1.11), libtasn1-6 (>= 4.5), libtinyxml2.6.2v5, libudev1 (>= 183), libunistring2 (>= 0.9.7), libuuid1 (>= 2.16), libva-drm2 (>= 1.1.0), libva-x11-2 (>= 1.0.3), libva2 (>= 2.2.0), libx11-6, libxkbcommon0 (>= 0.5.0), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.2.0.2)
 Priority: optional
 Section: video
-Filename: pool/main/k/kodi/kodi-bin_18.4~git20190907.2325-sigmaris-1~buster_arm64.deb
-Size: 17615672
-SHA256: 7c66816ab27a78f92d687b9fa7415bb7c87dfbd4017babfa1da4404cb1b7b58a
-SHA1: c91816f62da17885d852de420deaf02eb36bab15
-MD5sum: 02b3176b7243d8eb9f95073362a5379d
+Filename: pool/main/k/kodi/kodi-bin_18.4~git20190916.2005-sigmaris-1~buster_arm64.deb
+Size: 17615448
+SHA256: ff2c3e2d1c8d65177b59bc03aed2a0fa353e485504cfee8a3f89a828d2e737cd
+SHA1: 6244b77d4ef8b15f63784ef4b059aeafcbeb3211
+MD5sum: 29b9413a138ff81d5620589d4f583da7
 Description: Kodi Media Center (binary data package)
  Kodi, formerly known as XBMC Media Center, is an award winning free and open
  source software media-player and entertainment hub for all your digital media.
@@ -941,18 +941,18 @@ Maintainer:  <>
 Provides: kodi-bin, kodi-common, xbmc-bin, xbmc-common
 Replaces: xbmc-bin (<< 2:14.0~git20141019), xbmc-common
 Source: kodi
-Version: 2:18.4~git20190907.2325-sigmaris-1~buster
+Version: 2:18.4~git20190916.2005-sigmaris-1~buster
 Installed-Size: 41116
 
 Package: kodi-eventclients-common
 Architecture: all
 Priority: optional
 Section: video
-Filename: pool/main/k/kodi/kodi-eventclients-common_18.4~git20190907.2325-sigmaris-1~buster_all.deb
-Size: 53758
-SHA256: 26111ee533841a496497e96f2860b0392f4307a5bb0319b8cd6366f49548f2e8
-SHA1: a4bfc813efbddab44bb8fb933acfd06022f3a1fc
-MD5sum: 3a30ced51eaeac88c72a414c455077ff
+Filename: pool/main/k/kodi/kodi-eventclients-common_18.4~git20190916.2005-sigmaris-1~buster_all.deb
+Size: 53358
+SHA256: a7315c47348f675cb3cc8b1a63b143451d6e72be094e4db9d7f418947db30e67
+SHA1: 4d6dcb94c0118853480929723fcb0c5848ee79a4
+MD5sum: a4b74538d0f69d159a65f44279f327eb
 Description: Kodi Media Center (event client common package)
  Kodi, formerly known as XBMC Media Center, is an award winning free and open
  source software media-player and entertainment hub for all your digital media.
@@ -975,19 +975,19 @@ Homepage: http://kodi.tv
 Maintainer:  <>
 Provides: xbmc-eventclients-common
 Source: kodi
-Version: 2:18.4~git20190907.2325-sigmaris-1~buster
+Version: 2:18.4~git20190916.2005-sigmaris-1~buster
 Installed-Size: 199
 
 Package: kodi-eventclients-dev
 Architecture: all
-Depends: kodi-eventclients-common (= 2:18.4~git20190907.2325-sigmaris-1~buster)
+Depends: kodi-eventclients-common (= 2:18.4~git20190916.2005-sigmaris-1~buster)
 Priority: optional
 Section: libdevel
-Filename: pool/main/k/kodi/kodi-eventclients-dev_18.4~git20190907.2325-sigmaris-1~buster_all.deb
-Size: 39512
-SHA256: a61ebd397930d23448e529baa72c5559414d770b452a5c4aa5686f4af2d86979
-SHA1: 526e36187c0d83cc3dc54278a3f89685a94b7063
-MD5sum: a6328758be102d7d1aba417f97681d16
+Filename: pool/main/k/kodi/kodi-eventclients-dev_18.4~git20190916.2005-sigmaris-1~buster_all.deb
+Size: 39090
+SHA256: 3e4f13c43a455949885cac691026eb22ef17e68d72f1b2b3c92021a720acc8ea
+SHA1: f88afc7e506d7e0c4a2455f7f11a3a0b1356beae
+MD5sum: ea27610a3a44b7caf32e787ae4007f4d
 Description: Kodi Media Center (event client dev package)
  Kodi, formerly known as XBMC Media Center, is an award winning free and open
  source software media-player and entertainment hub for all your digital media.
@@ -1010,20 +1010,20 @@ Homepage: http://kodi.tv
 Maintainer:  <>
 Provides: xbmc-eventclients-dev
 Source: kodi
-Version: 2:18.4~git20190907.2325-sigmaris-1~buster
-Installed-Size: 176
+Version: 2:18.4~git20190916.2005-sigmaris-1~buster
+Installed-Size: 175
 
 Package: kodi-eventclients-kodi-send
 Architecture: all
 Breaks: kodi-eventclients-xbmc-send
-Depends: kodi-eventclients-common (= 2:18.4~git20190907.2325-sigmaris-1~buster)
+Depends: kodi-eventclients-common (= 2:18.4~git20190916.2005-sigmaris-1~buster)
 Priority: optional
 Section: video
-Filename: pool/main/k/kodi/kodi-eventclients-kodi-send_18.4~git20190907.2325-sigmaris-1~buster_all.deb
-Size: 32030
-SHA256: 66f2022c981617990001618473a017b0f02611bfbba7c8667b2b617b130e51fb
-SHA1: 410887ec429cd5d86f659001262ce58c7d4529d8
-MD5sum: 66591b7ceaa9e7df5ff94dadf2bc462d
+Filename: pool/main/k/kodi/kodi-eventclients-kodi-send_18.4~git20190916.2005-sigmaris-1~buster_all.deb
+Size: 31618
+SHA256: 51de89a6d5aa84c9778af520602eca3b00183c0d7ed64d6eb3505e08bc490984
+SHA1: a8d801c3eea15d1d900dc99d8ef5d7661bafbb4e
+MD5sum: f2db34e9ab7ed4af1e79fcd149b7fdf5
 Description: Kodi Media Center (Kodi-send event client package)
  Kodi, formerly known as XBMC Media Center, is an award winning free and open
  source software media-player and entertainment hub for all your digital media.
@@ -1047,19 +1047,19 @@ Maintainer:  <>
 Provides: kodi-eventclients-kodi-send
 Replaces: kodi-eventclients-xbmc-send
 Source: kodi
-Version: 2:18.4~git20190907.2325-sigmaris-1~buster
-Installed-Size: 140
+Version: 2:18.4~git20190916.2005-sigmaris-1~buster
+Installed-Size: 139
 
 Package: kodi-eventclients-ps3
 Architecture: all
-Depends: kodi-eventclients-common (= 2:18.4~git20190907.2325-sigmaris-1~buster), python-bluez | python-lightblue
+Depends: kodi-eventclients-common (= 2:18.4~git20190916.2005-sigmaris-1~buster), python-bluez | python-lightblue
 Priority: optional
 Section: video
-Filename: pool/main/k/kodi/kodi-eventclients-ps3_18.4~git20190907.2325-sigmaris-1~buster_all.deb
-Size: 32964
-SHA256: 982c3ce71a2d59bfbff64c306ea01bcf06375ea778c8cbb1d1e6c12fac28e139
-SHA1: d4c27de2a9575238369abc8b172cf1f1bd8b69b0
-MD5sum: 91d679927beda39ae0c58bad1638f5a7
+Filename: pool/main/k/kodi/kodi-eventclients-ps3_18.4~git20190916.2005-sigmaris-1~buster_all.deb
+Size: 32548
+SHA256: b3670e3c2a0e5583aa6f52f69768cd25866dfa3a278ef7c4e6757a8bf3471731
+SHA1: 23041897e3a276067b1f3b2c8bfa45ca94f00e0b
+MD5sum: 5457beb3f31076ba633d7e7cb1561305
 Description: Kodi Media Center (PS3 event client package)
  Kodi, formerly known as XBMC Media Center, is an award winning free and open
  source software media-player and entertainment hub for all your digital media.
@@ -1082,19 +1082,19 @@ Homepage: http://kodi.tv
 Maintainer:  <>
 Provides: xbmc-eventclients-ps3
 Source: kodi
-Version: 2:18.4~git20190907.2325-sigmaris-1~buster
+Version: 2:18.4~git20190916.2005-sigmaris-1~buster
 Installed-Size: 143
 
 Package: kodi-eventclients-wiiremote
 Architecture: arm64
-Depends: kodi-eventclients-common (= 2:18.4~git20190907.2325-sigmaris-1~buster), libbluetooth3 (>= 4.91), libc6 (>= 2.17), libcwiid1 (>= 0.6.00+svn184), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
+Depends: kodi-eventclients-common (= 2:18.4~git20190916.2005-sigmaris-1~buster), libbluetooth3 (>= 4.91), libc6 (>= 2.17), libcwiid1 (>= 0.6.00+svn184), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
 Priority: optional
 Section: video
-Filename: pool/main/k/kodi/kodi-eventclients-wiiremote_18.4~git20190907.2325-sigmaris-1~buster_arm64.deb
-Size: 60468
-SHA256: 5185c4e1a047401fadbdc5527be07483163ba937a4eac6afc1d3599dd1e8edb7
-SHA1: 562a3d7c59e6d7c60ab6cbcde26e461a33300b9b
-MD5sum: f19f62667d4ddeef3c992daf3624d0c4
+Filename: pool/main/k/kodi/kodi-eventclients-wiiremote_18.4~git20190916.2005-sigmaris-1~buster_arm64.deb
+Size: 60098
+SHA256: b72dbc3db92e0a566e9ddb29271f9ad7db95d0c9f940a84044cbfaf8d85aabdf
+SHA1: 9a7b7b499f922c3d1e75e9016a366339c27ae969
+MD5sum: 3bdc6787b4d4f73aed4aca0068684e44
 Description: Kodi Media Center (Wii Remote event client package)
  Kodi, formerly known as XBMC Media Center, is an award winning free and open
  source software media-player and entertainment hub for all your digital media.
@@ -1117,7 +1117,7 @@ Homepage: http://kodi.tv
 Maintainer:  <>
 Provides: xbmc-eventclients-wiiremote
 Source: kodi
-Version: 2:18.4~git20190907.2325-sigmaris-1~buster
+Version: 2:18.4~git20190916.2005-sigmaris-1~buster
 Installed-Size: 267
 
 Package: kodi-game-libretro
@@ -1272,6 +1272,24 @@ MD5sum: 977d5bf5f73e41741d2bc09255a3343e
 Description: adaptive inputstream addon for Kodi
  DASH/smoothstream inputstream addon for Kodi
 
+Package: kodi-inputstream-adaptive-dbg
+Source: kodi-inputstream-adaptive
+Version: 2.4.2-1~buster
+Architecture: arm64
+Maintainer: peak3d <info@peak3d.de>
+Installed-Size: 22007
+Depends: kodi-inputstream-adaptive (= 2.4.2-1~buster)
+Homepage: http://www.peak3d.de
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-inputstream-adaptive/kodi-inputstream-adaptive-dbg_2.4.2-1~buster_arm64.deb
+Size: 4274192
+SHA256: c9dfa880c3bc414d7cba1c6669fceea6af6e24ef3ca2b491f10ad2aad47bd295
+SHA1: 38550625ede627648e4a3c0ec26504bc7d4941d5
+MD5sum: 885c0490165ec2798e8ded707578a510
+Description: debug symbols for adaptive inputstream addon for Kodi
+ debug symbols for DASH/smoothstream inputstream addon for Kodi
+
 Package: kodi-inputstream-rtmp
 Version: 2.0.5-1~buster
 Architecture: arm64
@@ -1355,6 +1373,25 @@ MD5sum: 9b9e18c184435ea2d2c158a5f80dc77c
 Description: ArgusTV PVR for Kodi
  ArgusTV PVR for Kodi
 
+Package: kodi-pvr-argustv-dbg
+Source: kodi-pvr-argustv
+Version: 3.5.5-1~buster
+Architecture: arm64
+Maintainer: Arne Morten Kvarving <arne.morten.kvarving@sintef.no>
+Installed-Size: 1043
+Depends: kodi-pvr-argustv (= 3.5.5-1~buster)
+Homepage: <http://kodi.tv>
+Priority: extra
+Section: libs
+Filename: pool/main/k/kodi-pvr-argustv/kodi-pvr-argustv-dbg_3.5.5-1~buster_arm64.deb
+Size: 1001596
+SHA256: bdbc2129496542f77e25870b19f14932a6e81f52469eb789be90dee9c615c303
+SHA1: e4663319a091a43acde529abd8b86845cf0047c8
+MD5sum: 1cb08157be76a65e23f7fa258daaa6e8
+Description: debug symbols for ArgusTV PVR for Kodi
+ debug symbols for ArgusTV PVR for Kodi
+Build-Ids: 823d72085607ae23604d827f0dd35cc8d08d9554
+
 Package: kodi-pvr-demo
 Version: 3.6.2-1~buster
 Architecture: arm64
@@ -1370,6 +1407,23 @@ SHA1: 480c4125d110e79c65dbc7f5dc9ee4be4652546f
 MD5sum: 97d2e247d5d8b2e9f9bb7c3903a513af
 Description: Demo PVR for Kodi
  Demo PVR for Kodi
+
+Package: kodi-pvr-demo-dbg
+Source: kodi-pvr-demo
+Version: 3.6.2-1~buster
+Architecture: arm64
+Maintainer: Nobody <nobody@kodi.tv>
+Installed-Size: 31
+Depends: kodi-pvr-demo (= 3.6.2-1~buster)
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-pvr-demo/kodi-pvr-demo-dbg_3.6.2-1~buster_arm64.deb
+Size: 5180
+SHA256: 4842157bbf4d08a7c16840bd95c751b1bf26f9659bc6f8627f8bdbb7ca5a097e
+SHA1: 7f4efad9843f46f4319732ffa7dece21f3575d05
+MD5sum: bfca398ab3444cb940f3c30ba14812b2
+Description: debug symbols for Demo PVR for Kodi
+ debug symbols for Demo PVR for Kodi
 
 Package: kodi-pvr-dvblink
 Version: 4.7.3-1~buster
@@ -1387,6 +1441,24 @@ MD5sum: 060d2e9a0abd33e7149acfd7cbce6e42
 Description: DVBLink PVR for Kodi
  DVBLink PVR for Kodi
 
+Package: kodi-pvr-dvblink-dbg
+Source: kodi-pvr-dvblink
+Version: 4.7.3-1~buster
+Architecture: arm64
+Maintainer: Nobody <nobody@kodi.tv>
+Installed-Size: 2337
+Depends: kodi-pvr-dvblink (= 4.7.3-1~buster)
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-pvr-dvblink/kodi-pvr-dvblink-dbg_4.7.3-1~buster_arm64.deb
+Size: 2148152
+SHA256: eab2bf5523856f3c9d23038415d169228c717b2614588afa09c88212284c5d60
+SHA1: be45c2df248eeea481fc26ffe90c1e5bfc2c5807
+MD5sum: 284aeaf7c7499df046854fe294cbd7f3
+Description: debug symbols for DVBLink PVR for Kodi
+ debug symbols for DVBLink PVR for Kodi
+Build-Ids: 8a423b9e076009a948a2a21c7c3f0ed8c37073bb
+
 Package: kodi-pvr-dvbviewer
 Version: 3.7.13-1~buster
 Architecture: arm64
@@ -1403,6 +1475,24 @@ MD5sum: d32ecbf55ce5d2f1e15606fda7737b53
 Description: DVBViewer PVR for Kodi
  DVBViewer PVR for Kodi
 
+Package: kodi-pvr-dvbviewer-dbg
+Source: kodi-pvr-dvbviewer
+Version: 3.7.13-1~buster
+Architecture: arm64
+Maintainer: Manuel Mausz <manuel-kodi@mausz.at>
+Installed-Size: 1051
+Depends: kodi-pvr-dvbviewer (= 3.7.13-1~buster)
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-pvr-dvbviewer/kodi-pvr-dvbviewer-dbg_3.7.13-1~buster_arm64.deb
+Size: 1012836
+SHA256: 76d94880aa04cd01c9d1c500d90b029d5551f37144568d9c0aa096918d0a7865
+SHA1: 013eb4e0841177902a3567206acb4b70a58a4985
+MD5sum: 4942048acca08e2d59dbb45893f6a7ad
+Description: debug symbols for DVBViewer PVR for Kodi
+ debug symbols for DVBViewer PVR for Kodi
+Build-Ids: c4944e9c975ee5e8e174fa8bbdc0807bafcec8c2
+
 Package: kodi-pvr-filmon
 Version: 2.4.5-1~buster
 Architecture: arm64
@@ -1418,6 +1508,24 @@ SHA1: 4be2d3732474545d38fb32c2fefbdbe90849de28
 MD5sum: e6e98b79e9daa776d84ff29be735b6d2
 Description: FilmOn PVR for Kodi
  FilmOn PVR for Kodi
+
+Package: kodi-pvr-filmon-dbg
+Source: kodi-pvr-filmon
+Version: 2.4.5-1~buster
+Architecture: arm64
+Maintainer: Nobody <nobody@kodi.tv>
+Installed-Size: 556
+Depends: kodi-pvr-filmon (= 2.4.5-1~buster)
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-pvr-filmon/kodi-pvr-filmon-dbg_2.4.5-1~buster_arm64.deb
+Size: 528708
+SHA256: 25e5f58ab1f10c6670e44399bd9f2476f33327cc8ddb255b3e6fb039cd5082b7
+SHA1: c91900ab755657746b9465a580c766c4d5f5c55b
+MD5sum: f499832cd60977303e134b9db2990607
+Description: debug symbols for FilmOn PVR for Kodi
+ debug symbols for FilmOn PVR for Kodi
+Build-Ids: 446577e15474ce381eed4314cb0acfdc71c7690d
 
 Package: kodi-pvr-hts
 Version: 4.4.19-1~buster
@@ -1438,6 +1546,24 @@ MD5sum: a42d1f43a39677d71a4f9d155d885394
 Description: TVHeadEnd PVR for Kodi
  TVHeadEnd PVR for Kodi
 
+Package: kodi-pvr-hts-dbg
+Source: kodi-pvr-hts
+Version: 4.4.19-1~buster
+Architecture: arm64
+Maintainer: Arne Morten Kvarving <arne.morten.kvarving@sintef.no>
+Installed-Size: 2052
+Depends: kodi-pvr-hts (= 4.4.19-1~buster)
+Priority: extra
+Section: libs
+Filename: pool/main/k/kodi-pvr-hts/kodi-pvr-hts-dbg_4.4.19-1~buster_arm64.deb
+Size: 2009832
+SHA256: 7a41b045fe701c99cfcb7269bbcd4eb2afaae4cda2b1ba38a00f14a8d47cdc03
+SHA1: c11d181326bf07e5b021029b3cd7f5efd588fd51
+MD5sum: 9a7f8aee229a4bd23e9433f35309f5cb
+Description: debugging symbols for TVHeadEnd PVR for Kodi
+ debugging symbols for TVHeadEnd PVR for Kodi
+Build-Ids: 2956f3f2c8441cf385fadcaaacc8fb74b5a65ee9
+
 Package: kodi-pvr-iptvsimple
 Version: 3.8.1-1~buster
 Architecture: arm64
@@ -1453,6 +1579,24 @@ SHA1: 24b14a2168a98afd26e1f8b712ffc92d52574853
 MD5sum: fbcd8595168627912a75f7a0f022b441
 Description: Simple IPTV PVR for Kodi
  Simple IPTV PVR for Kodi
+
+Package: kodi-pvr-iptvsimple-dbg
+Source: kodi-pvr-iptvsimple
+Version: 3.8.1-1~buster
+Architecture: arm64
+Maintainer: Anton Fedchin <anightik@gmail.com>
+Installed-Size: 1074
+Depends: kodi-pvr-iptvsimple (= 3.8.1-1~buster)
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-pvr-iptvsimple/kodi-pvr-iptvsimple-dbg_3.8.1-1~buster_arm64.deb
+Size: 1019936
+SHA256: ac4466688ac222f3191626bd70bbd47b409bf1f5212abc0241eb1fb0cbec066a
+SHA1: 8bc2db938c613e2faafcc2c8849c75e857700efd
+MD5sum: 7e66ee8a1520812f9eaf3e73f3a726bf
+Description: debug symbols for Simple IPTV PVR for Kodi
+ debug symbols for Simple IPTV PVR for Kodi
+Build-Ids: e488339fcb2529aece43e119905160a36df8c0ff
 
 Package: kodi-pvr-mediaportal-tvserver
 Version: 3.5.19-1~buster
@@ -1470,6 +1614,25 @@ SHA1: 8e73924df1a7388ab6148c4d1a380810de74e590
 MD5sum: 2e7b8d3c7b78bd3e575ced5c49970480
 Description: MediaPortal PVR for Kodi
  MediaPortal PVR for Kodi
+
+Package: kodi-pvr-mediaportal-tvserver-dbg
+Source: kodi-pvr-mediaportal-tvserver
+Version: 3.5.19-1~buster
+Architecture: arm64
+Maintainer: Nobody <nobody@kodi.tv>
+Installed-Size: 2136
+Depends: kodi-pvr-mediaportal-tvserver (= 3.5.19-1~buster)
+Homepage: http://www.scintilla.utwente.nl/~marcelg/kodi/
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-pvr-mediaportal-tvserver/kodi-pvr-mediaportal-tvserver-dbg_3.5.19-1~buster_arm64.deb
+Size: 2055896
+SHA256: e59eef968225f17471afd223c04dd8047f07501c946972485a132debfa8b0f5c
+SHA1: 875fcae000e371e53975957fa084fd8098229590
+MD5sum: fbf7493a4608badb7c10fadd4a6f0439
+Description: debug symbols for MediaPortal PVR for Kodi
+ debug symbols for the MediaPortal PVR for Kodi
+Build-Ids: dd8959f3439e89d5c787bd144d374d05a8b25da8
 
 Package: kodi-pvr-mythtv
 Version: 5.10.9-1~buster
@@ -1524,6 +1687,25 @@ MD5sum: 6d59eb60a9f1d4e2442daa2adaa70408
 Description: NextPVR for Kodi
  NextPVR for Kodi
 
+Package: kodi-pvr-nextpvr-dbg
+Source: kodi-pvr-nextpvr
+Version: 3.3.16-1~buster
+Architecture: arm64
+Maintainer: Nobody <nobody@kodi.tv>
+Installed-Size: 1638
+Depends: kodi-pvr-nextpvr (= 3.3.16-1~buster)
+Homepage: http://www.nextpvr.com
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-pvr-nextpvr/kodi-pvr-nextpvr-dbg_3.3.16-1~buster_arm64.deb
+Size: 1561132
+SHA256: 125f5f69e9e83d40ef3a930f06949843710d34ddc8498181df03350ff9051ccb
+SHA1: 83d4651b5d8178a43cdd520e436a292f72e3de47
+MD5sum: 2ecf200dd217f0df6676199a1af03092
+Description: debug symbols for NextPVR for Kodi
+ debug symbols for NextPVR for Kodi
+Build-Ids: dc1832169a8d77738a0ec6a4d5d9848f20759636
+
 Package: kodi-pvr-njoy
 Version: 3.4.3-1~buster
 Architecture: arm64
@@ -1540,6 +1722,60 @@ MD5sum: bd7f5006b9456aef9639a0e99c50063a
 Description: NJOY PVR for Kodi
  NJOY PVR for Kodi
 
+Package: kodi-pvr-njoy-dbg
+Source: kodi-pvr-njoy
+Version: 3.4.3-1~buster
+Architecture: arm64
+Maintainer: Nobody <nobody@kodi.tv>
+Installed-Size: 143
+Depends: kodi-pvr-njoy (= 3.4.3-1~buster)
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-pvr-njoy/kodi-pvr-njoy-dbg_3.4.3-1~buster_arm64.deb
+Size: 123332
+SHA256: 61c860608255e27729da3b97d26d46b540e2899e52fed0a3462c7668601a46a8
+SHA1: aff2496bde6dad7acf47065119b4c7d605c7b9d3
+MD5sum: dff1fd3c2ca56d6732df75900706d17e
+Description: debug symbols for NJOY PVR for Kodi
+ debug symbols for NJOY PVR for Kodi
+Build-Ids: 9a4fcbbf5084fded075653c62742bf32fcfeaa07
+
+Package: kodi-pvr-octonet
+Version: 0.7.0-1~buster
+Architecture: arm64
+Maintainer: Julian Scheel <julian@jusst.de>
+Installed-Size: 125
+Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.0), libjsoncpp1 (>= 1.7.4), libp8-platform2 (>= 1.0.10), libstdc++6 (>= 5.2)
+Homepage: https://github.com/DigitalDevices/pvr.octonet
+Priority: extra
+Section: libs
+Filename: pool/main/k/kodi-pvr-octonet/kodi-pvr-octonet_0.7.0-1~buster_arm64.deb
+Size: 36576
+SHA256: 38cc0d9949eb10228f039270ed7a47bb143a8cb352a6c04a95ebef71771784e0
+SHA1: ef335128b569b17f462f8699ad73becad053c26f
+MD5sum: 4a4d43596951b6ed0ab5bafbdf1b3ab6
+Description: Digital Devices Octopus NET PVR for Kodi
+ Digital Devices Octopus NET PVR for Kodi
+
+Package: kodi-pvr-octonet-dbg
+Source: kodi-pvr-octonet
+Version: 0.7.0-1~buster
+Architecture: arm64
+Maintainer: Julian Scheel <julian@jusst.de>
+Installed-Size: 445
+Depends: kodi-pvr-octonet (= 0.7.0-1~buster)
+Homepage: https://github.com/DigitalDevices/pvr.octonet
+Priority: extra
+Section: libs
+Filename: pool/main/k/kodi-pvr-octonet/kodi-pvr-octonet-dbg_0.7.0-1~buster_arm64.deb
+Size: 425000
+SHA256: b2cbd9d435df5a822d6f61307d42041774d207b0b794342584baa61608ea8c09
+SHA1: 5623326e752321ffb5747bed771e3efa91673d7e
+MD5sum: 578bf4fc789cd4b17a407f56384e7e0a
+Description: debug symbols for Digital Devices Octopus NET PVR for Kodi
+ debug symbols for Digital Devices Octopus NET PVR for Kodi
+Build-Ids: 6b8f46727fada4d18092f0eea1bcbc07950d97fc
+
 Package: kodi-pvr-pctv
 Version: 2.4.6-1~buster
 Architecture: arm64
@@ -1555,6 +1791,24 @@ SHA1: 4fd2e8e16b11a0fa5ca33fb023f37ab33838ab8a
 MD5sum: 8169a1cb6d0b4be33f12d05fc4356262
 Description: PCTV PVR for Kodi
  PCTV PVR for Kodi
+
+Package: kodi-pvr-pctv-dbg
+Source: kodi-pvr-pctv
+Version: 2.4.6-1~buster
+Architecture: arm64
+Maintainer: hg1 <gerlach.holger@gmail.com>
+Installed-Size: 490
+Depends: kodi-pvr-pctv (= 2.4.6-1~buster)
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-pvr-pctv/kodi-pvr-pctv-dbg_2.4.6-1~buster_arm64.deb
+Size: 462312
+SHA256: fb3429c330839ad42af4d669ed976abc0b98606478dced1fd775db2bbbc6e7c5
+SHA1: 42fd8f88b2098f6c24c2233e717b0b2a1519e1f2
+MD5sum: 4262b272bbcfe9a3843e42bb70695e17
+Description: debug symbols for PCTV PVR for Kodi
+ debug symbols for PCTV PVR for Kodi
+Build-Ids: 608d0d627e81552e89eac74cdc97f47ad72adda0
 
 Package: kodi-pvr-sledovanitv-cz
 Version: 1.5.0-1~buster
@@ -1604,6 +1858,24 @@ MD5sum: 82d4e7620b2e0ee6c869f92b0610d969
 Description: Stalker PVR for Kodi
  Stalker PVR for Kodi
 
+Package: kodi-pvr-stalker-dbg
+Source: kodi-pvr-stalker
+Version: 3.4.9-1~buster
+Architecture: arm64
+Maintainer: Nobody <nobody@kodi.tv>
+Installed-Size: 1696
+Depends: kodi-pvr-stalker (= 3.4.9-1~buster)
+Priority: extra
+Section: libs
+Filename: pool/main/k/kodi-pvr-stalker/kodi-pvr-stalker-dbg_3.4.9-1~buster_arm64.deb
+Size: 1670972
+SHA256: bb80e4c3d5626f2387f567a8e92a5048c0e9d84c82ec217d68347373e0d8a6c5
+SHA1: 471f486f647c05ba4847374925474aed18b2fbcd
+MD5sum: 20e9c8e207f6df8933aa4960ebf996fe
+Description: debugging symbols for Stalker PVR for Kodi
+ debugging symbols for Stalker PVR for Kodi
+Build-Ids: e86252e52a1a2964ad42026b5c8b350e624ce1bd
+
 Package: kodi-pvr-teleboy
 Version: 18.0.24-1~buster
 Architecture: arm64
@@ -1620,6 +1892,25 @@ SHA1: 8a82239b5238b59af7f181cd7a3495843591e275
 MD5sum: c9fa3cb2e7b54e4fff9b8ccbbab7e25f
 Description: Teleboy PVR for Kodi
  Teleboy PVR for Kodi
+
+Package: kodi-pvr-teleboy-dbg
+Source: kodi-pvr-teleboy
+Version: 18.0.24-1~buster
+Architecture: arm64
+Maintainer: rbuehlma <rene@buehlmann.net>
+Installed-Size: 736
+Depends: kodi-pvr-teleboy (= 18.0.24-1~buster)
+Homepage: http://kodi.tv
+Priority: extra
+Section: libs
+Filename: pool/main/k/kodi-pvr-teleboy/kodi-pvr-teleboy-dbg_18.0.24-1~buster_arm64.deb
+Size: 715872
+SHA256: 66ce2f23373e281f0593fe399f63526068e34385271c2ac44188ab47cee87e2d
+SHA1: a85eff6f706e62b7d8c5b4281d95928ded78da7f
+MD5sum: 14f3cdd8e037ff5f64029000f4908a4f
+Description: debug symbols for Teleboy PVR for Kodi
+ debug symbols for Teleboy PVR for Kodi
+Build-Ids: b39cf431ef8922be0c14a777a255368c5b7e7743
 
 Package: kodi-pvr-tvheadend-hts
 Source: kodi-pvr-hts
@@ -1655,6 +1946,25 @@ MD5sum: 20a6ba417b4d77c19360fcbe66b895c9
 Description: VBox Home TV Gateway PVR client for Kodi
  VBox Home TV Gateway PVR client for Kodi
 
+Package: kodi-pvr-vbox-dbg
+Source: kodi-pvr-vbox
+Version: 4.4.8-1~buster
+Architecture: arm64
+Maintainer: Sam Stenvall <sam.stenvall@kodi.tv>
+Installed-Size: 2174
+Depends: kodi-pvr-vbox (= 4.4.8-1~buster)
+Homepage: https://github.com/Jalle19/pvr.vbox
+Priority: extra
+Section: libs
+Filename: pool/main/k/kodi-pvr-vbox/kodi-pvr-vbox-dbg_4.4.8-1~buster_arm64.deb
+Size: 2093636
+SHA256: 0994e440d26b3a728997cdaa0998a535d724ae462c6ca186d73da07705c507cc
+SHA1: 880fa28caf9acced40684c2d0e73f5b6beb3d61c
+MD5sum: 4a239101ba89e423157297a914cca9a3
+Description: debug symbols for VBox Home TV Gateway PVR client for Kodi
+ debug symbols for VBox Home TV Gateway PVR client for Kodi
+Build-Ids: aae26dff0b56d5981e2627d812f036d877aa745a
+
 Package: kodi-pvr-vdr-vnsi
 Version: 3.6.3-1~buster
 Architecture: arm64
@@ -1672,21 +1982,58 @@ MD5sum: a57a3f751c57d8c52578e17bfdea6229
 Description: VDR PVR for Kodi
  VDR PVR for Kodi
 
+Package: kodi-pvr-vdr-vnsi-dbg
+Source: kodi-pvr-vdr-vnsi
+Version: 3.6.3-1~buster
+Architecture: arm64
+Maintainer: fernetmenta <fernetmenta@kodi.tv>
+Installed-Size: 1027
+Depends: kodi-pvr-vdr-vnsi (= 3.6.3-1~buster)
+Homepage: http://kodi.tv
+Priority: extra
+Section: libs
+Filename: pool/main/k/kodi-pvr-vdr-vnsi/kodi-pvr-vdr-vnsi-dbg_3.6.3-1~buster_arm64.deb
+Size: 970552
+SHA256: 98f0c204ab14ce1b494b605d0489481bb603cfb023670599ea5f4d0e95cd5529
+SHA1: 0971ece7abddcf128add217c6da6aee696aad650
+MD5sum: 8fc0cb9d13f5113a6332e3894b9b81a5
+Description: debug symbols for VDR PVR for Kodi
+ debug symbols for VDR PVR for Kodi
+Build-Ids: aa75da6d197cfa96e9a8e28d6d8a99fdb8a17cba
+
 Package: kodi-pvr-vuplus
-Version: 3.27.1-1~buster
+Version: 3.28.0-1~buster
 Architecture: arm64
 Maintainer: Cristiano A. Silva <hudokkow@gmail.com>
-Installed-Size: 1249
+Installed-Size: 1256
 Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.3.1), libkodiplatform17, libp8-platform2 (>= 1.0.10), libstdc++6 (>= 6), libtinyxml2.6.2v5
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-pvr-vuplus/kodi-pvr-vuplus_3.27.1-1~buster_arm64.deb
-Size: 281368
-SHA256: 5760f95b33b3ffcaa57c971cc463b735540ee672e12ec8ab4fda5240dd3c20e4
-SHA1: 109a8ea84bfdd45425baa5eb3e15df846a7230d3
-MD5sum: 931c9d99ba9341cff545d0f4914399c9
+Filename: pool/main/k/kodi-pvr-vuplus/kodi-pvr-vuplus_3.28.0-1~buster_arm64.deb
+Size: 283064
+SHA256: 806aef6228999716a9c0fb396e913e33961a7255873fa0c11279ee00c9f9bbda
+SHA1: 4c224a256e15e4ff8c58dabf168c47b64c34762a
+MD5sum: 736cc53598d87c66c6444c405e3d1979
 Description: Vu+ PVR for Kodi
  Vu+ PVR for Kodi
+
+Package: kodi-pvr-vuplus-dbg
+Source: kodi-pvr-vuplus
+Version: 3.28.0-1~buster
+Architecture: arm64
+Maintainer: Cristiano A. Silva <hudokkow@gmail.com>
+Installed-Size: 5889
+Depends: kodi-pvr-vuplus (= 3.28.0-1~buster)
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-pvr-vuplus/kodi-pvr-vuplus-dbg_3.28.0-1~buster_arm64.deb
+Size: 5657124
+SHA256: 56b952bf522c310f2201d74697a176a99f226a835031ab919cdb63f38eb9416f
+SHA1: 6f61cbafff426f4c7e1b2a4af9e5b62892f61642
+MD5sum: 60a218f773ad00ff4559bd06de429803
+Description: debug symbols for Vu+ PVR for Kodi
+ debug symbols for Vu+ PVR for Kodi
+Build-Ids: a214cbd67a0069bf973839e3ada26e3e923a582a
 
 Package: kodi-pvr-wmc
 Version: 2.4.4-1~buster
@@ -1704,6 +2051,24 @@ MD5sum: 6b69f5f26eadf5f3737e744b68c5a1b6
 Description: WMC PVR for Kodi
  WMC PVR for Kodi
 
+Package: kodi-pvr-wmc-dbg
+Source: kodi-pvr-wmc
+Version: 2.4.4-1~buster
+Architecture: arm64
+Maintainer: Nobody <nobody@kodi.tv>
+Installed-Size: 457
+Depends: kodi-pvr-wmc (= 2.4.4-1~buster)
+Priority: extra
+Section: libs
+Filename: pool/main/k/kodi-pvr-wmc/kodi-pvr-wmc-dbg_2.4.4-1~buster_arm64.deb
+Size: 428312
+SHA256: 053cac0f0857271fb30a44c63e3a2141579c3e0cf97b768c95404ea67e299d2d
+SHA1: 62863e55a6312c407d85850c3580f4f7ea7c9009
+MD5sum: 9a881018c948c2eeb75c01365b488ee7
+Description: debugging symbols for WMC PVR for Kodi
+ debugging symbols for WMC PVR for Kodi
+Build-Ids: 8473ab513b068d1bd6e157b8506050d6c14023e2
+
 Package: kodi-pvr-zattoo
 Version: 18.1.4-1~buster
 Architecture: arm64
@@ -1720,6 +2085,25 @@ SHA1: 28b063684f4893834f372714850de146c7944cd3
 MD5sum: 04f35dd42f35915c4dba7849a619cb37
 Description: Zattoo PVR for Kodi
  Zattoo PVR for Kodi
+
+Package: kodi-pvr-zattoo-dbg
+Source: kodi-pvr-zattoo
+Version: 18.1.4-1~buster
+Architecture: arm64
+Maintainer: rbuehlma <rene@buehlmann.net>
+Installed-Size: 1355
+Depends: kodi-pvr-zattoo (= 18.1.4-1~buster)
+Homepage: http://kodi.tv
+Priority: extra
+Section: libs
+Filename: pool/main/k/kodi-pvr-zattoo/kodi-pvr-zattoo-dbg_18.1.4-1~buster_arm64.deb
+Size: 1333628
+SHA256: 047f45689ab4d6da705d2c8169e334fe6b3371634f910324c10a2f798179be11
+SHA1: e7b5c7ca171518feabd840b1f5a83e1d745c929b
+MD5sum: c2e01d8a2c5568b56f83aff08551d55f
+Description: debug symbols for Zattoo PVR for Kodi
+ debug symbols for Zattoo PVR for Kodi
+Build-Ids: 8167b886e8f34bc4cf1b5dbd895995c01818b678
 
 Package: kodi-screensaver-asteroids
 Version: 2.3.0-1~buster
@@ -2047,11 +2431,11 @@ Architecture: arm64
 Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.0), libgif7 (>= 5.1), libjpeg62-turbo (>= 1.3.1), liblzo2-2, libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 5.2), zlib1g (>= 1:1.1.4)
 Priority: optional
 Section: video
-Filename: pool/main/k/kodi/kodi-tools-texturepacker_18.4~git20190907.2325-sigmaris-1~buster_arm64.deb
-Size: 64402
-SHA256: 947757323b6ceb715d465de9fa397b1334fd1f4d202add9db165b236f02df400
-SHA1: 7742c4edf80cf30d7f27815f70aaaa61e3f7319c
-MD5sum: 7f7ea453efebc89bc6d80a55e2e656cb
+Filename: pool/main/k/kodi/kodi-tools-texturepacker_18.4~git20190916.2005-sigmaris-1~buster_arm64.deb
+Size: 64068
+SHA256: b4bb55db132076d765059c83abd55a1a6316c93b80e99b3b2373edeb5f6df2a1
+SHA1: 9397bcbb77f23bf04be70d73d2b17727e204da76
+MD5sum: 5698a05e50acc260be936a04b6415db4
 Description: Kodi Media Center (skin development - TexturePacker tool)
  Kodi, formerly known as XBMC Media Center, is an award winning free and open
  source software media-player and entertainment hub for all your digital media.
@@ -2073,8 +2457,8 @@ Description: Kodi Media Center (skin development - TexturePacker tool)
 Homepage: http://kodi.tv
 Maintainer:  <>
 Source: kodi
-Version: 2:18.4~git20190907.2325-sigmaris-1~buster
-Installed-Size: 267
+Version: 2:18.4~git20190916.2005-sigmaris-1~buster
+Installed-Size: 266
 
 Package: kodi-vfs-libarchive
 Version: 1.0.5-1~buster
@@ -2125,6 +2509,24 @@ SHA1: 28b065ff0c40823f14e5b9bb6dcba7d45071fbfc
 MD5sum: 4bd044e6392f30c08618b9f6d9ec37da
 Description: NFS VFS for Kodi
  NFS VFS for Kodi
+
+Package: kodi-vfs-nfs-dbg
+Source: kodi-vfs-nfs
+Version: 1.1.0-1~buster
+Architecture: arm64
+Maintainer: Arne Morten Kvarving <spiff@xbmc.org>
+Installed-Size: 472
+Depends: kodi-vfs-nfs (= 1.1.0-1~buster)
+Priority: extra
+Section: debug
+Filename: pool/main/k/kodi-vfs-nfs/kodi-vfs-nfs-dbg_1.1.0-1~buster_arm64.deb
+Size: 449332
+SHA256: 887066e57681c5069d7e13acffc299b8b0d26f93feecc20fab80b9ae5b1c4262
+SHA1: 6e9857cb18d1b9a8c98eb9cbc664d0353168991b
+MD5sum: 42cf89c3033ac63b6eb3235b238d1bbf
+Description: debug symbols for NFS VFS for Kodi
+ debug symbols for NFS VFS for Kodi
+Build-Ids: 025d9bf4115bffc60756fd800cb8eef468c8768c
 
 Package: kodi-vfs-rar
 Version: 2.0.7-1~buster
@@ -2372,26 +2774,26 @@ Build-Ids: 068abd26d529ed997c18cd5f22f9394cfb5151a3
 
 Package: libkodiplatform-dev
 Source: kodiplatform
-Version: 17.1.0-~buster
+Version: 17.1.0-1~buster
 Architecture: arm64
 Maintainer: Arne Morten Kvarving <arne.morten.kvarving@sintef.no>
 Installed-Size: 24
-Depends: libkodiplatform17 (= 17.1.0-~buster), libtinyxml-dev, libp8-platform-dev
+Depends: libkodiplatform17 (= 17.1.0-1~buster), libtinyxml-dev, libp8-platform-dev
 Provides: libkodiplatform-dev
 Multi-Arch: same
 Priority: extra
 Section: libdevel
-Filename: pool/main/k/kodiplatform/libkodiplatform-dev_17.1.0-~buster_arm64.deb
+Filename: pool/main/k/kodiplatform/libkodiplatform-dev_17.1.0-1~buster_arm64.deb
 Size: 3984
-SHA256: 1ee0f9b26dc376e981f352539fa89662c7a8e10c9ab1fa38a2b5351b7178c20b
-SHA1: e55f785642a54f0a68ac77c9026b50ced7fd1ced
-MD5sum: 7c3a14c7c307a84161de55b763141531
+SHA256: 47b30b39c617d3a410e0334359715bbeba8ef75021b99f82d56bfe851f4f2692
+SHA1: e855b5b62574fb3a970a617257074f6c72fb0911
+MD5sum: 9e8b349327f02b7f9b7033df041423c3
 Description: Kodi platform support library -- development files
  Kodi platform support library
 
 Package: libkodiplatform17
 Source: kodiplatform
-Version: 17.1.0-~buster
+Version: 17.1.0-1~buster
 Architecture: arm64
 Maintainer: Arne Morten Kvarving <arne.morten.kvarving@sintef.no>
 Installed-Size: 34
@@ -2400,13 +2802,32 @@ Provides: libkodiplatform
 Multi-Arch: same
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodiplatform/libkodiplatform17_17.1.0-~buster_arm64.deb
-Size: 7360
-SHA256: 85b6488f864c4217533e3716bba91d771d6828ca761133ee61686ed39844037a
-SHA1: 9f6559556a881dc1f52dfc184631feaec8f05414
-MD5sum: 656856b20a52f14fee8ba815393b931c
+Filename: pool/main/k/kodiplatform/libkodiplatform17_17.1.0-1~buster_arm64.deb
+Size: 7356
+SHA256: b84d3bc68deffa5d6ca53e336d3eb0bdcae9968a7604526161fdd0c077ad1354
+SHA1: 6563c88ed319b7c1857902658326c790c57d0aed
+MD5sum: fc43d1f2704ab557fe8b6ad23b29d2ce
 Description: Kodi platform support library
  Kodi platform support library
+
+Package: libkodiplatform17-dbgsym
+Source: kodiplatform
+Version: 17.1.0-1~buster
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Arne Morten Kvarving <arne.morten.kvarving@sintef.no>
+Installed-Size: 19
+Depends: libkodiplatform17 (= 17.1.0-1~buster)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/k/kodiplatform/libkodiplatform17-dbgsym_17.1.0-1~buster_arm64.deb
+Size: 3272
+SHA256: 858752b6084fad0b3bec73e6381d45ab8f45d5049db76b4e0b81efeed4ef9b49
+SHA1: 569bc6ef66cf6951c0194a2d83a7513e7a26ccb2
+MD5sum: 21719d117919dcf679cd9b5e40535d3f
+Description: debug symbols for libkodiplatform17
+Build-Ids: ea63617b3f5d9ea6a0a9372c6fbca8f11a29d1e2
 
 Package: libshairplay-dev
 Source: shairplay
@@ -2465,26 +2886,6 @@ MD5sum: 6bdc94121962594c95941db9fbbd19b9
 Description: debug symbols for libshairplay0
 Build-Ids: 17abe73605c031b7e2f1130c801aefd4f60a39d4
 
-Package: linux-headers-5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris
-Source: linux-5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris
-Version: 5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris
-Architecture: arm64
-Maintainer: root <root@runner-fa6cab46-project-12285715-concurrent-0>
-Installed-Size: 71708
-Provides: linux-mainline-headers
-Homepage: http://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris/linux-headers-5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris_5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris_arm64.deb
-Size: 11085736
-SHA256: 14431f307879fc50620a30f07f167561203d2a5ddbbf67a6c5e101677ea94b08
-SHA1: fce0f4106810f7b080a981e133a4f727c88502dc
-MD5sum: 5ee83ef7d0bf1f10f53927761a357a11
-Description: Linux kernel headers for 5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris on arm64
- This package provides kernel header files for 5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris on arm64
- .
- This is useful for people who need to build external modules
-
 Package: linux-headers-5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris
 Source: linux-5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris
 Version: 5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris
@@ -2504,44 +2905,6 @@ Description: Linux kernel headers for 5.3.0-rc7-next-20190904-gbec9a95768e4-sigm
  This package provides kernel header files for 5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris on arm64
  .
  This is useful for people who need to build external modules
-
-Package: linux-image-5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris
-Source: linux-5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris
-Version: 5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris
-Architecture: arm64
-Maintainer: root <root@runner-fa6cab46-project-12285715-concurrent-0>
-Installed-Size: 34025
-Provides: linux-mainline-image
-Homepage: http://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris/linux-image-5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris_5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris_arm64.deb
-Size: 9490564
-SHA256: e68674fb73a3ed73894ba10c788375bf07d1c777112f4122a659b8926f5a805a
-SHA1: 851c0ceb7bf4d850e65ef280087e92601cc7cfd0
-MD5sum: 3c9e44edb8426508c4f01b977b7ab27d
-Description: Linux kernel, version 5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris
- This package contains the Linux kernel, modules and corresponding other
- files, version: 5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris.
-
-Package: linux-image-5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris-dbg
-Source: linux-5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris
-Version: 5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris
-Architecture: arm64
-Maintainer: root <root@runner-fa6cab46-project-12285715-concurrent-0>
-Installed-Size: 474608
-Provides: linux-mainline-image-dbg, linux-mainline-image-rockchip-dbg
-Homepage: http://www.kernel.org/
-Priority: optional
-Section: debug
-Filename: pool/main/l/linux-5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris/linux-image-5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris-dbg_5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris_arm64.deb
-Size: 100761644
-SHA256: c19bf6eadc3628c26b08ae616b64119574db03aafcfedea4f5d44a934480e875
-SHA1: 8b6d94c77969e20c316dc3c8f070547689fcfe01
-MD5sum: c37bc98cd79250c31b25dda741ea0e31
-Description: Linux kernel debugging symbols for 5.3.0-rc6-next-20190830-g18ae9759e72c-sigmaris
- This package will come in handy if you need to debug the kernel. It provides
- all the necessary debug symbols for the kernel and its modules.
 
 Package: linux-image-5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris
 Source: linux-5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris

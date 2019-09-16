@@ -1,28 +1,28 @@
 Origin: sigmaris.github.io/rockpkgs
 Label: sigmaris.github.io/rockpkgs
 Codename: buster
-Date: Sun, 15 Sep 2019 14:40:01 UTC
+Date: Mon, 16 Sep 2019 21:37:06 UTC
 Architectures: arm64
 Components: main
 Description: Packages for Rockchip SBC
 MD5Sum:
- 62b6a02cd445ba54727b5bd75d61159a 108461 main/binary-arm64/Packages
- 4f3a6826e716ea9edbbe141fcbd6160d 25324 main/binary-arm64/Packages.gz
+ ca6931541d4320096d8b873e98dba60d 120570 main/binary-arm64/Packages
+ 688e77806689b7b0d7617102dcdd838c 28666 main/binary-arm64/Packages.gz
  11c6287517cbf1008610f047f2259f1d 146 main/binary-arm64/Release
  f13dc6652d6b11ef5613bca85af59f83 1435 main/source/Sources
- 4cdbf30be631761721f40374a52b8d2d 714 main/source/Sources.gz
+ 4e648c62817ed46ca42aa32f53695694 714 main/source/Sources.gz
  297ae971788c1bd21e5084e1efe81343 147 main/source/Release
 SHA1:
- f3c9f3468f426e33b6d4d9219dbc652dd80039c4 108461 main/binary-arm64/Packages
- 842b276244c8e71a77303979501892a3e9559bb2 25324 main/binary-arm64/Packages.gz
+ 65c45f33ae2299fb88f1192e0c260972b52b3b0a 120570 main/binary-arm64/Packages
+ 6f5eff6c1db984f21b729bea535353d37b9aa530 28666 main/binary-arm64/Packages.gz
  0ae31c1e533cb0ef3e2224c158c1502a6a2f79c1 146 main/binary-arm64/Release
  05e38efd6b682a2da3602ea39c7149aa3a258fcf 1435 main/source/Sources
- 1b2b7ccf801be0e7d3bf58ed4d20eb61d473bd3c 714 main/source/Sources.gz
+ fb9ded2c4e025648e3e262c350fc5ead094623b6 714 main/source/Sources.gz
  c8ba739883a2eaa367d435a81f1d134804c121a3 147 main/source/Release
 SHA256:
- b3d36e55f37ddfe2a054a33ab1255f7886be5e48232467eba74150bb7d5a91c1 108461 main/binary-arm64/Packages
- a2053f66f8c878f571d1585844745b05c02437b4469a4c265020ff1eab773616 25324 main/binary-arm64/Packages.gz
+ b6c68a5f853aa88982724aee5145207969ff1d2e0838264a922e78216f5acd2e 120570 main/binary-arm64/Packages
+ 202e3f4dc0202f4ad5d59381b639471a2090549d6d5c02c9cd3b46ff5381762c 28666 main/binary-arm64/Packages.gz
  d9558fa39916a3053702ee52cc4f15260c3b6edfed5452a99e81d895a4de196a 146 main/binary-arm64/Release
  43007e75200bfd33c77f09bfb0c197eb86053b608e0342ac6dede44075385913 1435 main/source/Sources
- e6d72137029929614df8eaa74a408939988d9c3d428bda0b00229bc55a0e3e66 714 main/source/Sources.gz
+ b5955646526e0d94c460d733941566bc4ba2218a4206bcb9113c5e57ee5b45bc 714 main/source/Sources.gz
  5c14bf987f5faff088ee1987565e9adf8b5d512e00b90391804ea1b08e767dea 147 main/source/Release
