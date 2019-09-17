@@ -1,27 +1,27 @@
 Origin: sigmaris.github.io/rockpkgs
 Label: sigmaris.github.io/rockpkgs
 Codename: buster
-Date: Tue, 17 Sep 2019 21:47:50 UTC
+Date: Tue, 17 Sep 2019 22:07:20 UTC
 Architectures: arm64
 Components: main
 Description: Packages for Rockchip SBC
 MD5Sum:
- c0886beb95cc39b781e9eafd98c6c9ad 129807 main/binary-arm64/Packages
- ca2eed3e1e8ed93068e28fbeb389eb47 30480 main/binary-arm64/Packages.gz
+ 922060b3b43013f32946dd9fa8c03296 159938 main/binary-arm64/Packages
+ ff7a2cac9792e75817e7cb65049d3c1e 37597 main/binary-arm64/Packages.gz
  11c6287517cbf1008610f047f2259f1d 146 main/binary-arm64/Release
  f13dc6652d6b11ef5613bca85af59f83 1435 main/source/Sources
  4e648c62817ed46ca42aa32f53695694 714 main/source/Sources.gz
  297ae971788c1bd21e5084e1efe81343 147 main/source/Release
 SHA1:
- ddf7c02cbab1350622bdc1921f06cbc72ab0dea8 129807 main/binary-arm64/Packages
- faf3ba472890b420a2609a5a75e414f4be461466 30480 main/binary-arm64/Packages.gz
+ 5735659d4000ba7ab89cb4a5f3c546067af8694a 159938 main/binary-arm64/Packages
+ 00ad3f514ea4f9f495f040ee3982870aaa691de0 37597 main/binary-arm64/Packages.gz
  0ae31c1e533cb0ef3e2224c158c1502a6a2f79c1 146 main/binary-arm64/Release
  05e38efd6b682a2da3602ea39c7149aa3a258fcf 1435 main/source/Sources
  fb9ded2c4e025648e3e262c350fc5ead094623b6 714 main/source/Sources.gz
  c8ba739883a2eaa367d435a81f1d134804c121a3 147 main/source/Release
 SHA256:
- ae7e2e448bc8a075175b21ccf567be52006c319c49ad3c94b76e8bc34b650a57 129807 main/binary-arm64/Packages
- b7fdc98640dd6e2b026e5eca67696a6770da173a1f06683728c92e50ddbcaefa 30480 main/binary-arm64/Packages.gz
+ 52972a5a2956e7e43be9be9cced85247e452e9f7a11687a75c108f10e7edaf00 159938 main/binary-arm64/Packages
+ 0b9d5e196056d1407a68c3a90f53f69cfd642eec100360fd444d74236e3592f0 37597 main/binary-arm64/Packages.gz
  d9558fa39916a3053702ee52cc4f15260c3b6edfed5452a99e81d895a4de196a 146 main/binary-arm64/Release
  43007e75200bfd33c77f09bfb0c197eb86053b608e0342ac6dede44075385913 1435 main/source/Sources
  b5955646526e0d94c460d733941566bc4ba2218a4206bcb9113c5e57ee5b45bc 714 main/source/Sources.gz
