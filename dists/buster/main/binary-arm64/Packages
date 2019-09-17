@@ -2772,6 +2772,27 @@ Description: debug symbols for Waveform visualization for Kodi
  debug symbols for Waveform visualization for Kodi
 Build-Ids: 068abd26d529ed997c18cd5f22f9394cfb5151a3
 
+Package: libclc-dev
+Source: libclc
+Version: 0.2.0+git20190306-2
+Architecture: all
+Maintainer: Debian OpenCL team <pkg-opencl-devel@lists.alioth.debian.org>
+Installed-Size: 421
+Multi-Arch: foreign
+Homepage: https://libclc.llvm.org
+Priority: optional
+Section: libdevel
+Filename: pool/main/libc/libclc/libclc-dev_0.2.0+git20190306-2_all.deb
+Size: 26948
+SHA256: 31376b4b7dbc4bd1858af98b7ebb8fe89e98e6ee0768f15c4d03db953059c7f8
+SHA1: da8e55f119e4af80427958f094f845ec82a85dd5
+MD5sum: 9a092538b4577b52a94d69eb906df9e9
+Description: OpenCL C language implementation - development files
+ libclc is an open implementation of the OpenCL C programming language,
+ as specified by the OpenCL 1.1 Specification.
+ .
+ This package contains development header files.
+
 Package: libdrm-amdgpu1
 Source: libdrm
 Version: 2.4.99-1
