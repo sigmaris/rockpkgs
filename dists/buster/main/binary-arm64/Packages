@@ -2795,6 +2795,30 @@ Description: Userspace interface to amdgpu-specific kernel DRM services -- runti
  The DRI is currently used on Linux to provide hardware-accelerated
  OpenGL drivers.
 
+Package: libdrm-common
+Source: libdrm
+Version: 2.4.99-1
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 40
+Multi-Arch: foreign
+Homepage: https://cgit.freedesktop.org/mesa/drm/
+Priority: optional
+Section: libs
+Filename: pool/main/libd/libdrm/libdrm-common_2.4.99-1_all.deb
+Size: 13920
+SHA256: 38a9e4f304b3c31fd971e3b957d05d6f36d0a66dfcc1235cdaeef14310f6d4cd
+SHA1: 577e20a225bdca52caae5f56a47336ea311e28c5
+MD5sum: 77ae8815b7c89e3bf2622149b75b9d19
+Description: Userspace interface to kernel DRM services -- common files
+ This library implements the userspace interface to the kernel DRM
+ services.  DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI).
+ The DRI is currently used on Linux to provide hardware-accelerated
+ OpenGL drivers.
+ .
+ This package provides common files for libdrm.
+
 Package: libdrm-dev
 Source: libdrm
 Version: 2.4.99-1
