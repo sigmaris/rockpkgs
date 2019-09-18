@@ -3582,60 +3582,60 @@ Description: Mesa Off-screen rendering extension -- development files
 
 Package: libshairplay-dev
 Source: shairplay
-Version: 0.9.0.1-2~buster
+Version: 0.9.0+git20180824.096b61a-1~buster
 Architecture: arm64
-Maintainer: Hugh Cole-Baker <hugh@sigmaris.info>
+Maintainer: wsnipex <wsnipex@a1.net>
 Installed-Size: 19
-Depends: libao-dev, libshairplay0 (= 0.9.0.1-2~buster)
+Depends: libao-dev, libshairplay0 (= 0.9.0+git20180824.096b61a-1~buster)
 Multi-Arch: same
 Homepage: https://github.com/juhovh/shairplay
 Priority: extra
 Section: libdevel
-Filename: pool/main/s/shairplay/libshairplay-dev_0.9.0.1-2~buster_arm64.deb
-Size: 4096
-SHA256: df864ab2b0a1f6875d30bac98f19af4ae09ce2fd1d167747d6b12df345bfb9af
-SHA1: 7b1e00ce10b297e70b355b3b03df500511ae952f
-MD5sum: 6372a0722be4baee86b6b602c387df92
+Filename: pool/main/s/shairplay/libshairplay-dev_0.9.0+git20180824.096b61a-1~buster_arm64.deb
+Size: 3688
+SHA256: 47c2eeb9d4f1155d72d98b47efa731cf7ef9019c24c2a14dcbac89e40a3b38b1
+SHA1: 8bb37da2c9022ca29090e652149dea47b7df7c93
+MD5sum: c875abbf8745653dc54674c170a8646a
 Description: Free portable AirPlay server implementation (development files)
  Free portable AirPlay server implementation similar to ShairPort.
 
 Package: libshairplay0
 Source: shairplay
-Version: 0.9.0.1-2~buster
+Version: 0.9.0+git20180824.096b61a-1~buster
 Architecture: arm64
-Maintainer: Hugh Cole-Baker <hugh@sigmaris.info>
-Installed-Size: 114
+Maintainer: wsnipex <wsnipex@a1.net>
+Installed-Size: 198
 Depends: libao4, libc6 (>= 2.17)
 Multi-Arch: same
 Homepage: https://github.com/juhovh/shairplay
 Priority: extra
 Section: net
-Filename: pool/main/s/shairplay/libshairplay0_0.9.0.1-2~buster_arm64.deb
-Size: 44512
-SHA256: bec878edaa767678b081dd4b29c7e80386f6ead919170e5ee9b67f069e1e9de9
-SHA1: b784e7f8a3e54d9867b915adf84fe763c628f234
-MD5sum: e224c70a204b2891e5580def680617ea
+Filename: pool/main/s/shairplay/libshairplay0_0.9.0+git20180824.096b61a-1~buster_arm64.deb
+Size: 97600
+SHA256: 3e458aeaf215262237ffa1cc3ed32947003688bb3d8771b7076e9f929f2bc54a
+SHA1: 33c681115609e476b45e96e07c68e3eee6242c5d
+MD5sum: 1a4255a6f9541a84295ace8fe43fc2ce
 Description: Free portable AirPlay server implementation (development files)
  Free portable AirPlay server implementation similar to ShairPort.
 
 Package: libshairplay0-dbgsym
 Source: shairplay
-Version: 0.9.0.1-2~buster
+Version: 0.9.0+git20180824.096b61a-1~buster
 Auto-Built-Package: debug-symbols
 Architecture: arm64
-Maintainer: Hugh Cole-Baker <hugh@sigmaris.info>
-Installed-Size: 159
-Depends: libshairplay0 (= 0.9.0.1-2~buster)
+Maintainer: wsnipex <wsnipex@a1.net>
+Installed-Size: 244
+Depends: libshairplay0 (= 0.9.0+git20180824.096b61a-1~buster)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/s/shairplay/libshairplay0-dbgsym_0.9.0.1-2~buster_arm64.deb
-Size: 135084
-SHA256: 48c93df6e24666bdf85b895d5b9655843b204c06c5860255ae476151ccefdd53
-SHA1: d05430b5dee3b3cebf4f6abc0b937bc4d51a71a6
-MD5sum: 6bdc94121962594c95941db9fbbd19b9
+Filename: pool/main/s/shairplay/libshairplay0-dbgsym_0.9.0+git20180824.096b61a-1~buster_arm64.deb
+Size: 218016
+SHA256: 424cc36b9f0aff94144f85ac82f437cbebd405f6c87663b79486549518ca0daf
+SHA1: 41401540dd8b33a8cd7c136b3d5460803a97e8b1
+MD5sum: ade11149ea789492a06301e0d55d6d8a
 Description: debug symbols for libshairplay0
-Build-Ids: 17abe73605c031b7e2f1130c801aefd4f60a39d4
+Build-Ids: b45833a21a9fe87379025f7302a5b2786f25f0f6
 
 Package: libwayland-egl1-mesa
 Source: mesa
@@ -3930,21 +3930,39 @@ Description: debug symbols for mesa-vulkan-drivers
 Build-Ids: 763757d3cf7ffdda6503a393c6817cce2533b1f0 af61d39de5972153ac5962d16b37951c97f187d3
 
 Package: shairplay
-Version: 0.9.0.1-2~buster
+Version: 0.9.0+git20180824.096b61a-1~buster
 Architecture: arm64
-Maintainer: Hugh Cole-Baker <hugh@sigmaris.info>
-Installed-Size: 35
-Depends: libshairplay0, libavahi-compat-libdnssd-dev, libao4 (>= 1.1.0), libc6 (>= 2.17)
+Maintainer: wsnipex <wsnipex@a1.net>
+Installed-Size: 33
+Depends: libshairplay0, libavahi-compat-libdnssd1, libao4 (>= 1.1.0), libc6 (>= 2.17)
 Homepage: https://github.com/juhovh/shairplay
 Priority: extra
 Section: net
-Filename: pool/main/s/shairplay/shairplay_0.9.0.1-2~buster_arm64.deb
-Size: 10460
-SHA256: ab55f78b13dfdd034658225f545d7abef544dd0040e70e4980ffaf06707165b4
-SHA1: 6cd4657798f87bb331b0501bbf619d16cba1bd18
-MD5sum: d4a2d9f94973eefdc1f6a6286dc8501d
+Filename: pool/main/s/shairplay/shairplay_0.9.0+git20180824.096b61a-1~buster_arm64.deb
+Size: 10800
+SHA256: f94eeed19f1a9b797db5bb1ee0576edc918eb48ce3ec1b8aed62aa112432bfba
+SHA1: ef3331b361fd6ae5ed3d51fb793a9b8c3353e07e
+MD5sum: e7734fac7763b2c23bc210d3087545eb
 Description: Free portable AirPlay server implementation
  Free portable AirPlay server implementation similar to ShairPort.
+
+Package: shairplay-dbgsym
+Source: shairplay
+Version: 0.9.0+git20180824.096b61a-1~buster
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: wsnipex <wsnipex@a1.net>
+Installed-Size: 30
+Depends: shairplay (= 0.9.0+git20180824.096b61a-1~buster)
+Priority: optional
+Section: debug
+Filename: pool/main/s/shairplay/shairplay-dbgsym_0.9.0+git20180824.096b61a-1~buster_arm64.deb
+Size: 14280
+SHA256: 8b9253d75468ec8b6318bb2f98c5cabb829f48b84d8cbf971cce260df4576fb4
+SHA1: 383e8be8ba202064c1c5cb9504b97cc246cf1319
+MD5sum: 7af4cf67280ae787d86edda95c43c001
+Description: debug symbols for shairplay
+Build-Ids: b1875d1824201001f1cf27670fc9466f1c82f48c
 
 Package: xbmc-visualization-fishbmc
 Version: 5.1.0-1~buster

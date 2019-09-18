@@ -1,28 +1,28 @@
 Origin: sigmaris.github.io/rockpkgs
 Label: sigmaris.github.io/rockpkgs
 Codename: buster
-Date: Tue, 17 Sep 2019 22:07:20 UTC
+Date: Wed, 18 Sep 2019 22:09:49 UTC
 Architectures: arm64
 Components: main
 Description: Packages for Rockchip SBC
 MD5Sum:
- 922060b3b43013f32946dd9fa8c03296 159938 main/binary-arm64/Packages
- ff7a2cac9792e75817e7cb65049d3c1e 37597 main/binary-arm64/Packages.gz
+ b84ac5cd6b656767244c3edba71a3249 160718 main/binary-arm64/Packages
+ 7bb5dbb57eff1bdfc2364e396057ee06 37753 main/binary-arm64/Packages.gz
  11c6287517cbf1008610f047f2259f1d 146 main/binary-arm64/Release
- f13dc6652d6b11ef5613bca85af59f83 1435 main/source/Sources
- 4e648c62817ed46ca42aa32f53695694 714 main/source/Sources.gz
+ d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
+ 16db6212ae61a24b1a9921bdd7c58c1f 20 main/source/Sources.gz
  297ae971788c1bd21e5084e1efe81343 147 main/source/Release
 SHA1:
- 5735659d4000ba7ab89cb4a5f3c546067af8694a 159938 main/binary-arm64/Packages
- 00ad3f514ea4f9f495f040ee3982870aaa691de0 37597 main/binary-arm64/Packages.gz
+ f102a169c69827cd2d61db94db41267da8af5a2a 160718 main/binary-arm64/Packages
+ f09f922ef18a34063bcf69913dda0dc24e96b128 37753 main/binary-arm64/Packages.gz
  0ae31c1e533cb0ef3e2224c158c1502a6a2f79c1 146 main/binary-arm64/Release
- 05e38efd6b682a2da3602ea39c7149aa3a258fcf 1435 main/source/Sources
- fb9ded2c4e025648e3e262c350fc5ead094623b6 714 main/source/Sources.gz
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
+ b9693a53bcffe40b2cc2c37045561f848baaa22a 20 main/source/Sources.gz
  c8ba739883a2eaa367d435a81f1d134804c121a3 147 main/source/Release
 SHA256:
- 52972a5a2956e7e43be9be9cced85247e452e9f7a11687a75c108f10e7edaf00 159938 main/binary-arm64/Packages
- 0b9d5e196056d1407a68c3a90f53f69cfd642eec100360fd444d74236e3592f0 37597 main/binary-arm64/Packages.gz
+ cd5a3367e910bf481999598bb89c0c675f38b6c13dfa59f2183f3d3b100103af 160718 main/binary-arm64/Packages
+ e080f8346764b364b54942ddf6afc101a3e88d1c27480f40b6cb045854880051 37753 main/binary-arm64/Packages.gz
  d9558fa39916a3053702ee52cc4f15260c3b6edfed5452a99e81d895a4de196a 146 main/binary-arm64/Release
- 43007e75200bfd33c77f09bfb0c197eb86053b608e0342ac6dede44075385913 1435 main/source/Sources
- b5955646526e0d94c460d733941566bc4ba2218a4206bcb9113c5e57ee5b45bc 714 main/source/Sources.gz
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
+ abfbb86f9f5ddfbd9fc1a72c43ab384702ce8bae86b60f3324748485e235e61e 20 main/source/Sources.gz
  5c14bf987f5faff088ee1987565e9adf8b5d512e00b90391804ea1b08e767dea 147 main/source/Release
