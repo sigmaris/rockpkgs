@@ -2816,6 +2816,28 @@ Description: OpenCL C language implementation - development files
  .
  This package contains development header files.
 
+Package: libclc-ptx
+Source: libclc
+Version: 0.2.0+git20190306-2
+Architecture: all
+Maintainer: Debian OpenCL team <pkg-opencl-devel@lists.alioth.debian.org>
+Installed-Size: 107005
+Depends: libclc-dev (= 0.2.0+git20190306-2), libclang-common-8-dev
+Multi-Arch: foreign
+Homepage: https://libclc.llvm.org
+Priority: optional
+Section: libs
+Filename: pool/main/libc/libclc/libclc-ptx_0.2.0+git20190306-2_all.deb
+Size: 21235920
+SHA256: 5ba3fcc9653216cf61494510b53595bacc5fff2981ad3907ab0a74cdd94e271d
+SHA1: 13dad96b12e130c84983b1d7064624a8a0fe86d7
+MD5sum: 1504e7010aaec8cfdf57040f624971eb
+Description: OpenCL C language implementation - ptx support
+ libclc is an open implementation of the OpenCL C programming language,
+ as specified by the OpenCL 1.1 Specification.
+ .
+ This package contains support for the PTX platform.
+
 Package: libclc-r600
 Source: libclc
 Version: 0.2.0+git20190306-2
