@@ -3724,26 +3724,6 @@ MD5sum: be9c8eef533a22045a0d016486c97826
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
 
-Package: linux-headers-5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris
-Source: linux-5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris
-Version: 5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris
-Architecture: arm64
-Maintainer: vsts_azpcontainer <vsts_azpcontainer@3c4b56b0e334>
-Installed-Size: 71768
-Provides: linux-mainline-headers
-Homepage: http://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris/linux-headers-5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris_5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris_arm64.deb
-Size: 11095192
-SHA256: 1fdca2f3ace50816261f1bc9650a974e6147b7ee5225dd50b7da392f809fcc01
-SHA1: a502a9cdf43029b89e5e5548bbde16c13a71cfa5
-MD5sum: 1c9a4924ba11a2d7e23f46c53a070d11
-Description: Linux kernel headers for 5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris on arm64
- This package provides kernel header files for 5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris on arm64
- .
- This is useful for people who need to build external modules
-
 Package: linux-headers-5.4.0-rc1-g466bf0aa6312-sigmaris
 Source: linux-5.4.0-rc1-g466bf0aa6312-sigmaris
 Version: 5.4.0-rc1-g466bf0aa6312-sigmaris
@@ -3783,44 +3763,6 @@ Description: Linux kernel headers for 5.4.0-rc1-gc5bd8fa4431f-sigmaris on arm64
  This package provides kernel header files for 5.4.0-rc1-gc5bd8fa4431f-sigmaris on arm64
  .
  This is useful for people who need to build external modules
-
-Package: linux-image-5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris
-Source: linux-5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris
-Version: 5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris
-Architecture: arm64
-Maintainer: vsts_azpcontainer <vsts_azpcontainer@3c4b56b0e334>
-Installed-Size: 33980
-Provides: linux-mainline-image
-Homepage: http://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris/linux-image-5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris_5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris_arm64.deb
-Size: 9494848
-SHA256: bcdf69b7c7568a8fcedce68b0970bb74651c183ae1e549c269fd3c8cfaad5b8d
-SHA1: 6ba38984f50e0253ea589279d8f3552d20296e53
-MD5sum: 0b09e09a023d188598cb846b43e1f9a6
-Description: Linux kernel, version 5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris
- This package contains the Linux kernel, modules and corresponding other
- files, version: 5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris.
-
-Package: linux-image-5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris-dbg
-Source: linux-5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris
-Version: 5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris
-Architecture: arm64
-Maintainer: vsts_azpcontainer <vsts_azpcontainer@3c4b56b0e334>
-Installed-Size: 475283
-Provides: linux-mainline-image-dbg, linux-mainline-image-rockchip-dbg
-Homepage: http://www.kernel.org/
-Priority: optional
-Section: debug
-Filename: pool/main/l/linux-5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris/linux-image-5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris-dbg_5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris_arm64.deb
-Size: 100916400
-SHA256: 3bb5a95381cc363d26ba323d919c4d70478fa9f8df836a0daba60f584fa73084
-SHA1: 76c9a86a7e662532cd88c6b32057c51afc43a637
-MD5sum: 9833c28e84f506ec4984d1dffd362496
-Description: Linux kernel debugging symbols for 5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris
- This package will come in handy if you need to debug the kernel. It provides
- all the necessary debug symbols for the kernel and its modules.
 
 Package: linux-image-5.4.0-rc1-g466bf0aa6312-sigmaris
 Source: linux-5.4.0-rc1-g466bf0aa6312-sigmaris
