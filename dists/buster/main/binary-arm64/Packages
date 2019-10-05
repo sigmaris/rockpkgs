@@ -3764,6 +3764,26 @@ Description: Linux kernel headers for 5.4.0-rc1-g466bf0aa6312-sigmaris on arm64
  .
  This is useful for people who need to build external modules
 
+Package: linux-headers-5.4.0-rc1-gc5bd8fa4431f-sigmaris
+Source: linux-5.4.0-rc1-gc5bd8fa4431f-sigmaris
+Version: 5.4.0-rc1-gc5bd8fa4431f-sigmaris
+Architecture: arm64
+Maintainer: vsts_azpcontainer <vsts_azpcontainer@638c1d85e9aa>
+Installed-Size: 71560
+Provides: linux-mainline-headers
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.4.0-rc1-gc5bd8fa4431f-sigmaris/linux-headers-5.4.0-rc1-gc5bd8fa4431f-sigmaris_5.4.0-rc1-gc5bd8fa4431f-sigmaris_arm64.deb
+Size: 10984356
+SHA256: 6be3b9c334db2ca62b4bcbd4b59872212b59b2d09d4ae19fcfd2553ff21bf132
+SHA1: 9177de840055ab182c3380b72384f2f3cc490051
+MD5sum: 6d5ff7cbaaf10e2607bfa9652e45c55f
+Description: Linux kernel headers for 5.4.0-rc1-gc5bd8fa4431f-sigmaris on arm64
+ This package provides kernel header files for 5.4.0-rc1-gc5bd8fa4431f-sigmaris on arm64
+ .
+ This is useful for people who need to build external modules
+
 Package: linux-image-5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris
 Source: linux-5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris
 Version: 5.3.0-rc7-next-20190904-gbec9a95768e4-sigmaris
@@ -3840,22 +3860,60 @@ Description: Linux kernel debugging symbols for 5.4.0-rc1-g466bf0aa6312-sigmaris
  This package will come in handy if you need to debug the kernel. It provides
  all the necessary debug symbols for the kernel and its modules.
 
-Package: linux-libc-dev
-Source: linux-5.4.0-rc1-g466bf0aa6312-sigmaris
-Version: 5.4.0-rc1-g466bf0aa6312-sigmaris
+Package: linux-image-5.4.0-rc1-gc5bd8fa4431f-sigmaris
+Source: linux-5.4.0-rc1-gc5bd8fa4431f-sigmaris
+Version: 5.4.0-rc1-gc5bd8fa4431f-sigmaris
 Architecture: arm64
-Maintainer: vsts_azpcontainer <vsts_azpcontainer@e7cb0792817e>
+Maintainer: vsts_azpcontainer <vsts_azpcontainer@638c1d85e9aa>
+Installed-Size: 33926
+Provides: linux-mainline-image
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.4.0-rc1-gc5bd8fa4431f-sigmaris/linux-image-5.4.0-rc1-gc5bd8fa4431f-sigmaris_5.4.0-rc1-gc5bd8fa4431f-sigmaris_arm64.deb
+Size: 9508136
+SHA256: de9faf5fe7d7df7a97e24d5f0cae2eb679c585fba033ebe78978ec446fc75a66
+SHA1: f0ba0343a11b00e7484f983c3f4c95beb07c65c8
+MD5sum: 81b4b0ca7990fc333728cb6e0f5b94c1
+Description: Linux kernel, version 5.4.0-rc1-gc5bd8fa4431f-sigmaris
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.4.0-rc1-gc5bd8fa4431f-sigmaris.
+
+Package: linux-image-5.4.0-rc1-gc5bd8fa4431f-sigmaris-dbg
+Source: linux-5.4.0-rc1-gc5bd8fa4431f-sigmaris
+Version: 5.4.0-rc1-gc5bd8fa4431f-sigmaris
+Architecture: arm64
+Maintainer: vsts_azpcontainer <vsts_azpcontainer@638c1d85e9aa>
+Installed-Size: 469682
+Provides: linux-mainline-image-dbg, linux-mainline-image-rockchip-dbg
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: debug
+Filename: pool/main/l/linux-5.4.0-rc1-gc5bd8fa4431f-sigmaris/linux-image-5.4.0-rc1-gc5bd8fa4431f-sigmaris-dbg_5.4.0-rc1-gc5bd8fa4431f-sigmaris_arm64.deb
+Size: 100442904
+SHA256: 2d2df9d5f6348c4cada26c0e386d179b442149d9a7db5fea79fb6478f67b6245
+SHA1: 9423b25f837c7f181f5c1b7adeae58dfd3eba9de
+MD5sum: 797f1fd2ad29d277fd4655ca46305f11
+Description: Linux kernel debugging symbols for 5.4.0-rc1-gc5bd8fa4431f-sigmaris
+ This package will come in handy if you need to debug the kernel. It provides
+ all the necessary debug symbols for the kernel and its modules.
+
+Package: linux-libc-dev
+Source: linux-5.4.0-rc1-gc5bd8fa4431f-sigmaris
+Version: 5.4.0-rc1-gc5bd8fa4431f-sigmaris
+Architecture: arm64
+Maintainer: vsts_azpcontainer <vsts_azpcontainer@638c1d85e9aa>
 Installed-Size: 5415
 Provides: linux-kernel-headers
 Multi-Arch: same
 Homepage: http://www.kernel.org/
 Priority: optional
 Section: devel
-Filename: pool/main/l/linux-5.4.0-rc1-g466bf0aa6312-sigmaris/linux-libc-dev_5.4.0-rc1-g466bf0aa6312-sigmaris_arm64.deb
-Size: 1046648
-SHA256: 918400b20cdee141fd0e33ac3c3249f2da72ef304cea24c14bbb57af61056bdc
-SHA1: e71d02f5b43adf7aed46031bfeafd7f38ec261b3
-MD5sum: e4c2f4194a3bba19f423fc0a7873a410
+Filename: pool/main/l/linux-5.4.0-rc1-gc5bd8fa4431f-sigmaris/linux-libc-dev_5.4.0-rc1-gc5bd8fa4431f-sigmaris_arm64.deb
+Size: 1046576
+SHA256: d17c163a3fc10d268a06ef81f211bbdbad506484fb78a85e66b6985107dc1d41
+SHA1: 3b793274d5b5f66e1c4c8882a53588cde14fff45
+MD5sum: e42866610804c721f9f29153bc783e2c
 Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers
  are used by the installed headers for GNU glibc and other system libraries.
