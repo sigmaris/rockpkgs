@@ -4,39 +4,39 @@ Hash: SHA256
 Origin: sigmaris.github.io/rockpkgs
 Label: sigmaris.github.io/rockpkgs
 Codename: buster
-Date: Tue, 15 Oct 2019 22:10:55 UTC
+Date: Fri, 13 Dec 2019 20:37:59 UTC
 Architectures: arm64
 Components: main
 Description: Packages for Rockchip SBC
 MD5Sum:
- 6515df001b2cb5286d0b4824f24d721e 168463 main/binary-arm64/Packages
- 48bd133146cab2d0562b75099888adaf 39121 main/binary-arm64/Packages.gz
+ 87cefe838013ea1fe5b8c8c5a268cbd0 170867 main/binary-arm64/Packages
+ b8641eb7d655ba978257641c9565d30c 39554 main/binary-arm64/Packages.gz
  11c6287517cbf1008610f047f2259f1d 146 main/binary-arm64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
  16db6212ae61a24b1a9921bdd7c58c1f 20 main/source/Sources.gz
  297ae971788c1bd21e5084e1efe81343 147 main/source/Release
 SHA1:
- cf55fd74979cdf3beaa91bc88852d1ddced699a1 168463 main/binary-arm64/Packages
- fba6768a433e0b3d4ccc34e7261b7b3a07774651 39121 main/binary-arm64/Packages.gz
+ be136c661e22b77f99963dcdf0626b9830a5fdab 170867 main/binary-arm64/Packages
+ bcbe68e8ab39148e639b2032dfd745439557e11c 39554 main/binary-arm64/Packages.gz
  0ae31c1e533cb0ef3e2224c158c1502a6a2f79c1 146 main/binary-arm64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
  b9693a53bcffe40b2cc2c37045561f848baaa22a 20 main/source/Sources.gz
  c8ba739883a2eaa367d435a81f1d134804c121a3 147 main/source/Release
 SHA256:
- 537b79146c45b4793aa1693e04e998e63567756dee54f10ff7b9cdecd034e12d 168463 main/binary-arm64/Packages
- 9bb831499891784734f42a1ddcec4fc5f99f69aa1808cc3db6da0315e85cda1c 39121 main/binary-arm64/Packages.gz
+ c006a0ecb931fb3a656984faf13acd4be28778ed87afba8ed394d5e482084583 170867 main/binary-arm64/Packages
+ 2d63d9b2b3b40978e596625ddba24b62a04a5b08043e30bf31c529196aa3b10f 39554 main/binary-arm64/Packages.gz
  d9558fa39916a3053702ee52cc4f15260c3b6edfed5452a99e81d895a4de196a 146 main/binary-arm64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
  abfbb86f9f5ddfbd9fc1a72c43ab384702ce8bae86b60f3324748485e235e61e 20 main/source/Sources.gz
  5c14bf987f5faff088ee1987565e9adf8b5d512e00b90391804ea1b08e767dea 147 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCAAdFiEElT+Uum0AYi4D0/qRuUCI6L6d6aMFAl2mQ/MACgkQuUCI6L6d
-6aMNQQgAgMbVzDgacyZfCcTr3mGfZavgNBJKVA+H2mHQ2qlSabUz6z+FQ1zErmew
-sIUNUxGdw0b3lH42SiaVT3S/cOoIjDbs9IJcpSc0Jg/Np2XBbRq65BsU6tTJus4U
-rMkZPvFFgaPBX9bRvimsYGguTNqL1Adza6ucqTb/5nGYrsIqhyw4dOz683J1sO+j
-Hg3lMsUFEX6S78K12YSVMG3kLlhG5psgNYW+Ll63gZrvqPxmSoJ26+p/sgB5bmbW
-rDipcYpfH0SZNxwmWt4TBpu1c4JPA/dHQGv38fX8fL/i1cuh0m7hBwt9LtM8XEe9
-EjbuUi0qUWAf7YItHt10ebhN3Y+dvw==
-=unqE
+iQEzBAEBCAAdFiEElT+Uum0AYi4D0/qRuUCI6L6d6aMFAl3z9qsACgkQuUCI6L6d
+6aNKPwf7B0hcsW5Eh3w7fFslFhxC46ucAFNZOT8x3BrT/0qg+BXmhv6Syr5SBV+Z
+oLJbfnGDoXSxfcgv6NTNCHSkNpMVzJoa8omxT1U48yVN8prSIHk/xgLjBC5phNew
+XVkdQExbSMEfIvbBmyRwCk4blYk05+7GiPdtBdoL63J2hhhP2gEaoEjY6/gSTDFj
+qR3pxlzRqNgrGD2/2IRgKjfJ/WKic4XorWttjjJ6OWiTWkWFuloxmBmXAO+tVDoZ
+azqll6l9vayHtjGwOkXszbmrWNhwhA23NzIolrHGZR+ybihwzGJzXAq99mLRsqBy
+071nk/layi0xcTSDEt67K4jdG/NJmw==
+=FWz+
 -----END PGP SIGNATURE-----

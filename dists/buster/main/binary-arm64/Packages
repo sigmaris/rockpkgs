@@ -3783,6 +3783,25 @@ Description: Linux kernel headers for 5.4.0-rc3-g3aa8c24aa187-sigmaris on arm64
  .
  This is useful for people who need to build external modules
 
+Package: linux-headers-5.5.0-rc1-g3b4bd59b3-sigmaris
+Source: linux-5.5.0-rc1-g3b4bd59b3-sigmaris
+Version: 5.5.0-rc1-g3b4bd59b3-sigmaris
+Architecture: arm64
+Maintainer: root <root@a93428250b67>
+Installed-Size: 72341
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.5.0-rc1-g3b4bd59b3-sigmaris/linux-headers-5.5.0-rc1-g3b4bd59b3-sigmaris_5.5.0-rc1-g3b4bd59b3-sigmaris_arm64.deb
+Size: 11099176
+SHA256: 87ef1681e1fce731b5d901b6f62c528cf2e6bf5ed6a1ea51150c2345b04d4c96
+SHA1: 3c51e3062587d427c622ae588a1fd9c9e2b26e06
+MD5sum: 9b0ffcb3f49bda85678dd7ec4fd61b6e
+Description: Linux kernel headers for 5.5.0-rc1-g3b4bd59b3-sigmaris on arm64
+ This package provides kernel header files for 5.5.0-rc1-g3b4bd59b3-sigmaris on arm64
+ .
+ This is useful for people who need to build external modules
+
 Package: linux-image-5.4.0-rc1-g466bf0aa6312-sigmaris
 Source: linux-5.4.0-rc1-g466bf0aa6312-sigmaris
 Version: 5.4.0-rc1-g466bf0aa6312-sigmaris
@@ -3895,22 +3914,58 @@ Description: Linux kernel debugging symbols for 5.4.0-rc3-g3aa8c24aa187-sigmaris
  This package will come in handy if you need to debug the kernel. It provides
  all the necessary debug symbols for the kernel and its modules.
 
-Package: linux-libc-dev
-Source: linux-5.4.0-rc3-g3aa8c24aa187-sigmaris
-Version: 5.4.0-rc3-g3aa8c24aa187-sigmaris
+Package: linux-image-5.5.0-rc1-g3b4bd59b3-sigmaris
+Source: linux-5.5.0-rc1-g3b4bd59b3-sigmaris
+Version: 5.5.0-rc1-g3b4bd59b3-sigmaris
 Architecture: arm64
-Maintainer: vsts_azpcontainer <vsts_azpcontainer@a45aa5f81f84>
-Installed-Size: 5416
+Maintainer: root <root@a93428250b67>
+Installed-Size: 23140
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.5.0-rc1-g3b4bd59b3-sigmaris/linux-image-5.5.0-rc1-g3b4bd59b3-sigmaris_5.5.0-rc1-g3b4bd59b3-sigmaris_arm64.deb
+Size: 11578696
+SHA256: c19bb88b766a28e2eadea6d610abb6ac3a67f82785ca50841fa17d246a64c670
+SHA1: 7f870b7811b5a6d31759ebf5f8c9fc7ac15e2e36
+MD5sum: 11ddd2329110fa94c786bd512718d7eb
+Description: Linux kernel, version 5.5.0-rc1-g3b4bd59b3-sigmaris
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.5.0-rc1-g3b4bd59b3-sigmaris.
+
+Package: linux-image-5.5.0-rc1-g3b4bd59b3-sigmaris-dbg
+Source: linux-5.5.0-rc1-g3b4bd59b3-sigmaris
+Version: 5.5.0-rc1-g3b4bd59b3-sigmaris
+Architecture: arm64
+Maintainer: root <root@a93428250b67>
+Installed-Size: 467684
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: debug
+Filename: pool/main/l/linux-5.5.0-rc1-g3b4bd59b3-sigmaris/linux-image-5.5.0-rc1-g3b4bd59b3-sigmaris-dbg_5.5.0-rc1-g3b4bd59b3-sigmaris_arm64.deb
+Size: 100533436
+SHA256: 4c500a0bd3783eb36dcfb39b924dd6f38e4a3e0f60eb25bbf69d7d56c5c64bcc
+SHA1: 5939bbe1475d81189fef0f7868cb8e06281ca3f5
+MD5sum: da4470f7703e245dca4538e31e0bfe77
+Description: Linux kernel debugging symbols for 5.5.0-rc1-g3b4bd59b3-sigmaris
+ This package will come in handy if you need to debug the kernel. It provides
+ all the necessary debug symbols for the kernel and its modules.
+
+Package: linux-libc-dev
+Source: linux-5.5.0-rc1-g3b4bd59b3-sigmaris
+Version: 5.5.0-rc1-g3b4bd59b3-sigmaris
+Architecture: arm64
+Maintainer: root <root@a93428250b67>
+Installed-Size: 5449
 Provides: linux-kernel-headers
 Multi-Arch: same
 Homepage: http://www.kernel.org/
 Priority: optional
 Section: devel
-Filename: pool/main/l/linux-5.4.0-rc3-g3aa8c24aa187-sigmaris/linux-libc-dev_5.4.0-rc3-g3aa8c24aa187-sigmaris_arm64.deb
-Size: 1046956
-SHA256: 58d8d4c341a7117a37a20613da668764217d44daa6bff6e3eb8ea56ca467a09a
-SHA1: 7f528b753659b24ab97ea8236290fa03407c0bef
-MD5sum: 28be772e9128104bed818914e904fbf8
+Filename: pool/main/l/linux-5.5.0-rc1-g3b4bd59b3-sigmaris/linux-libc-dev_5.5.0-rc1-g3b4bd59b3-sigmaris_arm64.deb
+Size: 1055112
+SHA256: e543a5f40aa834a0f85f57119506ae1d4d4062b82231f08218b2ef94eb006593
+SHA1: 638e0669411692efd8abedcd75e60855b365026b
+MD5sum: 379f762807454edd231b0814b1c272ca
 Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers
  are used by the installed headers for GNU glibc and other system libraries.
