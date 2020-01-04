@@ -75,14 +75,14 @@ Description: Documentation of the FFmpeg multimedia framework
 Package: kodi
 Architecture: all
 Breaks: xbmc (<< 2:14.0~git20141019), xbmc-data, xbmc-standalone
-Depends: kodi-bin (>= 2:18.4~git20191002.1852-sigmaris-1~buster), kodi-bin (<< 2:18.4~git20191002.1852-sigmaris-1~buster.1~), curl, libcurl4 | libcurl3, mesa-utils, x11-utils, fonts-liberation | ttf-liberation, fonts-dejavu-core | ttf-dejavu-core, python-bluez | python-lightblue, python-imaging | python-pil, python-simplejson, libass9 | libass5 | libass4, libgif5 | libgif7, libnfs8 | libnfs4 | libnfs1 | libnfs12, libbluray1 | libbluray2, libshairplay0, libvorbisfile3, libaacs0, libcec4, libgnutls30 | libgnutls-deb0-28 | libgnutls28 | libgnutls26, libxslt1.1
+Depends: kodi-bin (>= 2:18.5~git20200104.1246-sigmaris-15~buster), kodi-bin (<< 2:18.5~git20200104.1246-sigmaris-15~buster.1~), curl, libcurl4 | libcurl3, mesa-utils, x11-utils, fonts-liberation | ttf-liberation, fonts-dejavu-core | ttf-dejavu-core, python-bluez | python-lightblue, python-imaging | python-pil, python-simplejson, libass9 | libass5 | libass4, libgif5 | libgif7, libnfs8 | libnfs4 | libnfs1 | libnfs12, libbluray1 | libbluray2, libshairplay0, libvorbisfile3, libaacs0, libcec4, libgnutls30 | libgnutls-deb0-28 | libgnutls28 | libgnutls26, libxslt1.1
 Priority: optional
 Section: video
-Filename: pool/main/k/kodi/kodi_18.4~git20191002.1852-sigmaris-1~buster_all.deb
-Size: 22925070
-SHA256: 973ebbb9937aced24c07ac6b432cdc94e052c96cc388b79ae41fd2f9abf168f3
-SHA1: 444cf8d0335dc2d5f6910ca45d099e7271511a2c
-MD5sum: 10aefc68c87d576d216cfa7213045438
+Filename: pool/main/k/kodi/kodi_18.5~git20200104.1246-sigmaris-15~buster_all.deb
+Size: 22925566
+SHA256: b5b9fce0c746631ae00559404ef9f13aaec4fd79fd007ef4b46610ebf237ba97
+SHA1: ab8b5fbc42a29cf2391ecfa626a2589404402e41
+MD5sum: bddd36110097326dbce425e7e43c6840
 Description: Kodi Media Center (arch-independent data package)
  Kodi, formerly known as XBMC Media Center, is an award winning free and open
  source software media-player and entertainment hub for all your digital media.
@@ -108,18 +108,18 @@ Recommends: libvdpau1, libva-intel-vaapi-driver, libva1
 Replaces: xbmc (<< 2:14.0~git20141019), xbmc-data, xbmc-standalone
 Source: kodi
 Suggests: kodi-pvr-mythtv, kodi-pvr-vuplus, kodi-pvr-vdr-vnsi, kodi-pvr-njoy, kodi-pvr-nextpvr, kodi-pvr-mediaportal-tvserver, kodi-pvr-tvheadend-hts, kodi-pvr-dvbviewer, kodi-pvr-argustv, kodi-pvr-iptvsimple, kodi-audioencoder-vorbis, kodi-audioencoder-flac, kodi-audioencoder-lame
-Version: 2:18.4~git20191002.1852-sigmaris-1~buster
-Installed-Size: 38791
+Version: 2:18.5~git20200104.1246-sigmaris-15~buster
+Installed-Size: 38792
 
 Package: kodi-addon-dev
 Architecture: all
 Priority: optional
 Section: libdevel
-Filename: pool/main/k/kodi/kodi-addon-dev_18.4~git20191002.1852-sigmaris-1~buster_all.deb
-Size: 193184
-SHA256: ef6ef27e7b08fed15f28f65fa355ee9215631281115527c6e0790f20132980e9
-SHA1: 6bdcbf88fa016f6fdba1fcdce33c2eb397d3219c
-MD5sum: 254660509d026c2d030ec6fb87ed8cd2
+Filename: pool/main/k/kodi/kodi-addon-dev_18.5~git20200104.1246-sigmaris-15~buster_all.deb
+Size: 192762
+SHA256: 0883c3302ffa400689bdac05bbc8835e5638051006a773a839feefc81f66fd80
+SHA1: dc42f11facf9417a12f7509b97c0a8de36d1b2e0
+MD5sum: b22394f774c51534de352641dd2949b3
 Description: Kodi Media Center (general add-on dev package)
  Kodi, formerly known as XBMC Media Center, is an award winning free and open
  source software media-player and entertainment hub for all your digital media.
@@ -143,8 +143,8 @@ Maintainer:  <>
 Provides: xbmc-addon-dev
 Replaces: kodi-audio-dev, kodi-inputstream-dev, kodi-pvr-dev, kodi-screensaver-dev, kodi-visualization-dev
 Source: kodi
-Version: 2:18.4~git20191002.1852-sigmaris-1~buster
-Installed-Size: 1107
+Version: 2:18.5~git20200104.1246-sigmaris-15~buster
+Installed-Size: 1106
 
 Package: kodi-audiodecoder-2sf
 Version: 2.0.1-1~buster
@@ -984,14 +984,14 @@ Description: debug symbols for WAV audio encoder for Kodi
 Package: kodi-bin
 Architecture: arm64
 Breaks: xbmc-bin (<< 2:14.0~git20141019), xbmc-common
-Depends: libasound2 (>= 1.0.27), libass9 (>= 1:0.13.6), libatomic1 (>= 4.8), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libbluetooth3 (>= 4.91), libbluray2 (>= 1:0.9.3), libbz2-1.0, libc6 (>= 2.28), libcap2 (>= 1:2.10), libcdio18 (>= 2.0.0), libcec4 (>= 2.1.4), libcrossguid0 (>= 0.0+git200150803), libcurl3-gnutls (>= 7.18.0), libdbus-1-3 (>= 1.9.14), libdrm2 (>= 2.4.74), libegl1, libexpat1 (>= 2.0.1), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), libfstrcmp0, libgbm1 (>= 17.1.0~rc2), libgcc1 (>= 1:4.5), libgles2, libgmp10, libgnutls30 (>= 3.6.6), libhogweed4, libidn2-0 (>= 0.6), libinput10 (>= 0.21.0), libiso9660-11 (>= 2.0.0), liblcms2-2 (>= 2.2+git20110628), liblirc-client0, liblzma5 (>= 5.1.1alpha+20120614), liblzo2-2, libmariadb3 (>= 3.0.0), libmicrohttpd12 (>= 0.9.50), libnettle6, libnfs12 (>= 1.9.7), libp11-kit0 (>= 0.2), libpcre3, libpcrecpp0v5 (>= 7.7), libpulse-mainloop-glib0 (>= 0.99.1), libpulse0 (>= 0.99.4), libpython2.7 (>= 2.7), libsmbclient (>= 2:4.0.3+dfsg1), libsqlite3-0 (>= 3.7.11), libssl1.1 (>= 1.1.0), libstdc++6 (>= 5.2), libtag1v5 (>= 1.11), libtasn1-6 (>= 4.5), libtinyxml2.6.2v5, libudev1 (>= 183), libunistring2 (>= 0.9.7), libuuid1 (>= 2.16), libva-drm2 (>= 1.1.0), libva-x11-2 (>= 1.0.3), libva2 (>= 2.2.0), libx11-6, libxkbcommon0 (>= 0.5.0), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.2.0.2)
+Depends: libasound2 (>= 1.0.27), libass9 (>= 1:0.13.6), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libavcodec58 (>= 7:4.0), libavfilter7 (>= 7:4.0), libavformat58 (>= 7:4.1), libavutil56 (>= 7:4.0), libbluetooth3 (>= 4.91), libbluray2 (>= 1:0.9.3), libc6 (>= 2.28), libcap2 (>= 1:2.10), libcdio18 (>= 2.0.0), libcec4 (>= 2.1.4), libcrossguid0 (>= 0.0+git200150803), libcurl3-gnutls (>= 7.18.0), libdbus-1-3 (>= 1.9.14), libdrm2 (>= 2.4.74), libegl1, libexpat1 (>= 2.0.1), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), libfstrcmp0, libgbm1 (>= 17.1.0~rc2), libgcc1 (>= 1:4.5), libgles2, libinput10 (>= 0.21.0), libiso9660-11 (>= 2.0.0), liblcms2-2 (>= 2.2+git20110628), liblirc-client0, liblzo2-2, libmariadb3 (>= 3.0.0), libmicrohttpd12 (>= 0.9.50), libnfs12 (>= 1.9.7), libpcre3, libpcrecpp0v5 (>= 7.7), libpostproc55 (>= 7:4.0), libpulse-mainloop-glib0 (>= 0.99.1), libpulse0 (>= 0.99.4), libpython2.7 (>= 2.7), libsmbclient (>= 2:4.0.3+dfsg1), libsqlite3-0 (>= 3.7.11), libssl1.1 (>= 1.1.0), libstdc++6 (>= 5.2), libswresample3 (>= 7:4.0), libswscale5 (>= 7:4.0), libtag1v5 (>= 1.11), libtinyxml2.6.2v5, libudev1 (>= 183), libuuid1 (>= 2.16), libva-drm2 (>= 1.1.0), libva2 (>= 2.2.0), libxkbcommon0 (>= 0.5.0), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.1.4)
 Priority: optional
 Section: video
-Filename: pool/main/k/kodi/kodi-bin_18.4~git20191002.1852-sigmaris-1~buster_arm64.deb
-Size: 17615376
-SHA256: 9dd51dee3855355826a907911071430f38918e6af3978686cbb63961223a3863
-SHA1: b9c76fa6255e0ace94ad78c56b0de6b2bd8f3af5
-MD5sum: ccd21bf27d916aaa0f0662017cc2b373
+Filename: pool/main/k/kodi/kodi-bin_18.5~git20200104.1246-sigmaris-15~buster_arm64.deb
+Size: 9716744
+SHA256: cedd34b2dec9372919839b785d11cc53128e99c99607ab980af7c865ec8d672e
+SHA1: d624ffe742382c63842df4b3c899e03003e9af2c
+MD5sum: 2564f20ca925e3552610c8d6cefd8fff
 Description: Kodi Media Center (binary data package)
  Kodi, formerly known as XBMC Media Center, is an award winning free and open
  source software media-player and entertainment hub for all your digital media.
@@ -1015,18 +1015,18 @@ Maintainer:  <>
 Provides: kodi-bin, kodi-common, xbmc-bin, xbmc-common
 Replaces: xbmc-bin (<< 2:14.0~git20141019), xbmc-common
 Source: kodi
-Version: 2:18.4~git20191002.1852-sigmaris-1~buster
-Installed-Size: 41159
+Version: 2:18.5~git20200104.1246-sigmaris-15~buster
+Installed-Size: 25327
 
 Package: kodi-eventclients-common
 Architecture: all
 Priority: optional
 Section: video
-Filename: pool/main/k/kodi/kodi-eventclients-common_18.4~git20191002.1852-sigmaris-1~buster_all.deb
-Size: 53076
-SHA256: c861f22538f9e224c093fa0f870027619816a8ed2f7146690905bd5738354c4e
-SHA1: 92a662a35b6941cff1bea98d39de69d352f29319
-MD5sum: 57ee82a82523a5c62afcdcf18b82c2b9
+Filename: pool/main/k/kodi/kodi-eventclients-common_18.5~git20200104.1246-sigmaris-15~buster_all.deb
+Size: 52708
+SHA256: a3bf975f383a524e513a2656c3e4cfab3894431b78e030792be5e4e73747ee21
+SHA1: 8c81f48aba11d564eae273fae5d53865e55bcef9
+MD5sum: 374586502c5725f63ac5123075b8832c
 Description: Kodi Media Center (event client common package)
  Kodi, formerly known as XBMC Media Center, is an award winning free and open
  source software media-player and entertainment hub for all your digital media.
@@ -1049,19 +1049,19 @@ Homepage: http://kodi.tv
 Maintainer:  <>
 Provides: xbmc-eventclients-common
 Source: kodi
-Version: 2:18.4~git20191002.1852-sigmaris-1~buster
+Version: 2:18.5~git20200104.1246-sigmaris-15~buster
 Installed-Size: 246
 
 Package: kodi-eventclients-dev
 Architecture: all
-Depends: kodi-eventclients-common (= 2:18.4~git20191002.1852-sigmaris-1~buster)
+Depends: kodi-eventclients-common (= 2:18.5~git20200104.1246-sigmaris-15~buster)
 Priority: optional
 Section: libdevel
-Filename: pool/main/k/kodi/kodi-eventclients-dev_18.4~git20191002.1852-sigmaris-1~buster_all.deb
-Size: 38802
-SHA256: b3c23726a9b9e41232d27449bcad2d79aa4862adc71fc04d40fec8c95e338b65
-SHA1: 7cb6573d2eb7eb7c906cf20ea11de0613e96a707
-MD5sum: b0f9003e547045dd44ee1a2498d00813
+Filename: pool/main/k/kodi/kodi-eventclients-dev_18.5~git20200104.1246-sigmaris-15~buster_all.deb
+Size: 38448
+SHA256: 0c401fb044dec3efa450b592b8a1d79830e737d49806b2ef9c88c9de8e7c31d1
+SHA1: 80eb6bead4e7d1ba57bc11fd596d0984627c2605
+MD5sum: ae3b039c49ec950ac2265ae49390285c
 Description: Kodi Media Center (event client dev package)
  Kodi, formerly known as XBMC Media Center, is an award winning free and open
  source software media-player and entertainment hub for all your digital media.
@@ -1084,20 +1084,20 @@ Homepage: http://kodi.tv
 Maintainer:  <>
 Provides: xbmc-eventclients-dev
 Source: kodi
-Version: 2:18.4~git20191002.1852-sigmaris-1~buster
+Version: 2:18.5~git20200104.1246-sigmaris-15~buster
 Installed-Size: 226
 
 Package: kodi-eventclients-kodi-send
 Architecture: all
 Breaks: kodi-eventclients-xbmc-send
-Depends: kodi-eventclients-common (= 2:18.4~git20191002.1852-sigmaris-1~buster)
+Depends: kodi-eventclients-common (= 2:18.5~git20200104.1246-sigmaris-15~buster)
 Priority: optional
 Section: video
-Filename: pool/main/k/kodi/kodi-eventclients-kodi-send_18.4~git20191002.1852-sigmaris-1~buster_all.deb
-Size: 31342
-SHA256: 2505a9ca6353cb6b17d643a43bb60f34c6cfc673508566bab76b02ca36ed666c
-SHA1: c21e335a45905d86ad71852c9adb71d68a182495
-MD5sum: 84693e50ed50acea1a380e3215e43d64
+Filename: pool/main/k/kodi/kodi-eventclients-kodi-send_18.5~git20200104.1246-sigmaris-15~buster_all.deb
+Size: 30970
+SHA256: 0cc8c4fd385cf8db81bad7d4fccee0fececc3f94214a8d89a326a15bcce75839
+SHA1: e3cc1459a39545fafd4fe3d7543409c2f1213614
+MD5sum: 8b068f47b172c3553deb06d6581c0833
 Description: Kodi Media Center (Kodi-send event client package)
  Kodi, formerly known as XBMC Media Center, is an award winning free and open
  source software media-player and entertainment hub for all your digital media.
@@ -1121,19 +1121,19 @@ Maintainer:  <>
 Provides: kodi-eventclients-kodi-send
 Replaces: kodi-eventclients-xbmc-send
 Source: kodi
-Version: 2:18.4~git20191002.1852-sigmaris-1~buster
+Version: 2:18.5~git20200104.1246-sigmaris-15~buster
 Installed-Size: 167
 
 Package: kodi-eventclients-ps3
 Architecture: all
-Depends: kodi-eventclients-common (= 2:18.4~git20191002.1852-sigmaris-1~buster), python-bluez | python-lightblue
+Depends: kodi-eventclients-common (= 2:18.5~git20200104.1246-sigmaris-15~buster), python-bluez | python-lightblue
 Priority: optional
 Section: video
-Filename: pool/main/k/kodi/kodi-eventclients-ps3_18.4~git20191002.1852-sigmaris-1~buster_all.deb
-Size: 32270
-SHA256: 45b198f2bc7a81785d3ab97d79ad38b8f376d16a09b23f205482d63d20f18735
-SHA1: 2907c26d53c1a916a6d61cdc15345b540a423b86
-MD5sum: 6d9eda047b04abaa36b9e8799d997507
+Filename: pool/main/k/kodi/kodi-eventclients-ps3_18.5~git20200104.1246-sigmaris-15~buster_all.deb
+Size: 31900
+SHA256: 235abc1589b27521104fc53c2a1ea956629b05507f15d12686f1a6f49c131da6
+SHA1: 699e56cc9021e6ee2aff2e32a16fcef184a67e25
+MD5sum: a738b064414c4c761965345e78ab6647
 Description: Kodi Media Center (PS3 event client package)
  Kodi, formerly known as XBMC Media Center, is an award winning free and open
  source software media-player and entertainment hub for all your digital media.
@@ -1156,19 +1156,19 @@ Homepage: http://kodi.tv
 Maintainer:  <>
 Provides: xbmc-eventclients-ps3
 Source: kodi
-Version: 2:18.4~git20191002.1852-sigmaris-1~buster
+Version: 2:18.5~git20200104.1246-sigmaris-15~buster
 Installed-Size: 170
 
 Package: kodi-eventclients-wiiremote
 Architecture: arm64
-Depends: kodi-eventclients-common (= 2:18.4~git20191002.1852-sigmaris-1~buster), libbluetooth3 (>= 4.91), libc6 (>= 2.17), libcwiid1 (>= 0.6.00+svn184), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
+Depends: kodi-eventclients-common (= 2:18.5~git20200104.1246-sigmaris-15~buster), libbluetooth3 (>= 4.91), libc6 (>= 2.17), libcwiid1 (>= 0.6.00+svn184), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
 Priority: optional
 Section: video
-Filename: pool/main/k/kodi/kodi-eventclients-wiiremote_18.4~git20191002.1852-sigmaris-1~buster_arm64.deb
-Size: 59828
-SHA256: 5f04cb0c93a727bf2a05b6a765ad89fe74f2f020ef1a4694b1a16a4e71ad9fb7
-SHA1: ed909b0fca7cc4cdd4ad832ea233d55ac1d4bb02
-MD5sum: 9b62ee6e833956e20cc0a66a9e6d6872
+Filename: pool/main/k/kodi/kodi-eventclients-wiiremote_18.5~git20200104.1246-sigmaris-15~buster_arm64.deb
+Size: 59512
+SHA256: 3df2289e4bd652e2b322b60b46dcfe76810c0723d15e7012140071f59ad7dcf3
+SHA1: e4995ed6c69f121b37c2f13b6d8dd22948488bca
+MD5sum: 24923909894be368ad10ea2d2607bf84
 Description: Kodi Media Center (Wii Remote event client package)
  Kodi, formerly known as XBMC Media Center, is an award winning free and open
  source software media-player and entertainment hub for all your digital media.
@@ -1191,7 +1191,7 @@ Homepage: http://kodi.tv
 Maintainer:  <>
 Provides: xbmc-eventclients-wiiremote
 Source: kodi
-Version: 2:18.4~git20191002.1852-sigmaris-1~buster
+Version: 2:18.5~git20200104.1246-sigmaris-15~buster
 Installed-Size: 294
 
 Package: kodi-game-libretro
@@ -2505,11 +2505,11 @@ Architecture: arm64
 Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.0), libgif7 (>= 5.1), libjpeg62-turbo (>= 1.3.1), liblzo2-2, libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 5.2), zlib1g (>= 1:1.1.4)
 Priority: optional
 Section: video
-Filename: pool/main/k/kodi/kodi-tools-texturepacker_18.4~git20191002.1852-sigmaris-1~buster_arm64.deb
-Size: 63840
-SHA256: 24e8e5936e7377894367a588e4f1af1ac6953bc3f8d35b3fba8d4c71830789d1
-SHA1: 99d9bae1a98e067579cfa72274d5529bc011d21b
-MD5sum: ac827c3bf6b6e803292992f62c6c8d0a
+Filename: pool/main/k/kodi/kodi-tools-texturepacker_18.5~git20200104.1246-sigmaris-15~buster_arm64.deb
+Size: 63522
+SHA256: 7a28a83a76a221794c4b8f57c262d39f706247766de77b24ced73f66b7fce70b
+SHA1: 0ec772f1ccbaa7c5da3131804849a5d60db7ed15
+MD5sum: 274d8738e2dd2e132b65bc43167134db
 Description: Kodi Media Center (skin development - TexturePacker tool)
  Kodi, formerly known as XBMC Media Center, is an award winning free and open
  source software media-player and entertainment hub for all your digital media.
@@ -2531,7 +2531,7 @@ Description: Kodi Media Center (skin development - TexturePacker tool)
 Homepage: http://kodi.tv
 Maintainer:  <>
 Source: kodi
-Version: 2:18.4~git20191002.1852-sigmaris-1~buster
+Version: 2:18.5~git20200104.1246-sigmaris-15~buster
 Installed-Size: 286
 
 Package: kodi-vfs-libarchive
@@ -4232,26 +4232,26 @@ Build-Ids: 7541ee40bd89f3c7a69308de65e739e3ccb58028
 
 Package: libkodiplatform-dev
 Source: kodiplatform
-Version: 17.1.0-1~buster
+Version: 17.1.0-15~buster
 Architecture: arm64
 Maintainer: Arne Morten Kvarving <arne.morten.kvarving@sintef.no>
 Installed-Size: 24
-Depends: libkodiplatform17 (= 17.1.0-1~buster), libtinyxml-dev, libp8-platform-dev
+Depends: libkodiplatform17 (= 17.1.0-15~buster), libtinyxml-dev, libp8-platform-dev
 Provides: libkodiplatform-dev
 Multi-Arch: same
 Priority: extra
 Section: libdevel
-Filename: pool/main/k/kodiplatform/libkodiplatform-dev_17.1.0-1~buster_arm64.deb
-Size: 3984
-SHA256: 47b30b39c617d3a410e0334359715bbeba8ef75021b99f82d56bfe851f4f2692
-SHA1: e855b5b62574fb3a970a617257074f6c72fb0911
-MD5sum: 9e8b349327f02b7f9b7033df041423c3
+Filename: pool/main/k/kodiplatform/libkodiplatform-dev_17.1.0-15~buster_arm64.deb
+Size: 3988
+SHA256: 0493fb059aea03add09fc49b57c5f9671bd37a9abfacd744651e91f790018fbc
+SHA1: 81b7b8c28bfd653a7fe05cf8643acb0ebe119a41
+MD5sum: a19a7fb5cc2d6a3278ff07a792aa1547
 Description: Kodi platform support library -- development files
  Kodi platform support library
 
 Package: libkodiplatform17
 Source: kodiplatform
-Version: 17.1.0-1~buster
+Version: 17.1.0-15~buster
 Architecture: arm64
 Maintainer: Arne Morten Kvarving <arne.morten.kvarving@sintef.no>
 Installed-Size: 34
@@ -4260,30 +4260,30 @@ Provides: libkodiplatform
 Multi-Arch: same
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodiplatform/libkodiplatform17_17.1.0-1~buster_arm64.deb
-Size: 7356
-SHA256: b84d3bc68deffa5d6ca53e336d3eb0bdcae9968a7604526161fdd0c077ad1354
-SHA1: 6563c88ed319b7c1857902658326c790c57d0aed
-MD5sum: fc43d1f2704ab557fe8b6ad23b29d2ce
+Filename: pool/main/k/kodiplatform/libkodiplatform17_17.1.0-15~buster_arm64.deb
+Size: 7360
+SHA256: 38c3437c6a517fd88e96bb2069b1fe93284c5c03739a513975d0676ad8dda38e
+SHA1: 26a52169c091de48780a109178c9abf8b838c51d
+MD5sum: 7783e316c1c5a5b5d09b411acadaa8c5
 Description: Kodi platform support library
  Kodi platform support library
 
 Package: libkodiplatform17-dbgsym
 Source: kodiplatform
-Version: 17.1.0-1~buster
+Version: 17.1.0-15~buster
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Arne Morten Kvarving <arne.morten.kvarving@sintef.no>
 Installed-Size: 19
-Depends: libkodiplatform17 (= 17.1.0-1~buster)
+Depends: libkodiplatform17 (= 17.1.0-15~buster)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodiplatform/libkodiplatform17-dbgsym_17.1.0-1~buster_arm64.deb
+Filename: pool/main/k/kodiplatform/libkodiplatform17-dbgsym_17.1.0-15~buster_arm64.deb
 Size: 3272
-SHA256: 858752b6084fad0b3bec73e6381d45ab8f45d5049db76b4e0b81efeed4ef9b49
-SHA1: 569bc6ef66cf6951c0194a2d83a7513e7a26ccb2
-MD5sum: 21719d117919dcf679cd9b5e40535d3f
+SHA256: 536afe9302cc65a1fe9cd7f264b199357c5d206829b7649abddcc889923bf146
+SHA1: 585ed775e3be37ee76e8be4c2ebf18b117006093
+MD5sum: b988bb91525aba82059b5aa21f80e3a1
 Description: debug symbols for libkodiplatform17
 Build-Ids: ea63617b3f5d9ea6a0a9372c6fbca8f11a29d1e2
 
