@@ -777,6 +777,54 @@ MD5sum: ca332f34d5272920b36a698409b7576e
 Description: debug symbols for libpostproc55
 Build-Ids: 77eb1412f17ad6564f0c793ba0e454626d644979
 
+Package: libshairplay-dev
+Source: libshairplay-dmo
+Version: 0.9.0+20160101.gitce80e00590-dmo1
+Architecture: arm64
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 210
+Depends: libshairplay0 (= 0.9.0+20160101.gitce80e00590-dmo1)
+Multi-Arch: same
+Homepage: https://github.com/juhovh/shairplay
+Priority: optional
+Section: libdevel
+Filename: pool/main/libs/libshairplay-dmo/libshairplay-dev_0.9.0+20160101.gitce80e00590-dmo1_arm64.deb
+Size: 51060
+SHA256: 18e25e690cb26605caee8735f471098471f088cb6c9f10aa9b1f2741f62ffb1a
+SHA1: e96a68939a1ff50a9086e9d4c52195ebfd144bbc
+MD5sum: 21396bb49572e4793e2f845cb56daca4
+Description: Emulates an AirPort Express server (development files).
+ Free portable AirPlay server implementation similar to ShairPort.
+ .
+ Currently only AirPort Express emulation is supported.
+ .
+ This package installs the files necessary for development.
+
+Package: libshairplay0
+Source: libshairplay-dmo
+Version: 0.9.0+20160101.gitce80e00590-dmo1
+Architecture: arm64
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 112
+Depends: libc6 (>= 2.17)
+Multi-Arch: same
+Homepage: https://github.com/juhovh/shairplay
+Priority: optional
+Section: libs
+Filename: pool/main/libs/libshairplay-dmo/libshairplay0_0.9.0+20160101.gitce80e00590-dmo1_arm64.deb
+Size: 42940
+SHA256: 9d7b23d644c40e7c6e9388e5edce9c5d93a90925287a3b5cecd669105a62449d
+SHA1: 63ec1117b9896ff3f8c81d9b359ec5a6f2c088cd
+MD5sum: fa6b5e05bbe558fb55e2f2c5d9e53ef6
+Description: Emulates an AirPort Express server (shared library).
+ Free portable AirPlay server implementation similar to ShairPort.
+ .
+ Currently only AirPort Express emulation is supported.
+ .
+ This package installs the shared library.
+
 Package: libswresample-dev
 Source: ffmpeg
 Version: 7:4.2.2-2~sigmaris

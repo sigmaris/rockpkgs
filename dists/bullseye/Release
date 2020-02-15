@@ -1,27 +1,27 @@
 Origin: sigmaris.github.io/rockpkgs
 Label: sigmaris.github.io/rockpkgs
 Codename: bullseye
-Date: Sun, 09 Feb 2020 18:00:54 UTC
+Date: Sat, 15 Feb 2020 11:15:27 UTC
 Architectures: arm64
 Components: main
 Description: Packages for Rockchip SBC
 MD5Sum:
- fd2cb843e5bca04186e369001927d5dd 46046 main/binary-arm64/Packages
- 63b43f12622dda37aae23aa609236439 9106 main/binary-arm64/Packages.gz
+ 170814ffe452261e364a258dca5f9141 47844 main/binary-arm64/Packages
+ b0c4270dded4a51d52bea14eaf67f4d9 9588 main/binary-arm64/Packages.gz
  11c6287517cbf1008610f047f2259f1d 146 main/binary-arm64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
  16db6212ae61a24b1a9921bdd7c58c1f 20 main/source/Sources.gz
  297ae971788c1bd21e5084e1efe81343 147 main/source/Release
 SHA1:
- 4408b3630fa3c6d1f9edc6ab031a6063d862ac78 46046 main/binary-arm64/Packages
- 573d0cc876d43e80da4d4fe1d5d50cdc7df88830 9106 main/binary-arm64/Packages.gz
+ 5635b848b0a5eb07bdcfb7a491f0daa952c80e08 47844 main/binary-arm64/Packages
+ 196d6ee2f80e915bc9817de5702f7d3a73d64fe0 9588 main/binary-arm64/Packages.gz
  0ae31c1e533cb0ef3e2224c158c1502a6a2f79c1 146 main/binary-arm64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
  b9693a53bcffe40b2cc2c37045561f848baaa22a 20 main/source/Sources.gz
  c8ba739883a2eaa367d435a81f1d134804c121a3 147 main/source/Release
 SHA256:
- 06531fd132b68f2f17d165c9caf07f004c5cb3369fdcf32281d1cde0a919febd 46046 main/binary-arm64/Packages
- d76cbf5a18ac56b6f711ecae4c9be79a847b5535e588a39939639158d24d7e3b 9106 main/binary-arm64/Packages.gz
+ 4155bb9e45373969f9ac21c785dae29a0347b51142d654e38e5135a5066cd15a 47844 main/binary-arm64/Packages
+ be3c4a1e2c0602975e7f42a420c78ebc5879ebda4733ae55766a9634f8880491 9588 main/binary-arm64/Packages.gz
  d9558fa39916a3053702ee52cc4f15260c3b6edfed5452a99e81d895a4de196a 146 main/binary-arm64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
  abfbb86f9f5ddfbd9fc1a72c43ab384702ce8bae86b60f3324748485e235e61e 20 main/source/Sources.gz
