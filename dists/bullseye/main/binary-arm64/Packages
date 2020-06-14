@@ -1,3 +1,26 @@
+Package: dinothawr
+Version: 1.0+git20200106.2350-21
+Architecture: arm64
+Maintainer: Sérgio Benjamim <sergio_br2@yahoo.com.br>
+Installed-Size: 6583
+Depends: libretro-dinothawr, retroarch
+Suggests: retroarch-joypad-autoconfig
+Homepage: http://www.libretro.com
+Priority: optional
+Section: games
+Filename: pool/main/d/dinothawr/dinothawr_1.0+git20200106.2350-21_arm64.deb
+Size: 5707488
+SHA256: 3008313f01c2bcb407537e417429fb15d90feca663f40c8fa457c31bda194e65
+SHA1: 1ae0a0cab576b9c5736c8f5ac91d1f32315e5246
+MD5sum: bed4abd193c9605acc664dcb2f5ffeb7
+Description: Block pushing puzzle game
+ Dinothawr is a block pushing puzzle game on slippery surfaces. Our hero is a
+ dinosaur whose friends are trapped in ice. Through puzzles it is your task to
+ free the dinos from their ice prison.
+ .
+ This package provides the game data for Dinothawr (i.e. the game itself). It
+ will need a libretro frontend, such as RetroArch.
+
 Package: ffmpeg
 Version: 7:4.2.2-12~sigmaris
 Architecture: arm64
@@ -776,6 +799,3252 @@ SHA1: f18aaa6c4c3219f933c0730a8aab060a8f51c9f2
 MD5sum: 48471f253620c4d5c123fdc031561436
 Description: debug symbols for libpostproc55
 Build-Ids: e107ce1ef153a5f5915a61e61f26bdde7f6ef714
+
+Package: libretro-2048
+Version: 1.0+git20200520.1812-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 43
+Depends: retroarch | libretro-frontend, libc6 (>= 2.17)
+Multi-Arch: same
+Homepage: http://gabrielecirulli.github.io/2048
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-2048/libretro-2048_1.0+git20200520.1812-21_arm64.deb
+Size: 13120
+SHA256: ed8ce1b281f5f0ce434fcead635913fdaa901bfe0a3b2ae98448dcb2218bd959
+SHA1: 63300826ce6192c743b12912a97138e3b0350fd1
+MD5sum: b7b3bdbd8f0b9affe2c21912e65610ec
+Description: Libretro wrapper for 2048.
+ This wrapper makes 2048 API compatible with libretro, thus allowing its use
+ with libretro frontends, such as RetroArch.
+
+Package: libretro-2048-dbgsym
+Source: libretro-2048
+Version: 1.0+git20200520.1812-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 40
+Depends: libretro-2048 (= 1.0+git20200520.1812-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-2048/libretro-2048-dbgsym_1.0+git20200520.1812-21_arm64.deb
+Size: 23808
+SHA256: a5aaeead985e960803ae5a4f34144005740f89abd632d12cf44df0994e45e205
+SHA1: 7b5e2d0fb565ec29e44dc99619dddd86a95c73f8
+MD5sum: 99c7d340c39c6c45aecb368eec415fe6
+Description: debug symbols for libretro-2048
+Build-Ids: e23eca68f8a8968d49ec7205d013e037a3b8663e
+
+Package: libretro-3dengine
+Version: 1+git20191116.0840-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 387
+Depends: retroarch | libretro-frontend, libc6 (>= 2.17), libgcc-s1 (>= 3.0), libgl1, libstdc++6 (>= 5.2)
+Multi-Arch: same
+Homepage: http://www.libretro.com
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-3dengine/libretro-3dengine_1+git20191116.0840-21_arm64.deb
+Size: 131272
+SHA256: 99c565fe754e6ba354d25d000988f368d89bc3920d5924a9dd1d47610dbc51d4
+SHA1: bb10957ce6d87b1069dafbb6b830f1110a64b319
+MD5sum: ad416d120ff574d0e8fff4f780335040
+Description: Libretro 3D Engine
+ 3D Engine for libretro GL with additional features (camera/location/etc).
+ Should be compatible from libretro 2.0/GLES 2.0 and up.
+
+Package: libretro-3dengine-dbgsym
+Source: libretro-3dengine
+Version: 1+git20191116.0840-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 1242
+Depends: libretro-3dengine (= 1+git20191116.0840-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-3dengine/libretro-3dengine-dbgsym_1+git20191116.0840-21_arm64.deb
+Size: 1164460
+SHA256: c0aaf802f530640df4e4ac5349feb5978b7bdc1b63724847144a0c09c4cfe374
+SHA1: b2bf6714d244024b58481cafd4e5bec926434afa
+MD5sum: 2f904bd11ffdf0d5a6b2dd61bee635a4
+Description: debug symbols for libretro-3dengine
+Build-Ids: e3140c366477c4853e7c8b334ef1af06d7f48fc0
+
+Package: libretro-4do
+Version: 1.3.2.4++git20200605.1628-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 465
+Depends: retroarch | libretro-frontend, libc6 (>= 2.29)
+Multi-Arch: same
+Homepage: http://www.fourdo.com
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-4do/libretro-4do_1.3.2.4++git20200605.1628-21_arm64.deb
+Size: 180828
+SHA256: 5827750986de5ef45d6064f3094b5bac6ad04a55bc7407a3c7f69679484d9822
+SHA1: 13c8cb9cd7bc1862c0483370b71a2d0f06417a32
+MD5sum: 15089c2b4b6a9bc364f16215aa9b78aa
+Description: Libretro wrapper for 4DO/libfreedo
+ This wrapper makes 4DO/libfreedo API compatible with libretro, thus allowing
+ its use with libretro frontends, such as RetroArch.
+ .
+ 4DO is an open-source, low-level emulator based on the FreeDO source code that
+ emulates the 3DO Interactive Multiplayer.
+
+Package: libretro-4do-dbgsym
+Source: libretro-4do
+Version: 1.3.2.4++git20200605.1628-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 619
+Depends: libretro-4do (= 1.3.2.4++git20200605.1628-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-4do/libretro-4do-dbgsym_1.3.2.4++git20200605.1628-21_arm64.deb
+Size: 558424
+SHA256: 7a0834dfc1532e586b8acf3b1cedbc7b33e7b4089df6c5415f41227b06b0753b
+SHA1: 0c0743aee30bb25ff610a17368661a5733f87c77
+MD5sum: 831b08663bda56cd6c92a38616360d70
+Description: debug symbols for libretro-4do
+Build-Ids: ff8e13aa4d1c4ffb7735cb6b7f42549fbfcd6d04
+
+Package: libretro-atari800
+Version: 3.1.0+git20200429.1923-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 592
+Depends: retroarch | libretro-frontend, libc6 (>= 2.29), zlib1g (>= 1:1.1.4)
+Multi-Arch: same
+Homepage: https://atari800.github.io/
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-atari800/libretro-atari800_3.1.0+git20200429.1923-21_arm64.deb
+Size: 196036
+SHA256: 9f7dd9fc4ffce842e397ff09471cce1007b60d2391d5c01d00ff1e7c70fc1916
+SHA1: f0ca553f89bd83294fe7208299c62bedfd7611b9
+MD5sum: 1ce0e6bbac76eeec77572f5bbb115c73
+Description: Libretro wrapper for the Atari800
+ This wrapper makes Atari800 core API compatible with libretro, thus
+ allowing its use with libretro frontends, such as RetroArch.
+ .
+ Atari800 is an Atari 8-bit and Atari 5200 emulator.
+
+Package: libretro-atari800-dbgsym
+Source: libretro-atari800
+Version: 3.1.0+git20200429.1923-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 552
+Depends: libretro-atari800 (= 3.1.0+git20200429.1923-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-atari800/libretro-atari800-dbgsym_3.1.0+git20200429.1923-21_arm64.deb
+Size: 481644
+SHA256: c568afc70e561ea508104a3541f25f16f1a6849de0ef1d63e3659c41c403622e
+SHA1: 344a450afdb49d910d5cd08a36154d5507f78dbb
+MD5sum: 4c0295cdd1290d08f86f0383bfdd7516
+Description: debug symbols for libretro-atari800
+Build-Ids: 738aab366ee6a890a4db506cca1164caa74431a8
+
+Package: libretro-beetle-bsnes
+Version: 0.9.26+git20200518.1355-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 935
+Depends: retroarch | libretro-frontend, libc6 (>= 2.29), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Multi-Arch: same
+Homepage: https://github.com/libretro/beetle-bsnes-libretro
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-beetle-bsnes/libretro-beetle-bsnes_0.9.26+git20200518.1355-21_arm64.deb
+Size: 220152
+SHA256: e6fae48adae2e2336029d1e0153ad742896b59d17cfe265429724f5f5fcd7681
+SHA1: 52db8e71c0f06206e512ebae903bbd1f0624d7c2
+MD5sum: 20a300a4afa0adec80e9645c5e67aff6
+Description: Libretro wrapper for the Beetle SNES core
+ This wrapper makes Beetle SNES core API compatible with libretro, thus
+ allowing its use with libretro frontends, such as RetroArch.
+ .
+ Beetle is a fork of Mednafen for libretro. This core emulates the Super
+ Nintendo Entertainment System / Super Famicom hardware.
+ .
+ The Mednafen SNES core is itself a fork of bsnes v059.
+ .
+ Super Nintendo Entertainment System and Super Famicom are trademarks of
+ Nintendo Co., Limited and its subsidiary companies. Beetle and Mednafen
+ are not affiliated with or endorsed by any of the companies mentioned.
+
+Package: libretro-beetle-bsnes-dbgsym
+Source: libretro-beetle-bsnes
+Version: 0.9.26+git20200518.1355-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 2147
+Depends: libretro-beetle-bsnes (= 0.9.26+git20200518.1355-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-beetle-bsnes/libretro-beetle-bsnes-dbgsym_0.9.26+git20200518.1355-21_arm64.deb
+Size: 1952672
+SHA256: 1ffaaee4a4a4bffca3ba3847d5bf861eec8aabf56bcafa1f846f1b2aaec67ee5
+SHA1: 8b8880892334543a5ccc964b906222408446eb96
+MD5sum: 2cddf6a17a80d4d8921722bbed0304dd
+Description: debug symbols for libretro-beetle-bsnes
+Build-Ids: 1da8168186ebc960be67c5c7c9835c83ae3c88b2
+
+Package: libretro-beetle-gba
+Version: 0.9.36+git20200518.1413-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 638
+Depends: retroarch | libretro-frontend, libc6 (>= 2.29), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Multi-Arch: same
+Homepage: https://github.com/libretro/beetle-gba-libretro
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-beetle-gba/libretro-beetle-gba_0.9.36+git20200518.1413-21_arm64.deb
+Size: 146496
+SHA256: c6f171c1e69fb8fbe5cc589456ad1e3e1be13e8a0c2b90f8399dac39bee63496
+SHA1: 420c09b3ecc73746102cd96808f5a7a2ae40f408
+MD5sum: 1cec5023118918d887003f9f5483f2f8
+Description: Libretro wrapper for the Beetle GBA core
+ This wrapper makes Beetle GBA core API compatible with libretro, thus allowing
+ its use with libretro frontends, such as RetroArch.
+ .
+ Beetle is a fork of Mednafen for libretro. This core emulates the Nintendo
+ handheld Game Boy Advance hardware.
+ .
+ The Mednafen GBA core is itself a fork of VisualBoyAdvance emulator.
+ .
+ Game Boy Advance is a trademark of Nintendo Co., Ltd.
+
+Package: libretro-beetle-gba-dbgsym
+Source: libretro-beetle-gba
+Version: 0.9.36+git20200518.1413-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 821
+Depends: libretro-beetle-gba (= 0.9.36+git20200518.1413-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-beetle-gba/libretro-beetle-gba-dbgsym_0.9.36+git20200518.1413-21_arm64.deb
+Size: 786844
+SHA256: 02d2707735ab1951eabd7d9eef735fb0a34263ceef161e454e2e3e8ba7513b93
+SHA1: fc204d23995916e1044a0be26fb30ad9706c284f
+MD5sum: 92e449162ba1b5f27dc02652e69f5253
+Description: debug symbols for libretro-beetle-gba
+Build-Ids: 1456a8a152c6d1d80acfcc40fd02867b2e0beda2
+
+Package: libretro-beetle-lynx
+Version: 1.24.0+git20200518.1407-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 211
+Depends: retroarch | libretro-frontend, libc6 (>= 2.17), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Multi-Arch: same
+Homepage: https://github.com/libretro/beetle-lynx-libretro
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-beetle-lynx/libretro-beetle-lynx_1.24.0+git20200518.1407-21_arm64.deb
+Size: 81228
+SHA256: d76abcfd6c28fa91dfb60ca00682680e15ca45c9e0389d46eb812cbab46075f4
+SHA1: e714a9dc23943e36303216b7870e640d818f4fd4
+MD5sum: a326d020b37a00b0b9ccbfe3332b1159
+Description: Libretro wrapper for the Beetle LYNX core
+ This wrapper makes Beetle LYNX core API compatible with libretro, thus allowing
+ its use with libretro frontends, such as RetroArch.
+ .
+ Beetle is a fork of Mednafen for libretro. This core emulates the Atari
+ handheld Lynx hardware.
+ .
+ The Mednafen Lynx core is itself a fork of Handy.
+
+Package: libretro-beetle-lynx-dbgsym
+Source: libretro-beetle-lynx
+Version: 1.24.0+git20200518.1407-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 458
+Depends: libretro-beetle-lynx (= 1.24.0+git20200518.1407-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-beetle-lynx/libretro-beetle-lynx-dbgsym_1.24.0+git20200518.1407-21_arm64.deb
+Size: 427624
+SHA256: 610fe0d5bdb4678bd3cae3b77cda866a62a0064f4a308419b8597dd847cd4c60
+SHA1: ccb225ffaddde39d9049d6b4fdf65da55cc66a37
+MD5sum: fde39270d924085c644d6ac9c4759690
+Description: debug symbols for libretro-beetle-lynx
+Build-Ids: 22914dfd3106abd44981bad48807ee6bea21a6f1
+
+Package: libretro-beetle-ngp
+Version: 0.9.36.1+git20200518.1344-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 389
+Depends: retroarch | libretro-frontend, libc6 (>= 2.17), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Multi-Arch: same
+Homepage: https://github.com/libretro/beetle-ngp-libretro
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-beetle-ngp/libretro-beetle-ngp_0.9.36.1+git20200518.1344-21_arm64.deb
+Size: 77680
+SHA256: 3ee9df2d3f8b4f669a4ee49504299ea7af30cf3fd264bf54582a15fae0260fbe
+SHA1: 8dae6cfea50d16622dad2de6dd239029ed7321c6
+MD5sum: 15c3eb8b9a3b84a51323f9eb14f20ad7
+Description: Libretro wrapper for the Beetle NGP core
+ This wrapper makes Beetle NGP core API compatible with libretro, thus allowing
+ its use with libretro frontends, such as RetroArch.
+ .
+ Beetle is a fork of Mednafen for libretro. This core emulates the SNK handheld
+ Neo Geo Pocket hardware.
+ .
+ The Mednafen NGP core is itself a fork of NeoPop.
+ .
+ Neo Geo Pocket is (C) by SNK, NeoPop is (C) by neopop_uk. All rights reserved.
+
+Package: libretro-beetle-ngp-dbgsym
+Source: libretro-beetle-ngp
+Version: 0.9.36.1+git20200518.1344-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 451
+Depends: libretro-beetle-ngp (= 0.9.36.1+git20200518.1344-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-beetle-ngp/libretro-beetle-ngp-dbgsym_0.9.36.1+git20200518.1344-21_arm64.deb
+Size: 417904
+SHA256: 2ac0b2504812a1e501ff6154a0b495f6a394b9e0a1b3af7d5529168e61dc2643
+SHA1: 48956f3eccbfc29e0d8fb61491ef15561fba09f4
+MD5sum: 02d913a78316c3434839d1e0088fd9b5
+Description: debug symbols for libretro-beetle-ngp
+Build-Ids: f3b6c68e8378784253c03197974a93a2a61d9ee2
+
+Package: libretro-beetle-pce-fast
+Version: 0.9.38.7+git20200605.1420-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 830
+Depends: retroarch | libretro-frontend, libc6 (>= 2.29), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Multi-Arch: same
+Homepage: https://github.com/libretro/beetle-pce-fast-libretro
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-beetle-pce-fast/libretro-beetle-pce-fast_0.9.38.7+git20200605.1420-21_arm64.deb
+Size: 366228
+SHA256: 2a638a84c75da78df6e0113eb38e1b10850d6a5cc75577aa3574cbf14cf39267
+SHA1: 6aec6189914e6782b1607e3809251b4e8bc66beb
+MD5sum: ec3771fdffedb5bc3e409f442ce71ecc
+Description: Libretro wrapper for the Beetle PCE FAST core
+ This wrapper makes Beetle PCE FAST core API compatible with libretro, thus
+ allowing its use with libretro frontends, such as RetroArch.
+ .
+ This core emulates the TurboGrafx-16 Entertainment SuperSystem, originally
+ known in Japan as the PC Engine. It also emulates the TurboGrafx-CD (CD-ROM²).
+ .
+ Beetle PCE FAST is based in the Mednafen "pce_fast" module, so it has some
+ tricks to speed up the hardware emulation, but with some loss in accuracy.
+
+Package: libretro-beetle-pce-fast-dbgsym
+Source: libretro-beetle-pce-fast
+Version: 0.9.38.7+git20200605.1420-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 1575
+Depends: libretro-beetle-pce-fast (= 0.9.38.7+git20200605.1420-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-beetle-pce-fast/libretro-beetle-pce-fast-dbgsym_0.9.38.7+git20200605.1420-21_arm64.deb
+Size: 1499140
+SHA256: b96170b7e1046a4f76d4525c65b6ad67b3fae9b67d7d755f5468c6cb1038d9cf
+SHA1: b0791420b2bc068429e5ddf25e47f96510ca4db3
+MD5sum: 9758773809a8589f0a7b8b3ec03bc4bd
+Description: debug symbols for libretro-beetle-pce-fast
+Build-Ids: 56b135fcbd97fb9a1ef52a25219c75252b9c3433
+
+Package: libretro-beetle-pcfx
+Version: 0.9.33.3+git20200520.0225-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 900
+Depends: retroarch | libretro-frontend, libc6 (>= 2.29), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Multi-Arch: same
+Homepage: https://github.com/libretro/beetle-pcfx-libretro
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-beetle-pcfx/libretro-beetle-pcfx_0.9.33.3+git20200520.0225-21_arm64.deb
+Size: 309476
+SHA256: 1a08788fdc0e8c0975e08dd37d41375d37e194a8bd4f4aa8d9d8cf2175745eb5
+SHA1: 229bf3a1cd209378354c06e64ccb704ea9168d8b
+MD5sum: 330a0fc71f35f296220c2d986ce16588
+Description: Libretro wrapper for the Beetle PCFX core
+ This wrapper makes Beetle PCFX core API compatible with libretro, thus
+ allowing its use with libretro frontends, such as RetroArch.
+ .
+ This core emulates the PC-FX, the 32-bit video game console made by NEC.
+ .
+ Beetle is a fork of Mednafen for libretro. This core emulates the PC-FX
+ hardware.
+
+Package: libretro-beetle-pcfx-dbgsym
+Source: libretro-beetle-pcfx
+Version: 0.9.33.3+git20200520.0225-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 1799
+Depends: libretro-beetle-pcfx (= 0.9.33.3+git20200520.0225-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-beetle-pcfx/libretro-beetle-pcfx-dbgsym_0.9.33.3+git20200520.0225-21_arm64.deb
+Size: 1711840
+SHA256: 686507dc4a7e09d6c3272e730e6a12ba879a51e880180300b1f7cca16632f358
+SHA1: 4f4868d01e1c105a5817efcdd05bb4c46a69c092
+MD5sum: 3f88c33d16ec29b0c2753425ff11ae22
+Description: debug symbols for libretro-beetle-pcfx
+Build-Ids: dfc7040d3e5dc085e4d96cded21b58e18065c4c4
+
+Package: libretro-beetle-psx
+Version: 0.9.44.1+git20200610.1408-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 11661
+Depends: retroarch | libretro-frontend, libc6 (>= 2.29), libgcc-s1 (>= 3.0), libgl1, libstdc++6 (>= 9)
+Breaks: libretro-mednafen-psx (<< 0.9.39.2+r1259~)
+Replaces: libretro-mednafen-psx (<< 0.9.39.2+r1259~)
+Multi-Arch: same
+Homepage: https://github.com/libretro/beetle-psx-libretro
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-beetle-psx/libretro-beetle-psx_0.9.44.1+git20200610.1408-21_arm64.deb
+Size: 1268148
+SHA256: b81682b6cd1e739f874202abb7122801b823dd217f11d77d41ec32279d8972ca
+SHA1: 279237eb7e4a479ce6296e72aa039e797a53d461
+MD5sum: f5b68c75052c88013a988a75b2528a13
+Description: Libretro wrapper for the Beetle PSX core
+ This wrapper makes Beetle PSX core API compatible with libretro, thus
+ allowing its use with libretro frontends, such as RetroArch.
+ .
+ Beetle is a fork of Mednafen for libretro. This core emulates the PlayStation
+ console.
+ .
+ It also provides the new Mednafen/Beetle PSX HW core, which includes an OpenGL
+ renderer backend.
+ .
+ PlayStation is a registered trademark of Sony Computer Entertainment Inc.
+ Mednafen/Beetle PSX is not affiliated with or endorsed by any of the companies
+ mentioned. The emulator is for educational and development purposes only and it
+ may not be used to play games you do not legally own.
+
+Package: libretro-beetle-psx-dbgsym
+Source: libretro-beetle-psx
+Version: 0.9.44.1+git20200610.1408-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 21544
+Depends: libretro-beetle-psx (= 0.9.44.1+git20200610.1408-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-beetle-psx/libretro-beetle-psx-dbgsym_0.9.44.1+git20200610.1408-21_arm64.deb
+Size: 20572924
+SHA256: 6627304462ad380e9bed3b1df14fe3637296144c9989f685249efcf89be859d8
+SHA1: 43ef63cf0e1f05d9f7a743e415aa60e1af7204a6
+MD5sum: d7676437462099cbee65bcb944b51b50
+Description: debug symbols for libretro-beetle-psx
+Build-Ids: 433ac34ab025c5b8edaff3697a2a221bc2ccb911 dca352784b629c8d8728efed7a7c271936376913
+
+Package: libretro-beetle-saturn
+Version: 0.9.45.1+git20200526.1946-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 7639
+Depends: retroarch | libretro-frontend, libc6 (>= 2.29), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Multi-Arch: same
+Homepage: https://github.com/libretro/beetle-saturn-libretro
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-beetle-saturn/libretro-beetle-saturn_0.9.45.1+git20200526.1946-21_arm64.deb
+Size: 1047160
+SHA256: cb30139d798f1496e64f3a116c263e4be7d3c8e64e9531139030103292172386
+SHA1: 42508ff776f34ca9366f9e850042bcbc19a30bf5
+MD5sum: 9d03a4016d90bbae08dd109a20a652a2
+Description: Libretro wrapper for the Beetle SATURN core
+ This wrapper makes Beetle SATURN core API compatible with libretro, thus
+ allowing its use with libretro frontends, such as RetroArch.
+ .
+ Beetle is a fork of Mednafen for libretro. This core emulates the Sega Saturn
+ console.
+ .
+ Sega Saturn is a registered trademark of Sega Games Co., Ltd. Mednafen/Beetle
+ SATURN is not affiliated with or endorsed by any of the companies mentioned.
+ The emulator is for educational and development purposes only and it may not
+ be used to play games you do not legally own.
+
+Package: libretro-beetle-saturn-dbgsym
+Source: libretro-beetle-saturn
+Version: 0.9.45.1+git20200526.1946-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 10922
+Depends: libretro-beetle-saturn (= 0.9.45.1+git20200526.1946-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-beetle-saturn/libretro-beetle-saturn-dbgsym_0.9.45.1+git20200526.1946-21_arm64.deb
+Size: 9945468
+SHA256: a799cd8d9e64cb29d30d2843715ca00c949a2bdfbea4c6c925ad400c4119b19b
+SHA1: 0f7f392d81eb1d78a81740a787265e300aa81bd9
+MD5sum: c00960fef0a8f31f2a55c1caaaa3f07d
+Description: debug symbols for libretro-beetle-saturn
+Build-Ids: 66f3b51fc99ab83fef131e579ee4c2983d0971d1
+
+Package: libretro-beetle-sgx
+Version: 1.23.0+git20200605.1419-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 899
+Depends: retroarch | libretro-frontend, libc6 (>= 2.29), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Replaces: libretro-beetle-supergrafx
+Multi-Arch: same
+Homepage: https://github.com/libretro/beetle-supergrafx-libretro
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-beetle-sgx/libretro-beetle-sgx_1.23.0+git20200605.1419-21_arm64.deb
+Size: 372324
+SHA256: e1fd866dd811928bfb83b6a0c1106147ff1fd0ee9335614a5e1abd4b582bbbc0
+SHA1: f6bdcaebf2c9b40254c94f455d90a648fa135e2c
+MD5sum: 65df6b097c1155752e3230fc464866c8
+Description: Libretro wrapper for the Beetle SGX core
+ This wrapper makes Beetle SGX core API compatible with libretro, thus allowing
+ its use with libretro frontends, such as RetroArch.
+ .
+ Beetle is a fork of Mednafen for libretro. This core emulates TurboGrafx-16 /
+ PC Engine and as well as its successor, PC Engine SuperGrafx.
+
+Package: libretro-beetle-sgx-dbgsym
+Source: libretro-beetle-sgx
+Version: 1.23.0+git20200605.1419-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 1693
+Depends: libretro-beetle-sgx (= 1.23.0+git20200605.1419-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-beetle-sgx/libretro-beetle-sgx-dbgsym_1.23.0+git20200605.1419-21_arm64.deb
+Size: 1622716
+SHA256: 2c1268bd2e55c4f76bcf8f84ad672a32fd336ddcad47bb962b2ca63809742eae
+SHA1: 78814e2b94f64c9265c831359ffb092169fe0eb1
+MD5sum: 83846a1ba77ad20a7cfa3b8fa9300424
+Description: debug symbols for libretro-beetle-sgx
+Build-Ids: a906827eb0d353317692df8ec635c17d60fc5352
+
+Package: libretro-beetle-vb
+Version: 0.9.36.1+git20200518.1343-21
+Architecture: arm64
+Maintainer: Sérgio Benjamim <sergio_br2@yahoo.com.br>
+Installed-Size: 217
+Depends: retroarch | libretro-frontend, libc6 (>= 2.29), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
+Multi-Arch: same
+Homepage: https://github.com/libretro/beetle-vb-libretro
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-beetle-vb/libretro-beetle-vb_0.9.36.1+git20200518.1343-21_arm64.deb
+Size: 76644
+SHA256: b474e6808f10a64db53f2dc0cb6bf74338ea19aea08fb8a8e00c0e375862bd77
+SHA1: 2980814e6363aa7e19496d2805971512c93352db
+MD5sum: 8daae2477643c72d0c459ee7882b4149
+Description: Libretro wrapper for the Beetle VB core
+ This wrapper makes Beetle VB core API compatible with libretro, thus allowing
+ its use with libretro frontends, such as RetroArch.
+ .
+ Beetle is a fork of Mednafen for libretro. This core emulates the Nintendo
+ Virtual Boy hardware.
+
+Package: libretro-beetle-vb-dbgsym
+Source: libretro-beetle-vb
+Version: 0.9.36.1+git20200518.1343-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Sérgio Benjamim <sergio_br2@yahoo.com.br>
+Installed-Size: 347
+Depends: libretro-beetle-vb (= 0.9.36.1+git20200518.1343-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-beetle-vb/libretro-beetle-vb-dbgsym_0.9.36.1+git20200518.1343-21_arm64.deb
+Size: 323844
+SHA256: d1816bb602cbe704f0c4eb2cb28cafca7d64c0668dce11215a1546e07741885d
+SHA1: f645af6b6c0479a06af0072d724a7f0a8e630cde
+MD5sum: 5944a2088b0408192275a9fd4b8e3f9f
+Description: debug symbols for libretro-beetle-vb
+Build-Ids: 4402166aa1e173d1fca0c7fbb8e6cade600c2f52
+
+Package: libretro-beetle-wswan
+Version: 0.9.35.1+git20200518.1346-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 189
+Depends: retroarch | libretro-frontend, libc6 (>= 2.17), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
+Multi-Arch: same
+Homepage: https://github.com/libretro/beetle-wswan-libretro
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-beetle-wswan/libretro-beetle-wswan_0.9.35.1+git20200518.1346-21_arm64.deb
+Size: 74224
+SHA256: d5a95f6dfe4ca033adf6a1fd0a1f53d6de63019b1ff8a699172c5bbcbfa53c7d
+SHA1: 56306afa0e2d6ca60e52b131161b59d8a20cbdf9
+MD5sum: a6003adeee1e26cd2a8e48e8a2b4ff78
+Description: Libretro wrapper for the Beetle WSWAN core
+ This wrapper makes Beetle WSWAN core API compatible with libretro, thus
+ allowing its use with libretro frontends, such as RetroArch.
+ .
+ Beetle is a fork of Mednafen for libretro. This core emulates the Bandai
+ handheld WonderSwan hardware.
+ .
+ The Mednafen WSWAN core is itself a fork of Cygne.
+ .
+ WonderSwan is (C) by Bandai, Cygne is (C) by Dox. All rights reserved.
+
+Package: libretro-beetle-wswan-dbgsym
+Source: libretro-beetle-wswan
+Version: 0.9.35.1+git20200518.1346-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 204
+Depends: libretro-beetle-wswan (= 0.9.35.1+git20200518.1346-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-beetle-wswan/libretro-beetle-wswan-dbgsym_0.9.35.1+git20200518.1346-21_arm64.deb
+Size: 179460
+SHA256: bc231a1c104c230ccb2357893a0faa8bbd6f517019986cc9ec076420110ce09b
+SHA1: 0451ca29e81612f7909618cfff334c8a583e7391
+MD5sum: f74e571ffa01e7d5fd32c631547fd9c8
+Description: debug symbols for libretro-beetle-wswan
+Build-Ids: 5bfe84893164a62e192099be7ba7e75f0f3cf65e
+
+Package: libretro-bluemsx
+Version: 0.0.1+git20200507.1741-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 1772
+Depends: retroarch | libretro-frontend, libc6 (>= 2.29), libstdc++6 (>= 5.2)
+Multi-Arch: same
+Homepage: http://www.bluemsx.com
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-bluemsx/libretro-bluemsx_0.0.1+git20200507.1741-21_arm64.deb
+Size: 679772
+SHA256: c52dba6e04eab2c2631133682fe1abc87a1e49067fd5bcd327a7b4e47309589e
+SHA1: 6280d4202bdc65c619cc3a1c6938ac98098d8dab
+MD5sum: eaedc1ac4f93996cc38bc0c6f10a5e69
+Description: Libretro wrapper for the blueMSX
+ This wrapper makes blueMSX API compatible with libretro, thus allowing its
+ use with libretro frontends, such as RetroArch.
+ .
+ blueMSX is a portable open source MSX MSX2, MSX2+ emulator that uses an
+ emulation model to achieve the highest level of accuracy possible. It
+ also supports SG-1000, SC-3000, SF-7000, ColecoVision, SVI318/328, and
+ turboR emulation.
+
+Package: libretro-bluemsx-dbgsym
+Source: libretro-bluemsx
+Version: 0.0.1+git20200507.1741-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 1882
+Depends: libretro-bluemsx (= 0.0.1+git20200507.1741-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-bluemsx/libretro-bluemsx-dbgsym_0.0.1+git20200507.1741-21_arm64.deb
+Size: 1673884
+SHA256: df6d690bc23f4ca4a506981acdd3d6c3071eb7bce0111bb915a5ecd17d852cdd
+SHA1: 49a1aac3981d3fd2cf55bef7cdd2a2dd793d6e51
+MD5sum: 88a7a8311769848d27fa930989acc9f2
+Description: debug symbols for libretro-bluemsx
+Build-Ids: ed8ba8972295375894832d3d8123afa2d4fcc165
+
+Package: libretro-bsnes-mercury-accuracy
+Source: libretro-bsnes-mercury
+Version: 094+git20190817.1252-21
+Architecture: arm64
+Maintainer: Sérgio Benjamim <sergio_br2@yahoo.com.br>
+Installed-Size: 1732
+Depends: retroarch | libretro-frontend, libc6 (>= 2.17), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Multi-Arch: same
+Homepage: https://github.com/libretro/bsnes-mercury
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-bsnes-mercury/libretro-bsnes-mercury-accuracy_094+git20190817.1252-21_arm64.deb
+Size: 421812
+SHA256: cb720e71edde83c02ba231b61c996e4dea35eded333e74d67cfa94353e5a08e5
+SHA1: 03d05c0bc6bc89f3d5d579fc2a669f9f0a3130c1
+MD5sum: da147661410a201a08bb73c9dd5551b4
+Description: Libretro wrapper for bsnes-mercury accuracy core
+ This wrapper makes bsnes-mercury accuracy core API compatible with libretro,
+ thus allowing its use with libretro frontends, such as RetroArch.
+ .
+ This core is enabled to emulate only SNES hardware and its subsystems (from
+ the command line only), like Super Game Boy, Satellaview and Sufami Turbo.
+ .
+ bsnes-mercury is a fork of higan, aiming to restore some useful features that
+ have been removed, as well as improving performance a bit. Maximum accuracy is
+ still uncompromisable; anything that affects accuracy is optional and off by
+ default. The name is because metals are shiny, like the accuracy promises of
+ bsnes, and mercury is the fastest metal.
+ .
+ This package comes with the bsnes-mercury accuracy core, which runs 100% of
+ SNES games, with perfect emulation of the console. It requires high CPU usage.
+
+Package: libretro-bsnes-mercury-accuracy-dbgsym
+Source: libretro-bsnes-mercury
+Version: 094+git20190817.1252-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Sérgio Benjamim <sergio_br2@yahoo.com.br>
+Installed-Size: 5865
+Depends: libretro-bsnes-mercury-accuracy (= 094+git20190817.1252-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-bsnes-mercury/libretro-bsnes-mercury-accuracy-dbgsym_094+git20190817.1252-21_arm64.deb
+Size: 5577340
+SHA256: 9ab65428cf39901f68efcfaed4240ffd3345f86665888898dae1f9d2ec20634f
+SHA1: 56338efe4e3dd8d743cfc06e17478a8436ca164f
+MD5sum: 28dd5e3e5d800d8bfc49818aff4d6bce
+Description: debug symbols for libretro-bsnes-mercury-accuracy
+Build-Ids: 0c33e0b2972134d79eac176e667107941da03b79
+
+Package: libretro-bsnes-mercury-balanced
+Source: libretro-bsnes-mercury
+Version: 094+git20190817.1252-21
+Architecture: arm64
+Maintainer: Sérgio Benjamim <sergio_br2@yahoo.com.br>
+Installed-Size: 1704
+Depends: retroarch | libretro-frontend, libc6 (>= 2.17), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Multi-Arch: same
+Homepage: https://github.com/libretro/bsnes-mercury
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-bsnes-mercury/libretro-bsnes-mercury-balanced_094+git20190817.1252-21_arm64.deb
+Size: 423452
+SHA256: e77d94f5a33c692eff8be8090e60adbb5451d14b77fa7bcbf328414d6eb27284
+SHA1: d43317fba3126aad16ff3725d50a78c83a484049
+MD5sum: e925435222df7b1265a34e11e5a38be3
+Description: Libretro wrapper for bsnes-mercury balanced core
+ This wrapper makes bsnes-mercury balanced core API compatible with libretro,
+ thus allowing its use with libretro frontends, such as RetroArch.
+ .
+ This core is enabled to emulate only SNES hardware and its subsystems (from
+ the command line only), like Super Game Boy, Satellaview and Sufami Turbo.
+ .
+ bsnes-mercury is a fork of higan, aiming to restore some useful features that
+ have been removed, as well as improving performance a bit. Maximum accuracy is
+ still uncompromisable; anything that affects accuracy is optional and off by
+ default. The name is because metals are shiny, like the accuracy promises of
+ bsnes, and mercury is the fastest metal.
+ .
+ This package comes with the bsnes-mercury balanced core, which tries to keep
+ a good balance between accuracy and performance. It runs almost all SNES games.
+
+Package: libretro-bsnes-mercury-balanced-dbgsym
+Source: libretro-bsnes-mercury
+Version: 094+git20190817.1252-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Sérgio Benjamim <sergio_br2@yahoo.com.br>
+Installed-Size: 5771
+Depends: libretro-bsnes-mercury-balanced (= 094+git20190817.1252-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-bsnes-mercury/libretro-bsnes-mercury-balanced-dbgsym_094+git20190817.1252-21_arm64.deb
+Size: 5483852
+SHA256: b953541d0a2b7b62708e059f1adb64d635f78ccfd5edbe3a7e9f9af5e95ac67c
+SHA1: 464d4b0c6a72a64154b3c5e45e969e7fa2239cc6
+MD5sum: fd87a626a58f467dcc0afb566fe7c518
+Description: debug symbols for libretro-bsnes-mercury-balanced
+Build-Ids: f7f4c3757601fcfdfc00b2d4c29c6c5174f86caf
+
+Package: libretro-bsnes-mercury-performance
+Source: libretro-bsnes-mercury
+Version: 094+git20190817.1252-21
+Architecture: arm64
+Maintainer: Sérgio Benjamim <sergio_br2@yahoo.com.br>
+Installed-Size: 1736
+Depends: retroarch | libretro-frontend, libc6 (>= 2.17), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Multi-Arch: same
+Homepage: https://github.com/libretro/bsnes-mercury
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-bsnes-mercury/libretro-bsnes-mercury-performance_094+git20190817.1252-21_arm64.deb
+Size: 424680
+SHA256: a288439bbc7a6add1153e2e74049fad4fd827e7001e3f8583443c13d28d9d3ac
+SHA1: 1dea4ec62c1f4ae30e27c2bd3c341e3261311810
+MD5sum: ed0688b7f32b149768ed12b7e06b93c9
+Description: Libretro wrapper for bsnes-mercury performance core
+ This wrapper makes bsnes-mercury performance core API compatible with libretro,
+ thus allowing its use with libretro frontends, such as RetroArch.
+ .
+ This core is enabled to emulate only SNES hardware and its subsystems (from
+ the command line only), like Super Game Boy, Satellaview and Sufami Turbo.
+ .
+ bsnes-mercury is a fork of higan, aiming to restore some useful features that
+ have been removed, as well as improving performance a bit. Maximum accuracy is
+ still uncompromisable; anything that affects accuracy is optional and off by
+ default. The name is because metals are shiny, like the accuracy promises of
+ bsnes, and mercury is the fastest metal.
+ .
+ This package comes with the bsnes-mercury performance core, which provides
+ faster emulation at the cost of reduced accuracy, including problems with some
+ games.
+
+Package: libretro-bsnes-mercury-performance-dbgsym
+Source: libretro-bsnes-mercury
+Version: 094+git20190817.1252-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Sérgio Benjamim <sergio_br2@yahoo.com.br>
+Installed-Size: 5792
+Depends: libretro-bsnes-mercury-performance (= 094+git20190817.1252-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-bsnes-mercury/libretro-bsnes-mercury-performance-dbgsym_094+git20190817.1252-21_arm64.deb
+Size: 5509220
+SHA256: b467e2929fd22ba27e093bba6e09f1de9fc4b0200e90e83567019c4bde5f2e6e
+SHA1: c1da79b9c68393f9a685b68a0dfdc6c6b28d92a4
+MD5sum: e6dc8d23225d11faaadd4407a081232f
+Description: debug symbols for libretro-bsnes-mercury-performance
+Build-Ids: 2ad0a9bc7f19c0361ac349f4c5083758b6065061
+
+Package: libretro-bsnes2014-accuracy
+Source: libretro-bsnes2014
+Version: 094+git20191009.0608-21
+Architecture: arm64
+Maintainer: Sérgio Benjamim <sergio_br2@yahoo.com.br>
+Installed-Size: 1563
+Depends: retroarch | libretro-frontend, libc6 (>= 2.17), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Multi-Arch: same
+Homepage: http://byuu.org/emulation/higan/
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-bsnes2014/libretro-bsnes2014-accuracy_094+git20191009.0608-21_arm64.deb
+Size: 364716
+SHA256: da8e47565a83db61f220365c096e01ae6aa9d7d7c59b51b584ac0309bccb17ac
+SHA1: aec5263f41f321d9b2144bbde46cb115d873fd18
+MD5sum: 906ebf6c9162efd15300aca8352b1da5
+Description: Libretro wrapper for bsnes accuracy profile
+ This wrapper makes bsnes accuracy profile API compatible with libretro, thus
+ allowing its use with libretro frontends, such as RetroArch.
+ .
+ bsnes focuses on accuracy of SNES hardware emulation and clean code above all
+ else. It never uses speed or compatibility hacks. As a result, the minimum
+ system requirements are higher than with other emulators.
+ .
+ This package comes with the bsnes accuracy profile, which runs 100% of SNES
+ games, with perfect emulation of the console. It requires high CPU usage.
+
+Package: libretro-bsnes2014-accuracy-dbgsym
+Source: libretro-bsnes2014
+Version: 094+git20191009.0608-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Sérgio Benjamim <sergio_br2@yahoo.com.br>
+Installed-Size: 5020
+Depends: libretro-bsnes2014-accuracy (= 094+git20191009.0608-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-bsnes2014/libretro-bsnes2014-accuracy-dbgsym_094+git20191009.0608-21_arm64.deb
+Size: 4750796
+SHA256: 257be786e304160bbbf5b91061806fcc33258b5d56faacf161e827d62791f239
+SHA1: 6820ef4d6f2ef74b5dc393cbe1e7520cdc3ffd29
+MD5sum: 24724220e070eba687a2d14d820e24b5
+Description: debug symbols for libretro-bsnes2014-accuracy
+Build-Ids: 830b200c0d457bddd97effcc92d5aff647410a31
+
+Package: libretro-bsnes2014-balanced
+Source: libretro-bsnes2014
+Version: 094+git20191009.0608-21
+Architecture: arm64
+Maintainer: Sérgio Benjamim <sergio_br2@yahoo.com.br>
+Installed-Size: 1546
+Depends: retroarch | libretro-frontend, libc6 (>= 2.17), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Multi-Arch: same
+Homepage: http://byuu.org/emulation/higan/
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-bsnes2014/libretro-bsnes2014-balanced_094+git20191009.0608-21_arm64.deb
+Size: 368296
+SHA256: 7843818424b237ab4030e229d082fb6fa8fd466b311b83bba7f26d37049fcab1
+SHA1: 9f48618e22dfa0e5757631a41ae87e92dcd43ff5
+MD5sum: 601c69a0e5cef3c084e5b03b004a78e0
+Description: Libretro wrapper for bsnes balanced profile
+ This wrapper makes bsnes balanced profile API compatible with libretro, thus
+ allowing its use with libretro frontends, such as RetroArch.
+ .
+ bsnes focuses on accuracy of SNES hardware emulation and clean code above all
+ else. It never uses speed or compatibility hacks. As a result, the minimum
+ system requirements are higher than with other emulators.
+ .
+ This package comes with the bsnes balanced profile, which tries to keep a good
+ balance between accuracy and performance. It runs almost all SNES games.
+
+Package: libretro-bsnes2014-balanced-dbgsym
+Source: libretro-bsnes2014
+Version: 094+git20191009.0608-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Sérgio Benjamim <sergio_br2@yahoo.com.br>
+Installed-Size: 4944
+Depends: libretro-bsnes2014-balanced (= 094+git20191009.0608-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-bsnes2014/libretro-bsnes2014-balanced-dbgsym_094+git20191009.0608-21_arm64.deb
+Size: 4677044
+SHA256: d12a0723a831a9a0017ec30f0ed9736385c8515124198c847b0b0abca070d86f
+SHA1: 91dd56d0d33a74dadf9330749e40e5842bc7b8ea
+MD5sum: bb8bdd471502814c5bf734a62b5baa98
+Description: debug symbols for libretro-bsnes2014-balanced
+Build-Ids: 499c95eabf76c5935a8bb3eb90f4d7acff8548f3
+
+Package: libretro-bsnes2014-performance
+Source: libretro-bsnes2014
+Version: 094+git20191009.0608-21
+Architecture: arm64
+Maintainer: Sérgio Benjamim <sergio_br2@yahoo.com.br>
+Installed-Size: 1594
+Depends: retroarch | libretro-frontend, libc6 (>= 2.17), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Multi-Arch: same
+Homepage: http://byuu.org/emulation/higan/
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-bsnes2014/libretro-bsnes2014-performance_094+git20191009.0608-21_arm64.deb
+Size: 375340
+SHA256: c1734ec683e9840c4be284d27ea8cb62685b4080eef79258e4b1bf5907c8a5b6
+SHA1: c6b81bb5df1b3dc232684f89155c168f226b4563
+MD5sum: ef4b7df9b66ec01bb052104585c64820
+Description: Libretro wrapper for bsnes performance profile
+ This wrapper makes bsnes performance profile API compatible with libretro, thus
+ allowing its use with libretro frontends, such as RetroArch.
+ .
+ bsnes focuses on accuracy of SNES hardware emulation and clean code above all
+ else. It never uses speed or compatibility hacks. As a result, the minimum
+ system requirements are higher than with other emulators.
+ .
+ This package comes with the bsnes performance profile, which provides faster
+ emulation at the cost of reduced accuracy, including problems with some games.
+
+Package: libretro-bsnes2014-performance-dbgsym
+Source: libretro-bsnes2014
+Version: 094+git20191009.0608-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Sérgio Benjamim <sergio_br2@yahoo.com.br>
+Installed-Size: 4972
+Depends: libretro-bsnes2014-performance (= 094+git20191009.0608-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-bsnes2014/libretro-bsnes2014-performance-dbgsym_094+git20191009.0608-21_arm64.deb
+Size: 4710172
+SHA256: 42fa06a3516bede45dc2733414943dee97bc1d686e0a34742a8bc3d8cdfafcd3
+SHA1: eb8ff27cb5a46446f65642f8f66520641d64d9d3
+MD5sum: f57c7d2282bce933505da17042920815
+Description: debug symbols for libretro-bsnes2014-performance
+Build-Ids: 93e4b8ba895b9400f478cd7d1309e3193e529088
+
+Package: libretro-catsfc
+Version: 1.36+git20200518.1141-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 869
+Depends: retroarch | libretro-frontend, libc6 (>= 2.17)
+Multi-Arch: same
+Homepage: https://github.com/ShadauxCat/CATSFC
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-catsfc/libretro-catsfc_1.36+git20200518.1141-21_arm64.deb
+Size: 179316
+SHA256: db26220910d23535b52ad1dcf685b654b9dc230bab40120fa8b1e5d8c812ab71
+SHA1: 7cae8ba6583ce8b8062580fa7992149672ed7421
+MD5sum: 002f3247d9403d681dee38c6e5ccf51f
+Description: Libretro wrapper for Snes9x 2005
+ This wrapper makes Snes9x 2005 API compatible with libretro, thus allowing its
+ use with libretro frontends, such as RetroArch.
+ .
+ Snes9x 2005, previously known as CATSFC, is a Super Nintendo emulator for the
+ Supercard DSTWO. It is based in Snes9x 1.43, by the Snes9x team (with research
+ by the ZSNES folks, anomie, zsKnight, etc.), NDSSFC 1.06, by the Supercard
+ team (porting to the MIPS processor) and BAGSFC, by BassAceGold (improving
+ over NDSSFC).
+ .
+ Super Nintendo is a registered trademark of Nintendo of America Inc. Snes9x
+ and CATSFC are not affiliated with or endorsed by any of the companies
+ mentioned.
+
+Package: libretro-catsfc-dbgsym
+Source: libretro-catsfc
+Version: 1.36+git20200518.1141-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 678
+Depends: libretro-catsfc (= 1.36+git20200518.1141-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-catsfc/libretro-catsfc-dbgsym_1.36+git20200518.1141-21_arm64.deb
+Size: 541056
+SHA256: af0a3752e26c49dada6005b753d2f99912c3864cffe24a284615aa7eb0d457a3
+SHA1: bce0831dce28c27190e454825e80005ccfe63a7d
+MD5sum: efb8062d35a5519ca2a92b0327ec73b8
+Description: debug symbols for libretro-catsfc
+Build-Ids: 7fe18a1bb96050fc122cd17dc8dec0880e920e82
+
+Package: libretro-crocods
+Version: 1+git20200508.0446-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 793
+Depends: retroarch | libretro-frontend, libc6 (>= 2.17)
+Multi-Arch: same
+Homepage: https://github.com/redbug26/crocods-core
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-crocods/libretro-crocods_1+git20200508.0446-21_arm64.deb
+Size: 242860
+SHA256: aa18f3a78a2cb098819c20ba597afdb12f48ce4f357a46c0051ffbdb1afeb603
+SHA1: 68cdf1f339cd04ff4e7bd52ede319d7618707bad
+MD5sum: 5cb8e0f55ece437719f21b54908a9541
+Description: Libretro wrapper for the CrocoDS
+ This wrapper makes CrocoDS core API compatible with libretro, thus
+ allowing its use with libretro frontends, such as RetroArch.
+ .
+ Croco is an Amstrad computer emulator, based on Win-CPC by Ludovic Deplanque.
+
+Package: libretro-crocods-dbgsym
+Source: libretro-crocods
+Version: 1+git20200508.0446-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 562
+Depends: libretro-crocods (= 1+git20200508.0446-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-crocods/libretro-crocods-dbgsym_1+git20200508.0446-21_arm64.deb
+Size: 488820
+SHA256: 050549600ba297e7d5015b36f7bfbdf2856b1df7ce9b12f32de772339c04475d
+SHA1: bae26794fe414c8ab3073f18e734fe4f7321045a
+MD5sum: a8ec5b44ad7c9cde85208aa9e3d35dc8
+Description: debug symbols for libretro-crocods
+Build-Ids: 643d09b2719127216efd857d2b9c46ddc0a5ebc8
+
+Package: libretro-desmume
+Version: 0.0.1+git20200525.1941-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 3327
+Depends: retroarch | libretro-frontend, libc6 (>= 2.17), libgcc-s1 (>= 3.0), libgl1, libstdc++6 (>= 5.2)
+Multi-Arch: same
+Homepage: http://desmume.org
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-desmume/libretro-desmume_0.0.1+git20200525.1941-21_arm64.deb
+Size: 677124
+SHA256: 672b29e32bc1a02cded9217fda8cacbcc355d2d33d9cd20215063be305f88663
+SHA1: d06a430acd5c0426a5777920903a79c01c0e79aa
+MD5sum: 1e440348230b1642815696ab5a09a750
+Description: Libretro wrapper for DeSmuME
+ This wrapper makes DeSmuME core API compatible with libretro, thus allowing its
+ use with libretro frontends, such as RetroArch.
+ .
+ DeSmuME attempts to emulate, as faithfully as possible, the Nintendo DS and
+ Nintendo DS Lite handheld game consoles. Nintendo DSi is not supported.
+ .
+ Nintendo DS, Nintendo DS Lite and Nintendo DSi are registered trademarks of
+ Nintendo of America Inc. DeSmuME is not affiliated with or endorsed by any of
+ the companies mentioned.
+
+Package: libretro-desmume-dbgsym
+Source: libretro-desmume
+Version: 0.0.1+git20200525.1941-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 8884
+Depends: libretro-desmume (= 0.0.1+git20200525.1941-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-desmume/libretro-desmume-dbgsym_0.0.1+git20200525.1941-21_arm64.deb
+Size: 8414072
+SHA256: 36d5a67e7e528405273758ec44b0e0f965119368ea460e698705992ce15fd5d9
+SHA1: a9a1638f731b4500e838b6eb16f0f327c5ca1bd1
+MD5sum: 536602548752ab08c9ce2a27ae87edde
+Description: debug symbols for libretro-desmume
+Build-Ids: 19041a2621495e03891caa44c3d0550ba1e6e0cc
+
+Package: libretro-dinothawr
+Source: dinothawr
+Version: 1.0+git20200106.2350-21
+Architecture: arm64
+Maintainer: Sérgio Benjamim <sergio_br2@yahoo.com.br>
+Installed-Size: 3527
+Depends: retroarch | libretro-frontend, libc6 (>= 2.17), libgcc-s1 (>= 3.0), libstdc++6 (>= 7)
+Suggests: dinothawr
+Multi-Arch: same
+Homepage: http://www.libretro.com
+Priority: optional
+Section: games
+Filename: pool/main/d/dinothawr/libretro-dinothawr_1.0+git20200106.2350-21_arm64.deb
+Size: 338932
+SHA256: 730ad0ebf0b4f1167b5e1b28dd0855096897e443e7072d9b987831264855175d
+SHA1: b4a9fdc8afc9bab8c3083c0acb085c1beb132a8b
+MD5sum: 6195dec3480a22d6d9a00fa83d05059e
+Description: Libretro wrapper for Dinothawr
+ This wrapper makes Dinothawr API compatible with libretro, thus allowing its
+ use with libretro frontends, such as RetroArch.
+ .
+ Dinothawr is a block pushing puzzle game on slippery surfaces. Our hero is a
+ dinosaur whose friends are trapped in ice. Through puzzles it is your task to
+ free the dinos from their ice prison.
+ .
+ This package provides only the libretro implementation for Dinothawr, you will
+ need the data files for the game (hint: install dinothawr-data).
+
+Package: libretro-dinothawr-dbgsym
+Source: dinothawr
+Version: 1.0+git20200106.2350-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Sérgio Benjamim <sergio_br2@yahoo.com.br>
+Installed-Size: 3303
+Depends: libretro-dinothawr (= 1.0+git20200106.2350-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/d/dinothawr/libretro-dinothawr-dbgsym_1.0+git20200106.2350-21_arm64.deb
+Size: 3143040
+SHA256: cc0a522b8e16abef4372240224d2dd626eb69c9d11a3d16affea8d2678d7a2a7
+SHA1: 620dcf8fd2611ed11bca287f74cffe4f657d0c6e
+MD5sum: 38fbe49be9df3705f1d1b97b65779411
+Description: debug symbols for libretro-dinothawr
+Build-Ids: 5fca09e7f9f7ad3b6d7d4d373f2392278c428ece
+
+Package: libretro-dosbox
+Version: 0.0.1+git20190902.0050-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 1862
+Depends: retroarch | libretro-frontend, libc6 (>= 2.29), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Multi-Arch: same
+Homepage: http://www.dosbox.com
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-dosbox/libretro-dosbox_0.0.1+git20190902.0050-21_arm64.deb
+Size: 611036
+SHA256: cc7efa30713caff816fb11630e020e3fd1060bfc99eb9a3113bb0a99d3b71ec7
+SHA1: 62678b8b8a5d4b80755dd1fd71ef173810517135
+MD5sum: 1a34c50e598e4c321d5f79260ba92143
+Description: Libretro wrapper for the DOSBox
+ This wrapper makes DOSBox API compatible with libretro, thus allowing its use
+ with libretro frontends, such as RetroArch.
+ .
+ DOSBox is a DOS-emulator that uses the SDL-library which makes DOSBox very easy
+ to port to different platforms.
+ .
+ DOSBox also emulates CPU:286/386 realmode/protected mode, Directory
+ FileSystem/XMS/EMS, Tandy/Hercules/CGA/EGA/VGA/VESA graphics and a
+ SoundBlaster/Gravis Ultra Sound card for excellent sound compatibility with
+ older games.
+
+Package: libretro-dosbox-dbgsym
+Source: libretro-dosbox
+Version: 0.0.1+git20190902.0050-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 5128
+Depends: libretro-dosbox (= 0.0.1+git20190902.0050-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-dosbox/libretro-dosbox-dbgsym_0.0.1+git20190902.0050-21_arm64.deb
+Size: 4972108
+SHA256: 29f2efd2099d7ea87685d3de1b2f1769042f1929b89e9880097f3be1c858e36a
+SHA1: b339e33137b42e176c6f7190a97e2a262cc509f7
+MD5sum: ee68824cd2d683189b0c018559ed9a58
+Description: debug symbols for libretro-dosbox
+Build-Ids: a6c04d9c28fd626de0187f55eceb2433ad5a15ac
+
+Package: libretro-eightyone
+Version: 1.0a+git20200613.0806-21
+Architecture: arm64
+Maintainer: Sérgio Benjamim <sergio_br2@yahoo.com.br>
+Installed-Size: 432
+Depends: retroarch | libretro-frontend, libc6 (>= 2.17), libstdc++6 (>= 5.2)
+Multi-Arch: same
+Homepage: https://github.com/libretro/81-libretro
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-eightyone/libretro-eightyone_1.0a+git20200613.0806-21_arm64.deb
+Size: 81224
+SHA256: 647ca5b8cae1d08b2a2cb2aa0896d2e001cad3714795e81a141a00187c75aad9
+SHA1: b0c6412f907cc1bdb3efd1876a54b71eef45dbe5
+MD5sum: 855c4870211c86427071238f2e06a758
+Description: Libretro wrapper for EightyOne
+ This wrapper makes EightyOne API compatible with libretro, thus allowing its
+ use with libretro frontends, such as RetroArch.
+ .
+ EightyOne is an emulator for several home computers made by Sinclair
+ Research (And their clones) in the 1980s, such as Sinclair ZX81. As well as
+ emulating the machines themselves, numerous addon cards are supported,
+ including hi-res graphics, custom character sets, sound and colour cards.
+
+Package: libretro-eightyone-dbgsym
+Source: libretro-eightyone
+Version: 1.0a+git20200613.0806-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Sérgio Benjamim <sergio_br2@yahoo.com.br>
+Installed-Size: 422
+Depends: libretro-eightyone (= 1.0a+git20200613.0806-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-eightyone/libretro-eightyone-dbgsym_1.0a+git20200613.0806-21_arm64.deb
+Size: 391940
+SHA256: 82e9031293263ec384247ca4144964573f73958e5ff1bb725c8095d0952bb306
+SHA1: a8da69db80f68141a4bab5367cdbb7d05f430dbd
+MD5sum: eb16a2666f554c4f649d100de5549c2a
+Description: debug symbols for libretro-eightyone
+Build-Ids: 951f36736b5db62ee12364c9d10e3ee0e8c24ec4
+
+Package: libretro-fbalpha2012
+Version: 0.2.97.29+git20200229.1808-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 21347
+Depends: retroarch | libretro-frontend, libc6 (>= 2.29), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Multi-Arch: same
+Homepage: http://www.barryharris.me.uk/fba.php
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-fbalpha2012/libretro-fbalpha2012_0.2.97.29+git20200229.1808-21_arm64.deb
+Size: 2803756
+SHA256: f2158c9b783d32c9c4b4d5c6ab52fc0557c087887e17d5e2d72405405535347f
+SHA1: a9e923e0a95134ef451b7fbea44b89c740ce8380
+MD5sum: 0b442976e3fa2469f5a44bbfe65f90c7
+Description: Libretro wrapper for FB Alpha 2012 (0.2.97.29)
+ This wrapper makes FB Alpha 2012 API compatible with libretro, thus allowing
+ its use with libretro frontends, such as RetroArch.
+ .
+ FB Alpha 2012 is an arcade emulator supporting the following platforms:
+ .
+  * Capcom CPS-1
+  * Capcom CPS-2
+  * Capcom CPS-3
+  * Cave
+  * Data East DEC-0, DEC-8 and DECO IC16 based games
+  * Galaxian based hardware
+  * Irem M62, M63, M72, M90, M92 and M107 hardware
+  * Kaneko 16
+  * Konami
+  * Neo-Geo
+  * NMK16
+  * Pacman based hardware
+  * PGM
+  * Psikyo 68EC020 and SH-2 based hardware
+  * Sega System 1, System 16 (and similar), System 18, X-Board and Y-Board
+  * Super Kaneko Nova System
+  * Toaplan 1
+  * Toaplan 2
+  * Taito F2, X, Z and others
+  * Miscellaneous drivers for lots of other hardware
+
+Package: libretro-fbalpha2012-cps1
+Version: 0.2.97.28+git20191129.2031-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 2084
+Depends: retroarch | libretro-frontend, libc6 (>= 2.29), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Breaks: libretro-fba-cps1 (<< 0.2.97.39+r164+n58+co41+ct55~19~)
+Replaces: libretro-fba-cps1 (<< 0.2.97.39+r164+n58+co41+ct55~19~)
+Multi-Arch: same
+Homepage: http://www.barryharris.me.uk/fba.php
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-fbalpha2012-cps1/libretro-fbalpha2012-cps1_0.2.97.28+git20191129.2031-21_arm64.deb
+Size: 291212
+SHA256: c4752fc697e6a425022663f73faadbb3afd98ba10837d95ab170d209f6f56d6e
+SHA1: 048d00c56727fac4ef162bc3ed8dc775c0d3f536
+MD5sum: a660c70ea43b5fcc6862e50a38504fbb
+Description: Libretro wrapper for FB Alpha 2012 CPS-1 (0.2.97.28)
+ This wrapper makes FB Alpha 2012 CPS-1 API compatible with libretro, thus
+ allowing its use with libretro frontends, such as RetroArch.
+ .
+ This package provides the CPS-1 core from FB Alpha.
+
+Package: libretro-fbalpha2012-cps1-dbgsym
+Source: libretro-fbalpha2012-cps1
+Version: 0.2.97.28+git20191129.2031-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 1338
+Depends: libretro-fbalpha2012-cps1 (= 0.2.97.28+git20191129.2031-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-fbalpha2012-cps1/libretro-fbalpha2012-cps1-dbgsym_0.2.97.28+git20191129.2031-21_arm64.deb
+Size: 1080160
+SHA256: 55b01fa29c40a6597199579028ced3bee8d897d06c3fa46f61fb4987e856ee0b
+SHA1: f5f5df8966d5f88fa5a5dd13b79e574b5121ec7d
+MD5sum: 06cd13e2501a35d7649a5072298ba877
+Description: debug symbols for libretro-fbalpha2012-cps1
+Build-Ids: 9c3e596013400b2ca418a788bb1ee5d999048934
+
+Package: libretro-fbalpha2012-cps2
+Version: 0.2.97.28+git20200104.1659-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 1795
+Depends: retroarch | libretro-frontend, libc6 (>= 2.17), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Breaks: libretro-fba-cps2 (<< 0.2.97.39+r164+n58+co41+ct55~19~)
+Replaces: libretro-fba-cps2 (<< 0.2.97.39+r164+n58+co41+ct55~19~)
+Multi-Arch: same
+Homepage: http://www.barryharris.me.uk/fba.php
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-fbalpha2012-cps2/libretro-fbalpha2012-cps2_0.2.97.28+git20200104.1659-21_arm64.deb
+Size: 233464
+SHA256: a6a5311a5e00ef79d105a39aa8c807d38f158a87e3b64d3e2da43eacc46b4bd8
+SHA1: 7fedc5947bfb16186a4e79875487d086aee57fcf
+MD5sum: 1d83dd338d4eb97e875e8e56bbe16482
+Description: Libretro wrapper for FB Alpha 2012 CPS-2 (0.2.97.28)
+ This wrapper makes FB Alpha 2012 CPS-2 API compatible with libretro, thus
+ allowing its use with libretro frontends, such as RetroArch.
+ .
+ This package provides the CPS-2 core from FB Alpha.
+
+Package: libretro-fbalpha2012-cps2-dbgsym
+Source: libretro-fbalpha2012-cps2
+Version: 0.2.97.28+git20200104.1659-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 1088
+Depends: libretro-fbalpha2012-cps2 (= 0.2.97.28+git20200104.1659-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-fbalpha2012-cps2/libretro-fbalpha2012-cps2-dbgsym_0.2.97.28+git20200104.1659-21_arm64.deb
+Size: 866864
+SHA256: 6f4e304bf24a99c36387a9e9d889ddf69aa55b8a1ff7facc7ff509116576a328
+SHA1: 82954cb3e532b83789ab7b03f3082138d34952f8
+MD5sum: c264b652268f74a18861ffa184e9f5d9
+Description: debug symbols for libretro-fbalpha2012-cps2
+Build-Ids: fe1ba1f8858472451940fcf8efce93ae50cbbda4
+
+Package: libretro-fbalpha2012-cps3
+Version: 0.2.97.29+git20200109.2052-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 427
+Depends: retroarch | libretro-frontend, libc6 (>= 2.17), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Multi-Arch: same
+Homepage: http://www.barryharris.me.uk/fba.php
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-fbalpha2012-cps3/libretro-fbalpha2012-cps3_0.2.97.29+git20200109.2052-21_arm64.deb
+Size: 108884
+SHA256: fb77bf005c1fb6238796cf4c40e9821e0dee2bc52136fd2806968af4f8714df0
+SHA1: 4c292c4d8573e1332ed735729b14c77a420139b4
+MD5sum: e79707080b4ab17556728e5b0a717007
+Description: Libretro wrapper for FB Alpha 2012 CPS-3 (0.2.97.29)
+ This wrapper makes FB Alpha 2012 CPS-3 API compatible with libretro, thus
+ allowing its use with libretro frontends, such as RetroArch.
+ .
+ This package provides the CPS-3 core from FB Alpha.
+
+Package: libretro-fbalpha2012-cps3-dbgsym
+Source: libretro-fbalpha2012-cps3
+Version: 0.2.97.29+git20200109.2052-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 453
+Depends: libretro-fbalpha2012-cps3 (= 0.2.97.29+git20200109.2052-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-fbalpha2012-cps3/libretro-fbalpha2012-cps3-dbgsym_0.2.97.29+git20200109.2052-21_arm64.deb
+Size: 401924
+SHA256: 6cae0ba3f6c4254a38c9fd7ae1ca67b115cffd1e2d40231e9b5e236e6f20db91
+SHA1: 170afffad6447a7b31761584d1505e7b826673c3
+MD5sum: df9ab19b2bf57d780d6cb904284e3d92
+Description: debug symbols for libretro-fbalpha2012-cps3
+Build-Ids: e5c2df338f9cdb31f02358724e01419cac4f0788
+
+Package: libretro-fbalpha2012-dbgsym
+Source: libretro-fbalpha2012
+Version: 0.2.97.29+git20200229.1808-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 12094
+Depends: libretro-fbalpha2012 (= 0.2.97.29+git20200229.1808-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-fbalpha2012/libretro-fbalpha2012-dbgsym_0.2.97.29+git20200229.1808-21_arm64.deb
+Size: 9384272
+SHA256: d2fcca70a4c2c4cb65e022f175ee6b23f844fb281049b030919824d9b1abc960
+SHA1: 9313aed577846db0de58450655d9d8e57b81e978
+MD5sum: d0ad5a90888a7147f00cbe92b58da0c1
+Description: debug symbols for libretro-fbalpha2012
+Build-Ids: 44c9d87a16f36b8904a83fec75446f6b7d2ed189
+
+Package: libretro-fbneo
+Version: 0.2.97.44+git20200614.0800-21
+Architecture: arm64
+Maintainer: Hugh Cole-Baker <sigmaris@gmail.com>
+Installed-Size: 47843
+Depends: retroarch | libretro-frontend, libc6 (>= 2.17), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Breaks: libretro-fbalpha (<< 0.2.97.44)
+Replaces: libretro-fbalpha (<< 0.2.97.44)
+Multi-Arch: same
+Homepage: https://github.com/libretro/FBNeo
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-fbneo/libretro-fbneo_0.2.97.44+git20200614.0800-21_arm64.deb
+Size: 6665312
+SHA256: ff57b1d0b35aa4cf0df849b71183e299750a2baaae8437feebc121686a91050b
+SHA1: eef9bef806d29ab2e31e5b4f1b33d741c1c4faf9
+MD5sum: 276bd162bc4524a192b565fd1ea86411
+Description: Libretro wrapper for FB Neo
+ This wrapper makes FB Neo API compatible with libretro, thus allowing its use
+ with libretro frontends, such as RetroArch.
+ .
+ FB Neo is an arcade emulator supporting the following platforms:
+ .
+  * Capcom CPS-1
+  * Capcom CPS-2
+  * Capcom CPS-3
+  * Cave
+  * Data East DEC-0, DEC-8 and DECO IC16 based games
+  * Galaxian based hardware
+  * Irem M62, M63, M72, M90, M92 and M107 hardware
+  * Kaneko 16
+  * Konami
+  * Neo-Geo
+  * NMK16
+  * Pacman based hardware
+  * PGM
+  * Psikyo 68EC020 and SH-2 based hardware
+  * Sega System 1, System 16 (and similar), System 18, X-Board and Y-Board
+  * Super Kaneko Nova System
+  * Toaplan 1
+  * Toaplan 2
+  * Taito F2, X, Z and others
+  * Miscellaneous drivers for lots of other hardware
+
+Package: libretro-fbneo-dbgsym
+Source: libretro-fbneo
+Version: 0.2.97.44+git20200614.0800-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Hugh Cole-Baker <sigmaris@gmail.com>
+Installed-Size: 28915
+Depends: libretro-fbneo (= 0.2.97.44+git20200614.0800-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-fbneo/libretro-fbneo-dbgsym_0.2.97.44+git20200614.0800-21_arm64.deb
+Size: 23431424
+SHA256: e19397ff31a28243ad5255db4dd90926827f05f35edaaecacdb7a58a6546fd70
+SHA1: 84c2ccec9d5585bf521a6b91f24c30f800ff536d
+MD5sum: 6e70a99a05967258d2d26b2cfd5f377f
+Description: debug symbols for libretro-fbneo
+Build-Ids: b156cee00e4233b27af141cca3896c0b17bbf54c
+
+Package: libretro-fceumm
+Version: 0.0.1+git20200604.0810-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 800
+Depends: retroarch | libretro-frontend, libc6 (>= 2.29)
+Multi-Arch: same
+Homepage: http://fceumm.sourceforge.net/
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-fceumm/libretro-fceumm_0.0.1+git20200604.0810-21_arm64.deb
+Size: 249128
+SHA256: 971423abfca036c782105bfd4161a4c0cb3e776fcae56ed7f65837df2d67ac13
+SHA1: 4d0907df809d5acc0c9794f694821d801e108c5e
+MD5sum: 0d342601ac1e24634e4510d028777e5f
+Description: Libretro wrapper for FCEUmm
+ This wrapper makes FCE Ultra mappers mod API compatible with libretro, thus
+ allowing its use with libretro frontends, such as RetroArch.
+ .
+ FCE Ultra mappers mod is a NES/Famicom emulator and it is a fork of FCE Ultra,
+ which is a fork of FCE (Family Computer Emulator).
+ .
+ NES and Famicom are registered trademarks of Nintendo of America Inc. FCEUmm is
+ not affiliated with or endorsed by any of the companies mentioned.
+
+Package: libretro-fceumm-dbgsym
+Source: libretro-fceumm
+Version: 0.0.1+git20200604.0810-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 708
+Depends: libretro-fceumm (= 0.0.1+git20200604.0810-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-fceumm/libretro-fceumm-dbgsym_0.0.1+git20200604.0810-21_arm64.deb
+Size: 570560
+SHA256: 2bbb4a325f865f94956237ef1ca1c3edd4628ceb1ac121f2083eb16755e8b418
+SHA1: 90b98cb216bb082f9d8194cb429e9dce98b01d43
+MD5sum: dbaf1e7fe3329a3a06901e15f7f080ba
+Description: debug symbols for libretro-fceumm
+Build-Ids: 8126f9d2702c3f0f7d736696f3d2f78200c3e85b
+
+Package: libretro-fmsx
+Version: 4.9+git20200106.2353-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 263
+Depends: retroarch | libretro-frontend, libc6 (>= 2.17)
+Multi-Arch: same
+Homepage: http://fms.komkon.org/fMSX
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-fmsx/libretro-fmsx_4.9+git20200106.2353-21_arm64.deb
+Size: 80264
+SHA256: 59021e3d6e959c3c48acade89482491b5b753d65bc959e360272c6039100e514
+SHA1: 24165af56863c2807943286b471121e1e856e304
+MD5sum: 7ffb6fabf9c6084d65c9985a9f573e96
+Description: Libretro wrapper for the fMSX
+ This wrapper makes fMSX API compatible with libretro, thus allowing its use
+ with libretro frontends, such as RetroArch.
+ .
+ fMSX is a program that emulates MSX, MSX2, and MSX2+ 8bit home computers. It
+ runs the majority of MSX software and mimics most popular hardware extensions,
+ such as SCC, OPLL, etc.
+ .
+ fMSX was developed by Marat Fayzullin.
+
+Package: libretro-fmsx-dbgsym
+Source: libretro-fmsx
+Version: 4.9+git20200106.2353-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 218
+Depends: libretro-fmsx (= 4.9+git20200106.2353-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-fmsx/libretro-fmsx-dbgsym_4.9+git20200106.2353-21_arm64.deb
+Size: 191712
+SHA256: 2d97779addc8634afee22caa06571d4548d220a70f5b4296b2f43c12fcf2c2b6
+SHA1: bf00dbd334e7851f38f0cf7ea8957ce59ff2f662
+MD5sum: 4ac0295369a4207377e1f8eedefbf3e8
+Description: debug symbols for libretro-fmsx
+Build-Ids: 83fc83775556d4ea8f796c53cbe37dc99c2bad48
+
+Package: libretro-freej2me
+Version: 0.0.1+git20200527.1759-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 40
+Depends: retroarch | libretro-frontend, default-jre, libc6 (>= 2.17)
+Multi-Arch: same
+Homepage: https://sourceforge.net/projects/freej2me/
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-freej2me/libretro-freej2me_0.0.1+git20200527.1759-21_arm64.deb
+Size: 11016
+SHA256: a7b85a480ae72d91a752acc70f5d321b30666ac8ab86da3fd684ba5755237ffd
+SHA1: 166a03e8b6be39337cfb7989d71d9f60e8a70018
+MD5sum: 51b5ca9a7ae567760245d7da2be3a65b
+Description: Libretro wrapper for the FreeJ2ME
+ This wrapper makes FreeJ2ME core API compatible with libretro, thus
+ allowing its use with libretro frontends, such as RetroArch.
+ .
+ FreeJ2ME is a J2ME emulator.
+
+Package: libretro-freej2me-dbgsym
+Source: libretro-freej2me
+Version: 0.0.1+git20200527.1759-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 40
+Depends: libretro-freej2me (= 0.0.1+git20200527.1759-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-freej2me/libretro-freej2me-dbgsym_0.0.1+git20200527.1759-21_arm64.deb
+Size: 22712
+SHA256: 329130ffe58d73a2c5da57d9f7ef9d6b160be713bd983cb310946a9820533d83
+SHA1: 2a7d312adbe1e66905c1e68f30d32b48bcef6285
+MD5sum: 49183349da138f0046ecc93806a9e783
+Description: debug symbols for libretro-freej2me
+Build-Ids: 74e28e6393710eb88cadc49a40c2c54f81d7511b
+
+Package: libretro-fuse
+Version: 1.1.1+git20200506.0019-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 1806
+Depends: retroarch | libretro-frontend, libc6 (>= 2.29)
+Multi-Arch: same
+Homepage: http://fuse-emulator.sourceforge.net/
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-fuse/libretro-fuse_1.1.1+git20200506.0019-21_arm64.deb
+Size: 502560
+SHA256: 930a26e1fe5b24a3a41163b7decd28a68b469e71632abac63fe71adb297540a7
+SHA1: f74398cb8fda587826f9cb589337f46ea392b0a9
+MD5sum: 2d28aedeb0ecbaa2ce2c7f50617274f5
+Description: Libretro wrapper for Fuse
+ This wrapper makes Fuse API compatible with libretro, thus allowing its use
+ with libretro frontends, such as RetroArch.
+ .
+ Fuse is a Sinclair ZX Spectrum emulator. It supports several models
+ (including 16K/48K/128K/+2/+2A/+3 and some clones), with quite faithful
+ emulation of the display and sound.
+ .
+ Its features include:
+  * Accurate Spectrum 16K/48K/128K/+2/+2A/+3 emulation.
+  * Working Spectrum +3e and SE, Timex TC2048, TC2068 and TS2068, Pentagon 128,
+    "512" (Pentagon 128 with extra memory) and 1024 and Scorpion ZS 256
+    emulation.
+  * Runs at true Speccy speed on any computer you're likely to try it on.
+  * It can load Z80, SZX and SNA snapshots, TAP and TZX virtual-tape files
+    (including accelerated loading), MDR microdrive images and DSK floppy disk
+    images, among many others.
+  * Sound.
+  * Built-in debugger.
+  * Emulation of most of the common joysticks used on the Spectrum (including
+    Kempston, Sinclair and Cursor joysticks).
+  * Emulation of some of the printers you could attach to a Spectrum.
+  * Support for the RZX input recording file format, including rollback and
+    'competition mode'.
+  * Recording of movies to FMF files.
+  * Emulation of the DivIDE, Interface I, Kempston mouse, Spectrum +3e,
+    ZXATASP, ZXCF, Beta 128, Opus Discovery, +D, Spectranet, SpeccyBoot,
+    SpecDrum and DISCiPLE interfaces.
+
+Package: libretro-fuse-dbgsym
+Source: libretro-fuse
+Version: 1.1.1+git20200506.0019-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 1772
+Depends: libretro-fuse (= 1.1.1+git20200506.0019-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-fuse/libretro-fuse-dbgsym_1.1.1+git20200506.0019-21_arm64.deb
+Size: 1570192
+SHA256: 37e9ca764e64ecf3c0ace2f9efc5404c8b36717f0b444f50ec39a82b3fbbe0c1
+SHA1: b76256a1aa61db84797f1adf7fe2dac6db4611d6
+MD5sum: fbb3498a5e6844511a09cade85b69dac
+Description: debug symbols for libretro-fuse
+Build-Ids: 48d3d3f6644899398125da94e450d9cacd5d4c47
+
+Package: libretro-gambatte
+Version: 0.5.0+git20200207.1925-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 359
+Depends: retroarch | libretro-frontend, libc6 (>= 2.27), libstdc++6 (>= 5.2)
+Multi-Arch: same
+Homepage: http://gambatte.sourceforge.net
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-gambatte/libretro-gambatte_0.5.0+git20200207.1925-21_arm64.deb
+Size: 106968
+SHA256: fbf902c32911e7d9dd47518c2d61458c771c155235efc88f47403ebf1749663c
+SHA1: cb87c98c5baa0bef3470a4642d1d77a73d2db40b
+MD5sum: 3a5b28ae591ef105a7010d861db62178
+Description: Libretro wrapper for Gambatte
+ This wrappers makes Gambatte API compatible with libretro, thus allowing
+ its use with libretro frontends, such as RetroArch.
+ .
+ Gambatte is a portable, open-source Game Boy and Game Boy Color emulator.
+ .
+ Game Boy and Game Boy Color are registered trademarks of Nintendo of
+ America Inc. Gambatte is not affiliated with or endorsed by any of the
+ companies mentioned.
+
+Package: libretro-gambatte-dbgsym
+Source: libretro-gambatte
+Version: 0.5.0+git20200207.1925-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 872
+Depends: libretro-gambatte (= 0.5.0+git20200207.1925-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-gambatte/libretro-gambatte-dbgsym_0.5.0+git20200207.1925-21_arm64.deb
+Size: 774132
+SHA256: d677147c2a7310374e69282f9ac97ca84c09eba9f5d891ef96840a594bf73c2b
+SHA1: e358fed2c79af194b6c9d27dc25084e7e0aa92c4
+MD5sum: 5136e56f53ba3c9570871b2d6680427c
+Description: debug symbols for libretro-gambatte
+Build-Ids: 07d8d464ecf600bd47b60ccbd406685ea87a0cf5
+
+Package: libretro-genesisplusgx
+Source: genesisplusgx
+Version: 1.7.4+git20200208.2159-21
+Architecture: arm64
+Maintainer: Sérgio Benjamim <sergio_br2@yahoo.com.br>
+Installed-Size: 6085
+Depends: retroarch | libretro-frontend, libc6 (>= 2.29)
+Multi-Arch: same
+Homepage: https://github.com/ekeeke/Genesis-Plus-GX
+Priority: optional
+Section: non-free/games
+Filename: pool/main/g/genesisplusgx/libretro-genesisplusgx_1.7.4+git20200208.2159-21_arm64.deb
+Size: 514144
+SHA256: 2e2a2fd47ed2f4b279d5f010898280f42bd4555414a090a8cc60abdd1304b0d7
+SHA1: 11e52505b8e232f0141c1648a71cfe8a2d5b461b
+MD5sum: 7286302caa2ca27f0ce8d4f30eeaa49e
+Description: Libretro wrapper for Genesis Plus GX
+ This wrapper makes Genesis Plus GX API compatible with libretro, thus allowing
+ its use with libretro frontends, such as RetroArch.
+ .
+ Genesis Plus GX is a Sega 8/16 bit emulator focused on accuracy and
+ portability. Initially ported and developed on Gamecube / Wii consoles
+ only through libogc / devkitPPC, it is now available on many other platforms
+ through various frontends.
+ .
+ The source code, originally based on Genesis Plus 1.3 by Charles MacDonald, has
+ been heavily modified & enhanced, with respect to initial goals and design, in
+ order to improve the accuracy of emulation, implementing new features and
+ adding support for extra peripherals, cartridge & systems hardware.
+ .
+ The result is that Genesis Plus GX is now more a continuation of the original
+ project than a simple port, providing very accurate emulation and 100%
+ compatibility with Genesis / Mega Drive, Sega/Mega CD, Master System, Game Gear
+ & SG-1000 released software (including all unlicensed or pirate known dumps),
+ also emulating backwards compatibility modes when available.
+
+Package: libretro-genesisplusgx-dbgsym
+Source: genesisplusgx
+Version: 1.7.4+git20200208.2159-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Sérgio Benjamim <sergio_br2@yahoo.com.br>
+Installed-Size: 1969
+Depends: libretro-genesisplusgx (= 1.7.4+git20200208.2159-21)
+Multi-Arch: same
+Priority: optional
+Section: non-free/debug
+Filename: pool/main/g/genesisplusgx/libretro-genesisplusgx-dbgsym_1.7.4+git20200208.2159-21_arm64.deb
+Size: 1760432
+SHA256: 69fd1e2bc457b7e23e8aa48a498ef784d27b75ae09a740c0cdcdba264ea56135
+SHA1: 764dd6d73c85e8b6c39521c4c9941f5568a0a620
+MD5sum: 2abfd9495844754a721b997258138091
+Description: debug symbols for libretro-genesisplusgx
+Build-Ids: 362519a9a21e7d22a874d9eb3bf0af02655a5235
+
+Package: libretro-gme
+Version: 0.0.1+git20200509.0906-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 509
+Depends: retroarch | libretro-frontend, libc6 (>= 2.29), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
+Multi-Arch: same
+Homepage: https://github.com/libretro/libretro-gme
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-gme/libretro-gme_0.0.1+git20200509.0906-21_arm64.deb
+Size: 178140
+SHA256: eddd5848936773c19862748dc167c536e3bfdeea58dea4e28f088930c3077601
+SHA1: 71af6e9f413b75fd8c8814f75a56c9b3f3f4378b
+MD5sum: a419f504e21be5c5aaff042f8d3e4ebf
+Description: Libretro wrapper for Blargg's Game_Music_Emu
+ This wrapper makes Blargg's Game_Music_Emu API compatible with libretro, thus
+ allowing its use with libretro frontends, such as RetroArch.
+ .
+ Game_Music_Emu emulates game music in several popular file formats, such as
+ AY, GBS, GYM, HES, KSS, NSF, NSFE, SAP, SPC, VGM and VGZ.
+
+Package: libretro-gme-dbgsym
+Source: libretro-gme
+Version: 0.0.1+git20200509.0906-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 801
+Depends: libretro-gme (= 0.0.1+git20200509.0906-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-gme/libretro-gme-dbgsym_0.0.1+git20200509.0906-21_arm64.deb
+Size: 740472
+SHA256: b8fd609bd9003c800af7b3cc71f4c2f46d32627d083feb1f7b9386da8322d06e
+SHA1: 47c1b1349d2186abe2c5a6c22dbc01fafe83820f
+MD5sum: 85a5dc96d57476b27670a2fd911813b7
+Description: debug symbols for libretro-gme
+Build-Ids: 0132d28e96350f3978eb8fa6cc5c81e54bbe6f3f
+
+Package: libretro-gpsp
+Version: 0.0.1+git20200527.1939-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 988
+Depends: retroarch | libretro-frontend, libc6 (>= 2.17)
+Multi-Arch: same
+Homepage: http://gpsp-dev.blogspot.com
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-gpsp/libretro-gpsp_0.0.1+git20200527.1939-21_arm64.deb
+Size: 181112
+SHA256: ea98f7ae725f6f2cd904d1c55631100384e371eb8048daabfc028e8c5729159a
+SHA1: ab89b3e828673af64a367f8e07a8b5d4e979f43d
+MD5sum: be3130620ebdcac2689fa8f6eb6c4f39
+Description: Libretro wrapper for gpSP
+ This wrapper makes gpSP API compatible with libretro, thus allowing its use
+ with libretro frontends, such as RetroArch.
+ .
+ gameplaySP (gpSP for short) is a Game Boy Advance emulator written completely
+ from scratch by Exophase, initially aimed for the PSP handheld, and ported
+ for ARM and x86 architectures. Its main goal is performance even in low spec
+ hardware devices, with overall compatibility being a near second goal.
+ .
+ Game Boy Advance is registered trademarks of Nintendo of America Inc. gpSP
+ is not affiliated with or endorsed by any of the companies mentioned.
+
+Package: libretro-gpsp-dbgsym
+Source: libretro-gpsp
+Version: 0.0.1+git20200527.1939-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 32
+Depends: libretro-gpsp (= 0.0.1+git20200527.1939-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-gpsp/libretro-gpsp-dbgsym_0.0.1+git20200527.1939-21_arm64.deb
+Size: 6624
+SHA256: 378d4cc4150f77187e7950f154a4b58de1efb2f9a48ddf8b853a81557f479dc0
+SHA1: a818f6e862481ef03b1e5e4a2440517e5a001473
+MD5sum: 56c8fbb9f2d5fbe71207cec9f1177525
+Description: debug symbols for libretro-gpsp
+Build-Ids: 63cd984cab4832d71468a6ac3173266ce45e6f89
+
+Package: libretro-gw
+Version: 0.0.1+git20200101.1120-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 579
+Depends: retroarch | libretro-frontend, libc6 (>= 2.29)
+Multi-Arch: same
+Homepage: https://github.com/libretro/gw-libretro
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-gw/libretro-gw_0.0.1+git20200101.1120-21_arm64.deb
+Size: 154448
+SHA256: 8e5dde14d985391907f0891d5d2efe06cca2c92dc0f4e897d4dfb1b7f93567a2
+SHA1: 1918c5506da55364b33614663324539c849bde9f
+MD5sum: d60f8edafdace762a28be33a3639d7f5
+Description: Libretro wrapper for Game & Watch simulators
+ gw-libretro is a libretro core that runs Game & Watch simulators.
+ .
+ It runs simulators converted from source code for the games available at
+ MADrigal. Each simulator is converted with pas2lua, which was written
+ specifically for this purpose, and uses bstree, which was also specifically
+ written to obfuscate the generated Lua source code as per MADrigal's request.
+
+Package: libretro-gw-dbgsym
+Source: libretro-gw
+Version: 0.0.1+git20200101.1120-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 542
+Depends: libretro-gw (= 0.0.1+git20200101.1120-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-gw/libretro-gw-dbgsym_0.0.1+git20200101.1120-21_arm64.deb
+Size: 500680
+SHA256: 022e80a5a5c737e76345d194b59c15271914f68cc415ee7437ed6799f53dcd79
+SHA1: 1893a5078daf9fae9a074c344a9b185e6b131ccc
+MD5sum: ab6dd6e46acf53fa72d207f33dadca06
+Description: debug symbols for libretro-gw
+Build-Ids: f503057a9181a8cb59f7e8f75ae10a17bea2339b
+
+Package: libretro-handy
+Version: 0.95+git20200317.0553-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 157
+Depends: retroarch | libretro-frontend, libc6 (>= 2.17), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
+Multi-Arch: same
+Homepage: http://handy.sourceforge.net
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-handy/libretro-handy_0.95+git20200317.0553-21_arm64.deb
+Size: 45452
+SHA256: 3d09dd868cef1c578bd5ac2579856a2eea92869cd0dc45fb05d2e43a74085c12
+SHA1: 5bd92700d00e0da5a6fb914a984fc29797963ab0
+MD5sum: 67e8f61ac35fcbdb1d3b7f8040aab373
+Description: Libretro wrapper for Handy
+ This wrapper makes Handy API-compatible with libretro, thus allowing its use
+ with libretro frontends, such as RetroArch.
+ .
+ Handy is an Atari Lynx emulator and it was the original name of the Lynx
+ project that was started at Epyx and then finished by Atari.
+
+Package: libretro-handy-dbgsym
+Source: libretro-handy
+Version: 0.95+git20200317.0553-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 198
+Depends: libretro-handy (= 0.95+git20200317.0553-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-handy/libretro-handy-dbgsym_0.95+git20200317.0553-21_arm64.deb
+Size: 171780
+SHA256: 86514964e12deae41e2101ed9d0c7242629e5fa021dc7d0036fe69b96d7e709f
+SHA1: 0e53e68ae3e38ed32ddf60b13887e27e859b8c08
+MD5sum: 7e9884daf18dee1342f538a1e7ededa5
+Description: debug symbols for libretro-handy
+Build-Ids: 3bef3b5d39ae3c733e52554904686a4b54af048f
+
+Package: libretro-hatari
+Version: 1.8+git20200402.1221-21
+Architecture: arm64
+Maintainer: Sérgio Benjamim <sergio_br2@yahoo.com.br>
+Installed-Size: 3043
+Depends: retroarch | libretro-frontend, libc6 (>= 2.17), zlib1g (>= 1:1.1.4)
+Multi-Arch: same
+Homepage: http://hatari.tuxfamily.org
+Priority: optional
+Section: otherosfs
+Filename: pool/main/libr/libretro-hatari/libretro-hatari_1.8+git20200402.1221-21_arm64.deb
+Size: 767620
+SHA256: a473e5abc37cebabf925bfbcd556f521b57d0574c5a8b550339a6d80720f1f1b
+SHA1: 204fb3a33c7f68b63f7ec6b43437751d5784be99
+MD5sum: b7768d1a39864bcd376ec7e4f2f03f89
+Description: Libretro wrapper for Hatari
+ This is a wrapper designed to make Hatari API-compatible with libretro, thus
+ allowing its use with libretro frontends, such as RetroArch.
+ .
+ Hatari is an Atari ST/STE/TT/Falcon emulator and unlike most other open source
+ ST emulators which try to give you a good environment for running GEM
+ applications, Hatari tries to emulate the hardware as close as possible so that
+ it is able to run most of the old Atari games and demos. Because of this, it
+ may be somewhat slower than less accurate emulators.
+
+Package: libretro-hatari-dbgsym
+Source: libretro-hatari
+Version: 1.8+git20200402.1221-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Sérgio Benjamim <sergio_br2@yahoo.com.br>
+Installed-Size: 3574
+Depends: libretro-hatari (= 1.8+git20200402.1221-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-hatari/libretro-hatari-dbgsym_1.8+git20200402.1221-21_arm64.deb
+Size: 3318460
+SHA256: 5a6784468ab624264941fc29512ecd7e23a97b8ef2706ef429052c8b7e7575f4
+SHA1: 32d4433b3ef0367091888b84b1b9f5907a9a9bdf
+MD5sum: b77ab37eda897a4fe73aaf6e80ac428c
+Description: debug symbols for libretro-hatari
+Build-Ids: 5ef59990fd8901a45c5754f0ba2adc5d40a09112
+
+Package: libretro-melonds
+Version: 0.0.1+git20190912.0211-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 824
+Depends: retroarch | libretro-frontend, libc6 (>= 2.17), libgcc-s1 (>= 3.0), libgl1, libstdc++6 (>= 5.2)
+Multi-Arch: same
+Homepage: http://melonds.kuribo64.net/
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-melonds/libretro-melonds_0.0.1+git20190912.0211-21_arm64.deb
+Size: 178664
+SHA256: cf89dc08793167b80dbdf96a5097c6bd66e7196dc5ba07a3cb94dc9ca92e9642
+SHA1: db9a8e1887e08dbfca8351c29c508b62093ea05d
+MD5sum: 5903d7487ffefb195b396a4876588cee
+Description: Libretro wrapper for melonDS
+ This wrapper makes melonDS core API compatible with libretro, thus allowing its
+ use with libretro frontends, such as RetroArch.
+ .
+ melonDS is a Nintendo DS emulator.
+ .
+ Nintendo DS is a registered trademark of Nintendo of America Inc. melonDS is
+ not affiliated with or endorsed by any of the companies mentioned.
+
+Package: libretro-melonds-dbgsym
+Source: libretro-melonds
+Version: 0.0.1+git20190912.0211-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 865
+Depends: libretro-melonds (= 0.0.1+git20190912.0211-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-melonds/libretro-melonds-dbgsym_0.0.1+git20190912.0211-21_arm64.deb
+Size: 736208
+SHA256: 226b30648165b93d972bc919b513dcb271c87b4ae35178173180b029a36d461d
+SHA1: 1299c43354a3d71863f6c1e18c7880c38970e48c
+MD5sum: 7f34e9ea6d5bd557854d91b7849c5982
+Description: debug symbols for libretro-melonds
+Build-Ids: 4a2482ea059d01d29365c8997d7c8015ad74ca11
+
+Package: libretro-meteor
+Version: 1.4+git20190912.0211-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 138
+Depends: retroarch | libretro-frontend, libc6 (>= 2.17), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Multi-Arch: same
+Homepage: https://github.com/blastrock/meteor
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-meteor/libretro-meteor_1.4+git20190912.0211-21_arm64.deb
+Size: 48352
+SHA256: eab98b74d6662a0e8feefaed6e92ceec81627ad512462bc71e3d725e69c18d07
+SHA1: d0e1bf88d3297038189ca9750229d42489b38b2c
+MD5sum: c715a23b51f3b8aa087f6ff0b5a2a137
+Description: Libretro wrapper for Meteor
+ This wrapper makes Meteor API compatible with libretro, thus allowing its use
+ with libretro frontends, such as RetroArch.
+ .
+ Meteor is a Nintendo Gameboy Advance emulator.
+ .
+ Game Boy Advance is registered trademarks of Nintendo of America Inc. Meteor
+ is not affiliated with or endorsed by any of the companies mentioned.
+
+Package: libretro-meteor-dbgsym
+Source: libretro-meteor
+Version: 1.4+git20190912.0211-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 1121
+Depends: libretro-meteor (= 1.4+git20190912.0211-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-meteor/libretro-meteor-dbgsym_1.4+git20190912.0211-21_arm64.deb
+Size: 1104872
+SHA256: 66a4993184545c8877ce4dbf7dbcb47550ad290e6d57a0ed35fd9b27fcf7ff21
+SHA1: df21468771e375d681d16d2e38e8f791e0a929a3
+MD5sum: 0936de606a66265c27cfa0dd2d0fc68b
+Description: debug symbols for libretro-meteor
+Build-Ids: bfb61e028623609473fed3f61ba16615c56b77d4
+
+Package: libretro-mrboom
+Version: 3.1+git20200502.2037-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 8943
+Depends: retroarch | libretro-frontend, libc6 (>= 2.17), libgcc-s1 (>= 3.0), libstdc++6 (>= 4.9)
+Multi-Arch: same
+Homepage: https://github.com/libretro/mrboom-libretro
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-mrboom/libretro-mrboom_3.1+git20200502.2037-21_arm64.deb
+Size: 1930640
+SHA256: d55e384a8c6e705d655314a840dc76b8a7c851d68aa4df14134f75da9cf729ec
+SHA1: a1949ffac30879319fe39238f3973c256f1efdc5
+MD5sum: 08eee7f66e5eed49352c1c046b32a46d
+Description: Libretro wrapper for Mr.Boom
+ This wrapper makes Mr.Boom compatible with libretro, thus allowing its use with
+ libretro frontends, such as RetroArch.
+ .
+ Mr.Boom is a Bomberman clone which supports up to 8 players and features like
+ pushing bombs, remote controls and kangaroo riding.
+
+Package: libretro-mrboom-dbgsym
+Source: libretro-mrboom
+Version: 3.1+git20200502.2037-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 626
+Depends: libretro-mrboom (= 3.1+git20200502.2037-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-mrboom/libretro-mrboom-dbgsym_3.1+git20200502.2037-21_arm64.deb
+Size: 573972
+SHA256: 0db9f5472af0865f6f1f2ca00fe8cc4b2a34554eb7b0fa15257d78e747fb7d1d
+SHA1: a92ddf53ec0a835fa12683c230230d19a508fc20
+MD5sum: 8f12312d40d354a4a086c62fcf0d300b
+Description: debug symbols for libretro-mrboom
+Build-Ids: 8996fe8448046e3f91b4f516908e4359a8ee8592
+
+Package: libretro-nestopia-dbgsym
+Source: libretro-nestopia
+Version: 1.47-wip+git20200510.1849-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 10288
+Depends: libretro-nestopia (= 1.47-wip+git20200510.1849-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-nestopia/libretro-nestopia-dbgsym_1.47-wip+git20200510.1849-21_arm64.deb
+Size: 10000592
+SHA256: 7715197608a15796ad3ce11307488511a40540ce2b6d5e024d9943bb6e5297c5
+SHA1: 9f4259bf4c0aefe07ee85c080d8b4613654e6103
+MD5sum: 637a60e1b6e2c1c06c5f0cc70dc407b9
+Description: debug symbols for libretro-nestopia
+Build-Ids: cd0b8b991ef9902db5c9c50dccdec07f43e2af7d
+
+Package: libretro-np2
+Version: 0.86+git20200507.0657-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 1230
+Depends: retroarch | libretro-frontend, libc6 (>= 2.29)
+Multi-Arch: same
+Homepage: http://www.yui.ne.jp/np2/
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-np2/libretro-np2_0.86+git20200507.0657-21_arm64.deb
+Size: 388520
+SHA256: 66a7f6172f73bd8f3ca50f65b4d86faa3c0fbd81faff1c1fca1387742c3f6200
+SHA1: 115896ac6a0d060027d8a130ce3089acc0b9973b
+MD5sum: 509595ac4b999ff3fdb904515a5390e1
+Description: Libretro wrapper for the Neko Project II
+ This wrapper makes Neko Project II core API compatible with libretro, thus
+ allowing its use with libretro frontends, such as RetroArch.
+ .
+ Neko Project II is a NEC PC-98 computer emulator.
+
+Package: libretro-np2-dbgsym
+Source: libretro-np2
+Version: 0.86+git20200507.0657-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 1791
+Depends: libretro-np2 (= 0.86+git20200507.0657-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-np2/libretro-np2-dbgsym_0.86+git20200507.0657-21_arm64.deb
+Size: 1610532
+SHA256: 9fcb83534cc188930a30da6bb4d6f39cead6be0fe846cb7288e7bf38025e0d7d
+SHA1: 18794331cf9df25142365d40b6e86c4af0304821
+MD5sum: 7af366035ecb6530bea5ec5a410223fe
+Description: debug symbols for libretro-np2
+Build-Ids: dd46c98cb14e9bf6b0afcbe5d896d8847bdc0807
+
+Package: libretro-np2kai
+Version: 0.86+git20200614.0524-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 2373
+Depends: retroarch | libretro-frontend, libc6 (>= 2.29), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
+Multi-Arch: same
+Homepage: http://domisan.sakura.ne.jp/article/np2kai/np2kai.html
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-np2kai/libretro-np2kai_0.86+git20200614.0524-21_arm64.deb
+Size: 633504
+SHA256: 27d506d92dd58b7445f4f2616011e65a289f101d626a77c54ea2755da671ab9f
+SHA1: 01e79c8be68e563af2657324862682eb3219c696
+MD5sum: cc5783dc012ec9fb5ee69afc199db755
+Description: Libretro wrapper for the Neko Project II kai
+ This wrapper makes Neko Project II kai core API compatible with libretro, thus
+ allowing its use with libretro frontends, such as RetroArch.
+ .
+ Neko Project II kai is a NEC PC-98 computer emulator and a fork of Neko
+ Project II.
+
+Package: libretro-np2kai-dbgsym
+Source: libretro-np2kai
+Version: 0.86+git20200614.0524-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 3722
+Depends: libretro-np2kai (= 0.86+git20200614.0524-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-np2kai/libretro-np2kai-dbgsym_0.86+git20200614.0524-21_arm64.deb
+Size: 3345292
+SHA256: 5f9d9c4651c4aa04bf82dbd3b21b34230f71158a1cf77ab6ca9e2d31b05fd2c2
+SHA1: 56a1fd8eadc1b3ecf8840a5f537acdc9be7bec81
+MD5sum: d884050ab0f32369bf8c68707deac6a9
+Description: debug symbols for libretro-np2kai
+Build-Ids: d0270b36a165e0472fd519858309e4006f158d90
+
+Package: libretro-nxengine
+Version: 1.0.0.6+git20200109.0000-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 826
+Depends: retroarch | libretro-frontend, libc6 (>= 2.29), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
+Multi-Arch: same
+Homepage: http://nxengine.sourceforge.net
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-nxengine/libretro-nxengine_1.0.0.6+git20200109.0000-21_arm64.deb
+Size: 230956
+SHA256: 5ddaa2e4d080d7c85597e7617fd02b177d1ec4c893550dcb852e63eb1bdf762b
+SHA1: fcd6529c1041633815961bd1a9d11efcc3959b6f
+MD5sum: 8fbaaf732a1f9e8ff03e075125ee93b4
+Description: Libretro wrapper for NXEngine
+ This wrapper makes NXEngine API compatible with libretro, thus allowing its use
+ with libretro frontends, such as RetroArch.
+ .
+ A complete open-source clone/rewrite of the masterpiece jump-and-run platformer
+ Doukutsu Monogatari (also known as Cave Story).
+ .
+ You will need the executable file (Doukutsu.exe for example, which is freeware)
+ that is not provided by this package.
+
+Package: libretro-nxengine-dbgsym
+Source: libretro-nxengine
+Version: 1.0.0.6+git20200109.0000-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 1503
+Depends: libretro-nxengine (= 1.0.0.6+git20200109.0000-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-nxengine/libretro-nxengine-dbgsym_1.0.0.6+git20200109.0000-21_arm64.deb
+Size: 1329932
+SHA256: 07a920ce7ac0d5d5aeb864c83601b157fcd3aba6270545f2594762255be2f02b
+SHA1: 8df1bfc09cc4da031544862da153c2325eaafaa9
+MD5sum: 1f455ede9882211d295e6dd6065b3fd9
+Description: debug symbols for libretro-nxengine
+Build-Ids: 0642cdfc0cfed89cfd7d362d05b7d32010997a7e
+
+Package: libretro-o2em
+Version: 1.18+git20200609.1952-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 249
+Depends: retroarch | libretro-frontend, libc6 (>= 2.17)
+Multi-Arch: same
+Homepage: http://o2em.sourceforge.net
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-o2em/libretro-o2em_1.18+git20200609.1952-21_arm64.deb
+Size: 74328
+SHA256: 0f0e3065200bc9d31cfebce04c9690eec8147b8dc0a92052e35295c6a5454cb6
+SHA1: c6b132cce1bda57f69a0916a4535c94e1619071b
+MD5sum: cc50d63e91b6da48a4f20d1a6f748ff1
+Description: Libretro wrapper for O2EM
+ This wrapper makes O2EM API compatible with libretro, thus allowing its use
+ with libretro frontends, such as RetroArch.
+ .
+ O2EM is an open source multi-platform Odyssey 2 / Videopac+ emulator. The
+ Odyssey2 (Videopac/Jopac in Europe) was a video game console created in the
+ late 70s.
+
+Package: libretro-o2em-dbgsym
+Source: libretro-o2em
+Version: 1.18+git20200609.1952-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 87
+Depends: libretro-o2em (= 1.18+git20200609.1952-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-o2em/libretro-o2em-dbgsym_1.18+git20200609.1952-21_arm64.deb
+Size: 63944
+SHA256: ed988d3934d2bceca1e5c6d8d92d0c0ad0f3fe321731c1851ae6a1ece2dd5add
+SHA1: fdee46cdb7d4450e311418f14acd991658d36d6b
+MD5sum: 18e612d06bad5e99fea82aac927b4b0c
+Description: debug symbols for libretro-o2em
+Build-Ids: eaeaa219afaab1811e4f7b6add2cbdaf9326c547
+
+Package: libretro-parallel-n64
+Version: 2.0-rc2+git20200528.2215-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 2181
+Depends: retroarch | libretro-frontend, libc6 (>= 2.29), libgcc-s1 (>= 3.0), libgles2, libstdc++6 (>= 6)
+Multi-Arch: same
+Homepage: https://github.com/libretro/parallel-n64
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-parallel-n64/libretro-parallel-n64_2.0-rc2+git20200528.2215-21_arm64.deb
+Size: 678748
+SHA256: 52fbdf5972d848ab6c5313284ef1dd9e42dcb43fae3ecd8dc9d36703088f1e64
+SHA1: f9b30f7eac2be43ebf85553769bbab8697fcbd53
+MD5sum: a7148e95e17554efa44c00a7d43c42af
+Description: Libretro wrapper for ParaLLEl N64
+ This is a wrapper designed to make ParaLLEl N64 API-compatible with libretro,
+ thus allowing its use with libretro frontends, such as Retroarch.
+ .
+ ParaLLEl N64 is an optimized/rewritten Nintendo 64 emulator made specifically
+ for Libretro, originally based on Mupen64Plus and includes a Vulkan rendering
+ backend (only for Ubuntu 16.04 and up).
+ .
+ ParaLLEl N64 is a cross-platform plugin-based Nintendo 64 emulator which is
+ capable of accurately playing many games. Included are four MIPS R4300 CPU
+ emulators, with dynamic recompilers for 32-bit x86 and 64-bit amd64 systems,
+ and necessary plugins for audio, graphical rendering (RDP), signal co-processor
+ (RSP), and input. Video plugins included: Glide64, glN64 (with some GLideN64
+ backports), Rice, Angrylion and ParaLLEl (Vulkan rendering backend based on
+ angrylion plugin).
+ .
+ Nintendo 64 is a registered trademark of Nintendo of America Inc. ParaLLEl N64
+ and Mupen64Plus are not affiliated with or endorsed by any of the companies
+ mentioned.
+
+Package: libretro-parallel-n64-dbgsym
+Source: libretro-parallel-n64
+Version: 2.0-rc2+git20200528.2215-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 3120
+Depends: libretro-parallel-n64 (= 2.0-rc2+git20200528.2215-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-parallel-n64/libretro-parallel-n64-dbgsym_2.0-rc2+git20200528.2215-21_arm64.deb
+Size: 2871196
+SHA256: 95fed53fa55e199def913d6328c1e4c247484b94c703cd9eb5c5d73fbed2f3b6
+SHA1: e7561ff677dfa88350e57b6b8ee4375b483749ae
+MD5sum: 89e42142cc7840a7a4db66640325cc91
+Description: debug symbols for libretro-parallel-n64
+Build-Ids: 0ddded1c7aabd29bad85f84e0446c5a05cf9d6ea
+
+Package: libretro-pcsx-rearmed
+Version: 21+git20200611.0113-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 1375
+Depends: retroarch | libretro-frontend, libc6 (>= 2.17)
+Multi-Arch: same
+Homepage: http://notaz.gp2x.de/pcsx_rearmed.php
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-pcsx-rearmed/libretro-pcsx-rearmed_21+git20200611.0113-21_arm64.deb
+Size: 458192
+SHA256: dd50d9dce6103a0f66e9341949ee135b2a897b5cd5538435e8bf8766368c91db
+SHA1: 865b9707857d51c45aa4e8b13b5228023ff2c9ec
+MD5sum: 225d9c1b53aafd4c55449f0c520fb529
+Description: Libretro wrapper for PCSX ReARMed
+ This wrapper makes PCSX ReARMed API compatible with libretro, thus allowing its
+ use with libretro frontends, such as RetroArch.
+ .
+ PCSX ReARMed is yet another PCSX fork based on the PCSX-Reloaded project, which
+ itself contains code from PCSX, PCSX-df and PCSX-Revolution. This version is
+ heavily optimized for ARM architecture and features MIPS->ARM recompiler by
+ Ari64, NEON GTE code and more performance improvements.
+ .
+ PCSX ReARMed features ARM NEON GPU by Exophase, that in many cases produces
+ pixel perfect graphics at very high performance. There is also Una-i's GPU
+ plugin from PCSX4ALL project, and traditional P.E.Op.S. one.
+
+Package: libretro-pcsx-rearmed-dbgsym
+Source: libretro-pcsx-rearmed
+Version: 21+git20200611.0113-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 1345
+Depends: libretro-pcsx-rearmed (= 21+git20200611.0113-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-pcsx-rearmed/libretro-pcsx-rearmed-dbgsym_21+git20200611.0113-21_arm64.deb
+Size: 1240744
+SHA256: fd4c3fe37cf95306f72b05f3c8d590e38aeac5ab685ae9f250874e33c04ab40d
+SHA1: 7801cd856471e832539af05222a328d9aea16da2
+MD5sum: 907b402ffa3d2ef89e798991d17ae8a5
+Description: debug symbols for libretro-pcsx-rearmed
+Build-Ids: 66d1cfa8ea5445836ff62a967f2efada38d2f970
+
+Package: libretro-pocketcdg
+Version: 0.0.1+git20200514.1626-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 158
+Depends: retroarch | libretro-frontend, libc6 (>= 2.29)
+Multi-Arch: same
+Homepage: https://www.kyuran.be/
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-pocketcdg/libretro-pocketcdg_0.0.1+git20200514.1626-21_arm64.deb
+Size: 62324
+SHA256: bd1898a654533b6b3ce7ed52d42739f00de4195b8c2e30401769f8b1001e1a99
+SHA1: d74229f7b1fe37f3ffc7ce3536532434939f9dfc
+MD5sum: f557030456ea82023d819a37a799679f
+Description: Libretro wrapper for the PocketCDG
+ This wrapper makes PocketCDG core API compatible with libretro, thus
+ allowing its use with libretro frontends, such as RetroArch.
+ .
+ PocketCDG is karaoke music player emulator. It can load any MP3+CDG file
+ combination, showing lyrics onscreen and on-cue like a true karaoke player.
+
+Package: libretro-pocketcdg-dbgsym
+Source: libretro-pocketcdg
+Version: 0.0.1+git20200514.1626-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 92
+Depends: libretro-pocketcdg (= 0.0.1+git20200514.1626-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-pocketcdg/libretro-pocketcdg-dbgsym_0.0.1+git20200514.1626-21_arm64.deb
+Size: 73516
+SHA256: 8c33b72d00c158f95f46c12a5339d7c640e53b063baf57c1bb0a56f37a844756
+SHA1: f02292a786567f63c208e85baa6f5605d495c932
+MD5sum: a67e145605725f07419b34ed8ed9c4a9
+Description: debug symbols for libretro-pocketcdg
+Build-Ids: 09b26a6d83a8ce75e79785d040bc9806680d193a
+
+Package: libretro-pokemini
+Version: 0.60+git20200207.1204-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 706
+Depends: retroarch | libretro-frontend, libc6 (>= 2.17)
+Multi-Arch: same
+Homepage: https://sourceforge.net/projects/pokemini/
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-pokemini/libretro-pokemini_0.60+git20200207.1204-21_arm64.deb
+Size: 192700
+SHA256: 5e203b33796f915221eb60c4da6fc921c8f7ad93990e98b2a957838446ff08d4
+SHA1: b5883deb744a043d2d07cf025e5219476d77f5a5
+MD5sum: 9e61033e031bb47763bc6dadf311140d
+Description: Libretro wrapper for PokeMini
+ This wrapper makes PokeMini core API compatible with libretro, thus allowing
+ its use with libretro frontends, such as RetroArch.
+ .
+ PokeMini is a homebrew emulator for Pokémon Mini handheld.
+ .
+ Pokemon Mini is registered trademark of Nintendo of America Inc. PokeMini is
+ not affiliated with or endorsed by any of the companies mentioned.
+
+Package: libretro-pokemini-dbgsym
+Source: libretro-pokemini
+Version: 0.60+git20200207.1204-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 363
+Depends: libretro-pokemini (= 0.60+git20200207.1204-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-pokemini/libretro-pokemini-dbgsym_0.60+git20200207.1204-21_arm64.deb
+Size: 317024
+SHA256: 02f93f6da6b8a9bcd670defd6a3feae967eefc185b3b993c97e345886bc2c011
+SHA1: 91ebf300c1eb56e6d29b8a8cd73c21dd20971aea
+MD5sum: d2043174abede15ffbb459886b3601d3
+Description: debug symbols for libretro-pokemini
+Build-Ids: cf84ea7197bc4d6fb418d05a7c34e4d43fa592c6
+
+Package: libretro-ppsspp
+Version: 0.0.1+git20200318.1828-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 24053
+Depends: retroarch | libretro-frontend, libc6 (>= 2.29), libgcc-s1 (>= 4.2), libgl1, libstdc++6 (>= 9), zlib1g (>= 1:1.2.3.3)
+Multi-Arch: same
+Homepage: http://ppsspp.org
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-ppsspp/libretro-ppsspp_0.0.1+git20200318.1828-21_arm64.deb
+Size: 4564404
+SHA256: e45068a87a8b971cbce8fa12688c480fd563a513bf5180a90b4a2768a47f5452
+SHA1: dd1735e7e2bdac794c454a8a1fd18efbbba1a7a7
+MD5sum: 89b78e20b39e8c67962c1a7ea391b574
+Description: Libretro wrapper for PPSSPP
+ This wrapper makes PPSSPP API compatible with libretro, thus allowing its use
+ with libretro frontends, such as RetroArch.
+ .
+ PPSSPP can run your PSP games on your PC in full HD resolution. It can even
+ upscale textures that would otherwise be too blurry as they were made for
+ the small screen of the original PSP.
+ .
+ All trademarks are property of their respective owners. The emulator is for
+ educational and development purposes only and it may not be used to play games
+ you do not legally own.
+
+Package: libretro-ppsspp-dbgsym
+Source: libretro-ppsspp
+Version: 0.0.1+git20200318.1828-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 41559
+Depends: libretro-ppsspp (= 0.0.1+git20200318.1828-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-ppsspp/libretro-ppsspp-dbgsym_0.0.1+git20200318.1828-21_arm64.deb
+Size: 34121448
+SHA256: ad85ee2ee8f842c1666a6769b07e3e454a2ccfec746cef2fa9b64cf4eed137ea
+SHA1: c4ea073cc761fd1eddcdc666443fa87f198b2a30
+MD5sum: 7ed34eb48ba8dae66097070beaa745d4
+Description: debug symbols for libretro-ppsspp
+Build-Ids: 1e72de1fb74dc93a8bb38f3c71c44675a144ddba
+
+Package: libretro-prboom
+Version: 2.5.0+git20200517.2157-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 1036
+Depends: retroarch | libretro-frontend, libc6 (>= 2.29)
+Multi-Arch: same
+Homepage: http://prboom.sourceforge.net/
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-prboom/libretro-prboom_2.5.0+git20200517.2157-21_arm64.deb
+Size: 332232
+SHA256: 46889779c6f4d9c2fe9aa8aa577c43f78b4923e47471f10acd5d949dca84c35c
+SHA1: 3b813182d94e5623aa5d94033dde316f80b38ea6
+MD5sum: b44d3ae6c2004a64e06d54333aebb36d
+Description: Libretro wrapper for PrBoom
+ This wrapper makes PrBoom API compatible with libretro, thus allowing its use
+ with libretro frontends, such as RetroArch.
+ .
+ PrBoom is the culmination of years of work by various people and projects on
+ the Doom source code. PrBoom includes work from original Doom source release
+ (by id Software), DosDoom, Boom, MBF, LxDoom and ISDLDoom. Of course ideas
+ were exchanged with many other Doom ports, including xdoom, and Eternity.
+ .
+ PrBoom plays Doom, Doom II, Final Doom and other Doom IWAD mods.
+
+Package: libretro-prboom-dbgsym
+Source: libretro-prboom
+Version: 2.5.0+git20200517.2157-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 1349
+Depends: libretro-prboom (= 2.5.0+git20200517.2157-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-prboom/libretro-prboom-dbgsym_2.5.0+git20200517.2157-21_arm64.deb
+Size: 1146092
+SHA256: 8be84a64674699c1b79125a79797793a4601b91c7a044e4d32bea38b714e8312
+SHA1: 9d496049735565ca2a8a069db91998c85c8eb001
+MD5sum: 9fe86dff75b4164dea0df1817fd97ffb
+Description: debug symbols for libretro-prboom
+Build-Ids: f23b0560d431b27f0fc904c110107134f0853819
+
+Package: libretro-prosystem
+Version: 1.3e+git20200106.2319-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 126
+Depends: retroarch | libretro-frontend, libc6 (>= 2.17)
+Multi-Arch: same
+Homepage: https://web.archive.org/web/20140102081044/https://home.comcast.net/~gscottstanton/
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-prosystem/libretro-prosystem_1.3e+git20200106.2319-21_arm64.deb
+Size: 25596
+SHA256: d53e97eafdf1aac5ad7fb3ccbf87c313ae32ece0041c36241020e4030f0afef5
+SHA1: e45a5745af15b118f6de1f7c45c1ed756db5f10d
+MD5sum: e4a64dce6503a833c3ce2107c043d15f
+Description: Libretro wrapper for ProSystem
+ This wrapper makes ProSystem API compatible with libretro, thus allowing its
+ use with libretro frontends, such as RetroArch.
+ .
+ ProSystem is an emulator that will allow you to play Atari 7800 video games on
+ your PC. The ProSystem emulator imitates the Atari 7800's CPU, video, audio,
+ joystick controls, etc.
+
+Package: libretro-prosystem-dbgsym
+Source: libretro-prosystem
+Version: 1.3e+git20200106.2319-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 73
+Depends: libretro-prosystem (= 1.3e+git20200106.2319-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-prosystem/libretro-prosystem-dbgsym_1.3e+git20200106.2319-21_arm64.deb
+Size: 52764
+SHA256: b8aafc2ce840d9737cfac350885d97572899027ed3cd275bf7d1811563c92203
+SHA1: 32f47f027ecffce2150f78c1951c02e79b89d042
+MD5sum: d9fde2efee05acaf494f714969e98f33
+Description: debug symbols for libretro-prosystem
+Build-Ids: f32c85f2c6fbb81d31031354feb729f83fba2e25
+
+Package: libretro-px68k
+Version: 0.15++git20200504.2302-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 974
+Depends: retroarch | libretro-frontend, libc6 (>= 2.17), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
+Multi-Arch: same
+Homepage: http://hissorii.blog45.fc2.com/
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-px68k/libretro-px68k_0.15++git20200504.2302-21_arm64.deb
+Size: 166468
+SHA256: 4ef848718d2686e55a736ebabf511ce3bcdc7f3ef51f62de2698b568623e2cc8
+SHA1: fbc7bdd94af2afa11ef123fbc7e4281909a02f07
+MD5sum: 6aa2a20d7739460e4dcb0cd6f4982236
+Description: Libretro wrapper for the PX68K
+ This wrapper makes PX68K core API compatible with libretro, thus
+ allowing its use with libretro frontends, such as RetroArch.
+ .
+ PX68K is a SHARP X68000 computer emulator.
+
+Package: libretro-px68k-dbgsym
+Source: libretro-px68k
+Version: 0.15++git20200504.2302-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 720
+Depends: libretro-px68k (= 0.15++git20200504.2302-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-px68k/libretro-px68k-dbgsym_0.15++git20200504.2302-21_arm64.deb
+Size: 663700
+SHA256: 1e1816125c75c59487ac15447b2209ee2009470eec96f1da5fa487facfeb83e8
+SHA1: cf6cdfd0c36e98bd8e0039307ddcdcd978d34aa2
+MD5sum: e2e8345828b01a47a54d3803fd424c30
+Description: debug symbols for libretro-px68k
+Build-Ids: 51794975cd6e4d1304a29cde6d36d405d946b1ad
+
+Package: libretro-quicknes
+Version: 0.0.1+git20200520.1812-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 316
+Depends: retroarch | libretro-frontend, libc6 (>= 2.29), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
+Multi-Arch: same
+Homepage: https://github.com/kode54/QuickNES_Core
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-quicknes/libretro-quicknes_0.0.1+git20200520.1812-21_arm64.deb
+Size: 89708
+SHA256: 03f7823f497f298b9775515880b730aa5c3eb24255f020a767ad19f0f40c3bd3
+SHA1: 25ca5a1d3b538deec2e62141f3d2dd578af8183c
+MD5sum: ecf7654f88a02fd7fed55436cf4c15eb
+Description: Libretro wrapper for QuickNES
+ This wrapper makes QuickNES API-compatible with libretro, thus allowing its use
+ with libretro frontends, such as RetroArch.
+ .
+ Nes_Emu, the core NES emulator library used by QuickNES, began as a very simple
+ NES emulator sometime in 2004. It was based on the 6502 CPU core and APU sound
+ core used in the Game_Music_Emu sound engine.
+ .
+ NES is a trademarks of Nintendo Co., Limited and its subsidiary companies.
+ QuickNES, Nes_Emu and Game_Music_Emu are not affiliated with or endorsed by any
+ of the companies mentioned.
+
+Package: libretro-quicknes-dbgsym
+Source: libretro-quicknes
+Version: 0.0.1+git20200520.1812-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 766
+Depends: libretro-quicknes (= 0.0.1+git20200520.1812-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-quicknes/libretro-quicknes-dbgsym_0.0.1+git20200520.1812-21_arm64.deb
+Size: 683548
+SHA256: e1a7c4ef434ed9e3315c9f604fd2543fc9bdfdbc30ce0e834141e7db37de22da
+SHA1: a6fcfdb8e7722a84e6520b9370375e6fdaf96535
+MD5sum: d3a5b27ef6c1a5b191118b73c3ad2838
+Description: debug symbols for libretro-quicknes
+Build-Ids: f7318e2b1a4a7e0372993fc4c6163b8a1752ad8f
+
+Package: libretro-redream
+Version: 0.0.1+git20180418.0450-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 2274
+Depends: retroarch | libretro-frontend, libc6 (>= 2.29)
+Multi-Arch: same
+Homepage: https://redream.io/
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-redream/libretro-redream_0.0.1+git20180418.0450-21_arm64.deb
+Size: 488492
+SHA256: 72c0a77f619300033f2ab19dcaa169f6ae86c732784aca75b99e58d0c310e82c
+SHA1: b8bc4039eda610021a3da55112cc0d22564dd9ef
+MD5sum: e6ee26f0235bb499f99df475ee0d8272
+Description: Libretro wrapper for redream
+ This wrapper makes redream API compatible with libretro, thus allowing its use
+ with libretro frontends, such as RetroArch.
+ .
+ redream is a work-in-progress SEGA Dreamcast emulator.
+
+Package: libretro-redream-dbgsym
+Source: libretro-redream
+Version: 0.0.1+git20180418.0450-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 1806
+Depends: libretro-redream (= 0.0.1+git20180418.0450-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-redream/libretro-redream-dbgsym_0.0.1+git20180418.0450-21_arm64.deb
+Size: 1659932
+SHA256: f9ec52bea66a0bc59207c54eaa0ca690d1a4053ca598a6645f1e6d3808feddf3
+SHA1: fdea9a04cbbd397f71e3f47f2d34fb51334d441f
+MD5sum: 45c0202a345aca9df6ac9186f870e4bd
+Description: debug symbols for libretro-redream
+Build-Ids: 84701910c06e5827002358861db003e4f02d0818
+
+Package: libretro-sameboy
+Version: 0.9.0+git20200604.2055-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 180
+Depends: retroarch | libretro-frontend, libc6 (>= 2.29)
+Multi-Arch: same
+Homepage: https://sameboy.github.io/
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-sameboy/libretro-sameboy_0.9.0+git20200604.2055-21_arm64.deb
+Size: 61488
+SHA256: 6f931b38c4a59189eb9b7508645e80eac5564094f3c27cb5d99d52c7c00509eb
+SHA1: 9bf1d456194f73651c1511f9dcdd955ee04a1156
+MD5sum: fc79db004b64fe6515011a90c40280ba
+Description: Libretro wrapper for SameBoy
+ This wrappers makes SameBoy API compatible with libretro, thus allowing
+ its use with libretro frontends, such as RetroArch.
+ .
+ SameBoy is an open source Game Boy (DMG) and Game Boy Color (CGB) emulator,
+ written in portable C.
+ .
+ Game Boy and Game Boy Color are registered trademarks of Nintendo of
+ America Inc. SameBoy is not affiliated with or endorsed by any of the
+ companies mentioned.
+
+Package: libretro-sameboy-dbgsym
+Source: libretro-sameboy
+Version: 0.9.0+git20200604.2055-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 213
+Depends: libretro-sameboy (= 0.9.0+git20200604.2055-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-sameboy/libretro-sameboy-dbgsym_0.9.0+git20200604.2055-21_arm64.deb
+Size: 182952
+SHA256: 20f5685b30b883f1b015c894f679c00b3ee5f90be83e3fddae3703a3b676a673
+SHA1: 835eb0143d414ae3c0963cd0f63c192b88f9f4ed
+MD5sum: 85e55a06a784de6791fc6713b41ee351
+Description: debug symbols for libretro-sameboy
+Build-Ids: 61e404be2fc4cd4c6b224f2db107e5d284f3c710
+
+Package: libretro-snes9x
+Version: 1.60+git20200106.2253-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 2133
+Depends: retroarch | libretro-frontend, libc6 (>= 2.29), libstdc++6 (>= 5.2)
+Multi-Arch: same
+Homepage: http://www.snes9x.com
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-snes9x/libretro-snes9x_1.60+git20200106.2253-21_arm64.deb
+Size: 472468
+SHA256: c3e68af6dec3e25cdeb8e8cab435fc6baef60e17508a6302455b31b94ecb48c4
+SHA1: 19c823e73f5c978b7ed43826f418ae64a29354c9
+MD5sum: 0c7570b8b56d1562b111c0e4821d0df2
+Description: Libretro wrapper for Snes9x
+ This wrapper makes Snes9x API compatible with libretro, thus allowing its use
+ with libretro frontends, such as RetroArch.
+ .
+ Snes9x is a portable, freeware Super Nintendo Entertainment System (SNES)
+ emulator written in C++. It basically allows you to play most games designed
+ for the SNES and Super Famicom Nintendo game systems on your PC or Workstation.
+ .
+ Super NES and Super Nintendo Entertainment System are trademarks of
+ Nintendo Co., Limited and its subsidiary companies.
+
+Package: libretro-snes9x-dbgsym
+Source: libretro-snes9x
+Version: 1.60+git20200106.2253-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 2960
+Depends: libretro-snes9x (= 1.60+git20200106.2253-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-snes9x/libretro-snes9x-dbgsym_1.60+git20200106.2253-21_arm64.deb
+Size: 2675440
+SHA256: 0089d29b5d31882f16ff736b857619f8082443b179bc06998875b100198c0654
+SHA1: 168823a8d54825be26a85fae33c25c8f73fe2cb1
+MD5sum: 3d9393e7f591518d47ced6787fe5460c
+Description: debug symbols for libretro-snes9x
+Build-Ids: fdd3860ba3c913c3e1faa6b47bc5805799d6b7a5
+
+Package: libretro-snes9x-next
+Version: 1.52.4+git20200518.1125-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 2115
+Depends: retroarch | libretro-frontend, libc6 (>= 2.17)
+Multi-Arch: same
+Homepage: http://github.com/libretro/snes9x2010
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-snes9x-next/libretro-snes9x-next_1.52.4+git20200518.1125-21_arm64.deb
+Size: 455708
+SHA256: 4f93958ea107559d747f4f09d11ff173296620a26db2d8f6801ea65b1da7aa2b
+SHA1: 8573b5c42104df67fd56711a4d405cf9197eb0ec
+MD5sum: 9bedaf710db12d16d45ac8544c0f2871
+Description: Libretro wrapper for Snes9x 2010
+ This wrapper makes Snes9x 2010 API compatible with libretro, thus allowing its
+ use with libretro frontends, such as RetroArch.
+ .
+ Snes9x 2010 is a Super Nintendo Entertainment System (SNES) emulator based on
+ Snes9x 1.52 with backported patches for performance and compatibility
+ improvements.
+ .
+ Super NES and Super Nintendo Entertainment System are trademarks of
+ Nintendo Co., Limited and its subsidiary companies.
+
+Package: libretro-snes9x-next-dbgsym
+Source: libretro-snes9x-next
+Version: 1.52.4+git20200518.1125-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 1822
+Depends: libretro-snes9x-next (= 1.52.4+git20200518.1125-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-snes9x-next/libretro-snes9x-next-dbgsym_1.52.4+git20200518.1125-21_arm64.deb
+Size: 1598224
+SHA256: d780b72d03739f842b07b130c711aed6b485be34c238f216e59dc6ab8991dfea
+SHA1: 436442a724a39ccd3ebe498e2e9b55fd74d4112e
+MD5sum: 45b97f24f7f63c6966dbbf822560a91c
+Description: debug symbols for libretro-snes9x-next
+Build-Ids: 927ab2c5854975321ae1719578b8a9182e5f0f93
+
+Package: libretro-stella
+Version: 3.9.3+git20200106.2356-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 5903
+Depends: retroarch | libretro-frontend, libc6 (>= 2.17), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Multi-Arch: same
+Homepage: http://stella.sourceforge.net/
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-stella/libretro-stella_3.9.3+git20200106.2356-21_arm64.deb
+Size: 337044
+SHA256: 024aba2fe9960b2bfd61779180533ba6d1f3d8efc388a71b2b4a480a0205e409
+SHA1: a5ab8ef8a3f241a7c2a7f325cd94fd7ff8f2550a
+MD5sum: ffbc0049f2c763898bc2c8eec9e65403
+Description: Libretro wrapper for Stella
+ This wrapper makes Stella API compatible with libretro, thus allowing its use
+ with libretro frontends, such as RetroArch.
+ .
+ Stella is a multi-platform Atari 2600 Video Computer System (VCS) emulator
+ released under the GNU General Public License (GPL). Stella was originally
+ developed for Linux by Bradford W. Mott, and is currently maintained by
+ Stephen Anthony.
+
+Package: libretro-stella-dbgsym
+Source: libretro-stella
+Version: 3.9.3+git20200106.2356-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 2487
+Depends: libretro-stella (= 3.9.3+git20200106.2356-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-stella/libretro-stella-dbgsym_3.9.3+git20200106.2356-21_arm64.deb
+Size: 2360048
+SHA256: 9d844fe45f6a3ee52ef1088804418afe8aae2bc7c36fc14964e74bcc167f97dd
+SHA1: e674158154805b7f0fd541086c52c809fbe6d0ff
+MD5sum: 8bb21878d5d9c24503995e9c253a1b41
+Description: debug symbols for libretro-stella
+Build-Ids: 3a0ec0e0c0ac2c0ecba113ae332b6e6a68e26198
+
+Package: libretro-tgbdual
+Version: 0.8.3+git20200422.1915-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 164
+Depends: retroarch | libretro-frontend, libc6 (>= 2.17), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
+Multi-Arch: same
+Homepage: http://gigo.retrogames.com/download.html#tgb-dual
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-tgbdual/libretro-tgbdual_0.8.3+git20200422.1915-21_arm64.deb
+Size: 66116
+SHA256: 643d009aa0bb4e3bdea3686a954d9c5f132ee8ee64852cfb174f6bfa7b349227
+SHA1: 9d606e294395a9ee35002abe306119d7f67d87da
+MD5sum: 58abedf6598dd4584a10ee5900711091
+Description: Libretro wrapper for TGB Dual
+ This wrappers makes TGB Dual API compatible with libretro, thus allowing
+ its use with libretro frontends, such as RetroArch.
+ .
+ TGB Dual is a Game Boy [Color] emulator that supports linking feature.
+ .
+ Game Boy and Game Boy Color are registered trademarks of Nintendo of
+ America Inc. TGB Dual is not affiliated with or endorsed by any of the
+ companies mentioned.
+
+Package: libretro-tgbdual-dbgsym
+Source: libretro-tgbdual
+Version: 0.8.3+git20200422.1915-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 236
+Depends: libretro-tgbdual (= 0.8.3+git20200422.1915-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-tgbdual/libretro-tgbdual-dbgsym_0.8.3+git20200422.1915-21_arm64.deb
+Size: 213500
+SHA256: 7bf1e2258919161b7debd001c27fdd76b28dafdb7cf8e680b3b2c5bd7f7c87a7
+SHA1: 55ba702555fda56aac6390a9f808d5f05b889997
+MD5sum: ad43950641dd24e7bef2bd387a369771
+Description: debug symbols for libretro-tgbdual
+Build-Ids: 5aedb506c28548b91f7d3ea50d598a9b3e2a7d3b
+
+Package: libretro-tyrquake
+Version: 0.62+git20200417.2323-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 1518
+Depends: retroarch | libretro-frontend, libc6 (>= 2.29)
+Multi-Arch: same
+Homepage: http://disenchant.net/tyrquake/
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-tyrquake/libretro-tyrquake_0.62+git20200417.2323-21_arm64.deb
+Size: 417512
+SHA256: 88642727d8869c080d684e6811ca3e4c5b28641b04c7570e19bfb7aa408c45fa
+SHA1: 095100992defa6f87333fb17e7d2c697f164dd77
+MD5sum: dd50eb6bd62be7a0ba8b18658a9aaad6
+Description: Libretro wrapper for TyrQuake
+ This wrapper makes TyrQuake API compatible with libretro, thus allowing its use
+ with libretro frontends, such as RetroArch.
+
+Package: libretro-tyrquake-dbgsym
+Source: libretro-tyrquake
+Version: 0.62+git20200417.2323-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 1530
+Depends: libretro-tyrquake (= 0.62+git20200417.2323-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-tyrquake/libretro-tyrquake-dbgsym_0.62+git20200417.2323-21_arm64.deb
+Size: 1309884
+SHA256: 15761751f5ff15e88d76b5ce696c1e8d5a8cca027f03c5464588dd54d223d2e8
+SHA1: 256c3693c02b14efc58e98dba9af5e3653fe5866
+MD5sum: 34bcc0ce7f6f0403e1bbe689efa0fb30
+Description: debug symbols for libretro-tyrquake
+Build-Ids: abd81381ce001c14f4081f1ee06ecf500fff9de2
+
+Package: libretro-vba-next
+Version: 0.0.1+git20200106.2255-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 920
+Depends: retroarch | libretro-frontend, libc6 (>= 2.29), libgcc-s1 (>= 3.0), libstdc++6 (>= 4.1.1)
+Multi-Arch: same
+Homepage: http://github.com/libretro/vba-next
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-vba-next/libretro-vba-next_0.0.1+git20200106.2255-21_arm64.deb
+Size: 138524
+SHA256: 1abfdc361a88462bbc7134368a7f23ba78f7ae690ae6877ecacd4bf2ade23a96
+SHA1: de4216628497d548381d3e00338cba31552e38b7
+MD5sum: 372997873f99e928c9db3d9bbcfd9b72
+Description: Libretro wrapper for VBA Next
+ This wrapper makes VBA Next API compatible with libretro, thus allowing its use
+ with libretro frontends, such as RetroArch.
+ .
+ VBA Next is a fork of VBA-M with notable improvements in performance. It is a
+ Nintendo Game Boy Advance emulator with high compatibility with commercial
+ games.
+ .
+ VBA-M is an improved fork from the inactive VisualBoyAdvance project, adding
+ several features as well as maintaining an up-to-date codebase. After
+ VisualBoyAdvance became inactive in 2004, several forks began to appear such
+ as VBALink, which allowed users to emulate the linking of two Gameboy devices.
+ Eventually, VBA-M was created, which merged several of the forks into one
+ codebase. Thus, the M in VBA-M stands for Merge.
+ .
+ Game Boy Advance is a registered trademark of Nintendo of America Inc.
+ VBA Next and VBA-M are not affiliated with or endorsed by any of the
+ companies mentioned.
+
+Package: libretro-vba-next-dbgsym
+Source: libretro-vba-next
+Version: 0.0.1+git20200106.2255-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 632
+Depends: libretro-vba-next (= 0.0.1+git20200106.2255-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-vba-next/libretro-vba-next-dbgsym_0.0.1+git20200106.2255-21_arm64.deb
+Size: 580768
+SHA256: 4162ff9c7be87bbb19fc2ca28f32a67ef52addf62a762397505f36e9daaab6ff
+SHA1: 1b0c5bb900f53d484d068b2afb2e7824fce801e7
+MD5sum: 9e7fdb954888da894826e64c59b6627a
+Description: debug symbols for libretro-vba-next
+Build-Ids: cb910b84ec77702dee3e5966b700b23202310890
+
+Package: libretro-vbam
+Version: 2.1.0+git20200310.2343-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 1421
+Depends: retroarch | libretro-frontend, libc6 (>= 2.29), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
+Multi-Arch: same
+Homepage: http://vba-m.com
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-vbam/libretro-vbam_2.1.0+git20200310.2343-21_arm64.deb
+Size: 263084
+SHA256: c890043af93944a641bf1e06aa2bceee0c0c2db5bcf12190d87c8968198e216c
+SHA1: 036772fb622ef12a7e80074d8291ace303aa9288
+MD5sum: d388b7f76da1f863682666c5811b8d7f
+Description: Libretro wrapper for VBA-M
+ This wrapper makes VBA-M API compatible with libretro, thus allowing its use
+ with libretro frontends, such as RetroArch.
+ .
+ VisualBoyAdvance-M is a Nintendo Game Boy Advance emulator with high
+ compatibility with commercial games.
+ .
+ VBA-M is an improved fork from the inactive VisualBoyAdvance project, adding
+ several features as well as maintaining an up-to-date codebase. After
+ VisualBoyAdvance became inactive in 2004, several forks began to appear such
+ as VBALink, which allowed users to emulate the linking of two Gameboy devices.
+ Eventually, VBA-M was created, which merged several of the forks into one
+ codebase. Thus, the M in VBA-M stands for Merge.
+ .
+ Game Boy Advance is a registered trademark of Nintendo of America Inc. VBA-M
+ is not affiliated with or endorsed by any of the companies mentioned.
+
+Package: libretro-vbam-dbgsym
+Source: libretro-vbam
+Version: 2.1.0+git20200310.2343-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 1013
+Depends: libretro-vbam (= 2.1.0+git20200310.2343-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-vbam/libretro-vbam-dbgsym_2.1.0+git20200310.2343-21_arm64.deb
+Size: 929788
+SHA256: 0e4fb56306a839fbf6080bc78f3187f0b72a840634b37361954a600ed33779bc
+SHA1: a7e0ec0c4ffef802937beb98755149c23becba79
+MD5sum: 556754fa3504ac79b54f8cef1f867aef
+Description: debug symbols for libretro-vbam
+Build-Ids: b17baa4d5a760cdd783fe48b1e136e1f76346c09
+
+Package: libretro-vecx
+Version: 0.0.1+git20200605.2243-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 110
+Depends: retroarch | libretro-frontend, libc6 (>= 2.17)
+Multi-Arch: same
+Homepage: https://github.com/jhawthorn/vecx
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-vecx/libretro-vecx_0.0.1+git20200605.2243-21_arm64.deb
+Size: 32532
+SHA256: 04846993b44f3799a6cd08f4d80b34c3be9c272f9893eaf23fa34f27e6d15bf9
+SHA1: ac6e011d3e1f26d08c4eeb51d54c22e2f0d90d79
+MD5sum: 3c3c81022fddbdd969cca849d1a581e3
+Description: Libretro wrapper for VecX
+ This wrapper makes VecX API compatible with libretro, thus allowing its use
+ with libretro frontends, such as RetroArch.
+ .
+ VecX is a Vectrex emulator.
+
+Package: libretro-vecx-dbgsym
+Source: libretro-vecx
+Version: 0.0.1+git20200605.2243-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 178
+Depends: libretro-vecx (= 0.0.1+git20200605.2243-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-vecx/libretro-vecx-dbgsym_0.0.1+git20200605.2243-21_arm64.deb
+Size: 162912
+SHA256: 870d26eeea1b9694ac23c4e87460a9ccc850779d926496e13f04f000b4f527aa
+SHA1: 3f700589c7a2523bd4f20e95ab7fa9504b1172ea
+MD5sum: ec57e0202db61167780e0a61e1d808f7
+Description: debug symbols for libretro-vecx
+Build-Ids: f78a3f4cff781c1dc6cf85437d9e0c89a46222fc
+
+Package: libretro-virtualjaguar
+Version: 2.1.0+git20200521.1830-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 2091
+Depends: retroarch | libretro-frontend, libc6 (>= 2.17)
+Multi-Arch: same
+Homepage: http://icculus.org/virtualjaguar
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-virtualjaguar/libretro-virtualjaguar_2.1.0+git20200521.1830-21_arm64.deb
+Size: 322052
+SHA256: 89c9bd64e0c1e0c2b32c723b4f8fed8d8d1fcc2b5cdc5096c1985eb0e2cafeab
+SHA1: 147abca481c6d8832165e14c1ea5de9e1d289499
+MD5sum: e1310c34dfd816d7cc12425dd1729cfc
+Description: Libretro wrapper for Virtual Jaguar
+ This wrapper makes Virtual Jaguar core API compatible with libretro, thus
+ allowing its use with libretro frontends, such as RetroArch.
+ .
+ Virtual Jaguar is an emulator for the Atari Jaguar video game system.
+
+Package: libretro-virtualjaguar-dbgsym
+Source: libretro-virtualjaguar
+Version: 2.1.0+git20200521.1830-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 1146
+Depends: libretro-virtualjaguar (= 2.1.0+git20200521.1830-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-virtualjaguar/libretro-virtualjaguar-dbgsym_2.1.0+git20200521.1830-21_arm64.deb
+Size: 994180
+SHA256: fd671eb3b6e5b6e0601e153260e6ab7b2bfb1980b10cbcfa75cdc379199371e1
+SHA1: b43a5f29d19eb1741d2c719ca67705ae82909dd8
+MD5sum: 84dd4c68af4a88a33d3b880b2600918c
+Description: debug symbols for libretro-virtualjaguar
+Build-Ids: 49bc3287ccc04b86d3ae80d8f1745c812ab25dbc
+
+Package: libretro-xrick
+Version: 1.0.0.6+git20200606.1146-21
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 336
+Depends: retroarch | libretro-frontend, libc6 (>= 2.17)
+Multi-Arch: same
+Homepage: http://www.bigorno.net/xrick/
+Priority: optional
+Section: games
+Filename: pool/main/libr/libretro-xrick/libretro-xrick_1.0.0.6+git20200606.1146-21_arm64.deb
+Size: 90732
+SHA256: 49acd21b5e8761d14e9fa3e7a3f7747a304b3e1191eb6ffb2a2155f92e3ee328
+SHA1: a6839cf7b3d20d17a05ee1144d14ac6f837fa61f
+MD5sum: 044b1cc02c3e3742d019e71d0dba51a7
+Description: Libretro wrapper for the xrick game engine
+ This wrapper makes xrick core API compatible with libretro, thus
+ allowing its use with libretro frontends, such as RetroArch.
+ .
+ xrick is a game engine for the old Core Design game 'Rick Dangerous'.
+
+Package: libretro-xrick-dbgsym
+Source: libretro-xrick
+Version: 1.0.0.6+git20200606.1146-21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 148
+Depends: libretro-xrick (= 1.0.0.6+git20200606.1146-21)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libr/libretro-xrick/libretro-xrick-dbgsym_1.0.0.6+git20200606.1146-21_arm64.deb
+Size: 117972
+SHA256: e12b75c197f68ad99e9481f0c40c4f227b6cbfc35daef8f17b261921a30bd880
+SHA1: 6b593cf1de63bedf9ddb5bc1f26de6f2bac26aa9
+MD5sum: 7a1c9f3dd3240023f138925530bf5295
+Description: debug symbols for libretro-xrick
+Build-Ids: 50e8045c888b424d095eedb5aaab2fced49fc8f0
 
 Package: libshairplay-dev
 Source: libshairplay-dmo

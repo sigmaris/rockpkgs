@@ -4,7 +4,7 @@ Hash: SHA256
 Origin: sigmaris.github.io/rockpkgs
 Label: sigmaris.github.io/rockpkgs
 Codename: buster
-Date: Sat, 04 Jan 2020 13:13:17 UTC
+Date: Sun, 14 Jun 2020 16:31:47 UTC
 Architectures: arm64
 Components: main
 Description: Packages for Rockchip SBC
@@ -31,12 +31,12 @@ SHA256:
  5c14bf987f5faff088ee1987565e9adf8b5d512e00b90391804ea1b08e767dea 147 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCAAdFiEElT+Uum0AYi4D0/qRuUCI6L6d6aMFAl4Qj3AACgkQuUCI6L6d
-6aPWXwf9HjEEDU1EA4xns3sFQ/ldDx0Kqj7cuSQhbclxJiZRsbPZIUK281tRqI5x
-iz4ft5nQWSSKE8TnoELcCGBfhcW8/bZTMa11OWSgMYmyKkkdBDTZUGlXJC/HAOXx
-HoZjT002puFpB6p67eyH9EtiyPTCAqHybgMj1kpn60NE5UdnHwCvjdJv7qRf9Ikp
-8rMqSP3URUIeb62yT7pcf1C8pZFdNz4/15a9d8pgEAw4wfP3IfI8JJlzU8XDdnEk
-z6WayecNo7sbIh0/BzGr/k9fuMb+DmkdQ/4xU4GS2+Fs7FseacbZ4uZqs0DwhX0s
-exea9s+I/uJPDKzAaksJ0y1SEjREZg==
-=0aA8
+iQEzBAEBCAAdFiEElT+Uum0AYi4D0/qRuUCI6L6d6aMFAl7mUPYACgkQuUCI6L6d
+6aPbCwf/WJDgrI3K8koI6mJfkb81Mb06BjuhG3hrJGj3n195Natjt802pztg1ukx
+XJia3wFUkzJQ8uN9Y46GYWujXbpuFVfaxv4Un0J0bXv3evpqzxauEJ7xwrW6AY2l
+12zNpxQsbkcuCosMPZ0yQxxza9mD1iVODe8NSfsAz7yUflpDUzaOXpyIhEA+e2Hi
+6DgxEbmlGFriT91C2ljdoJR4fmyIXbgdMAWc49tyGvJIiK3GiFmSmsJhO6IpyvS2
+EpmYDUK2FY043eoeq6t8eFYcySaJQhmjU7GbYG0DZPKJy12h3Kev++6lpnHQS6Mx
+5wfkq1xYkTeAQKz6Nsc6c0ta6SGcYA==
+=i0Z9
 -----END PGP SIGNATURE-----
