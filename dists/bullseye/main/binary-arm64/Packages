@@ -22,11 +22,11 @@ Description: Block pushing puzzle game
  will need a libretro frontend, such as RetroArch.
 
 Package: ffmpeg
-Version: 7:4.3-19~sigmaris
+Version: 7:4.3-21~sigmaris
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 2091
-Depends: libavcodec58 (= 7:4.3-19~sigmaris), libavdevice58 (= 7:4.3-19~sigmaris), libavfilter7 (= 7:4.3-19~sigmaris), libavformat58 (= 7:4.3-19~sigmaris), libavresample4 (= 7:4.3-19~sigmaris), libavutil56 (= 7:4.3-19~sigmaris), libc6 (>= 2.29), libpostproc55 (= 7:4.3-19~sigmaris), libsdl2-2.0-0 (>= 2.0.12+dfsg1), libswresample3 (= 7:4.3-19~sigmaris), libswscale5 (= 7:4.3-19~sigmaris)
+Depends: libavcodec58 (= 7:4.3-21~sigmaris), libavdevice58 (= 7:4.3-21~sigmaris), libavfilter7 (= 7:4.3-21~sigmaris), libavformat58 (= 7:4.3-21~sigmaris), libavresample4 (= 7:4.3-21~sigmaris), libavutil56 (= 7:4.3-21~sigmaris), libc6 (>= 2.29), libpostproc55 (= 7:4.3-21~sigmaris), libsdl2-2.0-0 (>= 2.0.12+dfsg1), libswresample3 (= 7:4.3-21~sigmaris), libswscale5 (= 7:4.3-21~sigmaris)
 Suggests: ffmpeg-doc
 Breaks: libav-tools (<< 6:12~~), qt-faststart (<< 7:2.7.1-3~), winff (<< 1.5.5-5~)
 Replaces: libav-tools (<< 6:12~~), qt-faststart (<< 7:2.7.1-3~)
@@ -34,11 +34,11 @@ Multi-Arch: foreign
 Homepage: https://ffmpeg.org/
 Priority: optional
 Section: video
-Filename: pool/main/f/ffmpeg/ffmpeg_4.3-19~sigmaris_arm64.deb
-Size: 1571924
-SHA256: b32be5f1e435797287a9ce3a862d29c1749df4301b76387089259904e9e2b9bc
-SHA1: 2e30dbbaabb58e864a99561e20b2c5f309bf191f
-MD5sum: b3770822243fe4607afecf8255ea8b43
+Filename: pool/main/f/ffmpeg/ffmpeg_4.3-21~sigmaris_arm64.deb
+Size: 1572312
+SHA256: 3ac6539ac2da84aa05892ac0bf3c32c4251c7351dddad26ec3b073bd86947651
+SHA1: 75fdec0d1e3fa4276825f5273925ff41e28a4298
+MD5sum: ccdee67aaac3730e616734751879c178
 Description: Tools for transcoding, streaming and playing of multimedia files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
  mux, demux, stream, filter and play pretty much anything that humans and
@@ -53,38 +53,38 @@ Description: Tools for transcoding, streaming and playing of multimedia files
 
 Package: ffmpeg-dbgsym
 Source: ffmpeg
-Version: 7:4.3-19~sigmaris
+Version: 7:4.3-21~sigmaris
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 635
-Depends: ffmpeg (= 7:4.3-19~sigmaris)
+Depends: ffmpeg (= 7:4.3-21~sigmaris)
 Priority: optional
 Section: debug
-Filename: pool/main/f/ffmpeg/ffmpeg-dbgsym_4.3-19~sigmaris_arm64.deb
-Size: 545576
-SHA256: b59fd7af045ab7a44b18410b22243cf52f5b204ddec2c19db8de3112a989607e
-SHA1: 5405b71c12ab14d989f344b04f7f3ef3bcff1e12
-MD5sum: fb0e9d0dafc74a61622a9ef35d495f6f
+Filename: pool/main/f/ffmpeg/ffmpeg-dbgsym_4.3-21~sigmaris_arm64.deb
+Size: 545596
+SHA256: 27e0830d05845a9d853cd4f44f193a653a5f565ca9d5c8cc469e7d6cff836b39
+SHA1: e2eabd590a89f7735b97d087fb41eadeaf858468
+MD5sum: 01b7a775bfbc5bbf0311641a20d98bb5
 Description: debug symbols for ffmpeg
-Build-Ids: 07e94368ae664faaf0a18be779dbd70e2decf2e4 49d2c0b226c0c2a191f2a7b85ad5cf2f98ee6894 a6cfaca190f38038fe8d9643d83870e23bed3516 dca0d1346c95e1f0ff622419b556d5f19d559dbc
+Build-Ids: 35130b3af28e05aa9afd50c7dcab84a04e1b1e47 6b39728be1e9bc1bf3e5d8effb34e06ca3cb6225 8142f09918a5fa47a92a785e8781d4cf088c715c a7138d2ac867c12cc259499174ee4afe45339aba
 
 Package: ffmpeg-doc
 Source: ffmpeg
-Version: 7:4.3-19~sigmaris
+Version: 7:4.3-21~sigmaris
 Architecture: all
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 31549
+Installed-Size: 31623
 Depends: libjs-jquery, libjs-bootstrap
 Multi-Arch: foreign
 Homepage: https://ffmpeg.org/
 Priority: optional
 Section: doc
-Filename: pool/main/f/ffmpeg/ffmpeg-doc_4.3-19~sigmaris_all.deb
-Size: 1982080
-SHA256: 7e0e33fc094e061a83aa0e768447b3095daf956f8faab794cb444c5048f6207d
-SHA1: 3316f194175f2d51dd2aadc7a6615f7d3eddd127
-MD5sum: d5bb70fb4d160bfc2caebdd7f98d6b9f
+Filename: pool/main/f/ffmpeg/ffmpeg-doc_4.3-21~sigmaris_all.deb
+Size: 1983368
+SHA256: 7de15ee30d61944b079fea247ebbe995d69bb66d08666657b591bdb856f91096
+SHA1: 8ae015d3ba9b717a574e11fbad64b6ce69ec0596
+MD5sum: 5fd118b168f1df81994235548139b48e
 Description: Documentation of the FFmpeg multimedia framework
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
  mux, demux, stream, filter and play pretty much anything that humans and
@@ -3801,20 +3801,20 @@ Build-Ids: 2e4485992af0368a45363b240f26d94187c8bf3c
 
 Package: libavcodec-dev
 Source: ffmpeg
-Version: 7:4.3-19~sigmaris
+Version: 7:4.3-21~sigmaris
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 17698
-Depends: libavcodec58 (= 7:4.3-19~sigmaris), libavutil-dev (= 7:4.3-19~sigmaris), libswresample-dev (= 7:4.3-19~sigmaris)
+Installed-Size: 17708
+Depends: libavcodec58 (= 7:4.3-21~sigmaris), libavutil-dev (= 7:4.3-21~sigmaris), libswresample-dev (= 7:4.3-21~sigmaris)
 Multi-Arch: same
 Homepage: https://ffmpeg.org/
 Priority: optional
 Section: libdevel
-Filename: pool/main/f/ffmpeg/libavcodec-dev_4.3-19~sigmaris_arm64.deb
-Size: 5191052
-SHA256: daf521fa9591dcf98a7b1ec45fcf16177e16383aef83fdda2dcc060236b2d914
-SHA1: 7573132964a1dae182cbd792dabea593f2d6954e
-MD5sum: c717b8289b691963473e4753446d6053
+Filename: pool/main/f/ffmpeg/libavcodec-dev_4.3-21~sigmaris_arm64.deb
+Size: 5190944
+SHA256: ca8822d77efa7258fc75f483e373eb1e02fb3d0397345e3856606e276c16f28c
+SHA1: 8f690e98e3987a2ea41c128cc90135fb596b741c
+MD5sum: ebbdd35e85731628c5ffea84c5f9c143
 Description: FFmpeg library with de/encoders for audio/video codecs - development files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
  mux, demux, stream, filter and play pretty much anything that humans and
@@ -3833,20 +3833,20 @@ Description: FFmpeg library with de/encoders for audio/video codecs - developmen
 
 Package: libavcodec-extra
 Source: ffmpeg
-Version: 7:4.3-19~sigmaris
+Version: 7:4.3-21~sigmaris
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 85
-Depends: libavcodec-extra58 (= 7:4.3-19~sigmaris)
+Depends: libavcodec-extra58 (= 7:4.3-21~sigmaris)
 Multi-Arch: same
 Homepage: https://ffmpeg.org/
 Priority: optional
 Section: metapackages
-Filename: pool/main/f/ffmpeg/libavcodec-extra_4.3-19~sigmaris_arm64.deb
-Size: 51712
-SHA256: 6dea52a05dc370f72c9fd74d22f9864f2070ba06b44bf32238fb4635fd4c6025
-SHA1: 88ca9c33c109b42425ce03457099678c22162fa3
-MD5sum: 52b2acd22d9ee059c1e94827e09c1229
+Filename: pool/main/f/ffmpeg/libavcodec-extra_4.3-21~sigmaris_arm64.deb
+Size: 51824
+SHA256: dec2c7069e59d30e49dc536d6e5f90cca2dc9abeeb46b151a64ea33f893dc6b9
+SHA1: aa34ead9b3276dc61adc4bc8dc36d361b2fea358
+MD5sum: f39f75b6a08929ff9e52ee388d5e4d90
 Description: FFmpeg library with extra codecs (metapackage)
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
  mux, demux, stream, filter and play pretty much anything that humans and
@@ -3859,22 +3859,22 @@ Description: FFmpeg library with extra codecs (metapackage)
 
 Package: libavcodec-extra58
 Source: ffmpeg
-Version: 7:4.3-19~sigmaris
+Version: 7:4.3-21~sigmaris
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 11932
-Depends: libaom0 (>= 1.0.0), libaribb24-0 (>= 1.0.3), libavutil56 (= 7:4.3-19~sigmaris), libc6 (>= 2.29), libcairo2 (>= 1.2.4), libcodec2-0.9, libglib2.0-0 (>= 2.12.0), libgsm1 (>= 1.0.18), liblzma5 (>= 5.1.1alpha+20120614), libmp3lame0 (>= 3.100), libopencore-amrnb0 (>= 0.1.5), libopencore-amrwb0 (>= 0.1.5), libopenjp2-7 (>= 2.0.0), libopus0 (>= 1.1), librsvg2-2 (>= 2.14.4), libshine3 (>= 3.1.0), libsnappy1v5 (>= 1.1.8), libspeex1 (>= 1.2~beta3-1), libswresample3 (= 7:4.3-19~sigmaris), libtheora0 (>= 1.0), libtwolame0 (>= 0.3.10), libudev1 (>= 183), libva2 (>= 2.2.0), libvo-amrwbenc0 (>= 0.1.3), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvpx6 (>= 1.6.0), libwavpack1 (>= 4.40.0), libwebp6 (>= 0.5.1), libwebpmux3 (>= 0.6.1-2+b1), libx264-155, libx265-179 (>= 3.2), libxvidcore4 (>= 1.2.2), libzvbi0 (>= 0.2.35), zlib1g (>= 1:1.2.0)
+Installed-Size: 11928
+Depends: libaom0 (>= 1.0.0), libaribb24-0 (>= 1.0.3), libavutil56 (= 7:4.3-21~sigmaris), libc6 (>= 2.29), libcairo2 (>= 1.2.4), libcodec2-0.9, libdav1d4 (>= 0.2.1), libglib2.0-0 (>= 2.12.0), libgsm1 (>= 1.0.18), liblzma5 (>= 5.1.1alpha+20120614), libmp3lame0 (>= 3.100), libopencore-amrnb0 (>= 0.1.5), libopencore-amrwb0 (>= 0.1.5), libopenjp2-7 (>= 2.0.0), libopus0 (>= 1.1), librsvg2-2 (>= 2.14.4), libshine3 (>= 3.1.0), libsnappy1v5 (>= 1.1.8), libspeex1 (>= 1.2~beta3-1), libswresample3 (= 7:4.3-21~sigmaris), libtheora0 (>= 1.0), libtwolame0 (>= 0.3.10), libudev1 (>= 183), libva2 (>= 2.2.0), libvo-amrwbenc0 (>= 0.1.3), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvpx6 (>= 1.6.0), libwavpack1 (>= 4.40.0), libwebp6 (>= 0.5.1), libwebpmux3 (>= 0.6.1-2+b1), libx264-160 (>= 2:0.160.3011+gitcde9a93), libx265-192 (>= 3.2), libxvidcore4 (>= 1.2.2), libzvbi0 (>= 0.2.35), zlib1g (>= 1:1.2.0)
 Conflicts: libavcodec58
-Provides: libavcodec58 (= 7:4.3-19~sigmaris)
+Provides: libavcodec58 (= 7:4.3-21~sigmaris)
 Multi-Arch: same
 Homepage: https://ffmpeg.org/
 Priority: optional
 Section: libs
-Filename: pool/main/f/ffmpeg/libavcodec-extra58_4.3-19~sigmaris_arm64.deb
-Size: 4634956
-SHA256: 1515ef2761b8e677b40830f1cb80301482d2b63b7b5d3f2ac2f8872b5c4678ef
-SHA1: de82a0f5da5d40b2eab170900ead8bc1fd2df630
-MD5sum: a2e5e800aeddb9fb5b94b288f011bd1a
+Filename: pool/main/f/ffmpeg/libavcodec-extra58_4.3-21~sigmaris_arm64.deb
+Size: 4630448
+SHA256: 78c29392d6037e297ddeda5d653d4a3533f82f12d50f8e8a491c852986fb3c5f
+SHA1: e6cd51be9e50becf441213fa496ba41efd7dd390
+MD5sum: 0210594a2fba58ac848df40506f49801
 Description: FFmpeg library with additional de/encoders for audio/video codecs
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
  mux, demux, stream, filter and play pretty much anything that humans and
@@ -3903,39 +3903,39 @@ Description: FFmpeg library with additional de/encoders for audio/video codecs
 
 Package: libavcodec-extra58-dbgsym
 Source: ffmpeg
-Version: 7:4.3-19~sigmaris
+Version: 7:4.3-21~sigmaris
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 21180
-Depends: libavcodec-extra58 (= 7:4.3-19~sigmaris)
+Installed-Size: 21200
+Depends: libavcodec-extra58 (= 7:4.3-21~sigmaris)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/f/ffmpeg/libavcodec-extra58-dbgsym_4.3-19~sigmaris_arm64.deb
-Size: 19749316
-SHA256: be4dc78a4365aecb544746a77ee61c1115152859c5d8f76907dd3a7ac2362f4e
-SHA1: 079dcc7c952afdfd4c20899be37185337ad906c0
-MD5sum: 123e9707967a361d5937eab5203afc23
+Filename: pool/main/f/ffmpeg/libavcodec-extra58-dbgsym_4.3-21~sigmaris_arm64.deb
+Size: 19763712
+SHA256: 739b86f747f738675017dfc948729a1904bc66fb158c2d56ff743912c386a096
+SHA1: b3d6d451aabd910f9f3ac5ddba795f4b125789eb
+MD5sum: 5773854ac64ffdfb1c3664093f51f5b6
 Description: debug symbols for libavcodec-extra58
-Build-Ids: cac07ba5618d5852718cca8b967365d650b07680
+Build-Ids: 6ab27c8c9a654d777f7672fe5c587b8c0fe3ace3
 
 Package: libavcodec58
 Source: ffmpeg
-Version: 7:4.3-19~sigmaris
+Version: 7:4.3-21~sigmaris
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 11930
-Depends: libaom0 (>= 1.0.0), libavutil56 (= 7:4.3-19~sigmaris), libc6 (>= 2.29), libcairo2 (>= 1.2.4), libcodec2-0.9, libglib2.0-0 (>= 2.12.0), libgsm1 (>= 1.0.18), liblzma5 (>= 5.1.1alpha+20120614), libmp3lame0 (>= 3.100), libopenjp2-7 (>= 2.0.0), libopus0 (>= 1.1), librsvg2-2 (>= 2.14.4), libshine3 (>= 3.1.0), libsnappy1v5 (>= 1.1.8), libspeex1 (>= 1.2~beta3-1), libswresample3 (= 7:4.3-19~sigmaris), libtheora0 (>= 1.0), libtwolame0 (>= 0.3.10), libudev1 (>= 183), libva2 (>= 2.2.0), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvpx6 (>= 1.6.0), libwavpack1 (>= 4.40.0), libwebp6 (>= 0.5.1), libwebpmux3 (>= 0.6.1-2+b1), libx264-155, libx265-179 (>= 3.2), libxvidcore4 (>= 1.2.2), libzvbi0 (>= 0.2.35), zlib1g (>= 1:1.2.0)
+Installed-Size: 11962
+Depends: libaom0 (>= 1.0.0), libavutil56 (= 7:4.3-21~sigmaris), libc6 (>= 2.29), libcairo2 (>= 1.2.4), libcodec2-0.9, libdav1d4 (>= 0.2.1), libglib2.0-0 (>= 2.12.0), libgsm1 (>= 1.0.18), liblzma5 (>= 5.1.1alpha+20120614), libmp3lame0 (>= 3.100), libopenjp2-7 (>= 2.0.0), libopus0 (>= 1.1), librsvg2-2 (>= 2.14.4), libshine3 (>= 3.1.0), libsnappy1v5 (>= 1.1.8), libspeex1 (>= 1.2~beta3-1), libswresample3 (= 7:4.3-21~sigmaris), libtheora0 (>= 1.0), libtwolame0 (>= 0.3.10), libudev1 (>= 183), libva2 (>= 2.2.0), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvpx6 (>= 1.6.0), libwavpack1 (>= 4.40.0), libwebp6 (>= 0.5.1), libwebpmux3 (>= 0.6.1-2+b1), libx264-160 (>= 2:0.160.3011+gitcde9a93), libx265-192 (>= 3.2), libxvidcore4 (>= 1.2.2), libzvbi0 (>= 0.2.35), zlib1g (>= 1:1.2.0)
 Multi-Arch: same
 Homepage: https://ffmpeg.org/
 Priority: optional
 Section: libs
-Filename: pool/main/f/ffmpeg/libavcodec58_4.3-19~sigmaris_arm64.deb
-Size: 4627336
-SHA256: 5aee36aae17918649118328e30b9bd4e11e667d54f8c9990a9c6de6c49438d11
-SHA1: edc167e7ee0d118929ac82357fdbd3595a90a8cf
-MD5sum: 14cd77d14a9de197b6e6fb7038435f89
+Filename: pool/main/f/ffmpeg/libavcodec58_4.3-21~sigmaris_arm64.deb
+Size: 4628324
+SHA256: 5c2dcad5922ab28bc0affd6579d7c9072b579cee367caeed7ccff20f4d9ea4c9
+SHA1: bec19ab38b355c7b50353f33356c4e6219879100
+MD5sum: 410969a8bb2b87d50a49c7746665b086
 Description: FFmpeg library with de/encoders for audio/video codecs - runtime files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
  mux, demux, stream, filter and play pretty much anything that humans and
@@ -3954,39 +3954,39 @@ Description: FFmpeg library with de/encoders for audio/video codecs - runtime fi
 
 Package: libavcodec58-dbgsym
 Source: ffmpeg
-Version: 7:4.3-19~sigmaris
+Version: 7:4.3-21~sigmaris
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 21148
-Depends: libavcodec58 (= 7:4.3-19~sigmaris)
+Installed-Size: 21170
+Depends: libavcodec58 (= 7:4.3-21~sigmaris)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/f/ffmpeg/libavcodec58-dbgsym_4.3-19~sigmaris_arm64.deb
-Size: 19724648
-SHA256: 842b08e5225820ae4a556cd7a34bacfef0b5417ec383c030e8fc2318f9329431
-SHA1: ced912f239cd3d17e15c0423e6c5ac7c44fd15fc
-MD5sum: 5f2757632112a07fd5af64346d9da763
+Filename: pool/main/f/ffmpeg/libavcodec58-dbgsym_4.3-21~sigmaris_arm64.deb
+Size: 19742484
+SHA256: 402e88b01baa9e457f44a5dd82c92ed127e4827fdbb3a759e9ac1531bbad83f8
+SHA1: 3ed983dc1c06f572f3a85890fa63db3982a8491f
+MD5sum: f3143b8787ef01c674433e480304e00e
 Description: debug symbols for libavcodec58
-Build-Ids: e3b256d93aa8d4eb352ce4bc723416d2d668131a
+Build-Ids: 0bed3c3c837c68dbb787a9280622b8e2e523cfc5
 
 Package: libavdevice-dev
 Source: ffmpeg
-Version: 7:4.3-19~sigmaris
+Version: 7:4.3-21~sigmaris
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 449
-Depends: libavcodec-dev (= 7:4.3-19~sigmaris), libavdevice58 (= 7:4.3-19~sigmaris), libavfilter-dev (= 7:4.3-19~sigmaris), libavformat-dev (= 7:4.3-19~sigmaris), libavutil-dev (= 7:4.3-19~sigmaris), libpostproc-dev (= 7:4.3-19~sigmaris), libswscale-dev (= 7:4.3-19~sigmaris), libswresample-dev (= 7:4.3-19~sigmaris)
+Depends: libavcodec-dev (= 7:4.3-21~sigmaris), libavdevice58 (= 7:4.3-21~sigmaris), libavfilter-dev (= 7:4.3-21~sigmaris), libavformat-dev (= 7:4.3-21~sigmaris), libavutil-dev (= 7:4.3-21~sigmaris), libpostproc-dev (= 7:4.3-21~sigmaris), libswscale-dev (= 7:4.3-21~sigmaris), libswresample-dev (= 7:4.3-21~sigmaris)
 Multi-Arch: same
 Homepage: https://ffmpeg.org/
 Priority: optional
 Section: libdevel
-Filename: pool/main/f/ffmpeg/libavdevice-dev_4.3-19~sigmaris_arm64.deb
-Size: 124120
-SHA256: 29a7b2987acdb161c230816f17a3d8dfba9f2dcce5f103e88f26b1659145ae81
-SHA1: c6dd4cdf8190fa1b81fb732becfda4d679f9a788
-MD5sum: 53bcd4d08b535ca0b3b83a45965b1b3d
+Filename: pool/main/f/ffmpeg/libavdevice-dev_4.3-21~sigmaris_arm64.deb
+Size: 124216
+SHA256: 9609c0165ad12e1dabee609c9d2f917a2901aa2feb4fe6eea573d6c01b838522
+SHA1: b79f4fd38e4f33473f5d387dffc3e0f07a6fcdff
+MD5sum: b64a2f9d345362ea84dc978d015f3d82
 Description: FFmpeg library for handling input and output devices - development files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
  mux, demux, stream, filter and play pretty much anything that humans and
@@ -4001,20 +4001,20 @@ Description: FFmpeg library for handling input and output devices - development 
 
 Package: libavdevice58
 Source: ffmpeg
-Version: 7:4.3-19~sigmaris
+Version: 7:4.3-21~sigmaris
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 282
-Depends: libasound2 (>= 1.0.16), libavc1394-0 (>= 0.5.3), libavcodec58 (= 7:4.3-19~sigmaris), libavfilter7 (= 7:4.3-19~sigmaris), libavformat58 (= 7:4.3-19~sigmaris), libavutil56 (= 7:4.3-19~sigmaris), libc6 (>= 2.28), libcaca0 (>= 0.99.beta17-1), libcdio-cdda2 (>= 10.2+2.0.0), libcdio-paranoia2 (>= 10.2+2.0.0), libdc1394-22 (>= 2.2.5), libdrm2 (>= 2.4.47), libgl1, libiec61883-0 (>= 1.2.0), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libopenal1 (>= 1.14), libpulse0 (>= 0.99.1), libraw1394-11 (>= 2.1.2), libsdl2-2.0-0 (>= 2.0.12+dfsg1), libsndio7.0 (>= 1.1.0), libx11-6, libxcb-shape0, libxcb-shm0, libxcb-xfixes0, libxcb1, libxext6, libxv1
+Depends: libasound2 (>= 1.0.16), libavc1394-0 (>= 0.5.3), libavcodec58 (= 7:4.3-21~sigmaris), libavfilter7 (= 7:4.3-21~sigmaris), libavformat58 (= 7:4.3-21~sigmaris), libavutil56 (= 7:4.3-21~sigmaris), libc6 (>= 2.28), libcaca0 (>= 0.99.beta17-1), libcdio-cdda2 (>= 10.2+2.0.0), libcdio-paranoia2 (>= 10.2+2.0.0), libdc1394-22 (>= 2.2.5), libdrm2 (>= 2.4.47), libgl1, libiec61883-0 (>= 1.2.0), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libopenal1 (>= 1.14), libpulse0 (>= 0.99.1), libraw1394-11 (>= 2.1.2), libsdl2-2.0-0 (>= 2.0.12+dfsg1), libsndio7.0 (>= 1.1.0), libx11-6, libxcb-shape0, libxcb-shm0, libxcb-xfixes0, libxcb1, libxext6, libxv1
 Multi-Arch: same
 Homepage: https://ffmpeg.org/
 Priority: optional
 Section: libs
-Filename: pool/main/f/ffmpeg/libavdevice58_4.3-19~sigmaris_arm64.deb
-Size: 108652
-SHA256: ef5795b76b35afd74df3a3773ecb393f7cc3cb3d0cb9a1b315b0884a251ccc3c
-SHA1: 5930f93726ed36322878d71cb75c9d0e3f998bdd
-MD5sum: 0f5bf67326950c4fb4e095cdd7e64cb4
+Filename: pool/main/f/ffmpeg/libavdevice58_4.3-21~sigmaris_arm64.deb
+Size: 108852
+SHA256: 8688fecf529114e48dcbafcd73720ee3e9931ad9140d6246e2cf77cfb6931ca4
+SHA1: e83bf7a1c03fd045cb0a558b72cfb3279fdd3081
+MD5sum: 5bd83606bc0dc9fc007b35269416481a
 Description: FFmpeg library for handling input and output devices - runtime files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
  mux, demux, stream, filter and play pretty much anything that humans and
@@ -4029,39 +4029,39 @@ Description: FFmpeg library for handling input and output devices - runtime file
 
 Package: libavdevice58-dbgsym
 Source: ffmpeg
-Version: 7:4.3-19~sigmaris
+Version: 7:4.3-21~sigmaris
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 247
-Depends: libavdevice58 (= 7:4.3-19~sigmaris)
+Depends: libavdevice58 (= 7:4.3-21~sigmaris)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/f/ffmpeg/libavdevice58-dbgsym_4.3-19~sigmaris_arm64.deb
-Size: 204620
-SHA256: 614286dc7ada3f398878b92c85d65fe373ec89629beef082554f6f1d33313c89
-SHA1: bd0c8fcf25cec0ff44b6222360875dbb5812eed8
-MD5sum: 20994a60ca0bd478943c994f64759862
+Filename: pool/main/f/ffmpeg/libavdevice58-dbgsym_4.3-21~sigmaris_arm64.deb
+Size: 204520
+SHA256: 841a0918b3d8a79359a41f147b343c96b9637fcddb2b4d986a4cb96380c412dd
+SHA1: dec9524013531926393879861319915bc9a124d1
+MD5sum: 9023296078f66cfefa4006675dd23eb6
 Description: debug symbols for libavdevice58
-Build-Ids: b954944372488a7cf5435e230017dfbb58aec238
+Build-Ids: 8a9a55c63810c626807d6534b6f8b793dcc79620
 
 Package: libavfilter-dev
 Source: ffmpeg
-Version: 7:4.3-19~sigmaris
+Version: 7:4.3-21~sigmaris
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 6388
-Depends: libavcodec-dev (= 7:4.3-19~sigmaris), libavfilter7 (= 7:4.3-19~sigmaris), libavformat-dev (= 7:4.3-19~sigmaris), libavutil-dev (= 7:4.3-19~sigmaris), libpostproc-dev (= 7:4.3-19~sigmaris), libswresample-dev (= 7:4.3-19~sigmaris), libswscale-dev (= 7:4.3-19~sigmaris)
+Depends: libavcodec-dev (= 7:4.3-21~sigmaris), libavfilter7 (= 7:4.3-21~sigmaris), libavformat-dev (= 7:4.3-21~sigmaris), libavutil-dev (= 7:4.3-21~sigmaris), libpostproc-dev (= 7:4.3-21~sigmaris), libswresample-dev (= 7:4.3-21~sigmaris), libswscale-dev (= 7:4.3-21~sigmaris)
 Multi-Arch: same
 Homepage: https://ffmpeg.org/
 Priority: optional
 Section: libdevel
-Filename: pool/main/f/ffmpeg/libavfilter-dev_4.3-19~sigmaris_arm64.deb
-Size: 1365448
-SHA256: ca82b882fde11b629be908bfd8710f99b964aa0fd6d081b73ec8ea3eaff41167
-SHA1: 01960fbe7f307abc22fc21e6baf603942e05b0f2
-MD5sum: 731c6a6583d301783bdd08c9e11a4958
+Filename: pool/main/f/ffmpeg/libavfilter-dev_4.3-21~sigmaris_arm64.deb
+Size: 1365752
+SHA256: 334fdce238b35f256cc4eeeec4d3d1097fe5e32444e676942b933e6a08853702
+SHA1: f7ddf3326cf9c0d036592f72a010750c04a1f533
+MD5sum: 09eb33747321145814acb410767a0117
 Description: FFmpeg library containing media filters - development files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
  mux, demux, stream, filter and play pretty much anything that humans and
@@ -4075,20 +4075,20 @@ Description: FFmpeg library containing media filters - development files
 
 Package: libavfilter-extra
 Source: ffmpeg
-Version: 7:4.3-19~sigmaris
+Version: 7:4.3-21~sigmaris
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 85
-Depends: libavfilter-extra7 (= 7:4.3-19~sigmaris)
+Depends: libavfilter-extra7 (= 7:4.3-21~sigmaris)
 Multi-Arch: same
 Homepage: https://ffmpeg.org/
 Priority: optional
 Section: metapackages
-Filename: pool/main/f/ffmpeg/libavfilter-extra_4.3-19~sigmaris_arm64.deb
-Size: 51712
-SHA256: 3d07d1c3fcdefa35c297f25977539eeed30cf59481abc8b5ebe82000644d098a
-SHA1: 0b647b055827b326766e9a56808b2a91ae1560a6
-MD5sum: 85397796206702c9ad130b8c868167ba
+Filename: pool/main/f/ffmpeg/libavfilter-extra_4.3-21~sigmaris_arm64.deb
+Size: 51816
+SHA256: 4e1710788b527a89832251c64ca2c46b2b5dd6cf42393d9291f58bb8768522b1
+SHA1: f4a7975c42fa183c98cf47f2850a02a988529cb5
+MD5sum: 23849303fc4a8dec329d0a77d269f652
 Description: FFmpeg library with extra filters (metapackage)
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
  mux, demux, stream, filter and play pretty much anything that humans and
@@ -4101,22 +4101,22 @@ Description: FFmpeg library with extra filters (metapackage)
 
 Package: libavfilter-extra7
 Source: ffmpeg
-Version: 7:4.3-19~sigmaris
+Version: 7:4.3-21~sigmaris
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 3856
-Depends: libass9 (>= 1:0.13.6), libavcodec58 (= 7:4.3-19~sigmaris), libavformat58 (= 7:4.3-19~sigmaris), libavutil56 (= 7:4.3-19~sigmaris), libbs2b0, libc6 (>= 2.29), libflite1 (>= 1.4-release-9~), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), liblensfun1 (>= 0.3.2), liblilv-0-0 (>= 0.14.2~dfsg0), libmysofa1 (>= 0.7~), libpocketsphinx3, libpostproc55 (= 7:4.3-19~sigmaris), librubberband2 (>= 1.8.2), libsphinxbase3 (>= 0.8+5prealpha), libswresample3 (= 7:4.3-19~sigmaris), libswscale5 (= 7:4.3-19~sigmaris), libtesseract4, libva2 (>= 1.7.3), libvidstab1.1, libzmq5 (>= 3.2.3+dfsg), ocl-icd-libopencl1 | libopencl1, ocl-icd-libopencl1 (>= 1.0) | libopencl-1.2-1
+Depends: libass9 (>= 1:0.13.6), libavcodec58 (= 7:4.3-21~sigmaris), libavformat58 (= 7:4.3-21~sigmaris), libavutil56 (= 7:4.3-21~sigmaris), libbs2b0, libc6 (>= 2.29), libflite1 (>= 1.4-release-9~), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), liblensfun1 (>= 0.3.2), liblilv-0-0 (>= 0.14.2~dfsg0), libmysofa1 (>= 0.7~), libpocketsphinx3, libpostproc55 (= 7:4.3-21~sigmaris), librubberband2 (>= 1.8.2), libsphinxbase3 (>= 0.8+5prealpha), libswresample3 (= 7:4.3-21~sigmaris), libswscale5 (= 7:4.3-21~sigmaris), libtesseract4, libva2 (>= 1.7.3), libvidstab1.1, libzmq5 (>= 3.2.3+dfsg), ocl-icd-libopencl1 | libopencl1, ocl-icd-libopencl1 (>= 1.0) | libopencl-1.2-1
 Conflicts: libavfilter7
-Provides: libavfilter7 (= 7:4.3-19~sigmaris)
+Provides: libavfilter7 (= 7:4.3-21~sigmaris)
 Multi-Arch: same
 Homepage: https://ffmpeg.org/
 Priority: optional
 Section: libs
-Filename: pool/main/f/ffmpeg/libavfilter-extra7_4.3-19~sigmaris_arm64.deb
-Size: 1158336
-SHA256: c61ab7bf813fecf46a327b2ed11bdb71d496d6b58a1e864547f593b515d28c34
-SHA1: d9a534585b2dda2b977d3cacbc5dc5722e6ee7d2
-MD5sum: da9ebb961c06a5883e17df3a35741a64
+Filename: pool/main/f/ffmpeg/libavfilter-extra7_4.3-21~sigmaris_arm64.deb
+Size: 1158788
+SHA256: cbed37c2334391d456816e3a159736990897920bafc96a1940f363c390289ec4
+SHA1: 32229703fe42ac4ae1dc8e1bc498d68f126f7edc
+MD5sum: 5f13660b1a6bde1a4ec862636987c3bc
 Description: FFmpeg library with extra media filters - runtime files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
  mux, demux, stream, filter and play pretty much anything that humans and
@@ -4138,39 +4138,39 @@ Description: FFmpeg library with extra media filters - runtime files
 
 Package: libavfilter-extra7-dbgsym
 Source: ffmpeg
-Version: 7:4.3-19~sigmaris
+Version: 7:4.3-21~sigmaris
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 5170
-Depends: libavfilter-extra7 (= 7:4.3-19~sigmaris)
+Depends: libavfilter-extra7 (= 7:4.3-21~sigmaris)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/f/ffmpeg/libavfilter-extra7-dbgsym_4.3-19~sigmaris_arm64.deb
-Size: 4709052
-SHA256: ca73736545ad9bc6e424a5d3d8a70fed99ab5465793477653e49db640469b4ed
-SHA1: a44acca2d83d7696740c87e2dc8b628573605ce5
-MD5sum: 662f0621c9101ec323fb777fee427088
+Filename: pool/main/f/ffmpeg/libavfilter-extra7-dbgsym_4.3-21~sigmaris_arm64.deb
+Size: 4710728
+SHA256: 92adf1755457f4f126c3babf18c1dc8a54eafabce871554e5415fb05b86061e7
+SHA1: a11d67e78940426f8f1fe0f5bedd5854c8c3256d
+MD5sum: e41d8c3119a63c401c5b9fba757fbc64
 Description: debug symbols for libavfilter-extra7
-Build-Ids: 98bfbe69b5844b73919bfb83d1f3e9c16e9704ff
+Build-Ids: 3cd02f8a9ff10639dad92f2d91db8b521b574564
 
 Package: libavfilter7
 Source: ffmpeg
-Version: 7:4.3-19~sigmaris
+Version: 7:4.3-21~sigmaris
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 3828
-Depends: libass9 (>= 1:0.13.6), libavcodec58 (= 7:4.3-19~sigmaris), libavformat58 (= 7:4.3-19~sigmaris), libavutil56 (= 7:4.3-19~sigmaris), libbs2b0, libc6 (>= 2.29), libflite1 (>= 1.4-release-9~), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), liblilv-0-0 (>= 0.14.2~dfsg0), libmysofa1 (>= 0.7~), libpocketsphinx3, libpostproc55 (= 7:4.3-19~sigmaris), librubberband2 (>= 1.8.2), libsphinxbase3 (>= 0.8+5prealpha), libswresample3 (= 7:4.3-19~sigmaris), libswscale5 (= 7:4.3-19~sigmaris), libva2 (>= 1.7.3), libvidstab1.1, libzmq5 (>= 3.2.3+dfsg), ocl-icd-libopencl1 | libopencl1, ocl-icd-libopencl1 (>= 1.0) | libopencl-1.2-1
+Depends: libass9 (>= 1:0.13.6), libavcodec58 (= 7:4.3-21~sigmaris), libavformat58 (= 7:4.3-21~sigmaris), libavutil56 (= 7:4.3-21~sigmaris), libbs2b0, libc6 (>= 2.29), libflite1 (>= 1.4-release-9~), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), liblilv-0-0 (>= 0.14.2~dfsg0), libmysofa1 (>= 0.7~), libpocketsphinx3, libpostproc55 (= 7:4.3-21~sigmaris), librubberband2 (>= 1.8.2), libsphinxbase3 (>= 0.8+5prealpha), libswresample3 (= 7:4.3-21~sigmaris), libswscale5 (= 7:4.3-21~sigmaris), libva2 (>= 1.7.3), libvidstab1.1, libzmq5 (>= 3.2.3+dfsg), ocl-icd-libopencl1 | libopencl1, ocl-icd-libopencl1 (>= 1.0) | libopencl-1.2-1
 Multi-Arch: same
 Homepage: https://ffmpeg.org/
 Priority: optional
 Section: libs
-Filename: pool/main/f/ffmpeg/libavfilter7_4.3-19~sigmaris_arm64.deb
-Size: 1154188
-SHA256: 48125de586cf47c0658828c3e4fd1042437d3ec46e4145b53ca68e5eedda0aac
-SHA1: 92bf05be8e577b0fc3d604e8095f94b1f5371af8
-MD5sum: 6fc84bdbe7d1d2539edfcb4b54e42371
+Filename: pool/main/f/ffmpeg/libavfilter7_4.3-21~sigmaris_arm64.deb
+Size: 1157240
+SHA256: 51766fa1455e4c1275a0c315cb2067a609c9179da7bc3ed2326abfdb882d3882
+SHA1: 234fce168eeb837a9d20ac3bc7b0603dddf638a7
+MD5sum: 925c0f4f04cf0b87ae56ad1bc88a10c5
 Description: FFmpeg library containing media filters - runtime files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
  mux, demux, stream, filter and play pretty much anything that humans and
@@ -4184,39 +4184,39 @@ Description: FFmpeg library containing media filters - runtime files
 
 Package: libavfilter7-dbgsym
 Source: ffmpeg
-Version: 7:4.3-19~sigmaris
+Version: 7:4.3-21~sigmaris
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 5149
-Depends: libavfilter7 (= 7:4.3-19~sigmaris)
+Depends: libavfilter7 (= 7:4.3-21~sigmaris)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/f/ffmpeg/libavfilter7-dbgsym_4.3-19~sigmaris_arm64.deb
-Size: 4693704
-SHA256: ae42656807e575d17c4e5d9f0c9681ee505c31936f34d99355af97e8cf93ef4c
-SHA1: 2ef85c137660b6653ff69c0b1ab9899d32225c3d
-MD5sum: 38d445f25d1b132730295f0912226468
+Filename: pool/main/f/ffmpeg/libavfilter7-dbgsym_4.3-21~sigmaris_arm64.deb
+Size: 4694256
+SHA256: f76873486a97d21f11909631188e42c931262b220fa63bb5b2fa4f979bd3469a
+SHA1: cb8cdf2aba8acf98fc42f50d91d059663f7c063c
+MD5sum: d702b7c293a4f3fae357a71d7c886168
 Description: debug symbols for libavfilter7
-Build-Ids: 891e49a65698e32658397529331af70abf68a3bf
+Build-Ids: 8715f3607cf4f4a63359662c262e58913cd8dc38
 
 Package: libavformat-dev
 Source: ffmpeg
-Version: 7:4.3-19~sigmaris
+Version: 7:4.3-21~sigmaris
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 5435
-Depends: libavcodec-dev (= 7:4.3-19~sigmaris), libavformat58 (= 7:4.3-19~sigmaris), libavutil-dev (= 7:4.3-19~sigmaris), libswresample-dev (= 7:4.3-19~sigmaris)
+Depends: libavcodec-dev (= 7:4.3-21~sigmaris), libavformat58 (= 7:4.3-21~sigmaris), libavutil-dev (= 7:4.3-21~sigmaris), libswresample-dev (= 7:4.3-21~sigmaris)
 Multi-Arch: same
 Homepage: https://ffmpeg.org/
 Priority: optional
 Section: libdevel
-Filename: pool/main/f/ffmpeg/libavformat-dev_4.3-19~sigmaris_arm64.deb
-Size: 1222316
-SHA256: 5465d5479d03609de96497d07ff98f191378ebdc318249f9189be30d75c25290
-SHA1: 685d36ea6b3e2362f9bc15051554bdad3a2039a8
-MD5sum: 77e0c3d4a87dd52ac4f9ec53dc8b65b9
+Filename: pool/main/f/ffmpeg/libavformat-dev_4.3-21~sigmaris_arm64.deb
+Size: 1222668
+SHA256: 242ab57566914464b1455b22b1bccf8e8233e13a21dc502ab1ca8b27ac4bddce
+SHA1: 39c3b7d65dd7fb700c8f1d56a5b85a8656e00c45
+MD5sum: aaff125621d1be64eff36a11dc9509a3
 Description: FFmpeg library with (de)muxers for multimedia containers - development files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
  mux, demux, stream, filter and play pretty much anything that humans and
@@ -4232,20 +4232,20 @@ Description: FFmpeg library with (de)muxers for multimedia containers - developm
 
 Package: libavformat58
 Source: ffmpeg
-Version: 7:4.3-19~sigmaris
+Version: 7:4.3-21~sigmaris
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 2604
-Depends: libavcodec58 (= 7:4.3-19~sigmaris), libavutil56 (= 7:4.3-19~sigmaris), libbluray2 (>= 1:0.2.2), libbz2-1.0, libc6 (>= 2.28), libchromaprint1 (>= 1.3.2), libgme0 (>= 0.5.5), libgnutls30 (>= 3.6.14), libopenmpt0 (>= 0.3.0), librabbitmq4 (>= 0.6.0), libsrt1-gnutls (>= 1.4.1), libssh-gcrypt-4 (>= 0.8.0), libxml2 (>= 2.7.4), libzmq5 (>= 4.0.1+dfsg), zlib1g (>= 1:1.2.0.2)
+Depends: libavcodec58 (= 7:4.3-21~sigmaris), libavutil56 (= 7:4.3-21~sigmaris), libbluray2 (>= 1:0.2.2), libbz2-1.0, libc6 (>= 2.28), libchromaprint1 (>= 1.3.2), libgme0 (>= 0.5.5), libgnutls30 (>= 3.6.14), libopenmpt0 (>= 0.3.0), librabbitmq4 (>= 0.6.0), libsrt1-gnutls (>= 1.4.1), libssh-gcrypt-4 (>= 0.8.0), libxml2 (>= 2.7.4), libzmq5 (>= 4.0.1+dfsg), zlib1g (>= 1:1.2.0.2)
 Multi-Arch: same
 Homepage: https://ffmpeg.org/
 Priority: optional
 Section: libs
-Filename: pool/main/f/ffmpeg/libavformat58_4.3-19~sigmaris_arm64.deb
-Size: 983036
-SHA256: 057fd4aa40bddc7fe548979969d0b45e06f147bfe94b5c95772bd9a0b62b9fa5
-SHA1: 4c19891170259345fdd1d805a9f6c7a264ed67dd
-MD5sum: 6cb02a0bd8c2fcf5685e5c82fe3179d8
+Filename: pool/main/f/ffmpeg/libavformat58_4.3-21~sigmaris_arm64.deb
+Size: 983392
+SHA256: 20df373955e434fcd47c9602a5af08ab397c9df75c23e9937782e43e3a0a1a51
+SHA1: 8e675cb4494d921a0d58448909cff056f35a1ca5
+MD5sum: f1531f92d7222ed4377f7f80aa458e1d
 Description: FFmpeg library with (de)muxers for multimedia containers - runtime files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
  mux, demux, stream, filter and play pretty much anything that humans and
@@ -4261,39 +4261,39 @@ Description: FFmpeg library with (de)muxers for multimedia containers - runtime 
 
 Package: libavformat58-dbgsym
 Source: ffmpeg
-Version: 7:4.3-19~sigmaris
+Version: 7:4.3-21~sigmaris
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 3202
-Depends: libavformat58 (= 7:4.3-19~sigmaris)
+Depends: libavformat58 (= 7:4.3-21~sigmaris)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/f/ffmpeg/libavformat58-dbgsym_4.3-19~sigmaris_arm64.deb
-Size: 3042064
-SHA256: c6fc093eeaa63ce813d01ae243b8e7bf177db4e789e8158d27e2a24f19c0eadd
-SHA1: 51f098d2328516ad2aac3dc2a77c3a3ab494258c
-MD5sum: 58f65c755f7d27a2550276f99780e23e
+Filename: pool/main/f/ffmpeg/libavformat58-dbgsym_4.3-21~sigmaris_arm64.deb
+Size: 3041692
+SHA256: 6ef066af5e54f89fd5a2ab45ad4742fa0f21e17bd12b64b42aa6c6fe66086def
+SHA1: 488bd8a63eb5f10217c2d2cd2d3d92d5b6f2db08
+MD5sum: 58ac67080b16d78ed1fd35e57352cf62
 Description: debug symbols for libavformat58
-Build-Ids: 71848d012728c5af9be30c9564488b79b3f060d8
+Build-Ids: 633b31cc50087a2ed8f884709a80e5743d120778
 
 Package: libavresample-dev
 Source: ffmpeg
-Version: 7:4.3-19~sigmaris
+Version: 7:4.3-21~sigmaris
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 254
-Depends: libavutil-dev (= 7:4.3-19~sigmaris), libavresample4 (= 7:4.3-19~sigmaris)
+Depends: libavutil-dev (= 7:4.3-21~sigmaris), libavresample4 (= 7:4.3-21~sigmaris)
 Multi-Arch: same
 Homepage: https://ffmpeg.org/
 Priority: optional
 Section: libdevel
-Filename: pool/main/f/ffmpeg/libavresample-dev_4.3-19~sigmaris_arm64.deb
-Size: 89004
-SHA256: 9a324d17fa6e490933f05a1fddaf6dadefd046164935614308065f759713516b
-SHA1: 4518b8e09a8de3677b239eaf2d30cd3470886f2e
-MD5sum: c332b1766b8c93eeea54119acc749797
+Filename: pool/main/f/ffmpeg/libavresample-dev_4.3-21~sigmaris_arm64.deb
+Size: 89236
+SHA256: f5034adb8bfb4ec9eb94fa63e143a6043977ea4427c13b11fc7bfde60e9f11ea
+SHA1: a0e0c99f594ea28cc347202f77d5cc2c462def5b
+MD5sum: 19e35eb74a3bdab45547c4a91e9a39d1
 Description: FFmpeg compatibility library for resampling - development files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
  mux, demux, stream, filter and play pretty much anything that humans and
@@ -4307,20 +4307,20 @@ Description: FFmpeg compatibility library for resampling - development files
 
 Package: libavresample4
 Source: ffmpeg
-Version: 7:4.3-19~sigmaris
+Version: 7:4.3-21~sigmaris
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 173
-Depends: libavutil56 (= 7:4.3-19~sigmaris), libc6 (>= 2.17)
+Depends: libavutil56 (= 7:4.3-21~sigmaris), libc6 (>= 2.17)
 Multi-Arch: same
 Homepage: https://ffmpeg.org/
 Priority: optional
 Section: libs
-Filename: pool/main/f/ffmpeg/libavresample4_4.3-19~sigmaris_arm64.deb
-Size: 79864
-SHA256: d613b4bfcebe3d7b59b4aa7c39c6125066d37df5a18101d84143ff423b4cbbc0
-SHA1: e7f90424a68731e37081b5c5bc5a4daeebc84180
-MD5sum: d3f79ff5be37c7a698314f7ce93c31d4
+Filename: pool/main/f/ffmpeg/libavresample4_4.3-21~sigmaris_arm64.deb
+Size: 80000
+SHA256: f6a6691d2061b654c1118d788550c8db65819a929ee821632646824430c3d64a
+SHA1: d59260302046efc5f2d3210045af611fea54a3ea
+MD5sum: bb24f4373e38b8d296d09e6418cc1b4e
 Description: FFmpeg compatibility library for resampling - runtime files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
  mux, demux, stream, filter and play pretty much anything that humans and
@@ -4334,39 +4334,39 @@ Description: FFmpeg compatibility library for resampling - runtime files
 
 Package: libavresample4-dbgsym
 Source: ffmpeg
-Version: 7:4.3-19~sigmaris
+Version: 7:4.3-21~sigmaris
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 119
-Depends: libavresample4 (= 7:4.3-19~sigmaris)
+Depends: libavresample4 (= 7:4.3-21~sigmaris)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/f/ffmpeg/libavresample4-dbgsym_4.3-19~sigmaris_arm64.deb
-Size: 95936
-SHA256: cd6244988d3d1e4891e1a53ebdd55d25cbd6cfeee7393b54761888e36b612905
-SHA1: 4ae2a807cbff85c711c6cbb9e9fa6397aaa1ee5c
-MD5sum: 5706cae3d27bc5e9394b782fb4389e11
+Filename: pool/main/f/ffmpeg/libavresample4-dbgsym_4.3-21~sigmaris_arm64.deb
+Size: 95944
+SHA256: cc35c129d27d58ee0d142ecc1ff07e40ec838d894d1cb344535f574873d43ee1
+SHA1: 8937cd289cec45dc10f3971f70fe1e9eed042648
+MD5sum: 61c17769f791dca5ca2ce60515fef21e
 Description: debug symbols for libavresample4
-Build-Ids: 55ba557f21d75332b790ad4c2700df8e90c420bb
+Build-Ids: 354cb80058f9c3959a4fa341743709916ec2ca3d
 
 Package: libavutil-dev
 Source: ffmpeg
-Version: 7:4.3-19~sigmaris
+Version: 7:4.3-21~sigmaris
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 1871
-Depends: libavutil56 (= 7:4.3-19~sigmaris)
+Depends: libavutil56 (= 7:4.3-21~sigmaris)
 Multi-Arch: same
 Homepage: https://ffmpeg.org/
 Priority: optional
 Section: libdevel
-Filename: pool/main/f/ffmpeg/libavutil-dev_4.3-19~sigmaris_arm64.deb
-Size: 452232
-SHA256: 138a97be4b5ded34fb19aa58bf73b0de695df725b28dfa0ff8b58acdb4fbb149
-SHA1: 429e42fa8e8c03425eb6781fbc27d76e440083d4
-MD5sum: 1fcba780208493987cf205f987a638bf
+Filename: pool/main/f/ffmpeg/libavutil-dev_4.3-21~sigmaris_arm64.deb
+Size: 452452
+SHA256: 9a9f97b83e22f579dbb44803d6ce273b43d9a3dace8e8d84ce9f43ce729addf4
+SHA1: 8bf2d18934beb89a0411e977470868e523e73076
+MD5sum: cdb7acbc71c3bc7972496e4af32fa0f9
 Description: FFmpeg library with functions for simplifying programming - development files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
  mux, demux, stream, filter and play pretty much anything that humans and
@@ -4384,7 +4384,7 @@ Description: FFmpeg library with functions for simplifying programming - develop
 
 Package: libavutil56
 Source: ffmpeg
-Version: 7:4.3-19~sigmaris
+Version: 7:4.3-21~sigmaris
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 809
@@ -4393,11 +4393,11 @@ Multi-Arch: same
 Homepage: https://ffmpeg.org/
 Priority: optional
 Section: libs
-Filename: pool/main/f/ffmpeg/libavutil56_4.3-19~sigmaris_arm64.deb
-Size: 320968
-SHA256: 8c3b314b28cdc780607792a16e9cacbe5cc942ee89680f3641a127ab8b70b5ea
-SHA1: 4d932bf62596e1aeeca4b7e45c5e2693071f6c87
-MD5sum: 1d2e150000b9a7353c1396cf83f03b34
+Filename: pool/main/f/ffmpeg/libavutil56_4.3-21~sigmaris_arm64.deb
+Size: 320956
+SHA256: ca092f209839cd989ad4e8566a12934862ad520926a29f3478ed38d624fb06d6
+SHA1: 46ee182b9bbb25a0ea29a7b5e5579373d98f52c0
+MD5sum: 246c86ada809d180d6b5a753f125844e
 Description: FFmpeg library with functions for simplifying programming - runtime files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
  mux, demux, stream, filter and play pretty much anything that humans and
@@ -4415,22 +4415,22 @@ Description: FFmpeg library with functions for simplifying programming - runtime
 
 Package: libavutil56-dbgsym
 Source: ffmpeg
-Version: 7:4.3-19~sigmaris
+Version: 7:4.3-21~sigmaris
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 763
-Depends: libavutil56 (= 7:4.3-19~sigmaris)
+Depends: libavutil56 (= 7:4.3-21~sigmaris)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/f/ffmpeg/libavutil56-dbgsym_4.3-19~sigmaris_arm64.deb
-Size: 710852
-SHA256: a9b265bebd97d6970820ad363eff27a1ed47044e521dbc1b74324b6f30b9c0ef
-SHA1: eb6088eddc8330cb3e0d1399c9b4a616b712ea38
-MD5sum: 5d1633c29be52588950f79c37cf399f7
+Filename: pool/main/f/ffmpeg/libavutil56-dbgsym_4.3-21~sigmaris_arm64.deb
+Size: 711024
+SHA256: 91a0188fd71633abff8a722a9af3e6516b5b758fff741e70a887005e75545eb7
+SHA1: a6fdc75803597bab9a7488a6b4a6f5121f7ecf15
+MD5sum: 9952a1e8711c012fe56c27a9d2d4d57a
 Description: debug symbols for libavutil56
-Build-Ids: 7f51224832a089d3d1bf7ec1efbb7c1df306399b
+Build-Ids: 593ece40861219081adc64a722b45e43d7be018d
 
 Package: libkodiplatform-dev
 Source: kodiplatform
@@ -4491,20 +4491,20 @@ Build-Ids: 64d8d611c10ad0a132a25d607adcb73f58a93b63
 
 Package: libpostproc-dev
 Source: ffmpeg
-Version: 7:4.3-19~sigmaris
+Version: 7:4.3-21~sigmaris
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 146
-Depends: libavutil-dev (= 7:4.3-19~sigmaris), libpostproc55 (= 7:4.3-19~sigmaris)
+Depends: libavutil-dev (= 7:4.3-21~sigmaris), libpostproc55 (= 7:4.3-21~sigmaris)
 Multi-Arch: same
 Homepage: https://ffmpeg.org/
 Priority: optional
 Section: libdevel
-Filename: pool/main/f/ffmpeg/libpostproc-dev_4.3-19~sigmaris_arm64.deb
-Size: 73428
-SHA256: 3e73762e89980afd1c5160ab2a96e29fc53fbb1883c5b910f64acebadee91000
-SHA1: c5802d2c783c7fafdb773de2b8670b96171c81cc
-MD5sum: e525cd2b751caafc4b41672becc5eedd
+Filename: pool/main/f/ffmpeg/libpostproc-dev_4.3-21~sigmaris_arm64.deb
+Size: 73504
+SHA256: 7659df14e9869e96a9fb35307727c7a805c9013497a1e6eb694ba6610fa6c43f
+SHA1: 9ec5422d9fdc9edcdc5e01a8da314cd51b41274c
+MD5sum: bdcefac98c5ce8af797816fac65cc4d9
 Description: FFmpeg library for post processing - development files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
  mux, demux, stream, filter and play pretty much anything that humans and
@@ -4517,20 +4517,20 @@ Description: FFmpeg library for post processing - development files
 
 Package: libpostproc55
 Source: ffmpeg
-Version: 7:4.3-19~sigmaris
+Version: 7:4.3-21~sigmaris
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 140
-Depends: libavutil56 (= 7:4.3-19~sigmaris), libc6 (>= 2.17)
+Depends: libavutil56 (= 7:4.3-21~sigmaris), libc6 (>= 2.17)
 Multi-Arch: same
 Homepage: https://ffmpeg.org/
 Priority: optional
 Section: libs
-Filename: pool/main/f/ffmpeg/libpostproc55_4.3-19~sigmaris_arm64.deb
-Size: 72932
-SHA256: 4c7b87929d459f57570295349037f6c372b0492738b473b4fc374caa068841da
-SHA1: 66f962c76db262ef9a22da5dacdb08ae511d3016
-MD5sum: 420f8a619626c3f370c7031d08cdd4b6
+Filename: pool/main/f/ffmpeg/libpostproc55_4.3-21~sigmaris_arm64.deb
+Size: 73040
+SHA256: 3107963931f178d87f5a212ab1f25e862ca93f15e7408cc9c668213558eaa310
+SHA1: 4cfc5c93fd3ba78102a1a9524c0f8fae8ab45962
+MD5sum: da51635a5ab09dd030a0bb634ddb9dd9
 Description: FFmpeg library for post processing - runtime files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
  mux, demux, stream, filter and play pretty much anything that humans and
@@ -4543,22 +4543,22 @@ Description: FFmpeg library for post processing - runtime files
 
 Package: libpostproc55-dbgsym
 Source: ffmpeg
-Version: 7:4.3-19~sigmaris
+Version: 7:4.3-21~sigmaris
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 65
-Depends: libpostproc55 (= 7:4.3-19~sigmaris)
+Depends: libpostproc55 (= 7:4.3-21~sigmaris)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/f/ffmpeg/libpostproc55-dbgsym_4.3-19~sigmaris_arm64.deb
-Size: 51048
-SHA256: b5f4b6b04dc85f6242555e0bd9a2f03f9c4eb290e6161b8f203d67c94aacdc81
-SHA1: 653134ca2a9ba5dc28b1224f1d2d7a5fc5ddc026
-MD5sum: b739372955ffff11390faace43d91db6
+Filename: pool/main/f/ffmpeg/libpostproc55-dbgsym_4.3-21~sigmaris_arm64.deb
+Size: 51076
+SHA256: 181367d3e848e12f6f3b4116a315b4d6bdfb641b984fa244aa193ab61cda130d
+SHA1: a22f27cd280fb9107f4f64b5a670e6c94499a2c9
+MD5sum: b7f52325c7adffb729643df209dda8cd
 Description: debug symbols for libpostproc55
-Build-Ids: 027622283d751e2474ae462431518c8f031ad8e7
+Build-Ids: 1db4944f1971528ec4fec937abae5807e795e1c8
 
 Package: libretro-2048
 Version: 1.0+git20200520.1812-21
@@ -7856,20 +7856,20 @@ Description: Emulates an AirPort Express server (shared library).
 
 Package: libswresample-dev
 Source: ffmpeg
-Version: 7:4.3-19~sigmaris
+Version: 7:4.3-21~sigmaris
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 268
-Depends: libavutil-dev (= 7:4.3-19~sigmaris), libswresample3 (= 7:4.3-19~sigmaris)
+Depends: libavutil-dev (= 7:4.3-21~sigmaris), libswresample3 (= 7:4.3-21~sigmaris)
 Multi-Arch: same
 Homepage: https://ffmpeg.org/
 Priority: optional
 Section: libdevel
-Filename: pool/main/f/ffmpeg/libswresample-dev_4.3-19~sigmaris_arm64.deb
-Size: 97536
-SHA256: 9952913e20cfe8993baf2d87b2e35ca3c408bf435289e8f6f6a600f4161b3765
-SHA1: 9b9e5ab9198d31abae52b09bc7330272783731a1
-MD5sum: f7db55b1002a47547991ab38142cf6e2
+Filename: pool/main/f/ffmpeg/libswresample-dev_4.3-21~sigmaris_arm64.deb
+Size: 97680
+SHA256: ea26a710201ac5df764b9f2b6036cee315fb262281db3479343bb455f6844235
+SHA1: 6c6d4cb63357b53cf1f085f2ef54678a7eeeddf1
+MD5sum: 7e545e2a50857b2b6f77cd158293f0a3
 Description: FFmpeg library for audio resampling, rematrixing etc. - development files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
  mux, demux, stream, filter and play pretty much anything that humans and
@@ -7899,20 +7899,20 @@ Description: FFmpeg library for audio resampling, rematrixing etc. - development
 
 Package: libswresample3
 Source: ffmpeg
-Version: 7:4.3-19~sigmaris
+Version: 7:4.3-21~sigmaris
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 189
-Depends: libavutil56 (= 7:4.3-19~sigmaris), libc6 (>= 2.29), libsoxr0 (>= 0.1.0)
+Depends: libavutil56 (= 7:4.3-21~sigmaris), libc6 (>= 2.29), libsoxr0 (>= 0.1.0)
 Multi-Arch: same
 Homepage: https://ffmpeg.org/
 Priority: optional
 Section: libs
-Filename: pool/main/f/ffmpeg/libswresample3_4.3-19~sigmaris_arm64.deb
-Size: 87000
-SHA256: 6acc27921eb99422c90bcf6bed1b6126ab4bfb4f6644e4d71679afd2f2c771ff
-SHA1: 318590098e70564663c41f92fc145ee379363be5
-MD5sum: c6de6f48598f8b3d7e7515b00c9fe4da
+Filename: pool/main/f/ffmpeg/libswresample3_4.3-21~sigmaris_arm64.deb
+Size: 87116
+SHA256: 40950fedd26b58ba852f19ce940a3bcba5b39ae24a7af56ccd20aaa6719afc65
+SHA1: b12bc3d5fa0117c44855a077b4c6eeddb674fd47
+MD5sum: 7958ab7e760f7ec9e99fdd62a388c5ae
 Description: FFmpeg library for audio resampling, rematrixing etc. - runtime files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
  mux, demux, stream, filter and play pretty much anything that humans and
@@ -7942,39 +7942,39 @@ Description: FFmpeg library for audio resampling, rematrixing etc. - runtime fil
 
 Package: libswresample3-dbgsym
 Source: ffmpeg
-Version: 7:4.3-19~sigmaris
+Version: 7:4.3-21~sigmaris
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 124
-Depends: libswresample3 (= 7:4.3-19~sigmaris)
+Depends: libswresample3 (= 7:4.3-21~sigmaris)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/f/ffmpeg/libswresample3-dbgsym_4.3-19~sigmaris_arm64.deb
-Size: 102360
-SHA256: df733d085be864ecec4291a5413d636f093433dd2109238ca6c5103cd63977c7
-SHA1: 841b5614405d2a431b9af3838b9211a086f37166
-MD5sum: 5fe40a0b8d64949c181a77de948bc827
+Filename: pool/main/f/ffmpeg/libswresample3-dbgsym_4.3-21~sigmaris_arm64.deb
+Size: 102364
+SHA256: b21c29e11a06923a8274373b7b5c148dc5e94e249f72769697f7231777ea8e96
+SHA1: 3bb5f3ac356e2baef3dfb986f50bf796beea23e1
+MD5sum: 77e3627a31ffb89a98156ae2e3cfdce5
 Description: debug symbols for libswresample3
-Build-Ids: 28e07efcdd5f9fa773f3fb2947bf88cf84b0b903
+Build-Ids: c54c5b9154bc8b85b4697c6dc320061d1f44f278
 
 Package: libswscale-dev
 Source: ffmpeg
-Version: 7:4.3-19~sigmaris
+Version: 7:4.3-21~sigmaris
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 768
-Depends: libavutil-dev (= 7:4.3-19~sigmaris), libswscale5 (= 7:4.3-19~sigmaris)
+Depends: libavutil-dev (= 7:4.3-21~sigmaris), libswscale5 (= 7:4.3-21~sigmaris)
 Multi-Arch: same
 Homepage: https://ffmpeg.org/
 Priority: optional
 Section: libdevel
-Filename: pool/main/f/ffmpeg/libswscale-dev_4.3-19~sigmaris_arm64.deb
-Size: 186936
-SHA256: dbb4c77df3c4844e671723a5e5b349ee35080346bc17acdf02e6baaf8fa5f6a7
-SHA1: d72b9d7456f26ba311689eb77d24883d950d929a
-MD5sum: 2e319c246308af1f2137b9b7bcaf80da
+Filename: pool/main/f/ffmpeg/libswscale-dev_4.3-21~sigmaris_arm64.deb
+Size: 187624
+SHA256: 7e9159a98747065460ae5794ae4ae386b26f26fee12fecd4a16a8f5cd42d1e92
+SHA1: 69f92f1ae0f7f1791307b9651d71bda9d75ac4d0
+MD5sum: cf754eb9baaad8ac39dbd96ec19f7b96
 Description: FFmpeg library for image scaling and various conversions - development files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
  mux, demux, stream, filter and play pretty much anything that humans and
@@ -7998,20 +7998,20 @@ Description: FFmpeg library for image scaling and various conversions - developm
 
 Package: libswscale5
 Source: ffmpeg
-Version: 7:4.3-19~sigmaris
+Version: 7:4.3-21~sigmaris
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 521
-Depends: libavutil56 (= 7:4.3-19~sigmaris), libc6 (>= 2.29)
+Depends: libavutil56 (= 7:4.3-21~sigmaris), libc6 (>= 2.29)
 Multi-Arch: same
 Homepage: https://ffmpeg.org/
 Priority: optional
 Section: libs
-Filename: pool/main/f/ffmpeg/libswscale5_4.3-19~sigmaris_arm64.deb
-Size: 169564
-SHA256: ce15e20b895cbc2130b9aea6b8b8e3f49657489c17eefc480e59b8bfb76cba8a
-SHA1: 2789ed6b58bf7596620fe8bcb3fe0fb6840ad5ae
-MD5sum: 03c036f0882a11b3c16495abe15859fe
+Filename: pool/main/f/ffmpeg/libswscale5_4.3-21~sigmaris_arm64.deb
+Size: 169664
+SHA256: 20802aaba14a384f0a85a00c01cbc5dd08f5377048bfadb5b4afc19bd1e7e976
+SHA1: bd6568105ddcaf2540c56c5c7243d5e37d46353b
+MD5sum: 98f9b1c9a90e531566b9273f87dd88f8
 Description: FFmpeg library for image scaling and various conversions - runtime files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
  mux, demux, stream, filter and play pretty much anything that humans and
@@ -8035,22 +8035,41 @@ Description: FFmpeg library for image scaling and various conversions - runtime 
 
 Package: libswscale5-dbgsym
 Source: ffmpeg
-Version: 7:4.3-19~sigmaris
+Version: 7:4.3-21~sigmaris
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 687
-Depends: libswscale5 (= 7:4.3-19~sigmaris)
+Depends: libswscale5 (= 7:4.3-21~sigmaris)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/f/ffmpeg/libswscale5-dbgsym_4.3-19~sigmaris_arm64.deb
-Size: 642724
-SHA256: 19d5e7cd0cfc0b271c8220bced1d5ef17accd4150349be3d0b91249767f7ea4c
-SHA1: 1a76e7e3579a20d4854f25d372fd3f7451ef7bb5
-MD5sum: c866962f46486d0fceeeebb70d953b7e
+Filename: pool/main/f/ffmpeg/libswscale5-dbgsym_4.3-21~sigmaris_arm64.deb
+Size: 642748
+SHA256: a8064381c164b6c92b26bf0975aebaff77480a39a71374b77f3f5b970751202b
+SHA1: ae2636b6edecd44d7d0155fa1f18251d1a21872c
+MD5sum: 785c68ed8b8f47f9cbc5bf8aafa3f554
 Description: debug symbols for libswscale5
-Build-Ids: adfe7a14c823cd7b12ce95c2383d20595c9e2094
+Build-Ids: b6e4969078948dd2a05e8697287638b61148bdd0
+
+Package: linux-headers-5.8.0-g2f4e3b22332d-sigmaris
+Source: linux-5.8.0-g2f4e3b22332d-sigmaris
+Version: 5.8.0-g2f4e3b22332d-sigmaris
+Architecture: arm64
+Maintainer: vsts_azpcontainer <vsts_azpcontainer@2cbe1508f005>
+Installed-Size: 43855
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.8.0-g2f4e3b22332d-sigmaris/linux-headers-5.8.0-g2f4e3b22332d-sigmaris_5.8.0-g2f4e3b22332d-sigmaris_arm64.deb
+Size: 7180844
+SHA256: 60b22d986f95732fc39b960eb3186ea8184109451b62ac188365a2dc50085b72
+SHA1: 4c4ba04528fb46551073328170fe3216263a3062
+MD5sum: 7e567832bf4154094a4abaf84791fe2f
+Description: Linux kernel headers for 5.8.0-g2f4e3b22332d-sigmaris on arm64
+ This package provides kernel header files for 5.8.0-g2f4e3b22332d-sigmaris on arm64
+ .
+ This is useful for people who need to build external modules
 
 Package: linux-image-5.5.0-g02f0eaab65e2-sigmaris
 Source: linux-5.5.0-g02f0eaab65e2-sigmaris
@@ -8069,4 +8088,42 @@ MD5sum: 3c30aa9dfa9646cfe5e4169cb832ab20
 Description: Linux kernel, version 5.5.0-g02f0eaab65e2-sigmaris
  This package contains the Linux kernel, modules and corresponding other
  files, version: 5.5.0-g02f0eaab65e2-sigmaris.
+
+Package: linux-image-5.8.0-g2f4e3b22332d-sigmaris
+Source: linux-5.8.0-g2f4e3b22332d-sigmaris
+Version: 5.8.0-g2f4e3b22332d-sigmaris
+Architecture: arm64
+Maintainer: vsts_azpcontainer <vsts_azpcontainer@2cbe1508f005>
+Installed-Size: 35491
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.8.0-g2f4e3b22332d-sigmaris/linux-image-5.8.0-g2f4e3b22332d-sigmaris_5.8.0-g2f4e3b22332d-sigmaris_arm64.deb
+Size: 13581616
+SHA256: fb0b1ba711a4dc6f57628fc9d8d21df9b1e08571eaf12712053a43f31e2c8b79
+SHA1: 17adff548dc3f1a146140a2fa3e4057292b1e8e4
+MD5sum: ee7f40784bdad99ff6bdec8894a503e6
+Description: Linux kernel, version 5.8.0-g2f4e3b22332d-sigmaris
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.8.0-g2f4e3b22332d-sigmaris.
+
+Package: linux-libc-dev
+Source: linux-5.8.0-g2f4e3b22332d-sigmaris
+Version: 5.8.0-g2f4e3b22332d-sigmaris
+Architecture: arm64
+Maintainer: vsts_azpcontainer <vsts_azpcontainer@2cbe1508f005>
+Installed-Size: 5653
+Provides: linux-kernel-headers
+Multi-Arch: same
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux-5.8.0-g2f4e3b22332d-sigmaris/linux-libc-dev_5.8.0-g2f4e3b22332d-sigmaris_arm64.deb
+Size: 1092532
+SHA256: 03febda89e7bf20e9a82f50642866c594b85b60e9e3af4e59c5e020a2a513135
+SHA1: 1f6014478bbeeb3c6a974c1d76442cd18b5e8894
+MD5sum: 79713dc778cad7f2718d52f2f3c0b874
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
 
