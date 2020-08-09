@@ -4432,6 +4432,51 @@ MD5sum: 3fabf79749d58dd3ca7c9fa7eb33157b
 Description: debug symbols for libavutil56
 Build-Ids: ae139316a254465cb069f24cf0c3f092509dbf30
 
+Package: libcec-dev
+Source: libcec (4.0.4+dfsg1-4)
+Version: 4.0.4+dfsg1-4+b1
+Architecture: arm64
+Maintainer: Sjoerd Simons <sjoerd@debian.org>
+Installed-Size: 142
+Depends: libcec4 (= 4.0.4+dfsg1-4+b1)
+Homepage: http://libcec.pulse-eight.com/
+Priority: optional
+Section: libdevel
+Filename: pool/main/libc/libcec/libcec-dev_4.0.4+dfsg1-4+b1_arm64.deb
+Size: 24656
+SHA256: 7bdc771a63bef75d9e19ddc050cc2b3cd186be6f79991b3a4ff06999919c151c
+SHA1: 43c47fdf194c6a473a79614ccbd29450033be065
+MD5sum: 6d99ca2d0de3db0d458b3b2c4ffcd1e5
+Description: USB CEC Adaptor communication Library (development files)
+ This library provides support for the Pulse-Eight USB-CEC adapter and
+ other CEC capable hardware, like the Raspberry Pi.
+ .
+ This package provides the necessary files needed for development.
+
+Package: libcec4
+Source: libcec (4.0.4+dfsg1-4)
+Version: 4.0.4+dfsg1-4+b1
+Architecture: arm64
+Maintainer: Sjoerd Simons <sjoerd@debian.org>
+Installed-Size: 799
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libp8-platform2 (>= 1.0.10), libstdc++6 (>= 5.2), libudev1 (>= 183), libx11-6, libxrandr2 (>= 2:1.2.99.2)
+Breaks: libcec4v4
+Replaces: libcec4v4
+Multi-Arch: same
+Homepage: http://libcec.pulse-eight.com/
+Priority: optional
+Section: libs
+Filename: pool/main/libc/libcec/libcec4_4.0.4+dfsg1-4+b1_arm64.deb
+Size: 198804
+SHA256: 22cb928cd6b615d6e6491f76506c5a3b0792a0045a969d4324e1f3b8d1139f89
+SHA1: e862d743da955d31e52c9269d37c63fa131e54a1
+MD5sum: 38ec6a9c65ee8bb3d88936e1ddee5d09
+Description: USB CEC Adaptor communication Library (shared library)
+ This library provides support for the Pulse-Eight USB-CEC adapter and
+ other CEC capable hardware, like the Raspberry Pi.
+ .
+ This package provides the shared library.
+
 Package: libkodiplatform-dev
 Source: kodiplatform
 Version: 17.1.0-60~bullseye
