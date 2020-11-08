@@ -8135,6 +8135,25 @@ Description: Linux kernel headers for 5.8.0-gd4565a6da74a-sigmaris on arm64
  .
  This is useful for people who need to build external modules
 
+Package: linux-headers-5.9.6-gcd9e8943a-sigmaris
+Source: linux-5.9.6-gcd9e8943a-sigmaris
+Version: 5.9.6-gcd9e8943a-sigmaris
+Architecture: arm64
+Maintainer: root <root@32a2bca03b09>
+Installed-Size: 44282
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.9.6-gcd9e8943a-sigmaris/linux-headers-5.9.6-gcd9e8943a-sigmaris_5.9.6-gcd9e8943a-sigmaris_arm64.deb
+Size: 7252556
+SHA256: 7840c86be494bc6dc42e598de89b921ca061b40b382d0874079a789af8bb378c
+SHA1: 460a4853a0084ced42b7389ba7aba15560980310
+MD5sum: a2039a7b93c294ac8a5e911ec23b5017
+Description: Linux kernel headers for 5.9.6-gcd9e8943a-sigmaris on arm64
+ This package provides kernel header files for 5.9.6-gcd9e8943a-sigmaris on arm64
+ .
+ This is useful for people who need to build external modules
+
 Package: linux-image-5.5.0-g02f0eaab65e2-sigmaris
 Source: linux-5.5.0-g02f0eaab65e2-sigmaris
 Version: 5.5.0-g02f0eaab65e2-sigmaris
@@ -8189,22 +8208,40 @@ Description: Linux kernel, version 5.8.0-gd4565a6da74a-sigmaris
  This package contains the Linux kernel, modules and corresponding other
  files, version: 5.8.0-gd4565a6da74a-sigmaris.
 
-Package: linux-libc-dev
-Source: linux-5.8.0-gd4565a6da74a-sigmaris
-Version: 5.8.0-gd4565a6da74a-sigmaris
+Package: linux-image-5.9.6-gcd9e8943a-sigmaris
+Source: linux-5.9.6-gcd9e8943a-sigmaris
+Version: 5.9.6-gcd9e8943a-sigmaris
 Architecture: arm64
-Maintainer: vsts_azpcontainer <vsts_azpcontainer@056842185f39>
-Installed-Size: 5653
+Maintainer: root <root@32a2bca03b09>
+Installed-Size: 35148
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.9.6-gcd9e8943a-sigmaris/linux-image-5.9.6-gcd9e8943a-sigmaris_5.9.6-gcd9e8943a-sigmaris_arm64.deb
+Size: 13499504
+SHA256: d884e7baf5f475cef83577254952ebd6b156d321925bbf64b5dc1ce72e5d383a
+SHA1: 9aaaf5f9fd518569c3a1b709c4d039ae082e5815
+MD5sum: 3413bc7b6c9f15e373cfa4f92e9d2082
+Description: Linux kernel, version 5.9.6-gcd9e8943a-sigmaris
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.9.6-gcd9e8943a-sigmaris.
+
+Package: linux-libc-dev
+Source: linux-5.9.6-gcd9e8943a-sigmaris
+Version: 5.9.6-gcd9e8943a-sigmaris
+Architecture: arm64
+Maintainer: root <root@32a2bca03b09>
+Installed-Size: 5695
 Provides: linux-kernel-headers
 Multi-Arch: same
-Homepage: http://www.kernel.org/
+Homepage: https://www.kernel.org/
 Priority: optional
 Section: devel
-Filename: pool/main/l/linux-5.8.0-gd4565a6da74a-sigmaris/linux-libc-dev_5.8.0-gd4565a6da74a-sigmaris_arm64.deb
-Size: 1092560
-SHA256: 7591770517215cb638fee2452023cad625085d1de14c51664383271ae6acc110
-SHA1: 9fbf4dcddb72703325699e07708f15ff02668043
-MD5sum: c81edb52e4204ea1a8434a216ecaeafa
+Filename: pool/main/l/linux-5.9.6-gcd9e8943a-sigmaris/linux-libc-dev_5.9.6-gcd9e8943a-sigmaris_arm64.deb
+Size: 1099596
+SHA256: 8bacb1b5ede9c355ed92c26a5e98e4bb1f66c64f602faf50e1ec2d7e381d754b
+SHA1: adef7b1f0ac46134f75821d058bea99544a6eadb
+MD5sum: 17d990e469ff0b6e109ef2fc841eb1ca
 Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers
  are used by the installed headers for GNU glibc and other system libraries.

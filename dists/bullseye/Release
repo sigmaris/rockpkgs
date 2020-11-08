@@ -1,27 +1,27 @@
 Origin: sigmaris.github.io/rockpkgs
 Label: sigmaris.github.io/rockpkgs
 Codename: bullseye
-Date: Sun, 09 Aug 2020 10:56:06 UTC
+Date: Sun, 08 Nov 2020 12:35:47 UTC
 Architectures: arm64
 Components: main
 Description: Packages for Rockchip SBC
 MD5Sum:
- 1080778c64d080ffc4a2fa4474beda1e 337362 main/binary-arm64/Packages
- 108f2db459e6ad7a98c75f290fee4e67 78803 main/binary-arm64/Packages.gz
+ c7547d58af39d87f7f4bfd0ca39f5743 338876 main/binary-arm64/Packages
+ 04db1956bc51bd585d5df5cab13e49fa 79106 main/binary-arm64/Packages.gz
  11c6287517cbf1008610f047f2259f1d 146 main/binary-arm64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
  16db6212ae61a24b1a9921bdd7c58c1f 20 main/source/Sources.gz
  297ae971788c1bd21e5084e1efe81343 147 main/source/Release
 SHA1:
- b72a2eb33c6afccb2aaa2a8326547fd3adb77ff8 337362 main/binary-arm64/Packages
- 1b5004e9c78d129a76a1bf5c8a982766f3934c5c 78803 main/binary-arm64/Packages.gz
+ 366c25cca98ffde09e7352915d8dcfbabf8c6042 338876 main/binary-arm64/Packages
+ 8baa724bfed3bae10c29aa91dc9af059ef9fbb35 79106 main/binary-arm64/Packages.gz
  0ae31c1e533cb0ef3e2224c158c1502a6a2f79c1 146 main/binary-arm64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
  b9693a53bcffe40b2cc2c37045561f848baaa22a 20 main/source/Sources.gz
  c8ba739883a2eaa367d435a81f1d134804c121a3 147 main/source/Release
 SHA256:
- 22c1f7d3d9b3d2f8167968481b628352d8ee163471cb7139f6e08ba9447a3082 337362 main/binary-arm64/Packages
- 325550671a2022ce1e504444f8619febf61c1ba38b350af6cf7a99c520ac3157 78803 main/binary-arm64/Packages.gz
+ 651833b7d1fcdf019eb7ffab03f2bc23a55abf56c940e07d2d1ceb624cdfb31d 338876 main/binary-arm64/Packages
+ d0695a713ed00f7758256898af68d80b9cdd7d2470e82d88eac8b228eb1dd7ec 79106 main/binary-arm64/Packages.gz
  d9558fa39916a3053702ee52cc4f15260c3b6edfed5452a99e81d895a4de196a 146 main/binary-arm64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
  abfbb86f9f5ddfbd9fc1a72c43ab384702ce8bae86b60f3324748485e235e61e 20 main/source/Sources.gz
