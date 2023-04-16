@@ -1,0 +1,39 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA384
+
+Origin: sigmaris.github.io/rockpkgs
+Label: sigmaris.github.io/rockpkgs
+Codename: bookworm
+Date: Sun, 16 Apr 2023 12:38:08 UTC
+Architectures: arm64
+Components: main
+Description: Packages for Rockchip SBC
+MD5Sum:
+ 17338bb97d363ac53a85688fe7871474 383512 main/binary-arm64/Packages
+ 0a965f271c7d26fd56daf484f3416d38 79768 main/binary-arm64/Packages.gz
+ 11c6287517cbf1008610f047f2259f1d 146 main/binary-arm64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
+ 16db6212ae61a24b1a9921bdd7c58c1f 20 main/source/Sources.gz
+ 297ae971788c1bd21e5084e1efe81343 147 main/source/Release
+SHA1:
+ 439c1415cbb63d3b728055657de394f1141d68c5 383512 main/binary-arm64/Packages
+ 5e019d84cd82842dc14bb934f5d04b57dbc04a23 79768 main/binary-arm64/Packages.gz
+ 0ae31c1e533cb0ef3e2224c158c1502a6a2f79c1 146 main/binary-arm64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
+ b9693a53bcffe40b2cc2c37045561f848baaa22a 20 main/source/Sources.gz
+ c8ba739883a2eaa367d435a81f1d134804c121a3 147 main/source/Release
+SHA256:
+ cda64c45491042da14e2e9a0824d76ddd4c7863aea74b1eeb62475ba50cb7b4c 383512 main/binary-arm64/Packages
+ fa401a54e5dd74974ea63ad120cde416f19fa74d1b0cc73ec62c4bcc602d4c23 79768 main/binary-arm64/Packages.gz
+ d9558fa39916a3053702ee52cc4f15260c3b6edfed5452a99e81d895a4de196a 146 main/binary-arm64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
+ abfbb86f9f5ddfbd9fc1a72c43ab384702ce8bae86b60f3324748485e235e61e 20 main/source/Sources.gz
+ 5c14bf987f5faff088ee1987565e9adf8b5d512e00b90391804ea1b08e767dea 147 main/source/Release
+-----BEGIN PGP SIGNATURE-----
+
+iJUEARMJAB0WIQTZQAKMPDtVF2lL6mjL9prZIjzKfgUCZDvsMAAKCRDL9prZIjzK
+fupLAX4qd2DhjgEbeBokOARqkZfhpLSowvc4FdTnxn7XZlalfUMSkuqhSSGZ4QAS
+V+9rEI4Bfjlo+/yTJbD1SNfZkGujJxC6pOtyU9M4o336dLPZt/GNGKW+73hyRQ0X
+6AD5I5tTFw==
+=X3NT
+-----END PGP SIGNATURE-----
