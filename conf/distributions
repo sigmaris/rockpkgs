@@ -1,13 +1,5 @@
 Origin: sigmaris.github.io/rockpkgs
 Label: sigmaris.github.io/rockpkgs
-Codename: buster
-Architectures: arm64 source
-Components: main
-Description: Packages for Rockchip SBC
-SignWith: CBF69AD9223CCA7E
-
-Origin: sigmaris.github.io/rockpkgs
-Label: sigmaris.github.io/rockpkgs
 Codename: bullseye
 Architectures: arm64 source
 Components: main
