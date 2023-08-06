@@ -9,7 +9,7 @@ SignWith: CBF69AD9223CCA7E
 Origin: sigmaris.github.io/rockpkgs
 Label: sigmaris.github.io/rockpkgs
 Codename: bookworm
-Architectures: arm64 source
+Architectures: arm64 armhf source
 Components: main
-Description: Packages for Rockchip SBC
+Description: Packages for Rockchip (arm64) and Raspberry Pi (armhf) SBC
 SignWith: CBF69AD9223CCA7E

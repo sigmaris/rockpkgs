@@ -4,7 +4,7 @@ Hash: SHA384
 Origin: sigmaris.github.io/rockpkgs
 Label: sigmaris.github.io/rockpkgs
 Codename: bullseye
-Date: Sun, 16 Apr 2023 11:41:06 UTC
+Date: Sun, 06 Aug 2023 15:41:18 UTC
 Architectures: arm64
 Components: main
 Description: Packages for Rockchip SBC
@@ -31,9 +31,9 @@ SHA256:
  5c14bf987f5faff088ee1987565e9adf8b5d512e00b90391804ea1b08e767dea 147 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iJUEARMJAB0WIQTZQAKMPDtVF2lL6mjL9prZIjzKfgUCZDve0gAKCRDL9prZIjzK
-fvQjAYCXjt+TEC6cr3Jgd904Dg5hT+u5/QUHhBpyOWwIne4Gq13roZFb8DjbfGcZ
-ptZzo7ABgIL7YAsyS/CCC3C4OB9FC8zykyyu7M5ldOIwa8ijTONPGtpJtyX1Csq0
-Iz+Rd80d8Q==
-=cIu7
+iJUEARMJAB0WIQTZQAKMPDtVF2lL6mjL9prZIjzKfgUCZM+/HgAKCRDL9prZIjzK
+fjPRAYDTJsBBhN4c/0xNeHGoq9aQfQC/Rw9eWKkh5k7iT1ECzNvSxmeL+nSihUA9
+OV1zE28Bf2Jn+wbf63klP6daLT1lybmUST+ctUaWaFG/4ux7nKRjDqQ7ZKuvVoKM
+14jvGdjeHQ==
+=vEvx
 -----END PGP SIGNATURE-----

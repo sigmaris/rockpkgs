@@ -1,28 +1,37 @@
 Origin: sigmaris.github.io/rockpkgs
 Label: sigmaris.github.io/rockpkgs
 Codename: bookworm
-Date: Sun, 16 Apr 2023 12:38:08 UTC
-Architectures: arm64
+Date: Sun, 06 Aug 2023 15:45:50 UTC
+Architectures: arm64 armhf
 Components: main
-Description: Packages for Rockchip SBC
+Description: Packages for Rockchip (arm64) and Raspberry Pi (armhf) SBC
 MD5Sum:
- 17338bb97d363ac53a85688fe7871474 383512 main/binary-arm64/Packages
- 0a965f271c7d26fd56daf484f3416d38 79768 main/binary-arm64/Packages.gz
- 11c6287517cbf1008610f047f2259f1d 146 main/binary-arm64/Release
+ 25e3ffa053b1667f0fdc2b7a6045f0fd 383512 main/binary-arm64/Packages
+ 8c1120bd3cb30f6de61ce33dbe01f068 79771 main/binary-arm64/Packages.gz
+ 727d52dc3d3b7a8b37c2f36cc9132549 179 main/binary-arm64/Release
+ cfa3894bafe7441d742e7bab4c926985 375835 main/binary-armhf/Packages
+ 2e7265c8b72db8156870d323a04b9049 77943 main/binary-armhf/Packages.gz
+ b605ef129a6feec354b5e1b11a312362 179 main/binary-armhf/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
  16db6212ae61a24b1a9921bdd7c58c1f 20 main/source/Sources.gz
- 297ae971788c1bd21e5084e1efe81343 147 main/source/Release
+ 7b785a4c24a0dd1fbec3aca157aedac5 180 main/source/Release
 SHA1:
- 439c1415cbb63d3b728055657de394f1141d68c5 383512 main/binary-arm64/Packages
- 5e019d84cd82842dc14bb934f5d04b57dbc04a23 79768 main/binary-arm64/Packages.gz
- 0ae31c1e533cb0ef3e2224c158c1502a6a2f79c1 146 main/binary-arm64/Release
+ c406e6bf934350e6481483fef5dd6ae5b8e372f3 383512 main/binary-arm64/Packages
+ bc510df2462dc5c4932564f5d661781616554d84 79771 main/binary-arm64/Packages.gz
+ 6760fa4227585684cb5ea57930b255834bd31b8d 179 main/binary-arm64/Release
+ 1d63a2fe04d62bea1925654e241265b65c7b3d37 375835 main/binary-armhf/Packages
+ 1948111c7752b74028b2b97a1b596b25059ffbef 77943 main/binary-armhf/Packages.gz
+ 07109368a4cdac80cef1ee53edd4161eb7077e4e 179 main/binary-armhf/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
  b9693a53bcffe40b2cc2c37045561f848baaa22a 20 main/source/Sources.gz
- c8ba739883a2eaa367d435a81f1d134804c121a3 147 main/source/Release
+ fe8bd7b6a8fce537b70e7d5464ebc939d289ad4a 180 main/source/Release
 SHA256:
- cda64c45491042da14e2e9a0824d76ddd4c7863aea74b1eeb62475ba50cb7b4c 383512 main/binary-arm64/Packages
- fa401a54e5dd74974ea63ad120cde416f19fa74d1b0cc73ec62c4bcc602d4c23 79768 main/binary-arm64/Packages.gz
- d9558fa39916a3053702ee52cc4f15260c3b6edfed5452a99e81d895a4de196a 146 main/binary-arm64/Release
+ d8f6726a6576191b6415caf208b7767261dabc0728ed71cea9c6f356fade6c74 383512 main/binary-arm64/Packages
+ ea20ac04d0b96f05eeefe114e8949bf24b40f7a396f3c9dfe56b19ccfe83efdb 79771 main/binary-arm64/Packages.gz
+ 8086f980671a19138a642f02df71047b9a1f3d452eb4965e3224fb896651653d 179 main/binary-arm64/Release
+ 451692f4db5ab7af5f8ce1576b3878b8a43d4f29d5c759e6c9bb638a1a2daafe 375835 main/binary-armhf/Packages
+ 03170c23356846e6c41246039bfad6863fa8fffe2d69b3a841ccbd75111c4524 77943 main/binary-armhf/Packages.gz
+ 1942dbc779ed0b7ab6ead3e46700c713225e5c1297355a0cda02c70843a8aabf 179 main/binary-armhf/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
  abfbb86f9f5ddfbd9fc1a72c43ab384702ce8bae86b60f3324748485e235e61e 20 main/source/Sources.gz
- 5c14bf987f5faff088ee1987565e9adf8b5d512e00b90391804ea1b08e767dea 147 main/source/Release
+ c15ae9ed8807a82d1ce6b64a258d714340deb2dfd21a4269fac9e484d80e8576 180 main/source/Release

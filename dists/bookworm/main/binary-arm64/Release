@@ -2,4 +2,4 @@ Component: main
 Origin: sigmaris.github.io/rockpkgs
 Label: sigmaris.github.io/rockpkgs
 Architecture: arm64
-Description: Packages for Rockchip SBC
+Description: Packages for Rockchip (arm64) and Raspberry Pi (armhf) SBC
