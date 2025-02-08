@@ -9252,3 +9252,21 @@ MD5sum: 5f981f3804a1962e20dabcd6ea73d03d
 Description: debug symbols for libswscale6
 Build-Ids: 2d5fcbe5999fbf89d432c72c1af206d1e003da6a
 
+Package: linux-image-6.10.3-00003-g9c5d98e34e3f
+Source: linux-upstream
+Version: 6.10.3-00003-g9c5d98e34e3f-6
+Architecture: arm64
+Maintainer: debian <debian@trixie>
+Installed-Size: 146377
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.10.3-00003-g9c5d98e34e3f_6.10.3-00003-g9c5d98e34e3f-6_arm64.deb
+Size: 28659540
+SHA256: 44730435ba95db49616dd3241a2bf14d48b68fa6ccc22f74974f0d7380cd9c1b
+SHA1: 38435e326a97f0e99e3d6494e64d68e7a95fc582
+MD5sum: 91dca109ad39d3df69fcfd2fe984a2f1
+Description: Linux kernel, version 6.10.3-00003-g9c5d98e34e3f
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.10.3-00003-g9c5d98e34e3f.
+
