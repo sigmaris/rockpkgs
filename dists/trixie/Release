@@ -1,13 +1,13 @@
 Origin: sigmaris.github.io/rockpkgs
 Label: sigmaris.github.io/rockpkgs
 Codename: trixie
-Date: Wed, 12 Mar 2025 19:18:17 UTC
+Date: Wed, 12 Mar 2025 19:32:12 UTC
 Architectures: arm64 armhf
 Components: main
 Description: Packages for Rockchip (arm64) and Raspberry Pi (armhf) SBC
 MD5Sum:
- 41320d90ef49e7939f82fe9bfdc2c67b 345672 main/binary-arm64/Packages
- d21ff7f4711ea069e7a170e4ea6922eb 74696 main/binary-arm64/Packages.gz
+ bf699efe233597b774307e34653f17c7 347281 main/binary-arm64/Packages
+ 1ca5f8289ec0d7ddda77dee2ddeb024a 75247 main/binary-arm64/Packages.gz
  727d52dc3d3b7a8b37c2f36cc9132549 179 main/binary-arm64/Release
  e8147438f1a72f1d63d4fbeaf74b6e97 10339 main/binary-armhf/Packages
  ab5ce081ffcc0475b6ce42f20b4ad270 2339 main/binary-armhf/Packages.gz
@@ -16,8 +16,8 @@ MD5Sum:
  16db6212ae61a24b1a9921bdd7c58c1f 20 main/source/Sources.gz
  7b785a4c24a0dd1fbec3aca157aedac5 180 main/source/Release
 SHA1:
- 075ca132567c52b9de6731b3b90a8df68ec0364b 345672 main/binary-arm64/Packages
- 02f5db03fb525cc1641fb2c00db03c58e8234b1b 74696 main/binary-arm64/Packages.gz
+ 4088639db553c611a73a181884023bf0ecda9526 347281 main/binary-arm64/Packages
+ 5b15d866872a476737f3a6115a035a14c57dc248 75247 main/binary-arm64/Packages.gz
  6760fa4227585684cb5ea57930b255834bd31b8d 179 main/binary-arm64/Release
  20c7efe934098dfbe4a67409812be499f8b4672a 10339 main/binary-armhf/Packages
  05fd4736f3c716cb660fbc07019d54056bcb54dd 2339 main/binary-armhf/Packages.gz
@@ -26,8 +26,8 @@ SHA1:
  b9693a53bcffe40b2cc2c37045561f848baaa22a 20 main/source/Sources.gz
  fe8bd7b6a8fce537b70e7d5464ebc939d289ad4a 180 main/source/Release
 SHA256:
- e824839254aada5a1aacd6a764d576db688e808366a6a3db773a55c215cfc2b6 345672 main/binary-arm64/Packages
- c575ffec559b32669b7e1119d9f52d24dc8b702edf1e4ab07724cbeb8207e299 74696 main/binary-arm64/Packages.gz
+ 412c5c0065eb739bfffc228b7f901859ddc6ff619236c6c746c8a57ddff896c1 347281 main/binary-arm64/Packages
+ 1776f8d87cc06e4c9d34fa12b8ae5395f2ad4a6cd5c6b0931336c3c8fb4b67c6 75247 main/binary-arm64/Packages.gz
  8086f980671a19138a642f02df71047b9a1f3d452eb4965e3224fb896651653d 179 main/binary-arm64/Release
  62848539544fd15a93c128c0db59eaa2ab523b51a8efebc20e068b547759682d 10339 main/binary-armhf/Packages
  2cfa3449baa4280dd2911a8ecebc0020b5bc0f14a5c86a9a6d78be44a22f6cbc 2339 main/binary-armhf/Packages.gz

@@ -8501,3 +8501,42 @@ MD5sum: 1c18aca99025c104820ed09e47def207
 Description: debug symbols for libswscale8
 Build-Ids: 725dfa0f97f7c13c7a0363677af049349cc4fa56
 
+Package: python3-tflite-runtime
+Source: tflite-runtime
+Version: 2.18.0-1
+Architecture: arm64
+Maintainer: TensorFlow team <packages@tensorflow.org>
+Installed-Size: 9723
+Depends: python3 (<< 3.14), python3 (>= 3.13~), python3-numpy (>= 1:1.12.1), python3:any, libc6 (>= 2.14), libgcc1 (>= 1:4.7), libstdc++6 (>= 6)
+Homepage: https://www.tensorflow.org/
+Priority: optional
+Section: python
+Filename: pool/main/t/tflite-runtime/python3-tflite-runtime_2.18.0-1_arm64.deb
+Size: 2805308
+SHA256: 4c2c33e8dc10c136939a9500671f87fbad3a4ab9244265f9c3190cf8f88d2fdd
+SHA1: acaaae043506b61e0371443ea753fbaf3f6dbef3
+MD5sum: fde1c336fc7c3b32ba0c4adf3abfe6b1
+Description: TensorFlow Lite is for mobile and embedded devices.
+ TensorFlow Lite is the official solution for running machine learning models on
+ mobile and embedded devices. It enables on-device machine learning inference
+ with low latency and a small binary size on Android, iOS, and other operating
+ systems.
+
+Package: python3-tflite-runtime-dbgsym
+Source: tflite-runtime
+Version: 2.18.0-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: TensorFlow team <packages@tensorflow.org>
+Installed-Size: 1523
+Depends: python3-tflite-runtime (= 2.18.0-1)
+Priority: optional
+Section: debug
+Filename: pool/main/t/tflite-runtime/python3-tflite-runtime-dbgsym_2.18.0-1_arm64.deb
+Size: 213132
+SHA256: 2f2f8774a5a4a6b9fd2c935710397f18bbf9f24b5c14663424d1b631aff84f5f
+SHA1: 4b58a9e9e501e11671ee88eeba5787e6366cab84
+MD5sum: f28c16dba4ffa066882b9b867d79f3bc
+Description: debug symbols for python3-tflite-runtime
+Build-Ids: 1f5d0d1a3d29643697a60f4bf8457213c3dbd928
+
