@@ -71,11 +71,11 @@ Description: Documentation of the FFmpeg multimedia framework
  for the libraries.
 
 Package: kodi
-Version: 10:21.2+dfsg-1
+Version: 10:21.2+dfsg-4
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 100
-Depends: kodi-bin (>= 10:21.2+dfsg-1), kodi-bin (<< 10:21.2+dfsg-1.1~), kodi-data (>= 10:21.2+dfsg-1)
+Depends: kodi-bin (>= 10:21.2+dfsg-4), kodi-bin (<< 10:21.2+dfsg-4.1~), kodi-data (>= 10:21.2+dfsg-4)
 Recommends: kodi-repository-kodi | kodi-repository, kodi-visualization-spectrum
 Breaks: xbmc (<< 2:13.2+dfsg1-5~)
 Replaces: xbmc (<< 2:13.2+dfsg1-5~)
@@ -83,11 +83,11 @@ Provides: kodi-api-audiodecoder (= 4.0.0), kodi-api-audioencoder (= 3.0.0), kodi
 Homepage: https://kodi.tv/
 Priority: optional
 Section: video
-Filename: pool/main/k/kodi/kodi_21.2+dfsg-1_arm64.deb
-Size: 27548
-SHA256: 57896f04e3410d743092abc435b19b0c1499efea0cb9010fbbf76055430219e6
-SHA1: 57c9f15fa58095d33eb863773cd38d3fb9a44654
-MD5sum: c53bf5ac52e25b0d2effc5993dcfcacc
+Filename: pool/main/k/kodi/kodi_21.2+dfsg-4_arm64.deb
+Size: 27692
+SHA256: 9768ce9cfe2349d591466e24aa56496a1338b8858f8cfcf4baf5a01db93248a0
+SHA1: c4782b6fdc4e7404b9f77b307eabe66a54a349f7
+MD5sum: a0392d1dd46dbc9e23d7380f6c668401
 Description: Open Source Home Theatre (executable binaries)
  Kodi, formerly known as XBMC is an award winning free and
  open source software media-player and entertainment hub for all your digital
@@ -110,23 +110,23 @@ Description: Open Source Home Theatre (executable binaries)
 
 Package: kodi-addons-dev
 Source: kodi
-Version: 10:21.2+dfsg-1
+Version: 10:21.2+dfsg-4
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 81
-Depends: kodi-addons-dev-common (= 10:21.2+dfsg-1)
+Depends: kodi-addons-dev-common (= 10:21.2+dfsg-4)
 Breaks: kodi-addons-dev-common (<< 2:20.0~rc1+dfsg1-1~)
 Replaces: kodi-addons-dev-common (<< 2:20.0~rc1+dfsg1-1~)
-Provides: dh-sequence-kodiaddon (= 10:21.2+dfsg-1)
+Provides: dh-sequence-kodiaddon (= 10:21.2+dfsg-4)
 Multi-Arch: same
 Homepage: https://kodi.tv/
 Priority: optional
 Section: libdevel
-Filename: pool/main/k/kodi/kodi-addons-dev_21.2+dfsg-1_arm64.deb
-Size: 24752
-SHA256: bbf8e8433daabb0db80f469b69ced4de557320555162677726491f5157f2f238
-SHA1: 8314513c71c6c0d03629c183e6b73c8bf1c64307
-MD5sum: 632f2fd73cc3e60680d03424469d800a
+Filename: pool/main/k/kodi/kodi-addons-dev_21.2+dfsg-4_arm64.deb
+Size: 24888
+SHA256: 99475221f0259a7d9e7017155c1b076425449647721e793b1ca2f8779ae2ba91
+SHA1: d070395f68b1c26aa6b16a857b59720ce84ec4b7
+MD5sum: ea239e31b0ac293d2be4765ddee260cf
 Description: Open Source Home Theatre (addon development package)
  This package is a dummy package used in conjunction with kodi-addons-dev
  to detect if a binary addon should be built for given Debian architecture.
@@ -139,7 +139,7 @@ Description: Open Source Home Theatre (addon development package)
 
 Package: kodi-addons-dev-common
 Source: kodi
-Version: 10:21.2+dfsg-1
+Version: 10:21.2+dfsg-4
 Architecture: all
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 2046
@@ -149,11 +149,11 @@ Multi-Arch: foreign
 Homepage: https://kodi.tv/
 Priority: optional
 Section: libdevel
-Filename: pool/main/k/kodi/kodi-addons-dev-common_21.2+dfsg-1_all.deb
-Size: 257732
-SHA256: 3fd72e66f12250f1438a3080530a474ad2e9397557564373f5ee8e1aa2cc1bd0
-SHA1: d7a50bd675467fda2f8c39aa83d5d4b80774b7d6
-MD5sum: d98b2bf3ed67d20fb21aab21b0ce0677
+Filename: pool/main/k/kodi/kodi-addons-dev-common_21.2+dfsg-4_all.deb
+Size: 257868
+SHA256: 354b4300bca54c2efd32a46c6c75ce8ae5eb3a166dca042fc1982e19edfddb58
+SHA1: f16325eca43612754a92b86e9cc41f8e4868f32c
+MD5sum: 47772d297f48b2c0ef95375a0c712eba
 Description: Open Source Home Theatre (architecture-independent addon development package)
  Kodi, formerly known as XBMC is an award winning free and
  open source software media-player and entertainment hub for all your digital
@@ -1237,10 +1237,10 @@ Build-Ids: 02282fbedfe7fd06ec04f94f077d37b0b399524e 77f581e69a07b092c7310305611a
 
 Package: kodi-bin
 Source: kodi
-Version: 10:21.2+dfsg-1
+Version: 10:21.2+dfsg-4
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 31598
+Installed-Size: 31534
 Depends: python3-pil, python3-pycryptodome, libasound2t64 (>= 1.0.27), libass9 (>= 1:0.15.0), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libavcodec61 (>= 7:7.0), libavfilter10 (>= 7:7.0), libavformat61 (>= 7:7.0), libavutil59 (>= 7:7.0), libbluetooth3 (>= 4.91), libbluray2 (>= 1:0.9.3), libc6 (>= 2.38), libcap2 (>= 1:2.10), libcdio19t64 (>= 2.1.0), libcec6 (>= 6.0.2), libcrossguid0 (>= 0.0+git200150803), libcurl3t64-gnutls (>= 7.18.0), libdate-tz3 (>= 3.0.1), libdbus-1-3 (>= 1.10), libdisplay-info2 (>= 0.2.0), libdrm2 (>= 2.4.107), libegl1, libfmt10 (>= 10.1.1+ds1), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), libfstrcmp0 (>= 0.7.D001), libgbm1 (>= 17.1.0~rc2), libgcc-s1 (>= 4.5), libgcrypt20 (>= 1.11.0), libgles2, libharfbuzz0b (>= 0.9.9), libinput10 (>= 0.21.0), libiso9660-11t64 (>= 2.0.0), libkissfft-float131 (>= 131.1.0~), liblcms2-2 (>= 2.2+git20110628), liblirc-client0t64 (>= 0.10.2), liblzo2-2 (>= 2.02), libmariadb3 (>= 3.0.0), libmicrohttpd12t64 (>= 0.9.50), libnfs14 (>= 5.0.2), libpcre2-8-0 (>= 10.22), libpipewire-0.3-0t64 (>= 0.3.50), libplist-2.0-4 (>= 2.3.0), libpostproc58 (>= 7:7.0), libpulse0 (>= 0.99.4), libpython3.13 (>= 3.13.0~rc3), libshairplay0 (>= 0.9.0~), libsmbclient0 (>= 2:4.8.0+dfsg), libsndio7.0 (>= 1.8.1), libspdlog1.15-fmt10, libsqlite3-0 (>= 3.7.11), libstdc++6 (>= 14), libswresample5 (>= 7:7.0), libswscale8 (>= 7:7.0), libtag2 (>= 2.0), libtinyxml2-10 (>= 10.0.0), libtinyxml2.6.2v5 (>= 2.6.2), libudev1 (>= 183), libudfread0 (>= 1.0.0), libva-drm2 (>= 1.1.0), libva-wayland2 (>= 1.3.0), libva-x11-2 (>= 1.0.3), libva2 (>= 2.2.0), libwayland-client++1 (>= 1.0.0), libwayland-cursor++1 (>= 1.0.0), libwayland-egl++1 (>= 1.0.0), libx11-6, libxext6, libxkbcommon0 (>= 0.5.0), libxml2 (>= 2.7.4), libxrandr2 (>= 2:1.2.99.3), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.1.4)
 Recommends: udisks2
 Conflicts: libgl1-mesa-swx11
@@ -1249,11 +1249,11 @@ Replaces: xbmc-bin (<< 2:13.2+dfsg1-5~)
 Homepage: https://kodi.tv/
 Priority: optional
 Section: video
-Filename: pool/main/k/kodi/kodi-bin_21.2+dfsg-1_arm64.deb
-Size: 8362512
-SHA256: 0f4c77676ad1bd5ba1388d6a825d600bcfb1137141885bc4357373bb83e73881
-SHA1: f2e4657a6ceb62fa3c306ab9a6993756eab47ee3
-MD5sum: a0320ff56a2c7947142d70b10ea529b8
+Filename: pool/main/k/kodi/kodi-bin_21.2+dfsg-4_arm64.deb
+Size: 8356164
+SHA256: 88e2beb6af396429d0afb88310fbd97f78e5ffb933b2c586459824eaf680f381
+SHA1: f943ebcc0a58a77c900b82a6fb5aa71de462d7e2
+MD5sum: 1711b12aeb75521c1967684597823084
 Description: Open Source Home Theatre (architecture-dependent files)
  Kodi, formerly known as XBMC is an award winning free and
  open source software media-player and entertainment hub for all your digital
@@ -1276,7 +1276,7 @@ Description: Open Source Home Theatre (architecture-dependent files)
 
 Package: kodi-data
 Source: kodi
-Version: 10:21.2+dfsg-1
+Version: 10:21.2+dfsg-4
 Architecture: all
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 37537
@@ -1289,11 +1289,11 @@ Multi-Arch: foreign
 Homepage: https://kodi.tv/
 Priority: optional
 Section: video
-Filename: pool/main/k/kodi/kodi-data_21.2+dfsg-1_all.deb
-Size: 23721028
-SHA256: 3b2ac729aef7fd7d0dce273425b419a8a8faa1afdf03f8958caaeb2b55da0562
-SHA1: 73e4a78fa2e33f451e1b56d72cdc200c6b2b0478
-MD5sum: 6b2bff01b279c8b9af16cd1ad43f0b06
+Filename: pool/main/k/kodi/kodi-data_21.2+dfsg-4_all.deb
+Size: 23719944
+SHA256: 7a1f19cd6e03710f12e1b74574091a320b6e9aec3a1d0381d2ca259cb3a3c0e3
+SHA1: fb9dc816f7a0294516b43fe5c1283c18843a2bd0
+MD5sum: 541a1efe176e27f0fac4ee8fd067e1f4
 Description: Open Source Home Theatre (arch-independent data package)
  Kodi, formerly known as XBMC is an award winning free and
  open source software media-player and entertainment hub for all your digital
@@ -1317,7 +1317,7 @@ Description: Open Source Home Theatre (arch-independent data package)
 
 Package: kodi-eventclients-common
 Source: kodi
-Version: 10:21.2+dfsg-1
+Version: 10:21.2+dfsg-4
 Architecture: all
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 77
@@ -1325,11 +1325,11 @@ Multi-Arch: foreign
 Homepage: https://kodi.tv/
 Priority: optional
 Section: video
-Filename: pool/main/k/kodi/kodi-eventclients-common_21.2+dfsg-1_all.deb
-Size: 29152
-SHA256: 28832a01e732dc03822e4c4fbc23f774cd1d805499faa4d50b8a4464c935f8f9
-SHA1: 7871454713c3e11e1439105f29525c1844362c08
-MD5sum: 068537bd37aee128d9b5b94548076bfb
+Filename: pool/main/k/kodi/kodi-eventclients-common_21.2+dfsg-4_all.deb
+Size: 29296
+SHA256: f9e7fe497a53b1aac91887d8a11e39a425ad3b694668d416dffa50f24a311747
+SHA1: 46f93097206d35713f56c62fe29adb9c261eb477
+MD5sum: 7996d7e4b84ccd2509a22b40ef9600aa
 Description: Open Source Home Theatre (Event Client Common package)
  Kodi, formerly known as XBMC is an award winning free and
  open source software media-player and entertainment hub for all your digital
@@ -1352,19 +1352,19 @@ Description: Open Source Home Theatre (Event Client Common package)
 
 Package: kodi-eventclients-dev
 Source: kodi
-Version: 10:21.2+dfsg-1
+Version: 10:21.2+dfsg-4
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 68
-Depends: kodi-eventclients-dev-common (= 10:21.2+dfsg-1), kodi-eventclients-python (= 10:21.2+dfsg-1)
+Depends: kodi-eventclients-dev-common (= 10:21.2+dfsg-4), kodi-eventclients-python (= 10:21.2+dfsg-4)
 Homepage: https://kodi.tv/
 Priority: optional
 Section: libdevel
-Filename: pool/main/k/kodi/kodi-eventclients-dev_21.2+dfsg-1_arm64.deb
-Size: 21348
-SHA256: 7de2df7865577d0c94b48d84217740f804e6ef9d457ec1f47f1c54c84d8c5b2c
-SHA1: 7001f5d0ea62b8f9a46ed88c4e14c1f4ee38d318
-MD5sum: a17d7c2bd2bc8eb770919e42d62bba46
+Filename: pool/main/k/kodi/kodi-eventclients-dev_21.2+dfsg-4_arm64.deb
+Size: 21500
+SHA256: 21f132756e732b0f238d1e0b84e22a354633ec3fc0b11281e9b4bb9bc90faf43
+SHA1: a6571d7bdfad5e4094e6a8f331bf5c1922f69b84
+MD5sum: 8562eb4c34198543c4a7a9dc7d1d42d9
 Description: Open Source Home Theatre (Event Client virtual dev package)
  Kodi, formerly known as XBMC is an award winning free and
  open source software media-player and entertainment hub for all your digital
@@ -1387,7 +1387,7 @@ Description: Open Source Home Theatre (Event Client virtual dev package)
 
 Package: kodi-eventclients-dev-common
 Source: kodi
-Version: 10:21.2+dfsg-1
+Version: 10:21.2+dfsg-4
 Architecture: all
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 123
@@ -1397,11 +1397,11 @@ Multi-Arch: foreign
 Homepage: https://kodi.tv/
 Priority: optional
 Section: libdevel
-Filename: pool/main/k/kodi/kodi-eventclients-dev-common_21.2+dfsg-1_all.deb
-Size: 30120
-SHA256: efbfed37f8fdf305588a22f3d5f60606b28722945c10659db1db351ec4c14949
-SHA1: 8d56644349904f3666aa409ba5def59e1bb0379c
-MD5sum: 3082eb50d0247f2c0b6e1c44a7b5258c
+Filename: pool/main/k/kodi/kodi-eventclients-dev-common_21.2+dfsg-4_all.deb
+Size: 30284
+SHA256: 8c3c142626add3b09ab7dfef0ba33d467378d0ed1d4ebca84eb039b71f11bab1
+SHA1: 2882b45e07dcd6028125566eaad988182ac64da9
+MD5sum: 9f83c612aec05cebe994334ed421ae2f
 Description: Open Source Home Theatre (Event Client common dev package)
  Kodi, formerly known as XBMC is an award winning free and
  open source software media-player and entertainment hub for all your digital
@@ -1424,19 +1424,19 @@ Description: Open Source Home Theatre (Event Client common dev package)
 
 Package: kodi-eventclients-kodi-send
 Source: kodi
-Version: 10:21.2+dfsg-1
+Version: 10:21.2+dfsg-4
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 78
-Depends: kodi-eventclients-python (= 10:21.2+dfsg-1), python3:any
+Depends: kodi-eventclients-python (= 10:21.2+dfsg-4), python3:any
 Homepage: https://kodi.tv/
 Priority: optional
 Section: video
-Filename: pool/main/k/kodi/kodi-eventclients-kodi-send_21.2+dfsg-1_arm64.deb
-Size: 23544
-SHA256: 327614bb3d5a3d79a45a6faad68d82b71dccd8fa2a781c8378302aac83c17867
-SHA1: 435bd71da21ce26f9ba814b276b27cd1d9e46b66
-MD5sum: efd109cedb283a1f8453d10f9fe3cb08
+Filename: pool/main/k/kodi/kodi-eventclients-kodi-send_21.2+dfsg-4_arm64.deb
+Size: 23680
+SHA256: 1e4612e2854409f017868fe4c7a9c73b033337cd8f93c8a35e48537320253dde
+SHA1: 1aa248e0463578b4d2516715c7b924df96d6d208
+MD5sum: ed8d5ee68995bef4c7ef5b83a27d6492
 Description: Open Source Home Theatre (Event Client Kodi-SEND package)
  Kodi, formerly known as XBMC is an award winning free and
  open source software media-player and entertainment hub for all your digital
@@ -1459,21 +1459,21 @@ Description: Open Source Home Theatre (Event Client Kodi-SEND package)
 
 Package: kodi-eventclients-ps3
 Source: kodi
-Version: 10:21.2+dfsg-1
+Version: 10:21.2+dfsg-4
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 105
-Depends: kodi-eventclients-python (= 10:21.2+dfsg-1), python3-pyudev, python3-usb, python3:any
+Depends: kodi-eventclients-python (= 10:21.2+dfsg-4), python3-pyudev, python3-usb, python3:any
 Breaks: kodi-eventclients-common (<< 2:19.0~alpha3+dfsg1-1~)
 Replaces: kodi-eventclients-common (<< 2:19.0~alpha3+dfsg1-1~)
 Homepage: https://kodi.tv/
 Priority: optional
 Section: video
-Filename: pool/main/k/kodi/kodi-eventclients-ps3_21.2+dfsg-1_arm64.deb
-Size: 29044
-SHA256: 754cb4c455d29f819445139f06ba0ae7f2257691ac84cb666eb66be0ea73455b
-SHA1: ee3c084c52bead80e1b68b9d68992aca0c6da0c8
-MD5sum: 4fc8976b6174b4884a6adc41ef9b0352
+Filename: pool/main/k/kodi/kodi-eventclients-ps3_21.2+dfsg-4_arm64.deb
+Size: 29200
+SHA256: 8bf8e5c7b201c298a3a653620d91633ea70d03f2daa0e7db13043cceaa528dcd
+SHA1: 6f1b96bf38a187b334508936ca7695d48cb91751
+MD5sum: 38962fc4a2016f3c4838f49b5a1787b3
 Description: Open Source Home Theatre (Event Client PS3 package)
  Kodi, formerly known as XBMC is an award winning free and
  open source software media-player and entertainment hub for all your digital
@@ -1496,21 +1496,21 @@ Description: Open Source Home Theatre (Event Client PS3 package)
 
 Package: kodi-eventclients-python
 Source: kodi
-Version: 10:21.2+dfsg-1
+Version: 10:21.2+dfsg-4
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 107
-Depends: kodi-eventclients-common (= 10:21.2+dfsg-1), python3-bluez, python3:any
+Depends: kodi-eventclients-common (= 10:21.2+dfsg-4), python3-bluez, python3:any
 Breaks: kodi-eventclients-common (<< 2:19.4+dfsg1-1~)
 Replaces: kodi-eventclients-common (<< 2:19.4+dfsg1-1~)
 Homepage: https://kodi.tv/
 Priority: optional
 Section: video
-Filename: pool/main/k/kodi/kodi-eventclients-python_21.2+dfsg-1_arm64.deb
-Size: 28184
-SHA256: 17202db0863b81ea67cd25ecd1100d9742926622f544c9e467ccb1901a4423b2
-SHA1: 5c621a68a44a0df8a836a2cec2c70653cf04d1b7
-MD5sum: 0d7c15dd864a9c73ef927a7f8ca69a1d
+Filename: pool/main/k/kodi/kodi-eventclients-python_21.2+dfsg-4_arm64.deb
+Size: 28336
+SHA256: b8f2af9b6c40606841a6ebc5268b5ef03fc8e7458b2feae918c462c09a25d8f0
+SHA1: 47c27b2a3ec1344ddb8f6d1af16368e46dd9c631
+MD5sum: bb373341ce25a6ee255885354a6551c8
 Description: Open Source Home Theatre (Event Client Python package)
  Kodi, formerly known as XBMC is an award winning free and
  open source software media-player and entertainment hub for all your digital
@@ -1533,19 +1533,19 @@ Description: Open Source Home Theatre (Event Client Python package)
 
 Package: kodi-eventclients-wiiremote
 Source: kodi
-Version: 10:21.2+dfsg-1
+Version: 10:21.2+dfsg-4
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 139
-Depends: kodi-eventclients-python (= 10:21.2+dfsg-1), libbluetooth3 (>= 4.91), libc6 (>= 2.38), libcwiid1t64 (>= 0.6.00+svn184), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
+Depends: kodi-eventclients-python (= 10:21.2+dfsg-4), libbluetooth3 (>= 4.91), libc6 (>= 2.38), libcwiid1t64 (>= 0.6.00+svn184), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
 Homepage: https://kodi.tv/
 Priority: optional
 Section: video
-Filename: pool/main/k/kodi/kodi-eventclients-wiiremote_21.2+dfsg-1_arm64.deb
-Size: 38848
-SHA256: 7478df74884df57f870f1c7549f3a85abf9106fafc4c992297893511f7ae7476
-SHA1: 7d86dc88c27fc887c5c33415710de45649d6fd75
-MD5sum: a483201aed5c4c240ee325fc75313185
+Filename: pool/main/k/kodi/kodi-eventclients-wiiremote_21.2+dfsg-4_arm64.deb
+Size: 38916
+SHA256: d81d923cf0508c916c0f000d3d8897624161b194cd778272dd3e41ff77bfa344
+SHA1: 7f270444ba1a6c1f8dac56718ac3fb62a269e446
+MD5sum: 410f813bb910087416c375752457fcf2
 Description: Open Source Home Theatre (Event Client WII Remote support package)
  Kodi, formerly known as XBMC is an award winning free and
  open source software media-player and entertainment hub for all your digital
@@ -1568,39 +1568,39 @@ Description: Open Source Home Theatre (Event Client WII Remote support package)
 
 Package: kodi-eventclients-wiiremote-dbgsym
 Source: kodi
-Version: 10:21.2+dfsg-1
+Version: 10:21.2+dfsg-4
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 225
-Depends: kodi-eventclients-wiiremote (= 10:21.2+dfsg-1)
+Depends: kodi-eventclients-wiiremote (= 10:21.2+dfsg-4)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi/kodi-eventclients-wiiremote-dbgsym_21.2+dfsg-1_arm64.deb
+Filename: pool/main/k/kodi/kodi-eventclients-wiiremote-dbgsym_21.2+dfsg-4_arm64.deb
 Size: 155104
-SHA256: e4cb58289e7e70a2d2f884a397de4b3d7a2cf3662ea770712b360269872ab2f9
-SHA1: 7e40f5326003d99e3b5a9e6939e28c86df93b09f
-MD5sum: 5eb98a8044e3f1558659896110766c30
+SHA256: f78c1b5ce9fa32911e290ff859a74d488dbcaea0498ecb0e5ae139fb918043f2
+SHA1: 1b4ec8eadb6f33258990936915acb422da1b12ed
+MD5sum: 90ebeff741515295a794c80e39a6c815
 Description: debug symbols for kodi-eventclients-wiiremote
 Build-Ids: c565eb9bed9efa044e2cf7804b8e5ab02b501263
 
 Package: kodi-eventclients-zeroconf
 Source: kodi
-Version: 10:21.2+dfsg-1
+Version: 10:21.2+dfsg-4
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 79
-Depends: kodi-eventclients-python (= 10:21.2+dfsg-1), python3-avahi, python3-dbus, python3-gi, python3:any
+Depends: kodi-eventclients-python (= 10:21.2+dfsg-4), python3-avahi, python3-dbus, python3-gi, python3:any
 Breaks: kodi-eventclients-common (<< 2:19.0~alpha3+dfsg1-1~)
 Replaces: kodi-eventclients-common (<< 2:19.0~alpha3+dfsg1-1~)
 Homepage: https://kodi.tv/
 Priority: optional
 Section: video
-Filename: pool/main/k/kodi/kodi-eventclients-zeroconf_21.2+dfsg-1_arm64.deb
-Size: 23392
-SHA256: 531216eec0ecb7a67f265795e9b468256187a7dcad421456770ae393ad8c3e5e
-SHA1: 75137112702df9174d2d7f84ffd1818649c90452
-MD5sum: 6eb710e4f489c21b4c7a844fd8b47996
+Filename: pool/main/k/kodi/kodi-eventclients-zeroconf_21.2+dfsg-4_arm64.deb
+Size: 23540
+SHA256: 4a12ab97b2febb17136d774c497853800bf64fbb34ca3c35e2925ff17e10c730
+SHA1: 9bf111c7e40b6e13b88e2e9bca66e5fc26b8dcbc
+MD5sum: fa06b6e517fa217ef4847e8577688d1c
 Description: Open Source Home Theatre (Event Client ZeroConf script package)
  Kodi, formerly known as XBMC is an award winning free and
  open source software media-player and entertainment hub for all your digital
@@ -5835,7 +5835,7 @@ Build-Ids: 0e02a3e1fef9149a9736cf850dc375117ae6dc8c
 
 Package: kodi-repository-kodi
 Source: kodi
-Version: 10:21.2+dfsg-1
+Version: 10:21.2+dfsg-4
 Architecture: all
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 375
@@ -5848,11 +5848,11 @@ Multi-Arch: foreign
 Homepage: https://kodi.tv/
 Priority: optional
 Section: video
-Filename: pool/main/k/kodi/kodi-repository-kodi_21.2+dfsg-1_all.deb
-Size: 54896
-SHA256: 126d2c524c2888440e816c3ee79a12b67c034dbac005a7729689f06d3531e3d1
-SHA1: 83dd2d9fcd6a820c4bcae1fc85e30e3389e18ff1
-MD5sum: cbfd7aaba12cad59ea6629314815a0a3
+Filename: pool/main/k/kodi/kodi-repository-kodi_21.2+dfsg-4_all.deb
+Size: 55048
+SHA256: cafa65c788694b7afcda9820ef89e0f369a0d03b8b782efc147a958b2220d2ca
+SHA1: 75816a94f268556f337d79303729e285d9816abc
+MD5sum: ecfd6e46c39b86c5688932a215cc35dc
 Description: Open Source Home Theatre (official addons repository feed)
  Kodi, formerly known as XBMC is an award winning free and
  open source software media-player and entertainment hub for all your digital
@@ -7271,7 +7271,7 @@ Build-Ids: 49eea214e0678067fdcdcd77b212c651cfd02904
 
 Package: kodi-tools-texturepacker
 Source: kodi
-Version: 10:21.2+dfsg-1
+Version: 10:21.2+dfsg-4
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 204
@@ -7281,11 +7281,11 @@ Replaces: kodi-bin (<< 2:19.4+dfsg1-1~)
 Homepage: https://kodi.tv/
 Priority: optional
 Section: video
-Filename: pool/main/k/kodi/kodi-tools-texturepacker_21.2+dfsg-1_arm64.deb
-Size: 50692
-SHA256: 6c2b2626e377090518d30686439f092162159d45e04eae0f0f3504c316ba495d
-SHA1: db03a3695fbd1d6f55ba5d75ee3617b090d3c07e
-MD5sum: b73fa6f013d43b8d89c2476ac0a23472
+Filename: pool/main/k/kodi/kodi-tools-texturepacker_21.2+dfsg-4_arm64.deb
+Size: 50984
+SHA256: 0098877cdefd6a9d4b6d8d12d835e7aa6356cd175ec21027bf34ca64e64dc34c
+SHA1: 9ca8153cf0cced39355a41150504adb5ead5339d
+MD5sum: 5453a533007b0f2888a46df52afef499
 Description: Open Source Home Theatre (TexturePacker skin development tool)
  Kodi, formerly known as XBMC is an award winning free and
  open source software media-player and entertainment hub for all your digital
@@ -7309,19 +7309,19 @@ Description: Open Source Home Theatre (TexturePacker skin development tool)
 
 Package: kodi-tools-texturepacker-dbgsym
 Source: kodi
-Version: 10:21.2+dfsg-1
+Version: 10:21.2+dfsg-4
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 692
-Depends: kodi-tools-texturepacker (= 10:21.2+dfsg-1)
+Depends: kodi-tools-texturepacker (= 10:21.2+dfsg-4)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi/kodi-tools-texturepacker-dbgsym_21.2+dfsg-1_arm64.deb
+Filename: pool/main/k/kodi/kodi-tools-texturepacker-dbgsym_21.2+dfsg-4_arm64.deb
 Size: 604728
-SHA256: 86e7fa2139e274d5a3fabdbff9d12551912b623909c149b23e85eb06b3689ccf
-SHA1: 9143425831cadc8813c92cca358eb06a28620b5e
-MD5sum: 6fdda06191067e8a19956c892552a857
+SHA256: 1147b05b99f28e3d48235ba9042fbead589522bacb62199a723fb004f3851aa4
+SHA1: 91aeaece7f850ef318086f0f9002c4822573602f
+MD5sum: 7ce1ac449095f46da8954f8c90c09c42
 Description: debug symbols for kodi-tools-texturepacker
 Build-Ids: fbc442c01cf9c2d5c705fbbf63fbe5809d2b94ce
 
