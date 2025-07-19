@@ -1,19 +1,19 @@
 Package: ffmpeg-doc
 Source: ffmpeg
-Version: 10:7.1.1-1
+Version: 10:7.1.1-2
 Architecture: all
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 38005
+Installed-Size: 38000
 Depends: libjs-jquery, libjs-bootstrap5
 Multi-Arch: foreign
 Homepage: https://ffmpeg.org/
 Priority: optional
 Section: doc
-Filename: pool/main/f/ffmpeg/ffmpeg-doc_7.1.1-1_all.deb
-Size: 2312404
-SHA256: f35065cee4e45f2e3e7879da77ac955e1a7064f52491d892bd00e8193de97d25
-SHA1: 477977e514023cd2dc64389544ec880ef37bd81d
-MD5sum: c9891b1273d953dc6d9028c18d56c639
+Filename: pool/main/f/ffmpeg/ffmpeg-doc_7.1.1-2_all.deb
+Size: 2312540
+SHA256: 069624f2512835903ffcb47fafd16eb0fcef018f13a906f8240e7de9b7e9fb70
+SHA1: b951ebe9b0fd4144c1a86f759b3530ec95c3ffb8
+MD5sum: 6411217d6d9286805811e7100f88c6fd
 Description: Documentation of the FFmpeg multimedia framework
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
  mux, demux, stream, filter and play pretty much anything that humans and
