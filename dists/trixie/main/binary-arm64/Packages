@@ -8501,6 +8501,81 @@ MD5sum: 1c18aca99025c104820ed09e47def207
 Description: debug symbols for libswscale8
 Build-Ids: 725dfa0f97f7c13c7a0363677af049349cc4fa56
 
+Package: linux-headers-6.14.5-rockchip
+Source: linux-upstream
+Version: 6.14.5-1
+Architecture: arm64
+Maintainer: root <root@4ea926f44d1a>
+Installed-Size: 51171
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.14.5-rockchip_6.14.5-1_arm64.deb
+Size: 8495284
+SHA256: 278c6187324ba1b9cd63fe83df12c2a2360fb19463967ecf218bcde2ad7a2de3
+SHA1: df61db0c7f37778311d29a25e3fd82becc5301d0
+MD5sum: f29bc5abe0156f1e68e895b5da27fc9b
+Description: Linux kernel headers for 6.14.5-rockchip on arm64
+ This package provides kernel header files for 6.14.5-rockchip on arm64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-image-6.14.5-rockchip
+Source: linux-upstream
+Version: 6.14.5-1
+Architecture: arm64
+Maintainer: root <root@4ea926f44d1a>
+Installed-Size: 77298
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.14.5-rockchip_6.14.5-1_arm64.deb
+Size: 20609568
+SHA256: 8b19f4d5b8c0e1566f6ecbd16b603ad5ed44a291833e67d3f253b32b446e60c2
+SHA1: 585fb464787ffeef2a88b178cb1e7f4f09d24c0b
+MD5sum: d4743c3ab77b05047cb2ee539583658a
+Description: Linux kernel, version 6.14.5-rockchip
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.14.5-rockchip.
+
+Package: linux-image-6.14.5-rockchip-dbg
+Source: linux-upstream
+Version: 6.14.5-1
+Architecture: arm64
+Maintainer: root <root@4ea926f44d1a>
+Installed-Size: 316489
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: debug
+Filename: pool/main/l/linux-upstream/linux-image-6.14.5-rockchip-dbg_6.14.5-1_arm64.deb
+Size: 65871424
+SHA256: dd125449c434145eb32d38dcc973b5b50cc7250172b97dbd0cc3e87c4c79ac18
+SHA1: 6a3b4b1d91877bdbcd062c069d6c8929dbb44237
+MD5sum: b1cdc0815ebdeaf4ecbf506079e904f6
+Description: Linux kernel debugging symbols for 6.14.5-rockchip
+ This package will come in handy if you need to debug the kernel. It provides
+ all the necessary debug symbols for the kernel and its modules.
+
+Package: linux-libc-dev
+Source: linux-upstream
+Version: 6.14.5-1
+Architecture: arm64
+Maintainer: root <root@4ea926f44d1a>
+Installed-Size: 7139
+Provides: linux-kernel-headers
+Multi-Arch: same
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux-upstream/linux-libc-dev_6.14.5-1_arm64.deb
+Size: 1387992
+SHA256: d5c57c32c3b4c32daec33eeca75a76f3078db9e8e3576ca2797b20830e64e230
+SHA1: b56c78812db5467868d17bea817b26b7f72bbf04
+MD5sum: eb094b99199380e71430d275ceb23603
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+
 Package: python3-tflite-runtime
 Source: tflite-runtime
 Version: 2.18.0-1
