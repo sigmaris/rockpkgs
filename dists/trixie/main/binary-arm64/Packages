@@ -178,7 +178,7 @@ Description: Open Source Home Theatre (architecture-independent addon developmen
  to keep a whole Kodi source tree.
 
 Package: kodi-audiodecoder-2sf
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 939
@@ -186,52 +186,52 @@ Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), zlib1g (>=
 Homepage: https://kodi.tv
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-audiodecoder-2sf/kodi-audiodecoder-2sf_21.0.2-5~trixie_arm64.deb
-Size: 108996
-SHA256: 3c3d7470f6592e30c9e1a45975dacb02d14cf25d90cf51dce899ffc0167131ee
-SHA1: 0d9defd1ff1126de0167d9d65b482f0a2afbca2f
-MD5sum: 625c7753f7bc72a7e5ab3805749c4e22
+Filename: pool/main/k/kodi-audiodecoder-2sf/kodi-audiodecoder-2sf_21.0.2-6~trixie_arm64.deb
+Size: 109028
+SHA256: ba1ef0a323604bf0d3bb40190752745528dc586a81e806ed12468d1a2546cf9b
+SHA1: 37743f964cd072cf205f75cb39917e0ff09767c0
+MD5sum: e92aa9d2747fedcdf862052188ed0e00
 Description: 2SF audio decoder for Kodi
   2SF audio decoder for Kodi
 
 Package: kodi-audiodecoder-2sf-dbg
 Source: kodi-audiodecoder-2sf
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 6
-Depends: kodi-audiodecoder-2sf (= 21.0.2-5~trixie)
+Depends: kodi-audiodecoder-2sf (= 21.0.2-6~trixie)
 Homepage: https://kodi.tv
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-audiodecoder-2sf/kodi-audiodecoder-2sf-dbg_21.0.2-5~trixie_arm64.deb
+Filename: pool/main/k/kodi-audiodecoder-2sf/kodi-audiodecoder-2sf-dbg_21.0.2-6~trixie_arm64.deb
 Size: 876
-SHA256: 1569232f407af58ca1870f0ee26aa67bdf6c52d516b558fa3104dc940b45155f
-SHA1: 76f60640830ccd848cc72421d2be0f6237bf329e
-MD5sum: 0e70b90e3864205583fbf2e72464e8ee
+SHA256: 8ba499d3949ab4d0d8ea017b1c39811097b5cec6b4b9e91463fbbad5f34c72cb
+SHA1: 086dade4fe54c51d691184c20b3c1196a285a5e0
+MD5sum: 550a707878f9324b03663b6676be2be9
 Description: debug symbols for 2SF audio decoder for Kodi
   debug symbols for 2SF audio decoder for Kodi
 
 Package: kodi-audiodecoder-2sf-dbgsym
 Source: kodi-audiodecoder-2sf
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 568
-Depends: kodi-audiodecoder-2sf (= 21.0.2-5~trixie)
+Depends: kodi-audiodecoder-2sf (= 21.0.2-6~trixie)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi-audiodecoder-2sf/kodi-audiodecoder-2sf-dbgsym_21.0.2-5~trixie_arm64.deb
-Size: 490864
-SHA256: 12ac19e40476c67651af30738097e5aec0a0ed6f06d015c7ef99e72fb1cc170d
-SHA1: 45cb6e33f9852177b2304f723c45ccf48ec313e6
-MD5sum: 60eeeb699e77e5948fbbccc29a026ee5
+Filename: pool/main/k/kodi-audiodecoder-2sf/kodi-audiodecoder-2sf-dbgsym_21.0.2-6~trixie_arm64.deb
+Size: 491284
+SHA256: d224e63f4d0f216bea8dc925c60abee923c8bc3b05a27fcc4520e372a5160ec2
+SHA1: 0fe817c48647dc98c27b671ec25c7fb26fd3f286
+MD5sum: e5ac132df7b7e140b19c6689a31c6bcd
 Description: debug symbols for kodi-audiodecoder-2sf
-Build-Ids: bfc9827c6019653c87bba584248c97e873bf9887
+Build-Ids: 14373a2e7c6155bcd49c6426ff9d9b9d79664334
 
 Package: kodi-audiodecoder-asap
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 384
@@ -239,52 +239,52 @@ Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2)
 Homepage: https://kodi.tv
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-audiodecoder-asap/kodi-audiodecoder-asap_21.0.2-5~trixie_arm64.deb
-Size: 110396
-SHA256: 34e10425d71ad607d37f912a922c580b3a364bea1ff2b4793d7e5510ba8576de
-SHA1: eb6480434ce614cb627e42e760d084032fc425a6
-MD5sum: 06f4e8c929128864ac0c682cdd58d8c8
+Filename: pool/main/k/kodi-audiodecoder-asap/kodi-audiodecoder-asap_21.0.2-6~trixie_arm64.deb
+Size: 110420
+SHA256: a29886776b43893dfe31bea258b600e118b15e417161f99b717c48a828fac741
+SHA1: dadb850f86467892f3e00f6d1c4143bf3ad3e129
+MD5sum: 8f2333ff8f857f44a0ace030b24bc2aa
 Description: ASAP audio decoder for Kodi
   ASAP audio decoder for Kodi
 
 Package: kodi-audiodecoder-asap-dbg
 Source: kodi-audiodecoder-asap
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 6
-Depends: kodi-audiodecoder-asap (= 21.0.2-5~trixie)
+Depends: kodi-audiodecoder-asap (= 21.0.2-6~trixie)
 Homepage: https://kodi.tv
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-audiodecoder-asap/kodi-audiodecoder-asap-dbg_21.0.2-5~trixie_arm64.deb
+Filename: pool/main/k/kodi-audiodecoder-asap/kodi-audiodecoder-asap-dbg_21.0.2-6~trixie_arm64.deb
 Size: 888
-SHA256: 4d004fbd93cdd40e503d5606ef3471b66c442dd8f71fab69787b3f240be4fc5a
-SHA1: 421da52e6811f68cfd6a72942c542fe058d8f338
-MD5sum: daf88cedafe97643dd743547ffe1a5d1
+SHA256: 1f85a3e556510a6f9af66ff6e2fa9862973cdd52509c769ec1a4838a9e66c6a1
+SHA1: 0027d7792b6cf59ef4933945e5ad7580e4490eb2
+MD5sum: 0068bd286c8ddfc1441895280df79cd8
 Description: debug symbols for ASAP audio decoder for Kodi
   debug symbols for ASAP audio decoder for Kodi
 
 Package: kodi-audiodecoder-asap-dbgsym
 Source: kodi-audiodecoder-asap
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 306
-Depends: kodi-audiodecoder-asap (= 21.0.2-5~trixie)
+Depends: kodi-audiodecoder-asap (= 21.0.2-6~trixie)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi-audiodecoder-asap/kodi-audiodecoder-asap-dbgsym_21.0.2-5~trixie_arm64.deb
-Size: 277236
-SHA256: b47d82105c5199ac7af5956dbc24f6d6ff9d03b5bd5ff5a74cd007142ee37e37
-SHA1: dbe01ab0eb0d40131106b1a0b4a8f363053dc1d5
-MD5sum: 3695e1614918f098d97ec841741ca379
+Filename: pool/main/k/kodi-audiodecoder-asap/kodi-audiodecoder-asap-dbgsym_21.0.2-6~trixie_arm64.deb
+Size: 277392
+SHA256: 88682396391882be5daeee9165388f615b218359a187f9f70b62ca67f74beefb
+SHA1: cf1452efff5dcf15d117343f1c0267f835ee0e94
+MD5sum: 7b31f6c0b7afcbe0018a36b498610e0d
 Description: debug symbols for kodi-audiodecoder-asap
-Build-Ids: 93557e09d84598aa0f3703f727bcb83e15b2baf0
+Build-Ids: 2361df1e564c08f3e74a599fd8158a273ffc03a7
 
 Package: kodi-audiodecoder-dumb
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 631
@@ -292,52 +292,52 @@ Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2)
 Homepage: https://kodi.tv
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-audiodecoder-dumb/kodi-audiodecoder-dumb_21.0.2-5~trixie_arm64.deb
-Size: 133528
-SHA256: 5f8a1ae2b5bd9cb61fd1a669c80ce0e34661fdce59058bff84fa3ae11b8ec8f9
-SHA1: c32bf3eaa81f570c817d49c4063102b561f99f8a
-MD5sum: d8ecfd23a1ef7e207ed7c1f16d8e28cf
+Filename: pool/main/k/kodi-audiodecoder-dumb/kodi-audiodecoder-dumb_21.0.2-6~trixie_arm64.deb
+Size: 133380
+SHA256: 43ebb01f5bbfcca9c7f77681a7ad7a0e257aa95b2be7f39f54ce9b5783c0c1e3
+SHA1: 6005516f2dfc1a13acc9f17b567b2311df065416
+MD5sum: 23ab78f3092aeb5e84e5e6089d4bc71b
 Description: DUMB audio decoder for Kodi
   DUMB audio decoder for Kodi
 
 Package: kodi-audiodecoder-dumb-dbg
 Source: kodi-audiodecoder-dumb
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 6
-Depends: kodi-audiodecoder-dumb (= 21.0.2-5~trixie)
+Depends: kodi-audiodecoder-dumb (= 21.0.2-6~trixie)
 Homepage: https://kodi.tv
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-audiodecoder-dumb/kodi-audiodecoder-dumb-dbg_21.0.2-5~trixie_arm64.deb
+Filename: pool/main/k/kodi-audiodecoder-dumb/kodi-audiodecoder-dumb-dbg_21.0.2-6~trixie_arm64.deb
 Size: 884
-SHA256: e12942823fd2d958cb032e4058a32abbf28638f6dc4aeac31f236689e048587a
-SHA1: d9a0fb075c125b4a085bc7bc3b999eb7668b66dd
-MD5sum: 624846649d6d334fb958724116fe0c28
+SHA256: 26132b0bf9e93f987e866ae1b0cf9f1dc85e97cbe6077157d6cd0ef767b7494f
+SHA1: a2fb2fba05c7ba20c227c2cf420f46b11b8f405e
+MD5sum: f27a72b5aac1da5cf7f7fd6380121099
 Description: debug symbols for DUMB audio decoder for Kodi
   debug symbols for DUMB audio decoder for Kodi
 
 Package: kodi-audiodecoder-dumb-dbgsym
 Source: kodi-audiodecoder-dumb
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 488
-Depends: kodi-audiodecoder-dumb (= 21.0.2-5~trixie)
+Depends: kodi-audiodecoder-dumb (= 21.0.2-6~trixie)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi-audiodecoder-dumb/kodi-audiodecoder-dumb-dbgsym_21.0.2-5~trixie_arm64.deb
-Size: 429304
-SHA256: b25df9aa83fcf015c90000dc917f1b9de4b8a364d1e3128a375f03b535ce4e2e
-SHA1: bb4d6aa60875fbe256b0a5e0bc6d27c56cd6e078
-MD5sum: 8ba7ca2b1815c29c1e8789bc3871dc62
+Filename: pool/main/k/kodi-audiodecoder-dumb/kodi-audiodecoder-dumb-dbgsym_21.0.2-6~trixie_arm64.deb
+Size: 429928
+SHA256: 0f590756a0a94f344be658043d053c58136c8f9928b1ba52b8d9b2c4b3ae75ee
+SHA1: 78f355c2b458ec875611244d5de394c990f0d156
+MD5sum: 6a047982180bae3716ded9f1de1fe917
 Description: debug symbols for kodi-audiodecoder-dumb
-Build-Ids: 3412fb872aabc794c00e5110e004b80d5a1550bf
+Build-Ids: 060b29c98fb9ba098120c3dd8d7c1baacecfa71d
 
 Package: kodi-audiodecoder-gme
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 1304
@@ -345,52 +345,52 @@ Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11)
 Homepage: https://kodi.tv
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-audiodecoder-gme/kodi-audiodecoder-gme_21.0.2-5~trixie_arm64.deb
-Size: 352148
-SHA256: 7fb0103e12c72095f3f00ced2f90c03f38e9c8c6eef181ae33f3d456429ba14f
-SHA1: 24ccfc9d2c4dda2351cef4325becb50b098264c3
-MD5sum: dd7cf0f4a22d2815f586925f001a140b
+Filename: pool/main/k/kodi-audiodecoder-gme/kodi-audiodecoder-gme_21.0.2-6~trixie_arm64.deb
+Size: 352552
+SHA256: 1370ecb12a080007a92e69f9092c74d96d6928efa565c2b8017cb2c84c977b72
+SHA1: 54d342ed4f2c701a3412288127b4a351c04485f1
+MD5sum: 6fa06108911354417040b6f27d88e3c0
 Description: 2SF audio decoder for Kodi
   GME audio decoder for Kodi
 
 Package: kodi-audiodecoder-gme-dbg
 Source: kodi-audiodecoder-gme
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 6
-Depends: kodi-audiodecoder-gme (= 21.0.2-5~trixie)
+Depends: kodi-audiodecoder-gme (= 21.0.2-6~trixie)
 Homepage: https://kodi.tv
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-audiodecoder-gme/kodi-audiodecoder-gme-dbg_21.0.2-5~trixie_arm64.deb
+Filename: pool/main/k/kodi-audiodecoder-gme/kodi-audiodecoder-gme-dbg_21.0.2-6~trixie_arm64.deb
 Size: 876
-SHA256: 99a71de81aebedca7148d769a9198f68261b9a82a95b4484c1af62fc44ad8ff8
-SHA1: 8e9ec998c959b8ee244f98946368363695cc1b17
-MD5sum: 43a11ee175e2ba77c9e5c0f55534bf0c
+SHA256: 402bc4e56b03e624381c76339c14a1b98121db7a3bbd347ac1c25a6e008e891a
+SHA1: 8dcfa56a634cbaecd044b0d593668e69dd33081d
+MD5sum: 5fee1e9b1bc4707a97eb6915b79eed16
 Description: debug symbols for GME audio decoder for Kodi
   debug symbols for GME audio decoder for Kodi
 
 Package: kodi-audiodecoder-gme-dbgsym
 Source: kodi-audiodecoder-gme
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
-Installed-Size: 2536
-Depends: kodi-audiodecoder-gme (= 21.0.2-5~trixie)
+Installed-Size: 2535
+Depends: kodi-audiodecoder-gme (= 21.0.2-6~trixie)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi-audiodecoder-gme/kodi-audiodecoder-gme-dbgsym_21.0.2-5~trixie_arm64.deb
-Size: 2289412
-SHA256: 9ddd43740fd4a4fcbbf679d6b3161d28e97c79a79a5784d2f6ea319baf446aa0
-SHA1: befd7458fbb4e560996e84cbc22b9007d35e1832
-MD5sum: 6bb17103ac05df00e32b51acc575d2d7
+Filename: pool/main/k/kodi-audiodecoder-gme/kodi-audiodecoder-gme-dbgsym_21.0.2-6~trixie_arm64.deb
+Size: 2289404
+SHA256: 05d9e011c78c5078378218ada67265c9582fecfdf50ee1428358d3c95a34770f
+SHA1: fb10e5ede7fe63f2a3568eb41a52945e545d2f39
+MD5sum: 9cdcedd07c507a990fe929e23a30afd5
 Description: debug symbols for kodi-audiodecoder-gme
-Build-Ids: 834c2ae490fde00368897d4990ed3fecda960cf1
+Build-Ids: aa624edc926384b2e8b220fac15738deccb8a970
 
 Package: kodi-audiodecoder-gsf
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 990
@@ -398,52 +398,52 @@ Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2), zlib1g (>= 
 Homepage: https://kodi.tv
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-audiodecoder-gsf/kodi-audiodecoder-gsf_21.0.2-5~trixie_arm64.deb
-Size: 127740
-SHA256: 3fcb607ceccb085aaf695149171068f91d6106fca2d76695752650eca80b180f
-SHA1: 55848a60f57fa04a4133c8f9529d807ca5d23c92
-MD5sum: 24ad44f5a0a32cdbe75dfb6b41e2a971
+Filename: pool/main/k/kodi-audiodecoder-gsf/kodi-audiodecoder-gsf_21.0.2-6~trixie_arm64.deb
+Size: 127548
+SHA256: 3b3d2bb220560d12c0817ed34204816252f4a3aa5ce0032c6a4697e5e698ae5d
+SHA1: 25ab406e43997f6044177dd60c574d6b8144084e
+MD5sum: 5b87a05978ca954b64b630d2ca3a620a
 Description: 2SF audio decoder for Kodi
   GSF audio decoder for Kodi
 
 Package: kodi-audiodecoder-gsf-dbg
 Source: kodi-audiodecoder-gsf
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 6
-Depends: kodi-audiodecoder-gsf (= 21.0.2-5~trixie)
+Depends: kodi-audiodecoder-gsf (= 21.0.2-6~trixie)
 Homepage: https://kodi.tv
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-audiodecoder-gsf/kodi-audiodecoder-gsf-dbg_21.0.2-5~trixie_arm64.deb
+Filename: pool/main/k/kodi-audiodecoder-gsf/kodi-audiodecoder-gsf-dbg_21.0.2-6~trixie_arm64.deb
 Size: 876
-SHA256: 7ba631e0a8eb5b08d55f117c63e4300b9c5d98111e996f61e7a320f6e001bd40
-SHA1: fb1a9d256fcdcb2e91c8ed376ffa82b50e0c6377
-MD5sum: a7a96b764e45d7ac1ac8f9c2b06c9b87
+SHA256: a2c00b0bb14f54c28afe7b5d57c88c0a9d4b499792c9cf3a40b678e19d3c554e
+SHA1: d783fa72af2c6983e80b004ec8d8b870846db4c2
+MD5sum: 22cffe5d6c90390ca57ed27cf8f9b0d2
 Description: debug symbols for GSF audio decoder for Kodi
   debug symbols for GSF audio decoder for Kodi
 
 Package: kodi-audiodecoder-gsf-dbgsym
 Source: kodi-audiodecoder-gsf
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 885
-Depends: kodi-audiodecoder-gsf (= 21.0.2-5~trixie)
+Depends: kodi-audiodecoder-gsf (= 21.0.2-6~trixie)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi-audiodecoder-gsf/kodi-audiodecoder-gsf-dbgsym_21.0.2-5~trixie_arm64.deb
-Size: 793084
-SHA256: 828eaf01e9175353bc6d02fdbe66b00e477d2f3faab39e2f29c1abc80e3a921e
-SHA1: 8ae1aacb9372e076e6d2e8ce18ea05392a9a8bc4
-MD5sum: bcfe4d60b7066a389ec1ad4d9d473c53
+Filename: pool/main/k/kodi-audiodecoder-gsf/kodi-audiodecoder-gsf-dbgsym_21.0.2-6~trixie_arm64.deb
+Size: 792972
+SHA256: 8be369cac6be660810d67406328c2fa5ae4f96e9179f566f6ca024e98112c13a
+SHA1: 891145738e3a04dda3607125f176482c12e3585b
+MD5sum: b6316b2431853b7f6f4b54dfe8c8caf6
 Description: debug symbols for kodi-audiodecoder-gsf
-Build-Ids: c6c1ac3b75deefe2b4c7c19265abd798b45e7137
+Build-Ids: 185404896c5f0aa56e834f7806fa432c0fe61f1f
 
 Package: kodi-audiodecoder-hvl
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 284
@@ -451,52 +451,52 @@ Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1)
 Homepage: https://kodi.tv
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-audiodecoder-hvl/kodi-audiodecoder-hvl_21.0.2-5~trixie_arm64.deb
-Size: 38604
-SHA256: 62d9cca5da8a3d6241d9a7f9d69ee04c0a5237cef0f8c13e4d44082639de5525
-SHA1: 9e7e3b2ba5f35df94a9d0084e1be96982bd08d1e
-MD5sum: 6ab10a35833cc3fbabc08b6f0bdc4a26
+Filename: pool/main/k/kodi-audiodecoder-hvl/kodi-audiodecoder-hvl_21.0.2-6~trixie_arm64.deb
+Size: 38592
+SHA256: f824c5891a2e890fe7878858654b0e164d1971dedc0c8991588e9348898905ab
+SHA1: 911c51830a7f299161eea4ad7d4672697d5d5f07
+MD5sum: ee3fd9d660c927f21026c6541e815e91
 Description: HivelyTracker audio decoder for Kodi
   HivelyTracker audio decoder for Kodi
 
 Package: kodi-audiodecoder-hvl-dbg
 Source: kodi-audiodecoder-hvl
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 6
-Depends: kodi-audiodecoder-hvl (= 21.0.2-5~trixie)
+Depends: kodi-audiodecoder-hvl (= 21.0.2-6~trixie)
 Homepage: https://kodi.tv
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-audiodecoder-hvl/kodi-audiodecoder-hvl-dbg_21.0.2-5~trixie_arm64.deb
+Filename: pool/main/k/kodi-audiodecoder-hvl/kodi-audiodecoder-hvl-dbg_21.0.2-6~trixie_arm64.deb
 Size: 888
-SHA256: 326ac025b8d4577d59a0f1d7c4533a1768094024f76a7f63d9ab4fbcf7a0085a
-SHA1: c6ebfeefaade30f5361ba38a8f96c88e991f9d9c
-MD5sum: 53fe2d22162ae0ffed78f4bf6d536270
+SHA256: 2f54a962b27bef0fa60541fdd1b34cf6594a0b4b959d2427782b353b4f8539f4
+SHA1: 6310875ecaccdc9dd3aee3d99f417d5a087a31d3
+MD5sum: ffb2200f9099151f8ea690f5273992a8
 Description: debug symbols for HivelyTracker audio decoder for Kodi
   debug symbols for HivelyTracker audio decoder for Kodi
 
 Package: kodi-audiodecoder-hvl-dbgsym
 Source: kodi-audiodecoder-hvl
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 223
-Depends: kodi-audiodecoder-hvl (= 21.0.2-5~trixie)
+Depends: kodi-audiodecoder-hvl (= 21.0.2-6~trixie)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi-audiodecoder-hvl/kodi-audiodecoder-hvl-dbgsym_21.0.2-5~trixie_arm64.deb
-Size: 199648
-SHA256: e62726ae2cd8a5c990cc49cbbb0ef8766b60ccb2cbb8d570fc133fe78c39ce38
-SHA1: 80908cf7dd3dc27ddbce3bcf7e7c3960f269509a
-MD5sum: de626ffe85d9bad89c1cc35d04a9efb5
+Filename: pool/main/k/kodi-audiodecoder-hvl/kodi-audiodecoder-hvl-dbgsym_21.0.2-6~trixie_arm64.deb
+Size: 199716
+SHA256: 8023a92227e5d308b19c470dbeb6af6a109cff2fa442dfdf796b8952885fa33b
+SHA1: 5d860a9e9644338e26afd75298c168cd24cc8e50
+MD5sum: ae555932beed7e467d4c36d03c67b026
 Description: debug symbols for kodi-audiodecoder-hvl
-Build-Ids: 7b7639da4499ee25363c04d326fda87f009e2720
+Build-Ids: bb0285feed666c6320ce878c389ffb78fa64aef1
 
 Package: kodi-audiodecoder-modplug
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 327
@@ -504,52 +504,52 @@ Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libmodplug1 (>= 1:0.8.8.5), libs
 Homepage: https://kodi.tv
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-audiodecoder-modplug/kodi-audiodecoder-modplug_21.0.2-5~trixie_arm64.deb
-Size: 65300
-SHA256: 50dda51812f74e2cc57ee6a4b94f82c0ad26af91d85d54674f925a18828d7b8c
-SHA1: 282c24f223a945434859b4c554725112d3a96fd6
-MD5sum: 67ac25600acf2cb163409137442f3526
+Filename: pool/main/k/kodi-audiodecoder-modplug/kodi-audiodecoder-modplug_21.0.2-6~trixie_arm64.deb
+Size: 65316
+SHA256: 6c713de1e5d07227f05e60a2cf590e3edb4022cd39001d8c5da9f02f92f4ce02
+SHA1: 6599e7522887358cb4f5b490e3c9461d4d9d0e29
+MD5sum: 1dbb827f2b5e33ba750ec033315a5fdf
 Description: Modplug audio decoder for Kodi
   Modplug audio decoder for Kodi
 
 Package: kodi-audiodecoder-modplug-dbg
 Source: kodi-audiodecoder-modplug
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 6
-Depends: kodi-audiodecoder-modplug (= 21.0.2-5~trixie)
+Depends: kodi-audiodecoder-modplug (= 21.0.2-6~trixie)
 Homepage: https://kodi.tv
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-audiodecoder-modplug/kodi-audiodecoder-modplug-dbg_21.0.2-5~trixie_arm64.deb
+Filename: pool/main/k/kodi-audiodecoder-modplug/kodi-audiodecoder-modplug-dbg_21.0.2-6~trixie_arm64.deb
 Size: 892
-SHA256: 39fb7428e6f897254d37a70a1fd02f2d806a9edadf6f2c48b544195bb42c565c
-SHA1: 24e7cb2ceaae3e0b9872dd67125d4b92a303fc21
-MD5sum: 7c9532c1be65c459a2e2660a3489a499
+SHA256: 87c587c9cbbc3978b81bf0fd5252e8b26c4a65899c01975cc25b8588174e0231
+SHA1: 3deedd5dc2fe64bdbbf2397939d2eaebcbeca79a
+MD5sum: b84865f1d47bc4d4ad1ff9e3cbcb1603
 Description: debug symbols for Modplug audio decoder for Kodi
   debug symbols for Modplug audio decoder for Kodi
 
 Package: kodi-audiodecoder-modplug-dbgsym
 Source: kodi-audiodecoder-modplug
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 173
-Depends: kodi-audiodecoder-modplug (= 21.0.2-5~trixie)
+Depends: kodi-audiodecoder-modplug (= 21.0.2-6~trixie)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi-audiodecoder-modplug/kodi-audiodecoder-modplug-dbgsym_21.0.2-5~trixie_arm64.deb
-Size: 152300
-SHA256: 7260874155b40f1e158ba52eceedae8662c5c88659b92b68050e77e657a0dacf
-SHA1: 0f07e9fdc9780723d9953c4d06c6b7f7fa9aa065
-MD5sum: ccd9b0dabb2ba0f6a3bc5e38bbf5f4ca
+Filename: pool/main/k/kodi-audiodecoder-modplug/kodi-audiodecoder-modplug-dbgsym_21.0.2-6~trixie_arm64.deb
+Size: 152436
+SHA256: b22cf21cd53c3de0662bea4bfece5695f4aefbc53de5fb2ffb6419170b7f2e9b
+SHA1: 5500369817b710debe173eaaf5a970c98ee46f6e
+MD5sum: 82ec96ead857763fbd81bcecae63adb6
 Description: debug symbols for kodi-audiodecoder-modplug
-Build-Ids: c0402a4fa38705cd74837ac0f3939e7675e7bb0e
+Build-Ids: 20415d829d300d8532dd2fdb3cd96251b4221dbf
 
 Package: kodi-audiodecoder-ncsf
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 526
@@ -557,52 +557,52 @@ Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), zlib1g (>=
 Homepage: https://kodi.tv
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-audiodecoder-ncsf/kodi-audiodecoder-ncsf_21.0.2-5~trixie_arm64.deb
-Size: 96040
-SHA256: 9981ffb2541c6f9f903e8a06aaa43987bc6d32f3ac04cdac0b8fd9466f0ebf56
-SHA1: 475362a9538b68f43c3417f224391d26651de763
-MD5sum: 1b83d51c494da96353023da33af53231
+Filename: pool/main/k/kodi-audiodecoder-ncsf/kodi-audiodecoder-ncsf_21.0.2-6~trixie_arm64.deb
+Size: 96060
+SHA256: 14993cbe53e571e402b03307df7f82dbb3bc98c5862d9fb5c33754ab8a842ada
+SHA1: 213eaaa22cf7b21d594e252af150ba7a22cdab20
+MD5sum: 30f6c8cb501ce198a39a7c6235d75f32
 Description: NCSF audio decoder for Kodi
   NCSF audio decoder for Kodi
 
 Package: kodi-audiodecoder-ncsf-dbg
 Source: kodi-audiodecoder-ncsf
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 6
-Depends: kodi-audiodecoder-ncsf (= 21.0.2-5~trixie)
+Depends: kodi-audiodecoder-ncsf (= 21.0.2-6~trixie)
 Homepage: https://kodi.tv
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-audiodecoder-ncsf/kodi-audiodecoder-ncsf-dbg_21.0.2-5~trixie_arm64.deb
+Filename: pool/main/k/kodi-audiodecoder-ncsf/kodi-audiodecoder-ncsf-dbg_21.0.2-6~trixie_arm64.deb
 Size: 884
-SHA256: cfaa85bb7ebda6560be97442af388f2c2062b6f922e823a6cb3fd38bb5bee7c1
-SHA1: cbd6ba42b4926ab14a84872bdaa49a437e7d7945
-MD5sum: bbf9761fe2922068cf216a248e662ce9
+SHA256: 3d1b060544fe24e7e1f61e4f419fdac4fdfb8ff903215592a92bba5c736db98e
+SHA1: 8acf3e2ca9208602b5c9f8c214f7c003d9355bb3
+MD5sum: 0817949cbdde393e2c32ce6a99bb86d7
 Description: debug symbols for NCSF audio decoder for Kodi
   debug symbols for NCSF audio decoder for Kodi
 
 Package: kodi-audiodecoder-ncsf-dbgsym
 Source: kodi-audiodecoder-ncsf
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 989
-Depends: kodi-audiodecoder-ncsf (= 21.0.2-5~trixie)
+Depends: kodi-audiodecoder-ncsf (= 21.0.2-6~trixie)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi-audiodecoder-ncsf/kodi-audiodecoder-ncsf-dbgsym_21.0.2-5~trixie_arm64.deb
-Size: 947828
-SHA256: fa042d9845e192a4c2281a19b14f5e0f7589bc939a1e35562cb02bbfac830ac9
-SHA1: cbe891e03414b192f710c7f4652698ffb59c749e
-MD5sum: 8f39fea44448ec43bcabe81452492a3c
+Filename: pool/main/k/kodi-audiodecoder-ncsf/kodi-audiodecoder-ncsf-dbgsym_21.0.2-6~trixie_arm64.deb
+Size: 948008
+SHA256: 939f701059d48d38fd152442eb41aef33fb78283ed5f7fa331d06b8f2c7ce929
+SHA1: f04aa072cad3da84ae41bfc0027aa3c07ea5f940
+MD5sum: fd088a24565bd9e812cebc23f377aab2
 Description: debug symbols for kodi-audiodecoder-ncsf
-Build-Ids: f243d390216d3396b5f6fa7aad23e56e3cff5fda
+Build-Ids: 3f42e56ab13e2477a9850f91456258619411399d
 
 Package: kodi-audiodecoder-nosefart
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 742
@@ -610,52 +610,52 @@ Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2)
 Homepage: https://kodi.tv
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-audiodecoder-nosefart/kodi-audiodecoder-nosefart_21.0.2-5~trixie_arm64.deb
-Size: 65680
-SHA256: 79d3edf1caa1e8bc3bbb8bfd89d0db09a9826bd5c8c4f52ca6c850fc8fc13e10
-SHA1: 172af5fbc7b311bb791b64e04bdb3e664d449847
-MD5sum: d71cb97297b500836208ec8276336151
+Filename: pool/main/k/kodi-audiodecoder-nosefart/kodi-audiodecoder-nosefart_21.0.2-6~trixie_arm64.deb
+Size: 65684
+SHA256: 28b0b88d960a990e5958688ec70b944e56c9ec00a0757729d1e7394b4225f315
+SHA1: 064fa5216ccf68cb797d9f0b70a98b1753e63120
+MD5sum: f7aa8d595ca0e4fd8555c7eef7431cfc
 Description: NoseFart audio decoder for Kodi
   NoseFart audio decoder for Kodi
 
 Package: kodi-audiodecoder-nosefart-dbg
 Source: kodi-audiodecoder-nosefart
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 6
-Depends: kodi-audiodecoder-nosefart (= 21.0.2-5~trixie)
+Depends: kodi-audiodecoder-nosefart (= 21.0.2-6~trixie)
 Homepage: https://kodi.tv
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-audiodecoder-nosefart/kodi-audiodecoder-nosefart-dbg_21.0.2-5~trixie_arm64.deb
+Filename: pool/main/k/kodi-audiodecoder-nosefart/kodi-audiodecoder-nosefart-dbg_21.0.2-6~trixie_arm64.deb
 Size: 896
-SHA256: e3a7d8bd1fb67930f8ae320fa09959bb5ab480cb2a9ba219d70b1c06ec835b45
-SHA1: 08745a74eabadf3b9e8a5100ef8a176ecc3e3985
-MD5sum: 0b93af089a9b67784ad7449312082185
+SHA256: d704efcd0f94a250ac55c0cb3f2c6dce4862dbc25dde2e7ed626a5536e81ddd4
+SHA1: cb0c16dd41b15c0a4506c300544f22ebe4710a55
+MD5sum: 57a45061019da78379911b44319eac08
 Description: debug symbols for NoseFart audio decoder for Kodi
   debug symbols for NoseFart audio decoder for Kodi
 
 Package: kodi-audiodecoder-nosefart-dbgsym
 Source: kodi-audiodecoder-nosefart
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 592
-Depends: kodi-audiodecoder-nosefart (= 21.0.2-5~trixie)
+Depends: kodi-audiodecoder-nosefart (= 21.0.2-6~trixie)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi-audiodecoder-nosefart/kodi-audiodecoder-nosefart-dbgsym_21.0.2-5~trixie_arm64.deb
-Size: 308644
-SHA256: 9d2209d0755d46a3f234ab4a9c0859b5cbbe895188c33e869497268f9c4ee099
-SHA1: e9f9c45ae7aa7c8dd1cc1ce3bb00120239f6c50b
-MD5sum: c335005fc6d3fdd9c4f25869b6d69367
+Filename: pool/main/k/kodi-audiodecoder-nosefart/kodi-audiodecoder-nosefart-dbgsym_21.0.2-6~trixie_arm64.deb
+Size: 308712
+SHA256: 10c24e87be55e0b5fa6cb82cd7f183074c0f1047a102bb7bc04046803adaa953
+SHA1: 35b2ff59b8307389c944848090eaee387ea5c56f
+MD5sum: a54234f8a90326f151302a9907431984
 Description: debug symbols for kodi-audiodecoder-nosefart
-Build-Ids: 483ff7dc0e0fccc914648f8827f21cd972ce41ab 929267632c36ec2a3e0f5a47d838d9cbc3304053 a8e5f1615d12d192d520c20cbc0176510076d7c0 e493d0677ebd7017dda2bbdccf0562e08e7c7068
+Build-Ids: 1db194b526f519a8a7444a46d05cf7c834b23cf8 3ea1e7a3ebd235c722126864f22c36837f89acdd 596f03e786da989b9b912e393745b1c6a4c7d387 88dca4ef2a433a7c9d5665891afe7d8153071a15
 
 Package: kodi-audiodecoder-organya
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 680
@@ -663,52 +663,52 @@ Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1)
 Homepage: https://kodi.tv
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-audiodecoder-organya/kodi-audiodecoder-organya_21.0.2-5~trixie_arm64.deb
-Size: 122608
-SHA256: 6cb1fcc31b9aea714b6ddd6e8960c285cca83cc6b10520dbbefb918a1e1ad4bc
-SHA1: 4dc46df0ded2390e9aad8530036eb982e028998a
-MD5sum: c78887745309a6d2210d9af0dba63735
+Filename: pool/main/k/kodi-audiodecoder-organya/kodi-audiodecoder-organya_21.0.2-6~trixie_arm64.deb
+Size: 122768
+SHA256: 78a9cc5858bbd1e22f2f7f288dbe0e5d5c8c3cfc51394ebb7bbcbcd075c43308
+SHA1: dcc3be9039985c2c26df868d5f54b7a115faf80c
+MD5sum: ee0060e633b8e90aafa64d149cdc7af6
 Description: ORG audio decoder for Kodi
   ORG audio decoder for Kodi
 
 Package: kodi-audiodecoder-organya-dbg
 Source: kodi-audiodecoder-organya
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 6
-Depends: kodi-audiodecoder-organya (= 21.0.2-5~trixie)
+Depends: kodi-audiodecoder-organya (= 21.0.2-6~trixie)
 Homepage: https://kodi.tv
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-audiodecoder-organya/kodi-audiodecoder-organya-dbg_21.0.2-5~trixie_arm64.deb
+Filename: pool/main/k/kodi-audiodecoder-organya/kodi-audiodecoder-organya-dbg_21.0.2-6~trixie_arm64.deb
 Size: 888
-SHA256: 8f3ef0f06c42b56d8d5001d0da764c1f8a8aba109f9bf6097abf391c57f2f9af
-SHA1: 1b98aaffc82ced5766cf773959513ba2928d2420
-MD5sum: 5db5dfc7c8bd5cefdb2f3c0026f54de4
+SHA256: 2a0cb874e275bf48641eb1f2557d21ed10c4788692917fd01714a13a6b80b544
+SHA1: 9d48af80388c46b19cbd48beba87508314a3cc49
+MD5sum: f62fc8f369d83ca254c2124fc4f852f4
 Description: debug symbols for ORG audio decoder for Kodi
   debug symbols for ORG audio decoder for Kodi
 
 Package: kodi-audiodecoder-organya-dbgsym
 Source: kodi-audiodecoder-organya
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 273
-Depends: kodi-audiodecoder-organya (= 21.0.2-5~trixie)
+Depends: kodi-audiodecoder-organya (= 21.0.2-6~trixie)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi-audiodecoder-organya/kodi-audiodecoder-organya-dbgsym_21.0.2-5~trixie_arm64.deb
-Size: 250604
-SHA256: 50c2914432533454af71a2ec494663197db160058c755549f8a99cd171026f05
-SHA1: c18ea8d81bbaf59e42205bd300b56f82cea232e8
-MD5sum: ca10a55bf4f5059f4d8f15797382879d
+Filename: pool/main/k/kodi-audiodecoder-organya/kodi-audiodecoder-organya-dbgsym_21.0.2-6~trixie_arm64.deb
+Size: 250624
+SHA256: 00e76240c77dbbffd5af1a1db47ffc6a223e74fb98e36a0f0343e12179b904d3
+SHA1: f21506da0370401dfb1b1d3edd15472413ccf1a3
+MD5sum: e10aefc54fd321af3bdd322ea4a68b26
 Description: debug symbols for kodi-audiodecoder-organya
-Build-Ids: 589d3f20599b6b7987c4b7e849264934ffbc33bb
+Build-Ids: 7c6be18019b74a80af868bc372f5e329ce613165
 
 Package: kodi-audiodecoder-qsf
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 481
@@ -716,52 +716,52 @@ Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2), zlib1g (>= 
 Homepage: https://kodi.tv
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-audiodecoder-qsf/kodi-audiodecoder-qsf_21.0.2-5~trixie_arm64.deb
-Size: 76352
-SHA256: b4dd2b4587c7f5a62d5f457f6ae46eeaeb24443e916ac769c011be11992cf5c1
-SHA1: 3992a05b851869c2d325e1a305742bf8ee6eb8ed
-MD5sum: 3d1d61ac23a5591428d74fa3d50174c2
+Filename: pool/main/k/kodi-audiodecoder-qsf/kodi-audiodecoder-qsf_21.0.2-6~trixie_arm64.deb
+Size: 76292
+SHA256: 4700fdacf1eb211863570ef929719dd86aa7e8df80aef9adbabd8c5a9ffe62d9
+SHA1: daa13bcc7b2057a50268cc38eabca8eac5fcbb4e
+MD5sum: d98ba31e48933f91a5fb853f5c0673f8
 Description: QSF audio decoder for Kodi
   QSF audio decoder for Kodi
 
 Package: kodi-audiodecoder-qsf-dbg
 Source: kodi-audiodecoder-qsf
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 6
-Depends: kodi-audiodecoder-qsf (= 21.0.2-5~trixie)
+Depends: kodi-audiodecoder-qsf (= 21.0.2-6~trixie)
 Homepage: https://kodi.tv
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-audiodecoder-qsf/kodi-audiodecoder-qsf-dbg_21.0.2-5~trixie_arm64.deb
+Filename: pool/main/k/kodi-audiodecoder-qsf/kodi-audiodecoder-qsf-dbg_21.0.2-6~trixie_arm64.deb
 Size: 876
-SHA256: 176a7695706006e9799d887826e18d2dac1cc9f8ba880f7b95f410ea04da8685
-SHA1: b3f8441a2af415edb8a686988cfe459d26948e51
-MD5sum: 6ee04757814480cad2c6c544322b1354
+SHA256: d0cda7855e5df2a344b61e127973c15d7745390001c63b138f6f0d5c6fb1ab78
+SHA1: 8f15deac386a80e40d357cc089bb1418eb84c507
+MD5sum: 29df7443ae06777744aee78ff9e0aa26
 Description: debug symbols for QSF audio decoder for Kodi
   debug symbols for QSF audio decoder for Kodi
 
 Package: kodi-audiodecoder-qsf-dbgsym
 Source: kodi-audiodecoder-qsf
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 441
-Depends: kodi-audiodecoder-qsf (= 21.0.2-5~trixie)
+Depends: kodi-audiodecoder-qsf (= 21.0.2-6~trixie)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi-audiodecoder-qsf/kodi-audiodecoder-qsf-dbgsym_21.0.2-5~trixie_arm64.deb
-Size: 411764
-SHA256: ba18b94c51b9d86b455d95a1fa898e1bce5197bfb45c3f0c5812fad4d48eb48a
-SHA1: db5d651ef67ebf23452697527bbab0975b744e89
-MD5sum: 9c4574f3472e38d69bfb188be2757ab4
+Filename: pool/main/k/kodi-audiodecoder-qsf/kodi-audiodecoder-qsf-dbgsym_21.0.2-6~trixie_arm64.deb
+Size: 411928
+SHA256: 99e92e8509365b3dc6e1c47affb76b1e7be072fda8c133230e4d0a872cbd49da
+SHA1: 4656c70db49979c60370ace45ac52a6046d3a5a0
+MD5sum: 60dd2cee70debf6f6aadab616a3fc579
 Description: debug symbols for kodi-audiodecoder-qsf
-Build-Ids: f601c2bbd46cfe472d6955d0cea9fe043e683ff1
+Build-Ids: c58d175dd06f8e72c699d0043c7d3cd007edc529
 
 Package: kodi-audiodecoder-sacd
-Version: 21.0.1-5~trixie
+Version: 21.0.1-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 1266
@@ -769,52 +769,52 @@ Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 12)
 Homepage: https://kodi.tv
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-audiodecoder-sacd/kodi-audiodecoder-sacd_21.0.1-5~trixie_arm64.deb
-Size: 311800
-SHA256: 2134f3bd1fa05dd5b572b15517de954015be9267d0f41efc50e0923be58a5bb9
-SHA1: 18110cf4918e255aaefdf19952c5d338a1c93a2e
-MD5sum: 56906578039654767a0814297b15e4f0
+Filename: pool/main/k/kodi-audiodecoder-sacd/kodi-audiodecoder-sacd_21.0.1-6~trixie_arm64.deb
+Size: 311992
+SHA256: 59516339efce3542b3589f8bfadbfb7ee634402d0cbd046f35f2d13b6f426785
+SHA1: bcbb9c2e2bfda2a398c9b88a695e317c22f567a9
+MD5sum: e7fe13315bb71ad65620f1aaffa28061
 Description: SACD audio decoder for Kodi
   SACD audio decoder for Kodi
 
 Package: kodi-audiodecoder-sacd-dbg
 Source: kodi-audiodecoder-sacd
-Version: 21.0.1-5~trixie
+Version: 21.0.1-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 6
-Depends: kodi-audiodecoder-sacd (= 21.0.1-5~trixie)
+Depends: kodi-audiodecoder-sacd (= 21.0.1-6~trixie)
 Homepage: https://kodi.tv
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-audiodecoder-sacd/kodi-audiodecoder-sacd-dbg_21.0.1-5~trixie_arm64.deb
+Filename: pool/main/k/kodi-audiodecoder-sacd/kodi-audiodecoder-sacd-dbg_21.0.1-6~trixie_arm64.deb
 Size: 884
-SHA256: e88420dca20033564b73678b4bb58041d0c0c87049106afe3189b6ca4abbca6e
-SHA1: 284960714b0e9e54dfce03f4f0ffc9d079251e78
-MD5sum: bff72cac6d3c933809434b1a719b7786
+SHA256: f68279de108ce2514286b2bdb5f7d8bc419193839d5c7cf48eb7529fda908dcc
+SHA1: 0818154b3ab4702f436e8a0f8e8856753a4fb18e
+MD5sum: 5a7a92c73883b613a1c9d5fb73a521cb
 Description: debug symbols for SACD audio decoder for Kodi
   debug symbols for SACD audio decoder for Kodi
 
 Package: kodi-audiodecoder-sacd-dbgsym
 Source: kodi-audiodecoder-sacd
-Version: 21.0.1-5~trixie
+Version: 21.0.1-6~trixie
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 1976
-Depends: kodi-audiodecoder-sacd (= 21.0.1-5~trixie)
+Depends: kodi-audiodecoder-sacd (= 21.0.1-6~trixie)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi-audiodecoder-sacd/kodi-audiodecoder-sacd-dbgsym_21.0.1-5~trixie_arm64.deb
-Size: 1879824
-SHA256: 6eb730a33b1b419acff6b821a2d70bf0cc2be3dbb6501b884d8b8ea474abe683
-SHA1: 56f420d168e911fa4d9e493fe72c9761620a4f58
-MD5sum: 5b3dbacf9adc2f7e5b2ea9c6946cdc1c
+Filename: pool/main/k/kodi-audiodecoder-sacd/kodi-audiodecoder-sacd-dbgsym_21.0.1-6~trixie_arm64.deb
+Size: 1879732
+SHA256: ae173c2eab57e636f573d25e93ec728d895d16bc258abef9b24b8be44fed37b7
+SHA1: d4ca02dd9e47a6e6b41d561c076b3c891fc162c0
+MD5sum: a10738cd241630ee41add35fb1b1f969
 Description: debug symbols for kodi-audiodecoder-sacd
-Build-Ids: 921e71b3741f219098b8cb5ea70141e12a648a73
+Build-Ids: cd9adc8e71e15cbd88b045a5770d9d9aafcc473e
 
 Package: kodi-audiodecoder-snesapu
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 420
@@ -822,52 +822,52 @@ Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11)
 Homepage: https://kodi.tv
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-audiodecoder-snesapu/kodi-audiodecoder-snesapu_21.0.2-5~trixie_arm64.deb
-Size: 68848
-SHA256: d1bcf09dba9a0679026ef96b89f266faa49e3a41020241a2e36ba850159b20a6
-SHA1: 2ebd641f70cbdc6947e836ed00e16d77dd563c5a
-MD5sum: 8133d1f894a684a892d02ccd9752209f
+Filename: pool/main/k/kodi-audiodecoder-snesapu/kodi-audiodecoder-snesapu_21.0.2-6~trixie_arm64.deb
+Size: 68964
+SHA256: ceb64968a4878299c914bbf691880bedce89eb8eeb2dcb4922b69a29a480bbd1
+SHA1: 6910c8b436597faf2bb6aac698b9bc3974155525
+MD5sum: e41ad9f4c07b31162fa6a9e862e7e23f
 Description: SnesAPU audio decoder for Kodi
   SnesAPU audio decoder for Kodi
 
 Package: kodi-audiodecoder-snesapu-dbg
 Source: kodi-audiodecoder-snesapu
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 6
-Depends: kodi-audiodecoder-snesapu (= 21.0.2-5~trixie)
+Depends: kodi-audiodecoder-snesapu (= 21.0.2-6~trixie)
 Homepage: https://kodi.tv
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-audiodecoder-snesapu/kodi-audiodecoder-snesapu-dbg_21.0.2-5~trixie_arm64.deb
+Filename: pool/main/k/kodi-audiodecoder-snesapu/kodi-audiodecoder-snesapu-dbg_21.0.2-6~trixie_arm64.deb
 Size: 892
-SHA256: 29aed9668195078458dd5ef48399d4acfae20e20749c0c2a92c3645510a1ce8a
-SHA1: 5f70a0e5956413dda054b54d3d57335644126995
-MD5sum: 15ae59692c7d4d93915877feac09f821
+SHA256: 2ce8a835212360e9c26679898aa0c6f42b24049b7741b265653bd1510b192ebd
+SHA1: e2b69381e643ddf08d0331a90eb14bb21d142ec2
+MD5sum: 307a30d62c0282c8e9406e841930b7bf
 Description: debug symbols for SnesAPU audio decoder for Kodi
   debug symbols for SnesAPU audio decoder for Kodi
 
 Package: kodi-audiodecoder-snesapu-dbgsym
 Source: kodi-audiodecoder-snesapu
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 418
-Depends: kodi-audiodecoder-snesapu (= 21.0.2-5~trixie)
+Depends: kodi-audiodecoder-snesapu (= 21.0.2-6~trixie)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi-audiodecoder-snesapu/kodi-audiodecoder-snesapu-dbgsym_21.0.2-5~trixie_arm64.deb
-Size: 390596
-SHA256: e7e7f693e3cc3636a2fef4c5acfa01c13adfff16e21c18fb3abf6a47498d1dda
-SHA1: b1315d5f804e681488ad7cf838f609f4fd067b45
-MD5sum: 729e84f7cbe402459885e821438fc49b
+Filename: pool/main/k/kodi-audiodecoder-snesapu/kodi-audiodecoder-snesapu-dbgsym_21.0.2-6~trixie_arm64.deb
+Size: 390612
+SHA256: e2eec0c42540ca79dd96af36ed720853867136bd7484e833ad5f383726738dd3
+SHA1: b26e6ccc8d5f61b564de5bcfdae5443e670beed6
+MD5sum: 5787eff95a1b02e2e0f9e99d3c05c0a2
 Description: debug symbols for kodi-audiodecoder-snesapu
-Build-Ids: 8e448a9a48fd4f2caee4674879d8b6b47530f342
+Build-Ids: 48b357ab711f2083ef069e0d3ff24053db652975
 
 Package: kodi-audiodecoder-ssf
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 1040
@@ -875,52 +875,52 @@ Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2), zlib1g (>= 
 Homepage: https://kodi.tv
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-audiodecoder-ssf/kodi-audiodecoder-ssf_21.0.2-5~trixie_arm64.deb
-Size: 145324
-SHA256: 4bcd7651875bd20a30bee8a06a654c20cf3703b142f05ca85a895997e9b6bf8a
-SHA1: 6ac45a09f37d85f0dfb8fd04085a548628c6bda7
-MD5sum: f235c3c9a21fce292fcaff5d6c1afc23
+Filename: pool/main/k/kodi-audiodecoder-ssf/kodi-audiodecoder-ssf_21.0.2-6~trixie_arm64.deb
+Size: 145276
+SHA256: d9d9eeecdd65ef76eb10e89dd29d1f1a73d8bd07fe8a36cd8352ec9e2bdb36cf
+SHA1: f226c6c5fc3433e8cb4dd2bfbf0c464afd72523b
+MD5sum: 8f5feebf207f6163450c1ca2c43a6c40
 Description: SSF audio decoder for Kodi
   SSF audio decoder for Kodi
 
 Package: kodi-audiodecoder-ssf-dbg
 Source: kodi-audiodecoder-ssf
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 6
-Depends: kodi-audiodecoder-ssf (= 21.0.2-5~trixie)
+Depends: kodi-audiodecoder-ssf (= 21.0.2-6~trixie)
 Homepage: https://kodi.tv
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-audiodecoder-ssf/kodi-audiodecoder-ssf-dbg_21.0.2-5~trixie_arm64.deb
+Filename: pool/main/k/kodi-audiodecoder-ssf/kodi-audiodecoder-ssf-dbg_21.0.2-6~trixie_arm64.deb
 Size: 876
-SHA256: 27e9baf459e14e742945b9cfe68c7a3b45a242ad91781cd576e7bb2a2e7f82be
-SHA1: e30d7e2f755e59edc62364f900dbafc1e7e1e6c8
-MD5sum: 0c71921b529c5bec78e4e8ad8507ee76
+SHA256: ed12566ed56b9b8f45a9b0e781b7a51339312f5637c20c54cb629cf12efb92f8
+SHA1: 0afd36ec62bfab6021edba9e52d944db7d0959d9
+MD5sum: 0bec0e4a44d404bdad58b4eeff8aaa79
 Description: debug symbols for SSF audio decoder for Kodi
   debug symbols for SSF audio decoder for Kodi
 
 Package: kodi-audiodecoder-ssf-dbgsym
 Source: kodi-audiodecoder-ssf
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 851
-Depends: kodi-audiodecoder-ssf (= 21.0.2-5~trixie)
+Depends: kodi-audiodecoder-ssf (= 21.0.2-6~trixie)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi-audiodecoder-ssf/kodi-audiodecoder-ssf-dbgsym_21.0.2-5~trixie_arm64.deb
-Size: 677480
-SHA256: 0f8abf899cb1212c6625824efcaaca99cfb48baec8530b698457950c9a4ac7ef
-SHA1: b965c3a459fef2c72b8fba80a9f9ef26eb2a32b4
-MD5sum: f952a1f606a7fdbfb0ed401413bffefe
+Filename: pool/main/k/kodi-audiodecoder-ssf/kodi-audiodecoder-ssf-dbgsym_21.0.2-6~trixie_arm64.deb
+Size: 677888
+SHA256: 11dd65ba48fb89d099db65bb646bd83f35c5a0d7ce1ce9ce6e1799bcbf38cb5c
+SHA1: 482fbbcab1c882b9ba03884830c4d2ac0f93db9f
+MD5sum: baba0fb87577339ffde888d1c10e2f65
 Description: debug symbols for kodi-audiodecoder-ssf
-Build-Ids: 7e6de9d78d364c9011afc217ecd0fdc10b656efc
+Build-Ids: 053b14b0b011acfb11c22fee0bc684407f13baff
 
 Package: kodi-audiodecoder-stsound
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 335
@@ -928,103 +928,103 @@ Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2)
 Homepage: https://kodi.tv
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-audiodecoder-stsound/kodi-audiodecoder-stsound_21.0.2-5~trixie_arm64.deb
-Size: 75580
-SHA256: 0a78f098d3824312cb259f6c4917144337026b465812879c67c49755b08de605
-SHA1: 17514764f644a178f6e80372f9f98f42ea19f572
-MD5sum: c8b3b527422ec1aa4881a910cfe6eb03
+Filename: pool/main/k/kodi-audiodecoder-stsound/kodi-audiodecoder-stsound_21.0.2-6~trixie_arm64.deb
+Size: 75600
+SHA256: 55611fc43bd06ee03f132da3acaca3946b65cc3ee42ee834dbb4ca529f53691f
+SHA1: 0d8736af1da63ac27914fdfaddb7b9cda0f5e16b
+MD5sum: a090f0cfab476822dbe11e3c666381a2
 Description: StSound audio decoder for Kodi
   StSound audio decoder for Kodi
 
 Package: kodi-audiodecoder-stsound-dbg
 Source: kodi-audiodecoder-stsound
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 6
-Depends: kodi-audiodecoder-stsound (= 21.0.2-5~trixie)
+Depends: kodi-audiodecoder-stsound (= 21.0.2-6~trixie)
 Homepage: https://kodi.tv
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-audiodecoder-stsound/kodi-audiodecoder-stsound-dbg_21.0.2-5~trixie_arm64.deb
+Filename: pool/main/k/kodi-audiodecoder-stsound/kodi-audiodecoder-stsound-dbg_21.0.2-6~trixie_arm64.deb
 Size: 888
-SHA256: 3abf21d232b9a02b76d48eb4cc4a528eede0384f31541556c2fc3246852e8c7f
-SHA1: f45814751f4284c94af626e5f40bc328dded4dca
-MD5sum: 53cf56bbc1d309455ca526b4b665fb10
+SHA256: d7fefdada7434c854f1a695e1af696e0aebc1b0d09bda90f483a3a74ff9f58b2
+SHA1: 52d22d6daab84fe6840dda3fa6f0bf4bdede1af1
+MD5sum: d72a1c85984352b8b5b5feb83b017034
 Description: debug symbols for StSound audio decoder for Kodi
   debug symbols for StSound audio decoder for Kodi
 
 Package: kodi-audiodecoder-stsound-dbgsym
 Source: kodi-audiodecoder-stsound
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 237
-Depends: kodi-audiodecoder-stsound (= 21.0.2-5~trixie)
+Depends: kodi-audiodecoder-stsound (= 21.0.2-6~trixie)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi-audiodecoder-stsound/kodi-audiodecoder-stsound-dbgsym_21.0.2-5~trixie_arm64.deb
-Size: 205448
-SHA256: d8ba2f6b37dc20f1ecf83e9001a7b5f5fb7164737af5df06e84041000564bf3e
-SHA1: 313392f3e7dec72c06545ae0369329886bdccc04
-MD5sum: 6dfde3f714d36d20b0ad06f700736656
+Filename: pool/main/k/kodi-audiodecoder-stsound/kodi-audiodecoder-stsound-dbgsym_21.0.2-6~trixie_arm64.deb
+Size: 205544
+SHA256: 0b55d4a3f66e085d388dcaad933f3f1f8454a60c5961dcd184364db263234085
+SHA1: 4ec8f9f6f883a8723a72926f5618b2bbebadfedf
+MD5sum: 3c8d7596d597855d2dcbaef711183bf4
 Description: debug symbols for kodi-audiodecoder-stsound
-Build-Ids: 9893abcea419710defa924c59358ef610736ca45
+Build-Ids: 229f83e6e1a168f8106c68efebda3456ad31726b
 
 Package: kodi-audiodecoder-timidity
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 1785
 Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 9)
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-audiodecoder-timidity/kodi-audiodecoder-timidity_21.0.2-5~trixie_arm64.deb
-Size: 274052
-SHA256: bf969a5e4631e85312871ad1a9596c92a75f2154ff176c4e5c9bb82bfca2c79f
-SHA1: 13791863c974d7910eec271301abb789d5439ac4
-MD5sum: 1af6fcc2bd07f41abf18042ab48d4913
+Filename: pool/main/k/kodi-audiodecoder-timidity/kodi-audiodecoder-timidity_21.0.2-6~trixie_arm64.deb
+Size: 273712
+SHA256: aaa94c0d2921a162fb2b785606eaca8fc571e2b057f090ab9fbee6c48dfc8693
+SHA1: 6f6980aa3610031f1169774c0cbf349c6156a00e
+MD5sum: de2d87021545179a23fc59d4fa54f771
 Description: Timidity audio decoder for Kodi
   Timidity audio decoder for Kodi
 
 Package: kodi-audiodecoder-timidity-dbg
 Source: kodi-audiodecoder-timidity
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 6
-Depends: kodi-audiodecoder-timidity (= 21.0.2-5~trixie)
+Depends: kodi-audiodecoder-timidity (= 21.0.2-6~trixie)
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-audiodecoder-timidity/kodi-audiodecoder-timidity-dbg_21.0.2-5~trixie_arm64.deb
+Filename: pool/main/k/kodi-audiodecoder-timidity/kodi-audiodecoder-timidity-dbg_21.0.2-6~trixie_arm64.deb
 Size: 868
-SHA256: 29879229f63b5057116c7aef75969e44f4f79b11ae36042695146d787f497378
-SHA1: 77727bf32cc54bfb61d34d31298af6f4b03748a1
-MD5sum: 6efda7ccbd8b0a8b6d63fd1f99ef25cb
+SHA256: ece0b772b24f8e1880b231ccfce66af2627b570a1e21b5be33886a064a267b80
+SHA1: 231b10a9260abc02e057f382b15a36fa0ecd7f41
+MD5sum: b5a98e5fd6192cd57d41e1e8a5cc2556
 Description: debug symbols for Timidity audio decoder for Kodi
   debug symbols for Timidity audio decoder for Kodi
 
 Package: kodi-audiodecoder-timidity-dbgsym
 Source: kodi-audiodecoder-timidity
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 1637
-Depends: kodi-audiodecoder-timidity (= 21.0.2-5~trixie)
+Depends: kodi-audiodecoder-timidity (= 21.0.2-6~trixie)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi-audiodecoder-timidity/kodi-audiodecoder-timidity-dbgsym_21.0.2-5~trixie_arm64.deb
-Size: 880024
-SHA256: a38f2424d981f99373195af019196bb546a4fef5d9ae0bba2ac21be403006ada
-SHA1: 5e2faa16e3a2f054ad494e77bd5b33ab0b769d7b
-MD5sum: 6527bcc7af62c92f6a75eb05b508062f
+Filename: pool/main/k/kodi-audiodecoder-timidity/kodi-audiodecoder-timidity-dbgsym_21.0.2-6~trixie_arm64.deb
+Size: 881000
+SHA256: 1d6a13bd623542e731d15b7ec0cffdc235578da68ee85204d16b84f7fecea241
+SHA1: 9d3d62e42dec5135f487d75fb1fea688bb1de075
+MD5sum: 30ea96b9690c16f457ae72affceeb7ec
 Description: debug symbols for kodi-audiodecoder-timidity
-Build-Ids: 0a4629c541dd25c295b2d00f5d3efd9e96f56140 6df1ffde05bab7367b22a3556d6fa733e1d1effc d175f1102bdca586f4b2e704bc1562ae969d27f0
+Build-Ids: 307ae13ad4fede6418c5ba4de88d0e79057ae762 908ad167cb033fa2302ee3d01d207bdd618fd11e c31d049d5ce3f6f42fb11da5367a64d09b80c57d
 
 Package: kodi-audiodecoder-upse
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 408
@@ -1032,52 +1032,52 @@ Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), zlib1g (>=
 Homepage: https://kodi.tv
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-audiodecoder-upse/kodi-audiodecoder-upse_21.0.2-5~trixie_arm64.deb
-Size: 67108
-SHA256: 40c2a9837249ea2131f5be597ea9a66600657e1e888c04c70e43ecaba8408289
-SHA1: 2fea8db511ff0f721ddadab1aa1c976b97121203
-MD5sum: 66e89d6aa563cffac5fd195de2052c41
+Filename: pool/main/k/kodi-audiodecoder-upse/kodi-audiodecoder-upse_21.0.2-6~trixie_arm64.deb
+Size: 67132
+SHA256: fb59acfe39a46c1e504c34582bde8d0e328502b5382d55467d3e34742fcc9c4c
+SHA1: 327cad2d257d237cc6d3bf371851a058fdeafe0b
+MD5sum: 4f8e87b90423672282acfb186af1fee6
 Description: PSF audio decoder for Kodi
   PSF audio decoder for Kodi
 
 Package: kodi-audiodecoder-upse-dbg
 Source: kodi-audiodecoder-upse
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 6
-Depends: kodi-audiodecoder-upse (= 21.0.2-5~trixie)
+Depends: kodi-audiodecoder-upse (= 21.0.2-6~trixie)
 Homepage: https://kodi.tv
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-audiodecoder-upse/kodi-audiodecoder-upse-dbg_21.0.2-5~trixie_arm64.deb
+Filename: pool/main/k/kodi-audiodecoder-upse/kodi-audiodecoder-upse-dbg_21.0.2-6~trixie_arm64.deb
 Size: 880
-SHA256: fd096681c9d4c77fb325223c3121f9865aebdf08251a7a01a9836b67388e4b51
-SHA1: f76f8c3f2c1d7a5fd0e1fe4e6fcb2129db605b77
-MD5sum: babfeb9a1a8e1d994e4d04c06ba573b7
+SHA256: d2035c09e2b538874df926a845c61694b2c8c3aaf59c675155819bfacf75daa3
+SHA1: 9d1fa32ee10ab05052318b7175927e6ba3ce5ca1
+MD5sum: afd9975c685985afac27662d4a14e90d
 Description: debug symbols for PSF audio decoder for Kodi
   debug symbols for PSF audio decoder for Kodi
 
 Package: kodi-audiodecoder-upse-dbgsym
 Source: kodi-audiodecoder-upse
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 361
-Depends: kodi-audiodecoder-upse (= 21.0.2-5~trixie)
+Depends: kodi-audiodecoder-upse (= 21.0.2-6~trixie)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi-audiodecoder-upse/kodi-audiodecoder-upse-dbgsym_21.0.2-5~trixie_arm64.deb
-Size: 309772
-SHA256: a2c22b3b900be2e7ecb371bb97833930d44f14c1cb844db4068420fe0976bebe
-SHA1: 6bcf70a97b68e39794cdbfd8a25492f62647c4f0
-MD5sum: 4426828246f42bf8471fb983481f3212
+Filename: pool/main/k/kodi-audiodecoder-upse/kodi-audiodecoder-upse-dbgsym_21.0.2-6~trixie_arm64.deb
+Size: 309780
+SHA256: 85fc38efa600dc970e69487214d77f34a943a76e3ec95c132926b4c0d39f34e9
+SHA1: a9ef701c10388817c700667b01c39033ebe28e3d
+MD5sum: f562aa6d969b53ac902ba86e2d4aa911
 Description: debug symbols for kodi-audiodecoder-upse
-Build-Ids: 5b6e021f6cfe2b79b858b22de2571a6d40420de6
+Build-Ids: 335edda35b4bed0553ff72614cfea09a93233b41
 
 Package: kodi-audiodecoder-usf
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 483
@@ -1085,52 +1085,52 @@ Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), zlib1g (>=
 Homepage: https://kodi.tv
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-audiodecoder-usf/kodi-audiodecoder-usf_21.0.2-5~trixie_arm64.deb
-Size: 101088
-SHA256: 79a4711213680bd699f1d31d182adeab8ab7babb3ce7cf91c50a7ff0343c9b7e
-SHA1: 6292c8a499ba0e5166e2d048fb6952322c8f602c
-MD5sum: cb7029d4fafb7e8774afaaac22e66d6e
+Filename: pool/main/k/kodi-audiodecoder-usf/kodi-audiodecoder-usf_21.0.2-6~trixie_arm64.deb
+Size: 100600
+SHA256: 9942315db8fc4ef344785008a8c574cecb37eedfe890518c0485cd0e6eb30f36
+SHA1: 76412360fb1fe4efcec20591a1d87f1687a14790
+MD5sum: a56e2ec2871c910160f667049e74b4fc
 Description: USF audio decoder for Kodi
   USF audio decoder for Kodi
 
 Package: kodi-audiodecoder-usf-dbg
 Source: kodi-audiodecoder-usf
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 6
-Depends: kodi-audiodecoder-usf (= 21.0.2-5~trixie)
+Depends: kodi-audiodecoder-usf (= 21.0.2-6~trixie)
 Homepage: https://kodi.tv
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-audiodecoder-usf/kodi-audiodecoder-usf-dbg_21.0.2-5~trixie_arm64.deb
+Filename: pool/main/k/kodi-audiodecoder-usf/kodi-audiodecoder-usf-dbg_21.0.2-6~trixie_arm64.deb
 Size: 880
-SHA256: 6aeaa520db4b8dae59fdaed55037e2c02441a44ab6d6f381b0c7db43e55833a3
-SHA1: 7dbf74357fdb61196090f24e3417c148bb3a50c5
-MD5sum: 4b1d5b02c39c364be50a071cd96ae986
+SHA256: c37757105209fe48753eba472bdecac79577eee4d27ee6023c0b09458075af3c
+SHA1: 298653ec4ee4d266ffc765bf4bc9a24c5822e85d
+MD5sum: 071698d12e95cdec28387f1bf8a248f3
 Description: debug symbols for USF audio decoder for Kodi
   debug symbols for USF audio decoder for Kodi
 
 Package: kodi-audiodecoder-usf-dbgsym
 Source: kodi-audiodecoder-usf
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 509
-Depends: kodi-audiodecoder-usf (= 21.0.2-5~trixie)
+Depends: kodi-audiodecoder-usf (= 21.0.2-6~trixie)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi-audiodecoder-usf/kodi-audiodecoder-usf-dbgsym_21.0.2-5~trixie_arm64.deb
-Size: 445004
-SHA256: 91a031d52af3df94de1ad4aeb3e91f96cdc5c1abf882806e087dbd339e8a74ac
-SHA1: 1c61f9f39a94d82ab6920eb1bf52e1d4010fd11a
-MD5sum: bbc51751d654e93599a761013df0d2e9
+Filename: pool/main/k/kodi-audiodecoder-usf/kodi-audiodecoder-usf-dbgsym_21.0.2-6~trixie_arm64.deb
+Size: 445436
+SHA256: b759df706c19c327fe7adf6c5c207bf006b5e3eac1ac16cdb22e321a008ebb02
+SHA1: f4bee15695f9b29b8e73e4ab52403bba81f96350
+MD5sum: 85b660e53f5db4cb9ae756dcbd1cde7a
 Description: debug symbols for kodi-audiodecoder-usf
-Build-Ids: 978f84418a1bcbac553d34dd95c9f0ee5f50a7e1
+Build-Ids: 5f27ddead33347cad89d0da85b8da4972de43736
 
 Package: kodi-audiodecoder-vgmstream
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 1572
@@ -1138,52 +1138,52 @@ Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11)
 Homepage: https://kodi.tv
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-audiodecoder-vgmstream/kodi-audiodecoder-vgmstream_21.0.2-5~trixie_arm64.deb
-Size: 460144
-SHA256: d685ae515fb4c1959f762c0898429aede8fe9bd407c759e3e6aef5aadeacb0db
-SHA1: 617062a769aff96769f7c23fa71a5d230d29cd51
-MD5sum: af8b2e0fc37c0947a9a9bb5fa3a54c82
+Filename: pool/main/k/kodi-audiodecoder-vgmstream/kodi-audiodecoder-vgmstream_21.0.2-6~trixie_arm64.deb
+Size: 459920
+SHA256: afc2672a0338c826893ee90740792a21d2d07e6b98bf9c1af3f7d547096f5791
+SHA1: 67cb9136096f3681b4c6ff17d778012e7d27aa27
+MD5sum: 9d1421e5a3110bc1c549cb9ee2e2a1e3
 Description: VGMStream audio decoder for Kodi
   VGMStream audio decoder for Kodi
 
 Package: kodi-audiodecoder-vgmstream-dbg
 Source: kodi-audiodecoder-vgmstream
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 6
-Depends: kodi-audiodecoder-vgmstream (= 21.0.2-5~trixie)
+Depends: kodi-audiodecoder-vgmstream (= 21.0.2-6~trixie)
 Homepage: https://kodi.tv
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-audiodecoder-vgmstream/kodi-audiodecoder-vgmstream-dbg_21.0.2-5~trixie_arm64.deb
+Filename: pool/main/k/kodi-audiodecoder-vgmstream/kodi-audiodecoder-vgmstream-dbg_21.0.2-6~trixie_arm64.deb
 Size: 892
-SHA256: f0a6e89692c799c99d3beed7c6b4fc5404f97f9fb27a7d3112d6993e13a3f590
-SHA1: 9d59515e6b8710c10a709e55943f23a62e2c5a25
-MD5sum: 6a9f0e8d65954771c650f770ba609bf1
+SHA256: 3bb13b1766cd1a957e56d38821a308de57a77a31e5e4df10f2a59eb891e7dd93
+SHA1: 45cbc8d8686edfb0200360a8ced6025d911308fc
+MD5sum: 587dbc2ee6402e8adc40da3380b50cf4
 Description: debug symbols for VGMStream audio decoder for Kodi
   debug symbols for VGMStream audio decoder for Kodi
 
 Package: kodi-audiodecoder-vgmstream-dbgsym
 Source: kodi-audiodecoder-vgmstream
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 2568
-Depends: kodi-audiodecoder-vgmstream (= 21.0.2-5~trixie)
+Depends: kodi-audiodecoder-vgmstream (= 21.0.2-6~trixie)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi-audiodecoder-vgmstream/kodi-audiodecoder-vgmstream-dbgsym_21.0.2-5~trixie_arm64.deb
-Size: 2187968
-SHA256: 672717b4242b4c83e11f9f10a83db3868b8d2c62ec91eac61f4fc879475a3363
-SHA1: 2eac5c40a8b739c9aa3f62e30e24e6cd5b42edcc
-MD5sum: 671a8831afbc951e9d6ecb2195bd768e
+Filename: pool/main/k/kodi-audiodecoder-vgmstream/kodi-audiodecoder-vgmstream-dbgsym_21.0.2-6~trixie_arm64.deb
+Size: 2186792
+SHA256: a47dfb94ebc12cb8339578f3bdb068eddb9af37ae42da5362ba82196d8ed3391
+SHA1: 56a9436605b1a00346f154820966a63753d0d17e
+MD5sum: 83100f45d27ae6fe748769fb6236665e
 Description: debug symbols for kodi-audiodecoder-vgmstream
-Build-Ids: c3a90be9b173d0d9d047241d48dd7c9b48281e2f
+Build-Ids: c855bba3d85339ef7dac045ad2607b7eb180af93
 
 Package: kodi-audiodecoder-wsr
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 708
@@ -1191,49 +1191,49 @@ Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1)
 Homepage: https://kodi.tv
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-audiodecoder-wsr/kodi-audiodecoder-wsr_21.0.2-5~trixie_arm64.deb
-Size: 90716
-SHA256: 475fc299bf0f787c50b220a347c2d974aa984d95faea733db9c1739e9a7a8115
-SHA1: 113c4ad444547eae9b655e77c8d2db93440ee854
-MD5sum: fda8c7009f8c52143d289ea1d72e0be2
+Filename: pool/main/k/kodi-audiodecoder-wsr/kodi-audiodecoder-wsr_21.0.2-6~trixie_arm64.deb
+Size: 90660
+SHA256: 3433628c17162d6f8578d4df649740c02f53b1f9c52640e39491bbc91dd2b916
+SHA1: 29db51d80a0992489ea3c9df8b86c286f06e4a0c
+MD5sum: fb043fd3bf391d74d274b388edf5464e
 Description: WSR audio decoder for Kodi
   WSR audio decoder for Kodi
 
 Package: kodi-audiodecoder-wsr-dbg
 Source: kodi-audiodecoder-wsr
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 6
-Depends: kodi-audiodecoder-wsr (= 21.0.2-5~trixie)
+Depends: kodi-audiodecoder-wsr (= 21.0.2-6~trixie)
 Homepage: https://kodi.tv
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-audiodecoder-wsr/kodi-audiodecoder-wsr-dbg_21.0.2-5~trixie_arm64.deb
+Filename: pool/main/k/kodi-audiodecoder-wsr/kodi-audiodecoder-wsr-dbg_21.0.2-6~trixie_arm64.deb
 Size: 880
-SHA256: ae2f4b390c14c85f75143e613b303f2f9e0a1a332bb62af3357a5c845eb00490
-SHA1: ed902e6b4c6287185744353e65a72501a08e73f3
-MD5sum: ada1867405bf9d84ad08f4d045799b77
+SHA256: 444e91d6874efffeefe1855c488d20096141b5f734f287a73e9ad674b908229f
+SHA1: f8dc2c8630b4c98ddda7d30cd38760deee105db3
+MD5sum: e130db48e415233c127c7bfc44c7d1e8
 Description: debug symbols for WSR audio decoder for Kodi
   debug symbols for WSR audio decoder for Kodi
 
 Package: kodi-audiodecoder-wsr-dbgsym
 Source: kodi-audiodecoder-wsr
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 665
-Depends: kodi-audiodecoder-wsr (= 21.0.2-5~trixie)
+Depends: kodi-audiodecoder-wsr (= 21.0.2-6~trixie)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi-audiodecoder-wsr/kodi-audiodecoder-wsr-dbgsym_21.0.2-5~trixie_arm64.deb
-Size: 451036
-SHA256: 11bbdd570b62387c5853abc0e7848be782ddb67c2a4a987d887439f883263668
-SHA1: 8096cdce8ba3e03145e462d514b8f34cc546659e
-MD5sum: 2635b8c2437309dc405a8e5db70fcbcf
+Filename: pool/main/k/kodi-audiodecoder-wsr/kodi-audiodecoder-wsr-dbgsym_21.0.2-6~trixie_arm64.deb
+Size: 451100
+SHA256: 9e28cb50388bc90cb3c279ee07beeabea69eca3892c4c176e4c0c4807da68a74
+SHA1: 2113f3052071dfa52a285b27a4d682e796f786c5
+MD5sum: cc562e200ac055bc07c9f2a1a34a2dfb
 Description: debug symbols for kodi-audiodecoder-wsr
-Build-Ids: 02282fbedfe7fd06ec04f94f077d37b0b399524e 77f581e69a07b092c7310305611a8fbe1645b6aa 91e2d2daa844fc0b1ccaf18a8d714982cf6ce8e6 d49707b57246b257081c4dac847e601043dd8890
+Build-Ids: 21c634ea7bfdc97509798d7429026f0f419bd38e 9a2db8be545521cf97d8ac01aa863edc1c14c7f2 ab98cffbdc1df8472e8a9bc875d886f798045f38 cabb51142e7f3d162054c1a96c02cbbfcd9078f5
 
 Package: kodi-bin
 Source: kodi
@@ -5875,7 +5875,7 @@ Description: Open Source Home Theatre (official addons repository feed)
  repository feed.
 
 Package: kodi-screensaver-asterwave
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 1673
@@ -5883,52 +5883,52 @@ Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libgles2, libstdc++6 (>= 5.2)
 Homepage: https://kodi.tv
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-screensaver-asterwave/kodi-screensaver-asterwave_21.0.2-5~trixie_arm64.deb
-Size: 1000432
-SHA256: 76c70f976fb79ec64001a634f7ba9e9b28093ade09ade32e803ae6bdfbce372d
-SHA1: f1be5facaae77036328c160088a99c03d332a25b
-MD5sum: ae57c052123c4681af2c11c12b725395
+Filename: pool/main/k/kodi-screensaver-asterwave/kodi-screensaver-asterwave_21.0.2-6~trixie_arm64.deb
+Size: 1000844
+SHA256: 5cc5cce98eceb91c29604634d331184e75a6260a7ba2186629f1f61e3d2d49ad
+SHA1: eff0d7cd6a1bf853e285c87014f43d8bb5b75655
+MD5sum: f6b8e01e0206fc89e09102352538420b
 Description: Asterwave screensaver for Kodi
  Asterwave screensaver for Kodi
 
 Package: kodi-screensaver-asterwave-dbg
 Source: kodi-screensaver-asterwave
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 6
-Depends: kodi-screensaver-asterwave (= 21.0.2-5~trixie)
+Depends: kodi-screensaver-asterwave (= 21.0.2-6~trixie)
 Homepage: https://kodi.tv
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-screensaver-asterwave/kodi-screensaver-asterwave-dbg_21.0.2-5~trixie_arm64.deb
+Filename: pool/main/k/kodi-screensaver-asterwave/kodi-screensaver-asterwave-dbg_21.0.2-6~trixie_arm64.deb
 Size: 884
-SHA256: 5cf991e8be0229857ec2744f679cb4edc297b93742cda82fd814c8a8ae2beb59
-SHA1: 35e1a0742bf4dd1b71610fd946e60a24acf09ab3
-MD5sum: 339b5c7b965c8d6717c3ac152194c5cc
+SHA256: 3017cad875ea434b6421bc78e9686466b6df73f03c001ab2789d408153af6ee9
+SHA1: 53c61aeedc70b27b0055e390c710e8b22e9d6429
+MD5sum: 113a02756f740519e80b0a56b7c4dbba
 Description: debug symbols for Asterwave screensaver for Kodi
  debug symbols for Asterwave screensaver for Kodi
 
 Package: kodi-screensaver-asterwave-dbgsym
 Source: kodi-screensaver-asterwave
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
-Installed-Size: 606
-Depends: kodi-screensaver-asterwave (= 21.0.2-5~trixie)
+Installed-Size: 645
+Depends: kodi-screensaver-asterwave (= 21.0.2-6~trixie)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi-screensaver-asterwave/kodi-screensaver-asterwave-dbgsym_21.0.2-5~trixie_arm64.deb
-Size: 559400
-SHA256: 2f4a63d571ce27db612758d7c3ffa82cbd44fa99b8e3bbe130edb46fe771599c
-SHA1: 2fa513d829aae5f1a3e5b1fcc9615707b1c9e139
-MD5sum: 1160bb60a56248fa86cea11329f8d069
+Filename: pool/main/k/kodi-screensaver-asterwave/kodi-screensaver-asterwave-dbgsym_21.0.2-6~trixie_arm64.deb
+Size: 598756
+SHA256: bba0dcffbd19d6c4f0ca564f7d097a8800c8d04f7a748786be267eb256ffa4f1
+SHA1: f3cbee8e564496574c3599a82b23fa78b819f56d
+MD5sum: a6fc26b78b88a6dc374c4c89d8147fea
 Description: debug symbols for kodi-screensaver-asterwave
-Build-Ids: 4f017f496bdd61fddfa598f295d76fb78dc340b1
+Build-Ids: 1817b7f807980d2fa51443d671ceb979239d4163
 
 Package: kodi-screensaver-cpblobs
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 4034
@@ -5936,52 +5936,52 @@ Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libgles2, libstdc++6 (>= 5.2)
 Homepage: https://kodi.tv
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-screensaver-cpblobs/kodi-screensaver-cpblobs_21.0.2-5~trixie_arm64.deb
-Size: 1303560
-SHA256: 3e06d780621f08b9ad494aa288b99ce5bd6eb95997a55324178b85374621f734
-SHA1: 1d8323ec50ec02850079186a2322c31f8224d141
-MD5sum: 3bbb1059bfae2f894057384117d58c60
+Filename: pool/main/k/kodi-screensaver-cpblobs/kodi-screensaver-cpblobs_21.0.2-6~trixie_arm64.deb
+Size: 1304460
+SHA256: 7a7961757489318e84db7693179de6e63e2771212b13b814a0f46cccea1f0f5d
+SHA1: ca59b97c4c30d6401b93d9ebef19e72d46868fac
+MD5sum: 0b153c5d548dd76ea348260258cff735
 Description: CpBlobs screensaver for Kodi
  CpBlobs screensaver for Kodi
 
 Package: kodi-screensaver-cpblobs-dbg
 Source: kodi-screensaver-cpblobs
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 6
-Depends: kodi-screensaver-cpblobs (= 21.0.2-5~trixie)
+Depends: kodi-screensaver-cpblobs (= 21.0.2-6~trixie)
 Homepage: https://kodi.tv
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-screensaver-cpblobs/kodi-screensaver-cpblobs-dbg_21.0.2-5~trixie_arm64.deb
+Filename: pool/main/k/kodi-screensaver-cpblobs/kodi-screensaver-cpblobs-dbg_21.0.2-6~trixie_arm64.deb
 Size: 884
-SHA256: 740e8f84926272affd380d4200a820e98303fa8e760e51f59ef73cd894c461d6
-SHA1: 40a943e37569bddaf39ae7eeeaf2f28d7afb86dc
-MD5sum: 4bc7936b25d633c3dcd6cc825269c58a
+SHA256: b9fa357b02ec5864cdd97f94d3d8dac85984f2d3f3e1e6dfb2d82c1ae589f232
+SHA1: 820f1ca5e86af8a9dd0a92a441535f4e5a771468
+MD5sum: 8b0735f822c961801b8c99ad1d214ca5
 Description: debug symbols for CpBlobs screensaver for Kodi
  debug symbols for CpBlobs screensaver for Kodi
 
 Package: kodi-screensaver-cpblobs-dbgsym
 Source: kodi-screensaver-cpblobs
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
-Installed-Size: 514
-Depends: kodi-screensaver-cpblobs (= 21.0.2-5~trixie)
+Installed-Size: 537
+Depends: kodi-screensaver-cpblobs (= 21.0.2-6~trixie)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi-screensaver-cpblobs/kodi-screensaver-cpblobs-dbgsym_21.0.2-5~trixie_arm64.deb
-Size: 471176
-SHA256: fc8e0008cb2807bde9bb8b5fb8ea22bdf3d055b6412e9f71d324707c5b8c0560
-SHA1: e79bfc232025e0f09fa02cf0a06bc2fdf090abe1
-MD5sum: bd14e57bb63938f6d28405ccbe26fd60
+Filename: pool/main/k/kodi-screensaver-cpblobs/kodi-screensaver-cpblobs-dbgsym_21.0.2-6~trixie_arm64.deb
+Size: 494296
+SHA256: e42fe7f443657b5bfb269a67dd6f59e50d2996075c283f71a173e4a25e1844c4
+SHA1: 460ccea2a4a93d6daff3f966490ad531b9af5a56
+MD5sum: 6901e7a04d0b6704bc259ec819a74f16
 Description: debug symbols for kodi-screensaver-cpblobs
-Build-Ids: 7411b6cf30c410c5554e7211009475b021d381a3
+Build-Ids: 0d49fdfc35921869fb8243d8abc3cb5f212486d5
 
 Package: kodi-screensaver-matrixtrails
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 1374
@@ -5989,70 +5989,70 @@ Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libgles2, libstdc++6 (>= 5.2)
 Homepage: https://kodi.tv
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-screensaver-matrixtrails/kodi-screensaver-matrixtrails_21.0.2-5~trixie_arm64.deb
-Size: 613364
-SHA256: 3f7f20b69edd4bda133e767f35dbc98c3e6cd1c18ea49fb42788dcdbcedb6d42
-SHA1: 46c5ca2c7acfc7b2b87ee1bf1bb9be25b6f20c4c
-MD5sum: e778db574064e475e8b66d127d863aed
+Filename: pool/main/k/kodi-screensaver-matrixtrails/kodi-screensaver-matrixtrails_21.0.2-6~trixie_arm64.deb
+Size: 614048
+SHA256: 8e2122fecc202bd5c508234a4d9b02507fc4761a1b1d21e6353f5fb29f423283
+SHA1: 177ea13a8fb80b2301e74fa5233b456126c3f589
+MD5sum: cf3edfaf2ba1d2f88c227d91360bb73c
 Description: Matrix Trails screensaver for Kodi
  Matrix Trails screensaver for Kodi
 
 Package: kodi-screensaver-matrixtrails-dbg
 Source: kodi-screensaver-matrixtrails
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 6
-Depends: kodi-screensaver-matrixtrails (= 21.0.2-5~trixie)
+Depends: kodi-screensaver-matrixtrails (= 21.0.2-6~trixie)
 Homepage: https://kodi.tv
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-screensaver-matrixtrails/kodi-screensaver-matrixtrails-dbg_21.0.2-5~trixie_arm64.deb
+Filename: pool/main/k/kodi-screensaver-matrixtrails/kodi-screensaver-matrixtrails-dbg_21.0.2-6~trixie_arm64.deb
 Size: 892
-SHA256: c4030dccdaebcc72b843109c99612d3884a82490a931e941f799e18bd6f8eccd
-SHA1: 8f1f3226f5fedbfcf83f0a63f936e01db4da80ef
-MD5sum: 7500d06fbfb772cdbe840f43affe5eb8
+SHA256: b97e1abbd6dc1403a68b32d2585b82ecb0a739039b3132d069ba8ea02f7b9a60
+SHA1: 98a7411937830bc2abd93e74f6af9262e3a3ab85
+MD5sum: 14e12e2c2d197ccca68e421adba48092
 Description: debug symbols for Matrix Trails screensaver for Kodi
  debug symbols for Matrix Trails screensaver for Kodi
 
 Package: kodi-screensaver-matrixtrails-dbgsym
 Source: kodi-screensaver-matrixtrails
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
-Installed-Size: 490
-Depends: kodi-screensaver-matrixtrails (= 21.0.2-5~trixie)
+Installed-Size: 546
+Depends: kodi-screensaver-matrixtrails (= 21.0.2-6~trixie)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi-screensaver-matrixtrails/kodi-screensaver-matrixtrails-dbgsym_21.0.2-5~trixie_arm64.deb
-Size: 447980
-SHA256: 143d4457a7cade30323a888f11720b245b26d083c7ad20cbeeec9191059cd107
-SHA1: 35266cfe34b9d48c3d858825f38a44553a948db9
-MD5sum: ff51e74ed54946797e8673a36e4a2988
+Filename: pool/main/k/kodi-screensaver-matrixtrails/kodi-screensaver-matrixtrails-dbgsym_21.0.2-6~trixie_arm64.deb
+Size: 503600
+SHA256: 868290b0d23f7cf6b755c132a982934b74ec9ffe89bd57b6bfbfbbdf5a1f3795
+SHA1: 6beaea739ef4a4329cb78aa8ed6107f9dfc2b0a4
+MD5sum: 44f3fa85f0b1d5a69e4e2b68e0cb45b9
 Description: debug symbols for kodi-screensaver-matrixtrails
-Build-Ids: d36277b8e136f169c4b6246d13113f3fcf0341ce
+Build-Ids: fd5e0da64635cbf603457fded8137143093afd6d
 
 Package: kodi-screensaver-rsxs-biof-dbg
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 10
 Homepage: https://kodi.org
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-biof-dbg_21.1.2-5~trixie_arm64.deb
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-biof-dbg_21.1.2-6~trixie_arm64.deb
 Size: 1860
-SHA256: 405c907cd645ec1bb080831f3d4d06ae6653fcd38c6b92893a0a19a8d88ed8f2
-SHA1: b6548805cb8db6483c3db8fffa8908b622af60f5
-MD5sum: 675b28739282c8b437eb5f14d70e4946
+SHA256: ccab6182e6ed0f4fefa62090aea42c20c58416e86d393d52067102e21a115ba8
+SHA1: 0c19c1ba3437fa87c681f79337e1a65a750ad976
+MD5sum: 96b33e479cae0a437c1a19089e62eaf8
 Description: debug symbols for Biof screensaver add-on for Kodi
  debug symbols for Biof screensaver add-on for Kodi
 
 Package: kodi-screensaver-rsxs-busyspheres
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 3808
@@ -6060,52 +6060,52 @@ Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libgles2, libstdc++6 (>= 11)
 Homepage: https://kodi.org
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-busyspheres_21.1.2-5~trixie_arm64.deb
-Size: 3014900
-SHA256: de81c4e722549cad2414125fb05c21c8ca66dcfa3a7bb974b5c25cbb45eff5bc
-SHA1: 562e77fedacc0c35ebae0d2a9be0af9eb1210217
-MD5sum: 881a86b576a15b7296876ce4cf5d2c68
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-busyspheres_21.1.2-6~trixie_arm64.deb
+Size: 3014832
+SHA256: d48012c274945708264dd2ecebbc82e93b1784e33cd7c09c353a2345c3002c2a
+SHA1: 4ca0d493de9599785521e4f192544f86f1879bdb
+MD5sum: 31cd2debb95f313a2c28235a8b147e74
 Description: Busy spheres screensaver add-on for Kodi
  Busy spheres screensaver add-on for Kodi
 
 Package: kodi-screensaver-rsxs-busyspheres-dbg
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 10
 Homepage: https://kodi.org
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-busyspheres-dbg_21.1.2-5~trixie_arm64.deb
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-busyspheres-dbg_21.1.2-6~trixie_arm64.deb
 Size: 1872
-SHA256: ba4982881cd8657f47acf8fa8dc8fbba7b4f073d75be32c3e81d3c4e21eacbb0
-SHA1: 95de73d5fd98629aeb89786f7ee5724c147427f8
-MD5sum: c998f36f4c2c0ea7b8b82b8e72cbc7b8
+SHA256: 0f25567dcb3a6896c862bc6349b39080a4e2c53b03534c18c39343c30c864bb6
+SHA1: 707522ca0b181f0aff795ee569fb35f1048162d9
+MD5sum: 80d946a12dae5504564af890128c8b9a
 Description: debug symbols for Busy spheres screensaver add-on for Kodi
  debug symbols for Busy spheres screensaver add-on for Kodi
 
 Package: kodi-screensaver-rsxs-busyspheres-dbgsym
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 373
-Depends: kodi-screensaver-rsxs-busyspheres (= 21.1.2-5~trixie)
+Depends: kodi-screensaver-rsxs-busyspheres (= 21.1.2-6~trixie)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-busyspheres-dbgsym_21.1.2-5~trixie_arm64.deb
-Size: 343368
-SHA256: 9d636e475f2c43b03f2550c66b195f6c62a053faf4db499479d5b95a198eb3eb
-SHA1: 1e2b14ca8b7167ee70fa067d3f1611820e4fbfcf
-MD5sum: 7dc771bb599171f109fae41655c017bf
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-busyspheres-dbgsym_21.1.2-6~trixie_arm64.deb
+Size: 343352
+SHA256: b5db01d1ebc43d2d1175b3f884b958769bac21a34b4468d3cc0d771ed50ce435
+SHA1: abafabbe1309cd2c66eb1cffa212d09fc96c563a
+MD5sum: 0f2e364d9c378d537cf7235a99878567
 Description: debug symbols for kodi-screensaver-rsxs-busyspheres
-Build-Ids: d603aeaa4e7a6a64b30a5ac8db53b1616a117322
+Build-Ids: c1c6f15fa2f5b570a5a3133ebcc834b605e45ec0
 
 Package: kodi-screensaver-rsxs-colorfire
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 1953
@@ -6113,52 +6113,52 @@ Depends: libbz2-1.0, libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libgles2, libstdc++6
 Homepage: https://kodi.org
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-colorfire_21.1.2-5~trixie_arm64.deb
-Size: 1402120
-SHA256: 8feb3b9207081f41bad1e58cb4c53c8aa1fc0bc1cb0dfa8223968dd14e86b341
-SHA1: 5ffecb1fbef1c0ca3ed055638c50546e06394b2b
-MD5sum: 1d98cd59ddeaea1290b5c0e6ecf49469
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-colorfire_21.1.2-6~trixie_arm64.deb
+Size: 1402072
+SHA256: 01b6cc87649d14293cfac81b985b0667af4d83991b5ffe876773c2a2e69a188f
+SHA1: af4cd0073735599c07492d806bd7fda9bc6eab77
+MD5sum: ea3965e1585101cf3d09b4284b76edf5
 Description: Colorfire screensaver add-on for Kodi
  Colorfire screensaver add-on for Kodi
 
 Package: kodi-screensaver-rsxs-colorfire-dbg
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 10
 Homepage: https://kodi.org
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-colorfire-dbg_21.1.2-5~trixie_arm64.deb
-Size: 1868
-SHA256: 65e809eacc47b0c8de15e837391b254a3b8a899fee5eed596b896bb452b6b00a
-SHA1: 4cfa9e03635b43a7ccb40f4ba76c7a7144aa3df0
-MD5sum: 729b3738ab1f4a29bf7326f724442a41
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-colorfire-dbg_21.1.2-6~trixie_arm64.deb
+Size: 1864
+SHA256: 389b6825d0057724f7bcea262435f879ed9218a08c51e386f23be07fb786001e
+SHA1: d7ba171f540e84f06bd989ef2f5ba6c2b10e31c8
+MD5sum: a5042258545904728c81ad16435fc683
 Description: debug symbols for Colorfire screensaver add-on for Kodi
  debug symbols for Colorfire screensaver add-on for Kodi
 
 Package: kodi-screensaver-rsxs-colorfire-dbgsym
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 372
-Depends: kodi-screensaver-rsxs-colorfire (= 21.1.2-5~trixie)
+Depends: kodi-screensaver-rsxs-colorfire (= 21.1.2-6~trixie)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-colorfire-dbgsym_21.1.2-5~trixie_arm64.deb
-Size: 340864
-SHA256: 5e1087125260ff516b7e1b02edb158e6022e6831ea8fb4a2ed2a21a02af811b1
-SHA1: 6692f9ff6369f354c812c6dac7cba4d073caaf43
-MD5sum: 48c0d60b0d1af9cff6f222a5d2540228
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-colorfire-dbgsym_21.1.2-6~trixie_arm64.deb
+Size: 341244
+SHA256: f6010e52367a821e52cbea4e9b35fd7ff0fe073f57d45b137cec40b1b8de5a81
+SHA1: 1ad6b347a8d4ff6ca5381b36522f9bb4b331cfcd
+MD5sum: 0f8cdd5bb63554ebf534edadef97a542
 Description: debug symbols for kodi-screensaver-rsxs-colorfire
-Build-Ids: eb313cdb04514b801e045bf67b7d511a97b474b5
+Build-Ids: ae96a51c67c047784aa7d5254f078c5bb457d439
 
 Package: kodi-screensaver-rsxs-cyclone
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 3226
@@ -6166,52 +6166,52 @@ Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libgles2, libstdc++6 (>= 5.2)
 Homepage: https://kodi.org
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-cyclone_21.1.2-5~trixie_arm64.deb
-Size: 2572736
-SHA256: 0d891624959d3c2e00ad925c14e97a3fe881fff776db3c8767c9bd94393bb5cf
-SHA1: 6f7a0e898f4da264c2c5781241f2872c25a7c74a
-MD5sum: 1f7d210b1b066c21a99ae0246b1ff594
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-cyclone_21.1.2-6~trixie_arm64.deb
+Size: 2573536
+SHA256: 1856de4b0438049761723b525dbe2981942f7b011739c9290fd4b74eaa6a8de3
+SHA1: 8e8a0a4ad3e050deeccb50cb4f421c0b49d01493
+MD5sum: a3c9e814376358e68b9a463c8e804670
 Description: Cyclone screensaver add-on for Kodi
  Cyclone screensaver add-on for Kodi
 
 Package: kodi-screensaver-rsxs-cyclone-dbg
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 10
 Homepage: https://kodi.org
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-cyclone-dbg_21.1.2-5~trixie_arm64.deb
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-cyclone-dbg_21.1.2-6~trixie_arm64.deb
 Size: 1868
-SHA256: ad02c0d551063324f0dca3c335f8f0a5b1820a3440c9b32ce81a5937c4d6005d
-SHA1: 08351be0d5556e6884b383a378d6d8b1874bce8f
-MD5sum: 1d2fe59471fcfd65e9b8937c75b47f1e
+SHA256: ef6f546adcc4dc2c2deff647f53e93ef81601ea6ae4bc6c0ea2b0cf228a6f45e
+SHA1: 584e6d682ca56f8e40c2c2267106f82912f30ad9
+MD5sum: 0012af4504c6baa8430bfe28a975872f
 Description: debug symbols for Cyclone screensaver add-on for Kodi
  debug symbols for Cyclone screensaver add-on for Kodi
 
 Package: kodi-screensaver-rsxs-cyclone-dbgsym
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
-Installed-Size: 252
-Depends: kodi-screensaver-rsxs-cyclone (= 21.1.2-5~trixie)
+Installed-Size: 300
+Depends: kodi-screensaver-rsxs-cyclone (= 21.1.2-6~trixie)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-cyclone-dbgsym_21.1.2-5~trixie_arm64.deb
-Size: 224220
-SHA256: 73065e7bbea1458996c4c8398bd0e5916748f18d062671e29dbcf12bc22d38ec
-SHA1: 970bb3c85dc94dfd1e98a2bee6c0ac1bb78a9e80
-MD5sum: 5ff2883c4cff3d3ba948b58f4be092ea
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-cyclone-dbgsym_21.1.2-6~trixie_arm64.deb
+Size: 272596
+SHA256: 3eaf359af4781f0637438cb64c243eeffeaa536a7a80f4641be79d17eb8f1078
+SHA1: b3ef178873c9201b405508ebbf0758c81187a229
+MD5sum: 844432a17ec1152e1c61597045d16f5b
 Description: debug symbols for kodi-screensaver-rsxs-cyclone
-Build-Ids: 253d98aba928350022d4fa25da5fa0e462390a22
+Build-Ids: 4db9ef64cca95fa63aa35b0600da4bf0da4d41e4
 
 Package: kodi-screensaver-rsxs-drempels
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 6593
@@ -6219,52 +6219,52 @@ Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libgles2, libstdc++6 (>= 12)
 Homepage: https://kodi.org
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-drempels_21.1.2-5~trixie_arm64.deb
-Size: 5873544
-SHA256: 0f20bf573d3bb846a6a52297d5fe400aa8a8f70b102fd02c122c4e738a90d0de
-SHA1: 62f3b44a71b4e363dcd10ae4eb6ea9bc0a275c3e
-MD5sum: 34920ca2d7ffb537baa4210c0e65c7ee
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-drempels_21.1.2-6~trixie_arm64.deb
+Size: 5873512
+SHA256: dee01e99fcd1eeb050d22279d0c1b5f24bdf52fa0fae5d9619c192d9c8c6a2a4
+SHA1: 3b5bf932bb907043e400f6d55aeff702f3bb6394
+MD5sum: 30c52550b12c57ea92d04367e073c4e8
 Description: Drempels screensaver add-on for Kodi
  Drempels screensaver add-on for Kodi
 
 Package: kodi-screensaver-rsxs-drempels-dbg
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 10
 Homepage: https://kodi.org
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-drempels-dbg_21.1.2-5~trixie_arm64.deb
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-drempels-dbg_21.1.2-6~trixie_arm64.deb
 Size: 1864
-SHA256: 38cc2c6aeb2795e9df96ee7d0629ec24fb125ed5de14d2b40853a0bd6a55896c
-SHA1: af76d8dec951788ee9ea7dd8a5761cd5355c91eb
-MD5sum: 8bf3640082ea5eda7de6933f2504317c
+SHA256: 178303b9f5f75fa117c977bfa77116caad474386563b11daa01236300740f608
+SHA1: afc15c6fa639e39d29ec97d4793f6c04be1ac222
+MD5sum: c5ce3b36a97883019b38d84d5224ee2a
 Description: debug symbols for Drempels screensaver add-on for Kodi
  debug symbols for Drempels screensaver add-on for Kodi
 
 Package: kodi-screensaver-rsxs-drempels-dbgsym
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
-Installed-Size: 512
-Depends: kodi-screensaver-rsxs-drempels (= 21.1.2-5~trixie)
+Installed-Size: 538
+Depends: kodi-screensaver-rsxs-drempels (= 21.1.2-6~trixie)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-drempels-dbgsym_21.1.2-5~trixie_arm64.deb
-Size: 472832
-SHA256: 39a88d3065a11f1182110080d00c4210a3352a6f1d2fcc0fb1ea6bfbfb01ad16
-SHA1: 9e6ea000089e2ee1952f409bef2c6e99ee1b90b5
-MD5sum: a9b00c7cc1b9bd751edad3067a65b052
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-drempels-dbgsym_21.1.2-6~trixie_arm64.deb
+Size: 498240
+SHA256: 7222be26b164038ca4c3abd930e7056eda4a4b2c99c17f227855a242a3dc1816
+SHA1: 320a6ec432ea5470a93942f7edadc750a45708d7
+MD5sum: 5cba689359cd7163c20b19e923db6fd6
 Description: debug symbols for kodi-screensaver-rsxs-drempels
-Build-Ids: 01b2f0c7c18c1f21d2c16be7480ea7e5dd099553
+Build-Ids: 640438595c5807d2bdb1d626fff9ed671bcdec94
 
 Package: kodi-screensaver-rsxs-euphoria
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 7890
@@ -6272,52 +6272,52 @@ Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libgles2, libstdc++6 (>= 11)
 Homepage: https://kodi.org
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-euphoria_21.1.2-5~trixie_arm64.deb
-Size: 6880312
-SHA256: c9e40125c70c6a485aecc25260eedd3c33df7656abbe1116a299d2b2db78ffa4
-SHA1: 008532547cf1450acc31b897a2cda863196cd3e4
-MD5sum: 837d263bc7eabbd6451bb482ee04be9e
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-euphoria_21.1.2-6~trixie_arm64.deb
+Size: 6881144
+SHA256: ce0e99f0e8228fdb68362b7f13cd4306818b95b26004cfcfbcd64224fdc96508
+SHA1: cac417e42b2feeb795e9224b68bbd8139a4a03b5
+MD5sum: c4790a31427a3857b08fb6fbe9cc9e8e
 Description: Euphoria screensaver add-on for Kodi
  Euphoria screensaver add-on for Kodi
 
 Package: kodi-screensaver-rsxs-euphoria-dbg
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 10
 Homepage: https://kodi.org
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-euphoria-dbg_21.1.2-5~trixie_arm64.deb
-Size: 1868
-SHA256: 598652e148211a8a772b7cfc0d0cf52c9087e41d65ca69d4b6b05f845e1afd10
-SHA1: d07823cdfa91f1eccf33062309528fc0255ea3d2
-MD5sum: 5e66c1805150d827b1ba4a3abf5fcc0d
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-euphoria-dbg_21.1.2-6~trixie_arm64.deb
+Size: 1872
+SHA256: f7f398ae54350b95a2f4509137ddbeb8372513540881bed00429887022792c60
+SHA1: 52bedc1d697d0e1e5a970d4521f43d5051ab04d2
+MD5sum: 4476505e1742c01778a7b98621e56b52
 Description: debug symbols for Euphoria screensaver add-on for Kodi
  debug symbols for Euphoria screensaver add-on for Kodi
 
 Package: kodi-screensaver-rsxs-euphoria-dbgsym
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
-Installed-Size: 412
-Depends: kodi-screensaver-rsxs-euphoria (= 21.1.2-5~trixie)
+Installed-Size: 454
+Depends: kodi-screensaver-rsxs-euphoria (= 21.1.2-6~trixie)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-euphoria-dbgsym_21.1.2-5~trixie_arm64.deb
-Size: 378952
-SHA256: 158f32cb5c38dfdd250d1e0c52b90aa21252c1d93bc1049ac4e2f3849cbadfc1
-SHA1: 666985a4446eec5638cdb9ff38676f5147a005ce
-MD5sum: 673a8a23e76be75bb26fd39b212b24b0
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-euphoria-dbgsym_21.1.2-6~trixie_arm64.deb
+Size: 420816
+SHA256: c8fd44e9e2ab7c55afdb05123c6e23eb409bc90200956dd80f5060a929a386e6
+SHA1: 02a0b120280556fdb6a64a3581b1136d119edd4b
+MD5sum: a50a4a5e2f1ddd8f143c63f8a9f792ca
 Description: debug symbols for kodi-screensaver-rsxs-euphoria
-Build-Ids: 555d56a9e79a5a295ffdbcc63f660fa8031b723a
+Build-Ids: 07920b54d6c653d0346c23054dc3c29e0562200f
 
 Package: kodi-screensaver-rsxs-feedback
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 2050
@@ -6325,52 +6325,52 @@ Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libgles2, libstdc++6 (>= 5.2)
 Homepage: https://kodi.org
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-feedback_21.1.2-5~trixie_arm64.deb
-Size: 1417356
-SHA256: 2682bd38d06b49b3a2da0d1cbd808a828a1cfa29854b692a8ecb3c0a50026972
-SHA1: a332e86d7fce878ca188b8efcdbbb0814d002fa3
-MD5sum: 57b723be03b410641d20f1407d5ad146
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-feedback_21.1.2-6~trixie_arm64.deb
+Size: 1417560
+SHA256: c81fa56dd793f7c0ed8d337f34f5eb3ad79f88ac337533f802372d25643c07bf
+SHA1: 89a606b674bd22286178c0bdce14377fdf34b9cc
+MD5sum: 48feb1713923706452a8c71e07731fa5
 Description: Feedback screensaver add-on for Kodi
  Feedback screensaver add-on for Kodi
 
 Package: kodi-screensaver-rsxs-feedback-dbg
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 10
 Homepage: https://kodi.org
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-feedback-dbg_21.1.2-5~trixie_arm64.deb
-Size: 1872
-SHA256: 0ed256c3fcf7005e5dee2a39b4d962dde9be654164e00a05c304ec19301f6161
-SHA1: f74f0fec8ac4e1711a795ca09d5f36d62900123e
-MD5sum: ca94a80bc580f72a9e1ef7d6e891d3cb
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-feedback-dbg_21.1.2-6~trixie_arm64.deb
+Size: 1868
+SHA256: 55ead4affb5bb8371e4074d1db3c941e18446ee75ee6cebbd3da2c595d49b41a
+SHA1: f441c5a5ca677121fbd2bce8480afc86609633f4
+MD5sum: a02f26e0bfb706a929093e85646e5d0e
 Description: debug symbols for Feedback screensaver add-on for Kodi
  debug symbols for Feedback screensaver add-on for Kodi
 
 Package: kodi-screensaver-rsxs-feedback-dbgsym
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
-Installed-Size: 244
-Depends: kodi-screensaver-rsxs-feedback (= 21.1.2-5~trixie)
+Installed-Size: 271
+Depends: kodi-screensaver-rsxs-feedback (= 21.1.2-6~trixie)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-feedback-dbgsym_21.1.2-5~trixie_arm64.deb
-Size: 216828
-SHA256: a03e6f6218dc67d9a70b453a3f7770f48d3cf0ff2ddc047b1f52fa4b9f3f822c
-SHA1: b6a303a06bebfa631b3ddacdfdcfe10d5ae178a5
-MD5sum: d32d5e4dafa6138467bbeaa7e73ddc5e
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-feedback-dbgsym_21.1.2-6~trixie_arm64.deb
+Size: 243728
+SHA256: f421ef00c751fc86367f2e02918a2c73dd9a75e1c194a6dad8e4ff93bfb94c09
+SHA1: 6028d2e34d07f341189e2c36c3cd21a9278dc0ee
+MD5sum: f7ef7759a3abdb7f5fd5b369badc8039
 Description: debug symbols for kodi-screensaver-rsxs-feedback
-Build-Ids: f4de4beb10672ace90e4a5c7b352761ac3f23b07
+Build-Ids: f42379508b7bc0dd372edf991f5e0edcb5512d5c
 
 Package: kodi-screensaver-rsxs-fieldlines
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 2292
@@ -6378,52 +6378,52 @@ Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libgles2, libstdc++6 (>= 5.2)
 Homepage: https://kodi.org
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-fieldlines_21.1.2-5~trixie_arm64.deb
-Size: 1559372
-SHA256: 117f2ef9656e0135c34710d30823e5b415337b043131303209c16a4e0e7fca60
-SHA1: 1782dac6ddc4dd4afba02ad24f329b6b4e704162
-MD5sum: 56fafbb4ed5637c2a3e985ace1193414
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-fieldlines_21.1.2-6~trixie_arm64.deb
+Size: 1559684
+SHA256: 5f0eb54c36ff5d4c9847114331fb1f0c684e53d1b5dba63a674016ec16c85fe5
+SHA1: c688a13f59f32355c73e071e8f602fe4478e8213
+MD5sum: b7ec71f71811c8e8fd6019d75a0653bf
 Description: Fieldlines screensaver add-on for Kodi
  Fieldlines screensaver add-on for Kodi
 
 Package: kodi-screensaver-rsxs-fieldlines-dbg
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 10
 Homepage: https://kodi.org
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-fieldlines-dbg_21.1.2-5~trixie_arm64.deb
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-fieldlines-dbg_21.1.2-6~trixie_arm64.deb
 Size: 1868
-SHA256: 854a704323cc3f7f63641cae5bfa75b71d303b8cdb67ef77d9445232ff593ad5
-SHA1: 61653b0fe0b1b6cb6c1ed4a51dcec2fe6cc66eb4
-MD5sum: e2fcd808716fec065efdc719a7b1a0af
+SHA256: 5dc8772cafd9d2748ae13eb386096a6ba876d23e075d414435031c423c348c2e
+SHA1: 0ec914e97d247fe9dda4321006a088257a1a5067
+MD5sum: 5138db93a0599113efa392f4bf7d3941
 Description: debug symbols for Fieldlines screensaver add-on for Kodi
  debug symbols for Fieldlines screensaver add-on for Kodi
 
 Package: kodi-screensaver-rsxs-fieldlines-dbgsym
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
-Installed-Size: 254
-Depends: kodi-screensaver-rsxs-fieldlines (= 21.1.2-5~trixie)
+Installed-Size: 264
+Depends: kodi-screensaver-rsxs-fieldlines (= 21.1.2-6~trixie)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-fieldlines-dbgsym_21.1.2-5~trixie_arm64.deb
-Size: 228808
-SHA256: 86907518ad36e1be6cda5e9cf4a02f4bc8e52cc5ee2034bf048d72b76bdd15f9
-SHA1: f7146d6ee7eac97b1dc2a450d86710792ecce297
-MD5sum: 45a61fc76242238fb21159f0f373eba0
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-fieldlines-dbgsym_21.1.2-6~trixie_arm64.deb
+Size: 238180
+SHA256: 26b04816f2a00e0bbf0480a750ad11c31a90dd6a4fdf15a67e6f0c5747a62236
+SHA1: 97f55a781120a4e659ebcbd02b1fab274e6a8c19
+MD5sum: 239398b56fd0fb737d15c934295a7817
 Description: debug symbols for kodi-screensaver-rsxs-fieldlines
-Build-Ids: e1004c1493a17a8225b0d2e26f8edb4def406a31
+Build-Ids: 30e9978234d0410980b2c346b5c32bfcd81379f3
 
 Package: kodi-screensaver-rsxs-flocks
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 4148
@@ -6431,105 +6431,105 @@ Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libgles2, libstdc++6 (>= 5.2)
 Homepage: https://kodi.org
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-flocks_21.1.2-5~trixie_arm64.deb
-Size: 3526808
-SHA256: 83111f90e06e9f17b5431cbdab9a103130eb5ee8a0471417650061352f5fb956
-SHA1: aafd197495be41a8bcc3e674b02e37a5e5c42eec
-MD5sum: af08b41d39a8b4da2de03db5535e042c
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-flocks_21.1.2-6~trixie_arm64.deb
+Size: 3527580
+SHA256: 2146f0f6b653d22bfaaa7f9911548d3be613d386ef8d7a456eb4e3f9a4d70435
+SHA1: e6a090d3ab3e3e0be4bd7d9a3159cfc4d6ab0eeb
+MD5sum: 9eaf957fee8266ecba5e18814198d149
 Description: Flocks screensaver add-on for Kodi
  Flocks screensaver add-on for Kodi
 
 Package: kodi-screensaver-rsxs-flocks-dbg
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 10
 Homepage: https://kodi.org
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-flocks-dbg_21.1.2-5~trixie_arm64.deb
-Size: 1864
-SHA256: ab7b99860ef1302635251394e9ebbc221abc11a847ad66b46d110bbf90048abb
-SHA1: 27294c6ca92cf41c0133df1bb96b0a512eba5f29
-MD5sum: fc62a393c1bfb46a934f936507b6d817
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-flocks-dbg_21.1.2-6~trixie_arm64.deb
+Size: 1860
+SHA256: 9df44f55a3fd5ba0c6e18ff52e4e3330402e046d64dd32515577aa34c5399792
+SHA1: cf80aec82e7493930ae7659b147e0b9a23678a5d
+MD5sum: 9359766c02a3bb6bb9f921f976a95532
 Description: debug symbols for Flocks screensaver add-on for Kodi
  debug symbols for Flocks screensaver add-on for Kodi
 
 Package: kodi-screensaver-rsxs-flocks-dbgsym
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
-Installed-Size: 268
-Depends: kodi-screensaver-rsxs-flocks (= 21.1.2-5~trixie)
+Installed-Size: 283
+Depends: kodi-screensaver-rsxs-flocks (= 21.1.2-6~trixie)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-flocks-dbgsym_21.1.2-5~trixie_arm64.deb
-Size: 240456
-SHA256: 20c42d42a54ba20f0a06cb098434adf07fb45b9437067dfb5bffec28276efe8a
-SHA1: 7de1a79e7464f9b641e5ba3e8e72a1c89d9bac15
-MD5sum: 92bf433f495c8f6e5872e5c2694efd28
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-flocks-dbgsym_21.1.2-6~trixie_arm64.deb
+Size: 255296
+SHA256: b5c21ba1060df496433cd1a242470f2d9d5a3d5a36218e3954e68d9aa01d6487
+SHA1: dddd519203a9fc56d5adb69c1c884522b20d8855
+MD5sum: 3c9aafc48ac9854c6c511cbff4d68468
 Description: debug symbols for kodi-screensaver-rsxs-flocks
-Build-Ids: 938f6248bed5a610feb3b233aabcfe969488ea62
+Build-Ids: 31428db2a6b049c1de01bbe8dc53b0f2404006e4
 
 Package: kodi-screensaver-rsxs-flux
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 3564
-Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libgles2, libstdc++6 (>= 5.2)
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libgles2, libstdc++6 (>= 11)
 Homepage: https://kodi.org
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-flux_21.1.2-5~trixie_arm64.deb
-Size: 2840744
-SHA256: f583784412b5733bb29dce1f21833934612af67dcf7f0838c8513df8bd15e281
-SHA1: f5d185f0547b2f8bd6d7996d6993e2c2ef5a7994
-MD5sum: e300c014cfdae125204d8e82095b3a08
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-flux_21.1.2-6~trixie_arm64.deb
+Size: 2840680
+SHA256: 233b0bfe13db92b980c359d515fecaf1678c9ffc435e8cf8df4a15b12cbbc7ab
+SHA1: fdd37c8f1952fb58e8a3d03695ec98bac5a95b78
+MD5sum: 0e716206f882a255f31cf9be1f8f97a9
 Description: Flux screensaver add-on for Kodi
  Flux screensaver add-on for Kodi
 
 Package: kodi-screensaver-rsxs-flux-dbg
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 10
 Homepage: https://kodi.org
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-flux-dbg_21.1.2-5~trixie_arm64.deb
-Size: 1864
-SHA256: 40957c1fbb33d4a068e89b0142ff3223d33bbdde22550461aaf0a9d807e1083e
-SHA1: 00afb67bc25d039e95352abd4183a9a7b6ef7cd7
-MD5sum: 96496e1d69413c21d40af4a1d18cee08
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-flux-dbg_21.1.2-6~trixie_arm64.deb
+Size: 1860
+SHA256: 5464c97e0aecbab1dca5dc5a7e78bc8581cdea3d34b8da14338d5f4d51159b72
+SHA1: 79ca6b72f98ec372d609a32e1a6096b61b366f9d
+MD5sum: b057640d1554d7543b61278b69fb3732
 Description: debug symbols for Flux screensaver add-on for Kodi
  debug symbols for Flux screensaver add-on for Kodi
 
 Package: kodi-screensaver-rsxs-flux-dbgsym
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
-Installed-Size: 259
-Depends: kodi-screensaver-rsxs-flux (= 21.1.2-5~trixie)
+Installed-Size: 292
+Depends: kodi-screensaver-rsxs-flux (= 21.1.2-6~trixie)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-flux-dbgsym_21.1.2-5~trixie_arm64.deb
-Size: 231184
-SHA256: cc0779f11f1c2144707dde51258312fd2d110d61c745e04741c9774d144c6e6f
-SHA1: 45798941220cee341aba173ffcec5187de03dcf6
-MD5sum: 7f30afe199601033c3a0f33e41c98152
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-flux-dbgsym_21.1.2-6~trixie_arm64.deb
+Size: 264496
+SHA256: bd3e638b0e419c5c45240dfb86850c05db800fea37a7e5b8c2595d8bc9e4cf32
+SHA1: e8edece4890b65e4d3975d5872edae58798ce663
+MD5sum: 1aa18192e743b8b40fcb6476eea20118
 Description: debug symbols for kodi-screensaver-rsxs-flux
-Build-Ids: 58c25d33ceca1dcb443ababca2962ed47fe85bc9
+Build-Ids: 745135c2a0fb4664917879b1a61a8f87354973b1
 
 Package: kodi-screensaver-rsxs-helios
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 4219
@@ -6537,52 +6537,52 @@ Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libgles2, libstdc++6 (>= 13.1)
 Homepage: https://kodi.org
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-helios_21.1.2-5~trixie_arm64.deb
-Size: 3570108
-SHA256: 79dba9f7a116efe6849a13f296a57955d7b40a0562de2b3ac6ff0777772b2f77
-SHA1: be3a6a562a8c11e2686c1078c606894ea7e2c6d3
-MD5sum: c5b2569cd0941cd71ce8e40920e08d23
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-helios_21.1.2-6~trixie_arm64.deb
+Size: 3569944
+SHA256: 5f9c001f98c63eb9aa551575e74f06da1b1522adbd28c2ca921abfd9b41f350b
+SHA1: 43c6081dabd93827738635d93b9e9db4943643b3
+MD5sum: 5b75ce83bd1b4a65ab2f350641e32a8a
 Description: Helios screensaver add-on for Kodi
  Helios screensaver add-on for Kodi
 
 Package: kodi-screensaver-rsxs-helios-dbg
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 10
 Homepage: https://kodi.org
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-helios-dbg_21.1.2-5~trixie_arm64.deb
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-helios-dbg_21.1.2-6~trixie_arm64.deb
 Size: 1864
-SHA256: c0c1b6e62ac0e6d87acbb0285d6d7fdbcea0d8987bb9edf2483906b2d03b002b
-SHA1: ba159e86f0163c2e4d9daf47a16f25a3c5d010c5
-MD5sum: 57a7f10d84b67c4b69e6438ce4e59e79
+SHA256: 7999f12953eb08e9b242e5de315a1ca405399638e37286708a169e2fc77bec63
+SHA1: 0534041b0f203d8db18e38a0622a5c7e4156ae2f
+MD5sum: a186c5062442bce2d36b0b4db8b717e5
 Description: debug symbols for Helios screensaver add-on for Kodi
  debug symbols for Helios screensaver add-on for Kodi
 
 Package: kodi-screensaver-rsxs-helios-dbgsym
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 621
-Depends: kodi-screensaver-rsxs-helios (= 21.1.2-5~trixie)
+Depends: kodi-screensaver-rsxs-helios (= 21.1.2-6~trixie)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-helios-dbgsym_21.1.2-5~trixie_arm64.deb
-Size: 578140
-SHA256: 77bd7828d8416a4fa1ad9bd452a10b380de6e30ae3d7fb06e8c3bb96d928e800
-SHA1: 04ae53548fc8f032545f93784c14614202b3cf09
-MD5sum: 3fdc6ebdc562b1fd69148fac0e62d48d
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-helios-dbgsym_21.1.2-6~trixie_arm64.deb
+Size: 578488
+SHA256: 4a738c59d2322ea30c75f2747052421257406b076a438ec349e7f8033ed7146d
+SHA1: 379218d48d52a0c965319f517bd7197fe9595d25
+MD5sum: 28ac90caac08f1d08accfc1b35202d39
 Description: debug symbols for kodi-screensaver-rsxs-helios
-Build-Ids: 4034ae6c5487cd8b76f94bb4ec20e9dd0f2238c3
+Build-Ids: 7bdb71d40fe9641dc8f56f5abb7573a154fd6d07
 
 Package: kodi-screensaver-rsxs-hufosmoke
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 1190
@@ -6590,52 +6590,52 @@ Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libgles2, libstdc++6 (>= 5.2)
 Homepage: https://kodi.org
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-hufosmoke_21.1.2-5~trixie_arm64.deb
-Size: 540920
-SHA256: b3d62a7f4a210a144312d4f30f95ac37e345bfc45ff418216d0bdebbc599624e
-SHA1: ae47d341efed5c7c07262b82646a86eee1887e9d
-MD5sum: 332eca4f8706efe79c27fa97566f8f54
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-hufosmoke_21.1.2-6~trixie_arm64.deb
+Size: 540736
+SHA256: 8ccdb03a7b8b064bbc47ee9b1e9f52a9278cff2312150d1119abe253de6b5cc5
+SHA1: dbec4d8dedf7c2de70f1914285ec1d328d75c6a8
+MD5sum: 6aff4e69e764732b9ac30ab370790935
 Description: Hufo Smoke screensaver add-on for Kodi
  Hufo Smoke screensaver add-on for Kodi
 
 Package: kodi-screensaver-rsxs-hufosmoke-dbg
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 10
 Homepage: https://kodi.org
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-hufosmoke-dbg_21.1.2-5~trixie_arm64.deb
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-hufosmoke-dbg_21.1.2-6~trixie_arm64.deb
 Size: 1872
-SHA256: 4969417b3c971933c0fd722b77498407a3f21d3874794bb56dc87a0bb8aea1fa
-SHA1: 93d9ebe8f857bd273918c1f636c0ae4b49f729de
-MD5sum: 28b7fddb97911b5fab3284c1053654ed
+SHA256: dbbe14521dfdcfb63fafd197212d3fa22a168539b1b969f3a674430eb3db8fb4
+SHA1: 78e78927cda3bd65be8c3a037cc36a937fc4bff4
+MD5sum: 8c3e96c9279e10074b5c18dee226a2cc
 Description: debug symbols for Hufo Smoke screensaver add-on for Kodi
  debug symbols for Hufo Smoke screensaver add-on for Kodi
 
 Package: kodi-screensaver-rsxs-hufosmoke-dbgsym
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 306
-Depends: kodi-screensaver-rsxs-hufosmoke (= 21.1.2-5~trixie)
+Depends: kodi-screensaver-rsxs-hufosmoke (= 21.1.2-6~trixie)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-hufosmoke-dbgsym_21.1.2-5~trixie_arm64.deb
-Size: 272840
-SHA256: deb3d5eaf258d4d5e07b37fff25cd1c3ef77800518785094a74952e70158473a
-SHA1: b6884888b1a27d331cb2e8f23b81ef538602f1bb
-MD5sum: 24d421f750ba5430537543967da64b0c
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-hufosmoke-dbgsym_21.1.2-6~trixie_arm64.deb
+Size: 272992
+SHA256: 9df01dfee2857b5397a045aad10870afe54980dbcebf0e04b1e87d94dd808711
+SHA1: 80bb7f3cf7b234971d319baa9408f08e40a95229
+MD5sum: 358da751682bc98945261ce02b445f1c
 Description: debug symbols for kodi-screensaver-rsxs-hufosmoke
-Build-Ids: 6c78016c09573b00cecead05f44f7a2ce3fad241
+Build-Ids: 600fb90bd6c52feb53feb023b0cb9a57a44b4ac7
 
 Package: kodi-screensaver-rsxs-hufotunnel
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 2930
@@ -6643,52 +6643,52 @@ Depends: libbz2-1.0, libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libgles2, libstdc++6
 Homepage: https://kodi.org
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-hufotunnel_21.1.2-5~trixie_arm64.deb
-Size: 2025076
-SHA256: 484d3351d623727cb7ebb45a4014a4e0e367d0a4f443e70e17f1443642b77a64
-SHA1: 758f791e833446e5acd16b3d32a08289f80e6c2b
-MD5sum: 6f44fd8d2d3ccfc0d5ab6729a658ca04
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-hufotunnel_21.1.2-6~trixie_arm64.deb
+Size: 2025200
+SHA256: 83f07b70fbc1d0f01fd556a1c14bd7bb7429ae4136228eca9b5712d0fc009bd4
+SHA1: 16d4c524464a27cb75586604925eb298e9562554
+MD5sum: a10049e8ca78684db49a051e55c45488
 Description: hufo Tunnel screensaver add-on for Kodi
  hufo Tunnel screensaver add-on for Kodi
 
 Package: kodi-screensaver-rsxs-hufotunnel-dbg
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 10
 Homepage: https://kodi.org
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-hufotunnel-dbg_21.1.2-5~trixie_arm64.deb
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-hufotunnel-dbg_21.1.2-6~trixie_arm64.deb
 Size: 1868
-SHA256: eb0dd64da1ca43348af4988f7a1691343d5078b13500403b965581b16f8cccef
-SHA1: b741b0601e3ce64fa283bf82ef3980afd74ec198
-MD5sum: 755d977f200200df14aa873e4cf656f9
+SHA256: 2919b00d17ca340300fa61f04df443a63386517b7d269025bf6f62795339a680
+SHA1: 922dad8632ce5e9c4fc2eefdcba8157008eda42f
+MD5sum: 68bfd5fca65e52123ba34aa1b52edeb0
 Description: debug symbols for hufo Tunnel screensaver add-on for Kodi
  debug symbols for hufo Tunnel screensaver add-on for Kodi
 
 Package: kodi-screensaver-rsxs-hufotunnel-dbgsym
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 405
-Depends: kodi-screensaver-rsxs-hufotunnel (= 21.1.2-5~trixie)
+Depends: kodi-screensaver-rsxs-hufotunnel (= 21.1.2-6~trixie)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-hufotunnel-dbgsym_21.1.2-5~trixie_arm64.deb
-Size: 372392
-SHA256: 748503c3791c4f2e053e84109e0e59722e95c31533b4aaaeb78ea0f71d53c0dc
-SHA1: cad75798806dfc10c0350624e5f073b98d564958
-MD5sum: 9bfa0e367cbb98c11c8b27b92c771db3
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-hufotunnel-dbgsym_21.1.2-6~trixie_arm64.deb
+Size: 372432
+SHA256: d532a32ac23f973aea6a77dbe096d44f4df0e94990b38ffe5e0370df31c7d274
+SHA1: bb9400a01172b4d3dc27aeecbc20b4dfb49b5b02
+MD5sum: ec1b7be33579c4cb2bdd81c922a53829
 Description: debug symbols for kodi-screensaver-rsxs-hufotunnel
-Build-Ids: 97d08cf986ffbddbc58773eb3e476202207ae6dc
+Build-Ids: 7bbf370468e241996c518bfa1a50e56b36e426df
 
 Package: kodi-screensaver-rsxs-hyperspace
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 4803
@@ -6696,52 +6696,52 @@ Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libgles2, libstdc++6 (>= 13.1)
 Homepage: https://kodi.org
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-hyperspace_21.1.2-5~trixie_arm64.deb
-Size: 4371000
-SHA256: cf407281dee7499188ee6e11d1dc323a2d053b1ac7922c2a42d6ca534569af85
-SHA1: c77db51c3beaefdf8da27abeea5788c632aa06a4
-MD5sum: 61ddce5953f92a09b79959ea74bffb12
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-hyperspace_21.1.2-6~trixie_arm64.deb
+Size: 4370928
+SHA256: 7fd884372fdc20a683754544d06fd6f682755174f0124c35ad48153154f30a0d
+SHA1: 731beb01d4e45f40382712ebe1561cec433bd3dc
+MD5sum: 75ecf6225aae83a5c72fdea1855729e1
 Description: Hyperspace screensaver add-on for Kodi
  Hyperspace screensaver add-on for Kodi
 
 Package: kodi-screensaver-rsxs-hyperspace-dbg
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 10
 Homepage: https://kodi.org
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-hyperspace-dbg_21.1.2-5~trixie_arm64.deb
-Size: 1868
-SHA256: 567e5a51ac44437d30a96eb9773f4fc5fdf84904a20054a68a66f2316f9896e4
-SHA1: ee6351c966e7276559d80db56ca7db9f2bfd11c4
-MD5sum: 662917cdb9dc2709bdbaf59af1266485
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-hyperspace-dbg_21.1.2-6~trixie_arm64.deb
+Size: 1864
+SHA256: ddbd48c9bf415ec62f1ccd1a21357f7f785a626d58e879a203e7cc3a07e3c7f4
+SHA1: ab040e0378949c3a80c8a6e7a8b680289091a97a
+MD5sum: d462e8e8f83885a50782bb798b612d3f
 Description: debug symbols for Hyperspace screensaver add-on for Kodi
  debug symbols for Hyperspace screensaver add-on for Kodi
 
 Package: kodi-screensaver-rsxs-hyperspace-dbgsym
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 841
-Depends: kodi-screensaver-rsxs-hyperspace (= 21.1.2-5~trixie)
+Depends: kodi-screensaver-rsxs-hyperspace (= 21.1.2-6~trixie)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-hyperspace-dbgsym_21.1.2-5~trixie_arm64.deb
-Size: 800584
-SHA256: 4fc41678416a8b035b3fd3a6bacbd946fe83fab062543601ae1a12a039b7c265
-SHA1: 0a830856397822fd150e5a6d4b39e07ad611b7b2
-MD5sum: ba3aee22a013b90503d6f2df1aade157
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-hyperspace-dbgsym_21.1.2-6~trixie_arm64.deb
+Size: 800816
+SHA256: 9d1a9612edf281c1274fd6c7c00469330a89d80c2d34ee8e7536f448e4db466c
+SHA1: e2f0975223791f13ab9d70ba944d671d01477d26
+MD5sum: 6ef053e2510a21e66dbadaf06a7e917c
 Description: debug symbols for kodi-screensaver-rsxs-hyperspace
-Build-Ids: 64ad2598fba1a230b12e5babaaf4cd1820003be5
+Build-Ids: 69f9c10959a96b71315f5d131834f413fbe25359
 
 Package: kodi-screensaver-rsxs-lattice
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 6173
@@ -6749,52 +6749,52 @@ Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libgles2, libstdc++6 (>= 11)
 Homepage: https://kodi.org
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-lattice_21.1.2-5~trixie_arm64.deb
-Size: 5405960
-SHA256: 24bd8321b00b13ce7380b7943b00001b31575a5a2c1c33f6e1c0fdc5f4b3c0f1
-SHA1: 5fe345663b6c0f3c6d8df519aa7ed723dd0e7890
-MD5sum: 717305bc5876272ca993543292b3e69b
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-lattice_21.1.2-6~trixie_arm64.deb
+Size: 5406024
+SHA256: 2c5fbea7fc9e1e4005c2ea5e84776fe6fb3a3a36e8c42a9e84994bbedf6e9fb7
+SHA1: eb5ec47bbd20622945d64b8a9a67ef4c193d4686
+MD5sum: 9d85f6e0da012d91340e34aa6d56355e
 Description: Lattice screensaver add-on for Kodi
  Lattice screensaver add-on for Kodi
 
 Package: kodi-screensaver-rsxs-lattice-dbg
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 10
 Homepage: https://kodi.org
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-lattice-dbg_21.1.2-5~trixie_arm64.deb
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-lattice-dbg_21.1.2-6~trixie_arm64.deb
 Size: 1864
-SHA256: 388aae6cc7476b82a541e4967f87692de035ac3075c2da4030f82abe2ccaa7fc
-SHA1: bd68a525015770a1588b95e7c8f9aff462877b15
-MD5sum: 83dede703e950bf28f664e39cfd84478
+SHA256: 4655b65e25bbd710d3ce735e0f456137116c04539f8f8f665c8a2348f3d4c81f
+SHA1: be1451d83a9586abb653885746a320c79f948264
+MD5sum: f4dd02980b64c3e9856defec49dbf50c
 Description: debug symbols for Lattice screensaver add-on for Kodi
  debug symbols for Lattice screensaver add-on for Kodi
 
 Package: kodi-screensaver-rsxs-lattice-dbgsym
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
-Installed-Size: 468
-Depends: kodi-screensaver-rsxs-lattice (= 21.1.2-5~trixie)
+Installed-Size: 469
+Depends: kodi-screensaver-rsxs-lattice (= 21.1.2-6~trixie)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-lattice-dbgsym_21.1.2-5~trixie_arm64.deb
-Size: 433876
-SHA256: b8bcfaca27204331042dcb6559778bef04289a6e34ae07b9ba87b4353178c6df
-SHA1: f3fb4e3cfa1b4d800964cd4a67407c646b07b5d5
-MD5sum: 6d721ed2125456cf32f1c9ea3e644b79
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-lattice-dbgsym_21.1.2-6~trixie_arm64.deb
+Size: 433900
+SHA256: 3681433df638f366cc4beeba95f5bc83beacae220bcca0a9645ab885ffbf19e5
+SHA1: 7c1b32651f7e8227ac414c6c29e0bec0368308c3
+MD5sum: b3ec9d9bf841b4628002100eb4184b1e
 Description: debug symbols for kodi-screensaver-rsxs-lattice
-Build-Ids: b53defa2db52522631e41fe7b7e0fb55d02868d6
+Build-Ids: d5bf5eb6fd66a278acc33fcace52e12d1bb2c78f
 
 Package: kodi-screensaver-rsxs-lorenz
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 4567
@@ -6802,52 +6802,52 @@ Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libgles2, libstdc++6 (>= 5.2)
 Homepage: https://kodi.org
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-lorenz_21.1.2-5~trixie_arm64.deb
-Size: 4094528
-SHA256: 77f11199746e5623756dad3a3a863ccdad2b3b3e4ad269f35c3b897d2c9b201a
-SHA1: b422d202010ec0dcf33c8ca6c6e4996c5c279f88
-MD5sum: cdf27a34c8ab0c887f3ff41b658f5ee8
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-lorenz_21.1.2-6~trixie_arm64.deb
+Size: 4094388
+SHA256: bfccc3a57b2c5a3a19abd7b299a20705b32608017dd653e952c81bab3c46e2b6
+SHA1: 5b3a61b00f2b8be042f740092311e48690e4dd1e
+MD5sum: 99f0abaeb24de97a0e7aab5c54f14553
 Description: Lorenz screensaver add-on for Kodi
  Lorenz screensaver add-on for Kodi
 
 Package: kodi-screensaver-rsxs-lorenz-dbg
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 10
 Homepage: https://kodi.org
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-lorenz-dbg_21.1.2-5~trixie_arm64.deb
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-lorenz-dbg_21.1.2-6~trixie_arm64.deb
 Size: 1864
-SHA256: a6bdb99b4f7b0b4faba0aa9aed710d48fb2c12a0299b42848cfa4bff3b7dcdf6
-SHA1: 8ce2c7aaa44281a190bc5fca0790e18f1f285866
-MD5sum: bbd933c00dd10ed055ec2fe337b2e8b5
+SHA256: 73b321e1ef5765b8a16a7788b6db89201823443e816c7cc1172d542c5c1f8d7e
+SHA1: ca2666299e9483381cb7dd05cdf0ac6c61693537
+MD5sum: ecf3cc0241fec329aee09ab2d6fb8324
 Description: debug symbols for Lorenz screensaver add-on for Kodi
  debug symbols for Lorenz screensaver add-on for Kodi
 
 Package: kodi-screensaver-rsxs-lorenz-dbgsym
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 264
-Depends: kodi-screensaver-rsxs-lorenz (= 21.1.2-5~trixie)
+Depends: kodi-screensaver-rsxs-lorenz (= 21.1.2-6~trixie)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-lorenz-dbgsym_21.1.2-5~trixie_arm64.deb
-Size: 234648
-SHA256: 3be6ebdbb6ff62e06bb1cc8b7bae0f784e2859a64087624f49832e885b1990d9
-SHA1: e819e94a28333c85aecdc3345f2a51bc5649d13a
-MD5sum: 9689a32ebcf09bd7d334b526ee421037
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-lorenz-dbgsym_21.1.2-6~trixie_arm64.deb
+Size: 234768
+SHA256: 31bbb531fc2c8855a17c95cd0eecbf82231a1397ca09ef2526b667af60816f42
+SHA1: 9daa349d31ed6613e8d5a4d0dbbfb325e8971344
+MD5sum: b73c6e9810d5ff1d7a136fc40b141421
 Description: debug symbols for kodi-screensaver-rsxs-lorenz
-Build-Ids: ca501593c1c7ff02b3b9c9cbd884699537ea3ae9
+Build-Ids: 4c6117de725b695f2cd1e215284d8c77305f1514
 
 Package: kodi-screensaver-rsxs-matrixview
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 4472
@@ -6855,52 +6855,52 @@ Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libgles2, libstdc++6 (>= 11)
 Homepage: https://kodi.org
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-matrixview_21.1.2-5~trixie_arm64.deb
-Size: 3861424
-SHA256: e9a99e0f2f4b4322646d1f42c377c9f82b209d10095986392957c44f0f706082
-SHA1: cfcf7c9ffc5aef8cc4d46e35e216ef9362298f02
-MD5sum: 8ef1ee04159e04a1eb9b9779885cb1c9
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-matrixview_21.1.2-6~trixie_arm64.deb
+Size: 3861412
+SHA256: aafd67772a70271b557f872d5d8059b98883710f79ef1be376dd4b6a4e095803
+SHA1: f70fe5399dff4f6afdf2bb9771e2342fc455c154
+MD5sum: 8c42c18f10a40f3a164b802e133f1d7b
 Description: MatrixView screensaver add-on for Kodi
  MatrixView screensaver add-on for Kodi
 
 Package: kodi-screensaver-rsxs-matrixview-dbg
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 10
 Homepage: https://kodi.org
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-matrixview-dbg_21.1.2-5~trixie_arm64.deb
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-matrixview-dbg_21.1.2-6~trixie_arm64.deb
 Size: 1868
-SHA256: d65b919c745cb64dbc7a631c2e7654e54728550ad21757268bf4b66999bec599
-SHA1: 8207d6f3b8baa4cb9d7a4dae8beeaa9c62b4f8d0
-MD5sum: b8b43d6f2a50ce9e60843f22beccc5fd
+SHA256: aa026402c4e473195a7e3d828db51479878b57306500c34c512a0d6245507f7d
+SHA1: fb45a6fa387943f29f9f18fd0e5e078926032041
+MD5sum: ee885fc3167a6b1f972888317d1398b5
 Description: debug symbols for MatrixView screensaver add-on for Kodi
  debug symbols for MatrixView screensaver add-on for Kodi
 
 Package: kodi-screensaver-rsxs-matrixview-dbgsym
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 368
-Depends: kodi-screensaver-rsxs-matrixview (= 21.1.2-5~trixie)
+Depends: kodi-screensaver-rsxs-matrixview (= 21.1.2-6~trixie)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-matrixview-dbgsym_21.1.2-5~trixie_arm64.deb
-Size: 338080
-SHA256: 5ba8a1816ad5b3e6047c9f709a0539f0da31eb57844211a3bc116e5b43c6da9b
-SHA1: fb222775805eb19cd488480b8e450e72aa9f0a1b
-MD5sum: 0b02c67c834981b4450018042031518a
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-matrixview-dbgsym_21.1.2-6~trixie_arm64.deb
+Size: 338100
+SHA256: 6e0a7a8c0da47a728219481e46f8885252c77d4fe56bebd1758be9603346c959
+SHA1: d18ec131963615daac384dd129267e47397fa994
+MD5sum: f845254f7ec3eba584f693ddf032401e
 Description: debug symbols for kodi-screensaver-rsxs-matrixview
-Build-Ids: ec3472dfa58b6d99921cdc101cf29ed6900ab6bc
+Build-Ids: 26ecf75c87852840dd891e8b6709048163336fce
 
 Package: kodi-screensaver-rsxs-microcosm
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 4030
@@ -6908,52 +6908,52 @@ Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libgles2, libstdc++6 (>= 14)
 Homepage: https://kodi.org
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-microcosm_21.1.2-5~trixie_arm64.deb
-Size: 3354640
-SHA256: d399e19dd26dbbc9f508e59178a5e567391935049b35ac1a00ac063db5942f36
-SHA1: 5659727aaed7c6624eab63d87256bbed35de5906
-MD5sum: b50a05a09f2ba68e79caea237752019d
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-microcosm_21.1.2-6~trixie_arm64.deb
+Size: 3354652
+SHA256: 96e20352f51e8c0aeea913405c05b4110da792190367b4fc7a92a1fc412a406c
+SHA1: cd42f89f48c385029560c5094cd24d6cff7df485
+MD5sum: 4f712558eee464be4c38979841e5e0ac
 Description: Microcosm screensaver add-on for Kodi
  Microcosm screensaver add-on for Kodi
 
 Package: kodi-screensaver-rsxs-microcosm-dbg
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 10
 Homepage: https://kodi.org
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-microcosm-dbg_21.1.2-5~trixie_arm64.deb
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-microcosm-dbg_21.1.2-6~trixie_arm64.deb
 Size: 1864
-SHA256: 445203f207f5f60bc64972fb79c0dbe5836111b1eee194ec24782b93f764dd83
-SHA1: b2fff38e93f3c29b3d78291ed46e64203492549f
-MD5sum: 02f4301f8a827c493c80184f2be46f48
+SHA256: 249cc7813bdbf778d7764179ec3ef08c8476a76794d00e83713f7866b317094c
+SHA1: b85eeb7bde69b9785bf257dd50d818666f48f438
+MD5sum: 7b796fabcb8fd852cf807577a9a3052c
 Description: debug symbols for Microcosm screensaver add-on for Kodi
  debug symbols for Microcosm screensaver add-on for Kodi
 
 Package: kodi-screensaver-rsxs-microcosm-dbgsym
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 783
-Depends: kodi-screensaver-rsxs-microcosm (= 21.1.2-5~trixie)
+Depends: kodi-screensaver-rsxs-microcosm (= 21.1.2-6~trixie)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-microcosm-dbgsym_21.1.2-5~trixie_arm64.deb
-Size: 726184
-SHA256: 73c2d69ce36f2f390ba17ab2ad781d90294c28e3d235cb2cc57614678684a1e4
-SHA1: ecec86264628e99c723eb464df49b7717784f5ca
-MD5sum: f124b74ba00fc24a238e6e357eb7998d
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-microcosm-dbgsym_21.1.2-6~trixie_arm64.deb
+Size: 726124
+SHA256: 52e92ce65c4b415cabb45920eeaa5c8648e3e4d6ce967e09762a3efd5b5ac187
+SHA1: 6b76aef5e90ec15a5974960ab0211fa78db1549c
+MD5sum: 220881efbdaabb472caaf63c062f300f
 Description: debug symbols for kodi-screensaver-rsxs-microcosm
-Build-Ids: 66153bcc6863fd89a1d8904bef820d38dbd5479e
+Build-Ids: d640c27a7e5711e54554c2777c7da6c7c98c9e2a
 
 Package: kodi-screensaver-rsxs-plasma
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 1973
@@ -6961,52 +6961,52 @@ Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libgles2, libstdc++6 (>= 5.2)
 Homepage: https://kodi.org
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-plasma_21.1.2-5~trixie_arm64.deb
-Size: 1307260
-SHA256: c785a5f4ab34294a67540a518a9c735941daa68816b67db442b632c8bf971893
-SHA1: 2e8f696599584833cb44e648a120b6d69bb10ed9
-MD5sum: 67b8fc7fad2eb5a3411c657ee25cbb8e
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-plasma_21.1.2-6~trixie_arm64.deb
+Size: 1307272
+SHA256: 09b9e1494c2becbff2359c764b4e2b546176616529a47ec55dd59e5452c03f0d
+SHA1: 9b31b1795411c8822790a309c20c1c7544e1e04d
+MD5sum: 2eea24297e39ef9c6e58bc8683f72770
 Description: Plasma screensaver add-on for Kodi
  Plasma screensaver add-on for Kodi
 
 Package: kodi-screensaver-rsxs-plasma-dbg
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 10
 Homepage: https://kodi.org
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-plasma-dbg_21.1.2-5~trixie_arm64.deb
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-plasma-dbg_21.1.2-6~trixie_arm64.deb
 Size: 1864
-SHA256: 8be4b68aadbfd345a2b0dba3df6577841d3cf2cd03033451226a9364d6cdb2bb
-SHA1: 2a987bff5942d25f120e22600cb2a2cbd456ed6a
-MD5sum: 26f8a1c463de9f8127253282a08a91e5
+SHA256: 3be20033a188e426283ed4e35ae25b9cd89d83064cd2a2729cdfd5fa6110610e
+SHA1: 56c97c8098acb856756bb6fc4d76259a7bd4d46b
+MD5sum: dba9faab3c442ba46afa9158aa017a41
 Description: debug symbols for Plasma screensaver add-on for Kodi
  debug symbols for Plasma screensaver add-on for Kodi
 
 Package: kodi-screensaver-rsxs-plasma-dbgsym
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 199
-Depends: kodi-screensaver-rsxs-plasma (= 21.1.2-5~trixie)
+Depends: kodi-screensaver-rsxs-plasma (= 21.1.2-6~trixie)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-plasma-dbgsym_21.1.2-5~trixie_arm64.deb
-Size: 173376
-SHA256: bd67cedf370a544531827fab9a8e86f4be971e03cd4750c7ca8132a97d614ada
-SHA1: c514b353fa8879b76b059e71e3e78c1c587d9838
-MD5sum: 7a27421bf87919888c6206c55106394f
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-plasma-dbgsym_21.1.2-6~trixie_arm64.deb
+Size: 173312
+SHA256: c2ea8fb74e34efb992ca0a56570fe1986ba041f260356c65e90e8ced74443365
+SHA1: 4d915c91737e4db22e40d20e9279855b8ab8866e
+MD5sum: 508122f644c33c8e1fcccb7b9fcafb16
 Description: debug symbols for kodi-screensaver-rsxs-plasma
-Build-Ids: f724db6675393b853100d701785201e381f73be9
+Build-Ids: c62f3092aec804bbd26845df318635e43a2ccdb6
 
 Package: kodi-screensaver-rsxs-skyrocket
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 10434
@@ -7014,52 +7014,52 @@ Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libgles2, libstdc++6 (>= 11)
 Homepage: https://kodi.org
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-skyrocket_21.1.2-5~trixie_arm64.deb
-Size: 7652696
-SHA256: ec3a127f6e146de777add99f709f42cc9379885c3584f8fd51e168cf1d4a062c
-SHA1: 520b6254021b65476ed68b7df177d4a07211b598
-MD5sum: f5e9281c586cd612a3d8068ed3dc0061
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-skyrocket_21.1.2-6~trixie_arm64.deb
+Size: 7650716
+SHA256: 37bd5f3b758b77c4d960b2a75862033875ff33a3361ccd65c296570e84329c06
+SHA1: 69b4b2668d2a7a9a8ecb90c2b2ee610ebc08d861
+MD5sum: 9fb0ce58e14093b15c82a0551418a0ca
 Description: Skyrocket screensaver add-on for Kodi
  Skyrocket screensaver add-on for Kodi
 
 Package: kodi-screensaver-rsxs-skyrocket-dbg
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 10
 Homepage: https://kodi.org
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-skyrocket-dbg_21.1.2-5~trixie_arm64.deb
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-skyrocket-dbg_21.1.2-6~trixie_arm64.deb
 Size: 1864
-SHA256: 148d3d30369a538317fd87eff53539a88060a95712cf15b35591bc34d5eefb84
-SHA1: 2ff6cb3a693da8976983c3f464038c918f0782af
-MD5sum: b0fec5a8358483ee92a67eec9969957e
+SHA256: 9ae23966b62e47269c96f944e45e7ea4da49cf5cc8da227572bb268ae8b2c161
+SHA1: 6aed992e9c26f5d27d7e2d84554ebd79262a59a6
+MD5sum: 43fd82c69e3dc6939992fa9408546fa9
 Description: debug symbols for Skyrocket screensaver add-on for Kodi
  debug symbols for Skyrocket screensaver add-on for Kodi
 
 Package: kodi-screensaver-rsxs-skyrocket-dbgsym
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 804
-Depends: kodi-screensaver-rsxs-skyrocket (= 21.1.2-5~trixie)
+Depends: kodi-screensaver-rsxs-skyrocket (= 21.1.2-6~trixie)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-skyrocket-dbgsym_21.1.2-5~trixie_arm64.deb
-Size: 762788
-SHA256: 5a24f30d083aecedd666ec82954e8532fdc342678989489dc2c847d08dbc1fc2
-SHA1: 946c85bea75b5698e5ba1c330ad52a5496b7e1d8
-MD5sum: 0d8cbe8c47e23282186123f74b31900e
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-skyrocket-dbgsym_21.1.2-6~trixie_arm64.deb
+Size: 762848
+SHA256: 94a27467e12cc172d909f7f06298623bac1da948ceeec57606704a78ccccbf86
+SHA1: c505b832d76912b8a3af77c1cefc458dda015085
+MD5sum: 6ffa270a1dca2256b9487a1dd33e7be8
 Description: debug symbols for kodi-screensaver-rsxs-skyrocket
-Build-Ids: 4a3515a4aa9c3086ad3603d4c7530f39a3800915
+Build-Ids: f9a9e0184948f11b246ebba6d769e7a55ba98eb2
 
 Package: kodi-screensaver-rsxs-solarwinds
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 8666
@@ -7067,52 +7067,52 @@ Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libgles2, libstdc++6 (>= 5.2)
 Homepage: https://kodi.org
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-solarwinds_21.1.2-5~trixie_arm64.deb
-Size: 8069092
-SHA256: 9c91c2b5a86c5be635c63826d60dc76a5effe20febf5d59705dae7e60ccf870d
-SHA1: adce85122611335f1f789c49342b285e94ed4a22
-MD5sum: feabe744504ea092fc7cecd041a96142
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-solarwinds_21.1.2-6~trixie_arm64.deb
+Size: 8069268
+SHA256: a811c499d0ec5f80f1f39e896388b748e946ce2f8321c7d58184fb0ba02c9f3f
+SHA1: 0137ae7d39eb59f5a2ebe52f0a30161a2db873a2
+MD5sum: fe2c4cfaf6b889050054fbfe098b0ccc
 Description: Solarwinds screensaver add-on for Kodi
  Solarwinds screensaver add-on for Kodi
 
 Package: kodi-screensaver-rsxs-solarwinds-dbg
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 10
 Homepage: https://kodi.org
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-solarwinds-dbg_21.1.2-5~trixie_arm64.deb
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-solarwinds-dbg_21.1.2-6~trixie_arm64.deb
 Size: 1868
-SHA256: 4e5429331c86a767df8b45dae97be573f30df5c953799e77c93eb4ac944e5ec5
-SHA1: 3b49509fd2da09188e449b8ddb18af550168c128
-MD5sum: eb0ac5518c488ffedc94e0d71b863943
+SHA256: a92b1f02e92ea8547f4dd06d4024ffb0f9641a0ae017d22936773a7be2cacdba
+SHA1: 3f79178ad2cf8795778415a5faeaa284408b5eb2
+MD5sum: 23fa7828ec66adc5f182dae765980537
 Description: debug symbols for Solarwinds screensaver add-on for Kodi
  debug symbols for Solarwinds screensaver add-on for Kodi
 
 Package: kodi-screensaver-rsxs-solarwinds-dbgsym
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 223
-Depends: kodi-screensaver-rsxs-solarwinds (= 21.1.2-5~trixie)
+Depends: kodi-screensaver-rsxs-solarwinds (= 21.1.2-6~trixie)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-solarwinds-dbgsym_21.1.2-5~trixie_arm64.deb
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-solarwinds-dbgsym_21.1.2-6~trixie_arm64.deb
 Size: 196772
-SHA256: 362c7a75e3969aa8bea54ab38aad90679d4b6f18142a2b10b3eff84b423255b2
-SHA1: 81c29413b54f094314a026129cbda58a5b05b435
-MD5sum: cd1e97ac904dded1be336d4c02d733e2
+SHA256: c4c05ba2f8ffec468bf9b4a79a0a915106720e6092674e356c4d03d1a905d31f
+SHA1: 7c093c9846dfeacbf42ae3b7586df3df6c11916f
+MD5sum: d6f9cdc6d75d593ddae7f6bdebfab245
 Description: debug symbols for kodi-screensaver-rsxs-solarwinds
-Build-Ids: 7c393915bf321a107df861c2c8b9087f95c06d2b
+Build-Ids: 4e270bb542da95b342031c0c57f0542d3ba9c2b7
 
 Package: kodi-screensaver-rsxs-spirographx
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 5986
@@ -7120,52 +7120,52 @@ Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libgles2, libstdc++6 (>= 5.2)
 Homepage: https://kodi.org
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-spirographx_21.1.2-5~trixie_arm64.deb
-Size: 5155480
-SHA256: 1f31a3c4f70a64204af5efd5958181e70d04476d8037c73934bd6689dec64207
-SHA1: 9bcf097f39e58b8ff7f1f1f8a898914753fe7cc1
-MD5sum: b4b8cf1779b26b38cc1b9c63eb68bdfc
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-spirographx_21.1.2-6~trixie_arm64.deb
+Size: 5155284
+SHA256: ae00a09466e063a5a0613e68a89724543050749e3cfd5a202e68b189dc3b2902
+SHA1: 107293ef6e688c4c1829437263e8a60aa5e1d8b5
+MD5sum: 40efd51bad9654a812134337a09e1857
 Description: SpiroGraphX screensaver add-on for Kodi
  SpiroGraphX screensaver add-on for Kodi
 
 Package: kodi-screensaver-rsxs-spirographx-dbg
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 10
 Homepage: https://kodi.org
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-spirographx-dbg_21.1.2-5~trixie_arm64.deb
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-spirographx-dbg_21.1.2-6~trixie_arm64.deb
 Size: 1876
-SHA256: ac358209d38b485e2bd9c82c9b9a3f7495d1fa84dd96ed01f61bf7955c3083f4
-SHA1: 10621df0150a48ac3d1ae2cdae601b1b9683b85a
-MD5sum: 4d552faf0bd72271b38fa58313f850a3
+SHA256: 4ca1e1a2f2e44d47fca3a89ca0ebd5bf7ae0f679d75c78eec09dc860e3f0f128
+SHA1: 18cdf3c183b484f6460f8a882c77161c4db648f0
+MD5sum: 958485b0b690218f0cd4d7ddb0471b02
 Description: debug symbols for SpiroGraphX screensaver add-on for Kodi
  debug symbols for SpiroGraphX screensaver add-on for Kodi
 
 Package: kodi-screensaver-rsxs-spirographx-dbgsym
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 213
-Depends: kodi-screensaver-rsxs-spirographx (= 21.1.2-5~trixie)
+Depends: kodi-screensaver-rsxs-spirographx (= 21.1.2-6~trixie)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-spirographx-dbgsym_21.1.2-5~trixie_arm64.deb
-Size: 187064
-SHA256: 232e701b5ba4525e5c1602dc918a930b7f2ced3571699d8d267efd69c7f5a8ed
-SHA1: ef77631b0f3403942849173d721cde3b9665d7fd
-MD5sum: ff74e47ce0c3d523b0bd92c9261dbbff
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-spirographx-dbgsym_21.1.2-6~trixie_arm64.deb
+Size: 187056
+SHA256: 7730fc9e18fd400c8234f2dc97bd29d5d1fd8165da2ed12309154a7ed9c12f6f
+SHA1: 5d016ba275fb9709f250fe58e2ee5221fe7a4d40
+MD5sum: d270c18975c45be6893dc69d002090cf
 Description: debug symbols for kodi-screensaver-rsxs-spirographx
-Build-Ids: cdebc24682079b40b0828e72a46895474cde52c5
+Build-Ids: 91c552b79730b90f881eacda18de9280188a6268
 
 Package: kodi-screensaver-rsxs-sundancer2
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 1330
@@ -7173,51 +7173,51 @@ Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libgles2, libstdc++6 (>= 5.2)
 Homepage: https://kodi.org
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-sundancer2_21.1.2-5~trixie_arm64.deb
-Size: 569296
-SHA256: 708b3efc4cfb57a390a300aae18604173c152768b3afef89213a2d625f5bceac
-SHA1: 979d60b14ef88cfa57bd7660af6b6be5fcd6b9c2
-MD5sum: f7317d860f178a817b4ad3c94fdeb850
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-sundancer2_21.1.2-6~trixie_arm64.deb
+Size: 569356
+SHA256: 5bda6368d5ca61c2f10372cbfc3dc33cfca3994535afbcb33c7ca93b4af38a4d
+SHA1: 58696a41ee101140ad5c3c132411b5cf59c5eb2a
+MD5sum: 90e33217b2879d3216990d241d66043d
 Description: SunDancer2 screensaver add-on for Kodi
  SunDancer2 screensaver add-on for Kodi
 
 Package: kodi-screensaver-rsxs-sundancer2-dbg
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 10
 Homepage: https://kodi.org
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-sundancer2-dbg_21.1.2-5~trixie_arm64.deb
-Size: 1876
-SHA256: 437e774e7e6f42d4e8807aee212db7cc7e8a606f2c80c4f3de345b4269ef8e80
-SHA1: a16abaaea548379d6ca70557adb090508d855a98
-MD5sum: f6b90ecc1bee9175f74bac2cee7473c5
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-sundancer2-dbg_21.1.2-6~trixie_arm64.deb
+Size: 1872
+SHA256: bb6a3fadbfaafd1f421abd2a93bb2b1276496d7fdc2de03754c3fa83ccc08e37
+SHA1: ada0060e28306a56ddf402b537295b7d65075c10
+MD5sum: cc55ccde2fd8f818518261e55aa68bb5
 Description: debug symbols for SunDancer2 screensaver add-on for Kodi
  debug symbols for SunDancer2 screensaver add-on for Kodi
 
 Package: kodi-screensaver-rsxs-sundancer2-dbgsym
 Source: kodi-screensavers-rsxs
-Version: 21.1.2-5~trixie
+Version: 21.1.2-6~trixie
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 223
-Depends: kodi-screensaver-rsxs-sundancer2 (= 21.1.2-5~trixie)
+Depends: kodi-screensaver-rsxs-sundancer2 (= 21.1.2-6~trixie)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-sundancer2-dbgsym_21.1.2-5~trixie_arm64.deb
-Size: 196560
-SHA256: 410333a9d5f5b6dcb916267d56789d374ad0022387d68327fbfb07f8bd30d24a
-SHA1: eeb548d1d1442cdc719a6d6496317e9473915bc3
-MD5sum: 5882507523d153466ba377897a7eff05
+Filename: pool/main/k/kodi-screensavers-rsxs/kodi-screensaver-rsxs-sundancer2-dbgsym_21.1.2-6~trixie_arm64.deb
+Size: 196684
+SHA256: 2a443a210b9a4661d8a20d743e764982b82f52bbc930b34edccdc486a8f012b0
+SHA1: 6a92090ed2e85c4655a52a3d2dbbe42b161e4f41
+MD5sum: f423c6c0535a8383a7e75bbca48198d6
 Description: debug symbols for kodi-screensaver-rsxs-sundancer2
-Build-Ids: 996874090efa410b338ca892729c808b7775a5a2
+Build-Ids: ea4ecd088ed16091a865f963631ad940b67e8a20
 
 Package: kodi-screensaver-stars
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 595
@@ -7225,49 +7225,49 @@ Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libgles2, libstdc++6 (>= 5.2)
 Homepage: https://kodi.tv
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-screensaver-stars/kodi-screensaver-stars_21.0.2-5~trixie_arm64.deb
-Size: 271160
-SHA256: 858786f37a0e56b81ca7bbfa6366405accf5c1b2e7d74a4e8580873c6d535140
-SHA1: 5f01ed4e226cd7c22b907182ca5a59bed0e9659c
-MD5sum: 9c1cc407768eb471afd3268ec9df45e1
+Filename: pool/main/k/kodi-screensaver-stars/kodi-screensaver-stars_21.0.2-6~trixie_arm64.deb
+Size: 271428
+SHA256: 95658a4c1a728e226186daf0544de83f3f442a7d56967384e833d99e2cece09c
+SHA1: 4af8f85cfc4fd0b961873857b0f59cb2f2598bbb
+MD5sum: 03194f8910eb2b04e0303eb67c439a9e
 Description: Stars screensaver for Kodi
  Stars screensaver for Kodi
 
 Package: kodi-screensaver-stars-dbg
 Source: kodi-screensaver-stars
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 6
-Depends: kodi-screensaver-stars (= 21.0.2-5~trixie)
+Depends: kodi-screensaver-stars (= 21.0.2-6~trixie)
 Homepage: https://kodi.tv
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-screensaver-stars/kodi-screensaver-stars-dbg_21.0.2-5~trixie_arm64.deb
+Filename: pool/main/k/kodi-screensaver-stars/kodi-screensaver-stars-dbg_21.0.2-6~trixie_arm64.deb
 Size: 872
-SHA256: 9c43b04925a58f143ed3766e17c1b81f51fd3ce12c3f6043c2f00e69effe64c0
-SHA1: 8425f7e78148470ca330d20836dbc37fddbaa9fa
-MD5sum: ddff66ca3895533de62a42d603fe71ba
+SHA256: 891b3e5c3c7a77cba237446104e41e3a2edd59feedf390a6603ad6b5a6d41b86
+SHA1: 60037529bb1f12f3178764ab06b6f55d23090614
+MD5sum: 40a347b4e232aa605ef1b72710639233
 Description: debug symbols for Stars screensaver for Kodi
  debug symbols for Stars screensaver for Kodi
 
 Package: kodi-screensaver-stars-dbgsym
 Source: kodi-screensaver-stars
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
-Installed-Size: 223
-Depends: kodi-screensaver-stars (= 21.0.2-5~trixie)
+Installed-Size: 234
+Depends: kodi-screensaver-stars (= 21.0.2-6~trixie)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi-screensaver-stars/kodi-screensaver-stars-dbgsym_21.0.2-5~trixie_arm64.deb
-Size: 196840
-SHA256: 8aae6b7ed909c509a5dbf37699260cd5eebbd813db5d137ba0cebda4972513ea
-SHA1: e8c3be54fa3d522432a5818d34ec8f82580a4200
-MD5sum: 1162e18d959bc546629612565df4a183
+Filename: pool/main/k/kodi-screensaver-stars/kodi-screensaver-stars-dbgsym_21.0.2-6~trixie_arm64.deb
+Size: 207768
+SHA256: b0f2d44883fdd02e1a7a767ffc90b583ace0a0ada57ada00f3d1a4b12157e524
+SHA1: 3a9162c745c6997dba0d9af02885a05adb78abbb
+MD5sum: af74355c2c03a69127e66f5bc37957a3
 Description: debug symbols for kodi-screensaver-stars
-Build-Ids: 49eea214e0678067fdcdcd77b212c651cfd02904
+Build-Ids: 2c4e5e6305707017fa3993ca3fffa5e3700cbdb3
 
 Package: kodi-tools-texturepacker
 Source: kodi
@@ -7326,58 +7326,58 @@ Description: debug symbols for kodi-tools-texturepacker
 Build-Ids: 28aa761c6beadd5ef460e968ba350d08ec94999a
 
 Package: kodi-vfs-rar
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 1108
 Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 14), libtinyxml2.6.2v5 (>= 2.6.2)
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-vfs-rar/kodi-vfs-rar_21.0.2-5~trixie_arm64.deb
-Size: 379572
-SHA256: 25a06e5d771b7568c46588c681712039ff6e5b2f1dc8835f075488ecbde35524
-SHA1: 289eb83eb382323b67f8d4f93902bdffd4b6a054
-MD5sum: 39fb9ee06f4d0ad2a39fb01658dbdeea
+Filename: pool/main/k/kodi-vfs-rar/kodi-vfs-rar_21.0.2-6~trixie_arm64.deb
+Size: 379468
+SHA256: fe4d9d5fe7ad31af2d3a1cbe2f2a2d799d5b26b8fd2f71dd02470ba7a709c94e
+SHA1: 4868919347203c18760e252da878329605b024ad
+MD5sum: dffbc97552225650673b197048efd039
 Description: RAR VFS for Kodi
  RAR VFS for Kodi
 
 Package: kodi-vfs-rar-dbg
 Source: kodi-vfs-rar
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 6
-Depends: kodi-vfs-rar (= 21.0.2-5~trixie)
+Depends: kodi-vfs-rar (= 21.0.2-6~trixie)
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-vfs-rar/kodi-vfs-rar-dbg_21.0.2-5~trixie_arm64.deb
+Filename: pool/main/k/kodi-vfs-rar/kodi-vfs-rar-dbg_21.0.2-6~trixie_arm64.deb
 Size: 844
-SHA256: 776b53e1bcfcc4276e069b1c6835154dc2885ea67985bba29dce1e3c2f61e590
-SHA1: 6b7453060b30d769c427bbac402052c9d781a6ec
-MD5sum: 42503604ea4c305af54d64290262df2a
+SHA256: c507366fff59c8277b937c0e448b44b943039973fc5426e8cfc87af5394aa512
+SHA1: 01d61b93fe257b747b4a79829700a0e8eacf16c0
+MD5sum: 5181b6fb2243448c841e5fa24866efd4
 Description: debug symbols for RAR VFS for Kodi
  debug symbols for RAR VFS for Kodi
 
 Package: kodi-vfs-rar-dbgsym
 Source: kodi-vfs-rar
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 3063
-Depends: kodi-vfs-rar (= 21.0.2-5~trixie)
+Depends: kodi-vfs-rar (= 21.0.2-6~trixie)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi-vfs-rar/kodi-vfs-rar-dbgsym_21.0.2-5~trixie_arm64.deb
-Size: 2958892
-SHA256: 86189535fce4750d0ebd4f48f4e06cd6fdfc2d0ca9d07f60bfe1e301beae422a
-SHA1: faac1c86c6c77ac7dcbf1046ee123550c81c1aaf
-MD5sum: 226b4583f2e6afdccfc6596f644a28af
+Filename: pool/main/k/kodi-vfs-rar/kodi-vfs-rar-dbgsym_21.0.2-6~trixie_arm64.deb
+Size: 2960260
+SHA256: 60862d7c6d339f0556481aab2910b51b40fda24e2a6775607d09403a9af6325c
+SHA1: 9b93d6e4aad2566b24e44e62b81bfedd0d3452f8
+MD5sum: 4a03d8c894982cbc7ee36230dc25107f
 Description: debug symbols for kodi-vfs-rar
-Build-Ids: 904806dc8ea9fbd0febf545697fc6929de574859
+Build-Ids: fd72596f37e6d4c2ff6cdd0294a68c7195f779e8
 
 Package: kodi-visualization-goom
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 1440
@@ -7385,52 +7385,52 @@ Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libgles2, libstdc++6 (>= 12)
 Homepage: https://kodi.tv
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-visualization-goom/kodi-visualization-goom_21.0.2-5~trixie_arm64.deb
-Size: 984140
-SHA256: 2866a50eac0a6c32462e605867fed8cce0adfe116948c1b72551a2926e0b4563
-SHA1: 47c578054f6c1b17913179d084b4648c010ef983
-MD5sum: 3febf8ab02cbb1adf9f83d91f4c2201a
+Filename: pool/main/k/kodi-visualization-goom/kodi-visualization-goom_21.0.2-6~trixie_arm64.deb
+Size: 984128
+SHA256: afa234cba5ab9e6be60ba98345fdb285543285888c8c6266523566f58694ccae
+SHA1: 1a9b82c198c2189a6bc9aae78af96bb082e30813
+MD5sum: 97829e242f0ae2300e23d9138449fb40
 Description: GOOM visualization for Kodi
  GOOM visualization for Kodi
 
 Package: kodi-visualization-goom-dbg
 Source: kodi-visualization-goom
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 6
-Depends: kodi-visualization-goom (= 21.0.2-5~trixie)
+Depends: kodi-visualization-goom (= 21.0.2-6~trixie)
 Homepage: https://kodi.tv
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-visualization-goom/kodi-visualization-goom-dbg_21.0.2-5~trixie_arm64.deb
+Filename: pool/main/k/kodi-visualization-goom/kodi-visualization-goom-dbg_21.0.2-6~trixie_arm64.deb
 Size: 880
-SHA256: 2279e528284222b088af505c78fe8786104e3274b22e76a227a5cdbb211e6fdc
-SHA1: 2b621613bb46d147610ce3cae0b6357fe6a83233
-MD5sum: c3d72312bc1fdaf7244cf3364b27eed5
+SHA256: c43267b601a73ad0645203dc8a7154e0a8afdae2b33db4d2c01ad14c07a6d796
+SHA1: 6cce6633a678f4a63924606f405b555d36f8fb00
+MD5sum: 27480d203c6a51366d1295eaba3466aa
 Description: debug symbols for GOOM visualization for Kodi
  debug symbols for GOOM visualization for Kodi
 
 Package: kodi-visualization-goom-dbgsym
 Source: kodi-visualization-goom
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 490
-Depends: kodi-visualization-goom (= 21.0.2-5~trixie)
+Depends: kodi-visualization-goom (= 21.0.2-6~trixie)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi-visualization-goom/kodi-visualization-goom-dbgsym_21.0.2-5~trixie_arm64.deb
-Size: 435552
-SHA256: c56b043966a827a9ed2353382b1cb5a68e882e3c7db822faab1b6e26a9292b7d
-SHA1: f191d73348b4526543321d9f1c7db0d909303400
-MD5sum: 585d68bb5fe137b079566fd2aebd4975
+Filename: pool/main/k/kodi-visualization-goom/kodi-visualization-goom-dbgsym_21.0.2-6~trixie_arm64.deb
+Size: 435524
+SHA256: 2cead4303d2aa3fa2169c729667c129c8bc22afee6e0e4e5deeedd598688cbf2
+SHA1: fb11153d70378093bc2d5f66b873151f7a4b456c
+MD5sum: 8b471796a27e19ceca06e98491c53e7c
 Description: debug symbols for kodi-visualization-goom
-Build-Ids: b2a07ad59e3c15c928995f70cad91bc58af0e0d5
+Build-Ids: f10c76557b192391a7f599fbdea597fe2b19ba0c
 
 Package: kodi-visualization-matrix
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 1253
@@ -7438,52 +7438,52 @@ Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libgles2, libstdc++6 (>= 5.2)
 Homepage: https://kodi.tv
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-visualization-matrix/kodi-visualization-matrix_21.0.2-5~trixie_arm64.deb
-Size: 802432
-SHA256: 1f823c18fb7f22b2d214e2a84719396ac5b95167ff153055dce1263c49df04ce
-SHA1: 8431556c7da7362eff25965adfb5fee91863d855
-MD5sum: 1f2ad8099d40cb8b7c0bc981c9c4712a
+Filename: pool/main/k/kodi-visualization-matrix/kodi-visualization-matrix_21.0.2-6~trixie_arm64.deb
+Size: 802588
+SHA256: 35f41e9285b0e56f154c9c879a413487155c552df8a96bed4d3ee6914ebb76c6
+SHA1: 1456e2bf78f4edbfde733f4aacd1e26818463b77
+MD5sum: f0ea44964fbc2a8ff51698fa3e182bb4
 Description: Matrix visualization for Kodi
  Matrix visualization for Kodi
 
 Package: kodi-visualization-matrix-dbg
 Source: kodi-visualization-matrix
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 6
-Depends: kodi-visualization-matrix (= 21.0.2-5~trixie)
+Depends: kodi-visualization-matrix (= 21.0.2-6~trixie)
 Homepage: https://kodi.tv
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-visualization-matrix/kodi-visualization-matrix-dbg_21.0.2-5~trixie_arm64.deb
+Filename: pool/main/k/kodi-visualization-matrix/kodi-visualization-matrix-dbg_21.0.2-6~trixie_arm64.deb
 Size: 884
-SHA256: 54c2b910e976b2ec9a69534d8bdeb709065876098bd156ec009d4596c3850528
-SHA1: a64519572fa19e910dce46bcfc4d34fbc2bf13a3
-MD5sum: 40dc11c9982af113bc52a9c41007e8e6
+SHA256: 0e6ffab7e7a5db15133bd0812fd9235af4d315436e3f16c98c923214096afd97
+SHA1: 4149fc0b359d31693df1a06fac37c8da9d9aec0f
+MD5sum: 621be3c14d348ccbb0b31083dbc47fab
 Description: debug symbols for Matrix visualization for Kodi
  debug symbols for Matrix visualization for Kodi
 
 Package: kodi-visualization-matrix-dbgsym
 Source: kodi-visualization-matrix
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
-Installed-Size: 450
-Depends: kodi-visualization-matrix (= 21.0.2-5~trixie)
+Installed-Size: 463
+Depends: kodi-visualization-matrix (= 21.0.2-6~trixie)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi-visualization-matrix/kodi-visualization-matrix-dbgsym_21.0.2-5~trixie_arm64.deb
-Size: 410780
-SHA256: 4ab7247ddea7b3766a21ad601ee2b914713ce7cd31836f9e00c57372581df9f6
-SHA1: 52e206c56bb83102831a1c066424d47d3739f116
-MD5sum: 376105c616426c1a36590880e3189132
+Filename: pool/main/k/kodi-visualization-matrix/kodi-visualization-matrix-dbgsym_21.0.2-6~trixie_arm64.deb
+Size: 424524
+SHA256: fe46594c60c45db43a5595ea0656690bbaeefdd3c69545b09665610b1fe22252
+SHA1: 4e84a0ea65da46533cfe5e75856273b95b3db128
+MD5sum: 3339e6a1167235ff1d6f23678dcc1f8e
 Description: debug symbols for kodi-visualization-matrix
-Build-Ids: b117adeea1ac1ff5d67748738045222deb895c34
+Build-Ids: 909258e4c4b638ffb8859249fd84a689d0a64f44
 
 Package: kodi-visualization-projectm
-Version: 21.0.3-5~trixie
+Version: 21.0.3-6~trixie
 Architecture: arm64
 Maintainer: Team Kodi <contact@kodi.tv>
 Installed-Size: 30293
@@ -7491,52 +7491,52 @@ Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libgles2, libprojectm3 (>= 3.1.1
 Homepage: https://kodi.tv
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-visualization-projectm/kodi-visualization-projectm_21.0.3-5~trixie_arm64.deb
-Size: 4544516
-SHA256: e491a8b96ad71e422abdde238db80d787105511e751d79b1bde8202ac07a12ee
-SHA1: 5021de0193bdf69eee54c1569688488581d1daff
-MD5sum: 4cb329198b06ea7ad2d8019c123fac35
+Filename: pool/main/k/kodi-visualization-projectm/kodi-visualization-projectm_21.0.3-6~trixie_arm64.deb
+Size: 4544424
+SHA256: 7517c93a5145940362d221519159523eaf5e740c94268305ce6d65bd8edc02a0
+SHA1: 70c6b8bd8eec44846ef142419ae650057530aa34
+MD5sum: e925b404d5f14bc603635c4a69df000d
 Description: ProjectM visualizer for Kodi
  ProjectM visualizer for Kodi
 
 Package: kodi-visualization-projectm-dbg
 Source: kodi-visualization-projectm
-Version: 21.0.3-5~trixie
+Version: 21.0.3-6~trixie
 Architecture: arm64
 Maintainer: Team Kodi <contact@kodi.tv>
 Installed-Size: 6
-Depends: kodi-visualization-projectm (= 21.0.3-5~trixie)
+Depends: kodi-visualization-projectm (= 21.0.3-6~trixie)
 Homepage: https://kodi.tv
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-visualization-projectm/kodi-visualization-projectm-dbg_21.0.3-5~trixie_arm64.deb
+Filename: pool/main/k/kodi-visualization-projectm/kodi-visualization-projectm-dbg_21.0.3-6~trixie_arm64.deb
 Size: 892
-SHA256: 0304fc5568f384f6231688b193f8093f100e621971f4c40f696bec264d495fa8
-SHA1: bd5c38509c773580788f01b71210beca69decff2
-MD5sum: ff2bb349229817fc84cb24e25834460c
+SHA256: 606eff0863890866b4dc3721c93edac2581cd0b0bb59871d556254545db0c45c
+SHA1: 82b0747974bb57ae1cd6f241359279924fa4332f
+MD5sum: 87674ae225b72aa1f358e66318b7a682
 Description: debug symbols for ProjectM visualizer for Kodi
  debug symbols for ProjectM visualizer for Kodi
 
 Package: kodi-visualization-projectm-dbgsym
 Source: kodi-visualization-projectm
-Version: 21.0.3-5~trixie
+Version: 21.0.3-6~trixie
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Team Kodi <contact@kodi.tv>
 Installed-Size: 241
-Depends: kodi-visualization-projectm (= 21.0.3-5~trixie)
+Depends: kodi-visualization-projectm (= 21.0.3-6~trixie)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi-visualization-projectm/kodi-visualization-projectm-dbgsym_21.0.3-5~trixie_arm64.deb
-Size: 213204
-SHA256: 5d26b734414054ebb3de07ee680be0bde33c7c2c96b0531a304cdba5dc6d9cad
-SHA1: 309badba25cf53826fef0934176c7a820dd30129
-MD5sum: 289f2df1f31e33e997d4e7f3e0403786
+Filename: pool/main/k/kodi-visualization-projectm/kodi-visualization-projectm-dbgsym_21.0.3-6~trixie_arm64.deb
+Size: 213368
+SHA256: 4f558ceecb35a249250ee25dd917570217c482a3e50030fad9ddbef707ac45d8
+SHA1: 95def51e3d515e1e2522e4f78fe3844f350ce90f
+MD5sum: 5b910d7e0a086b421c509a3e16603eaa
 Description: debug symbols for kodi-visualization-projectm
-Build-Ids: b584af72d57da1d2adfa082d1516b0654452e3ca
+Build-Ids: e7a1b5d19facf09f4234f7db94e572b60005e6b8
 
 Package: kodi-visualization-starburst
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 394
@@ -7544,49 +7544,49 @@ Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libgles2, libstdc++6 (>= 13.1)
 Homepage: https://kodi.tv
 Priority: extra
 Section: libs
-Filename: pool/main/k/kodi-visualization-starburst/kodi-visualization-starburst_21.0.2-5~trixie_arm64.deb
-Size: 141060
-SHA256: 3702967995760efcd598bd90dbb50da10789e2ae0c762857f7864e15f287cdce
-SHA1: cac2b941e890cae6f1cc7d10f4cbae9fb5554664
-MD5sum: 7352ae4e02b71d72f7c1f54c4e46ed00
+Filename: pool/main/k/kodi-visualization-starburst/kodi-visualization-starburst_21.0.2-6~trixie_arm64.deb
+Size: 141012
+SHA256: 010599f616ced7e2a235bcd7f8bc90e1c07a64a35898d69f2c44ac8d9dce9fc2
+SHA1: da44c4328c68ddd25572154d9632180852dde670
+MD5sum: b1320b5da66d4866934d6842825dcd00
 Description: Starburst visualization for Kodi
  starburst visualization for Kodi
 
 Package: kodi-visualization-starburst-dbg
 Source: kodi-visualization-starburst
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 6
-Depends: kodi-visualization-starburst (= 21.0.2-5~trixie)
+Depends: kodi-visualization-starburst (= 21.0.2-6~trixie)
 Homepage: https://kodi.tv
 Priority: extra
 Section: debug
-Filename: pool/main/k/kodi-visualization-starburst/kodi-visualization-starburst-dbg_21.0.2-5~trixie_arm64.deb
+Filename: pool/main/k/kodi-visualization-starburst/kodi-visualization-starburst-dbg_21.0.2-6~trixie_arm64.deb
 Size: 896
-SHA256: b7486ccab26e3890df476e0290b4599c74c3ee7beeeaa591b62efa51ced1dfc9
-SHA1: 92fb4dd935a42f7834c8291a1e9b5b37b6359963
-MD5sum: 4b0e5eb872fca1d330351f9561317796
+SHA256: 72f93b8ee8998bcf3ee8c2fc2bf6c222ce3aaab9e4046ba294572aa8f0de1250
+SHA1: bc5c027429f9062e6041f5538e1de77580311dfc
+MD5sum: 95f18cbc25c88fda4d45c0df9102696f
 Description: Debug symbols for starburst visualization for Kodi
  debug symbols for starburst visualization for Kodi
 
 Package: kodi-visualization-starburst-dbgsym
 Source: kodi-visualization-starburst
-Version: 21.0.2-5~trixie
+Version: 21.0.2-6~trixie
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Nobody <nobody@kodi.tv>
 Installed-Size: 275
-Depends: kodi-visualization-starburst (= 21.0.2-5~trixie)
+Depends: kodi-visualization-starburst (= 21.0.2-6~trixie)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kodi-visualization-starburst/kodi-visualization-starburst-dbgsym_21.0.2-5~trixie_arm64.deb
-Size: 244768
-SHA256: 44edbf693eae24c43416460c33b972538ce8d45997d71c01a99f18d2baebc595
-SHA1: a863f9df86ca006aa7b506949e98c90f53404a96
-MD5sum: 626f4d00c7af2a2160bc373f79292979
+Filename: pool/main/k/kodi-visualization-starburst/kodi-visualization-starburst-dbgsym_21.0.2-6~trixie_arm64.deb
+Size: 244836
+SHA256: 53d97c1f50d9117e8778853ee75a1dc38d36dca9acdbc00483800cd3034062b3
+SHA1: 3921f845418dbe9b13ee93ee88454597f2e5f794
+MD5sum: 25e2249885f3dea755858c3368364338
 Description: debug symbols for kodi-visualization-starburst
-Build-Ids: cb4e8023f931b4b9d6710d78c017aaeae7d49f9f
+Build-Ids: f066d544266d2e15a0c274742daf4cbabceab53d
 
 Package: libavcodec-dev
 Source: ffmpeg
