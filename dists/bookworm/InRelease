@@ -4,7 +4,7 @@ Hash: SHA384
 Origin: sigmaris.github.io/rockpkgs
 Label: sigmaris.github.io/rockpkgs
 Codename: bookworm
-Date: Wed, 12 Mar 2025 19:11:09 UTC
+Date: Mon, 20 Oct 2025 22:38:32 UTC
 Architectures: arm64 armhf
 Components: main
 Description: Packages for Rockchip (arm64) and Raspberry Pi (armhf) SBC
@@ -40,9 +40,9 @@ SHA256:
  c15ae9ed8807a82d1ce6b64a258d714340deb2dfd21a4269fac9e484d80e8576 180 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iJUEARMJAB0WIQTZQAKMPDtVF2lL6mjL9prZIjzKfgUCZ9HcTQAKCRDL9prZIjzK
-frIJAYC3WkCq/sz1pF84IrtHOUFbTIJyU/LsF9JFSBtKgwTmlkPeOrgBp3+uNT8J
-mGiGnKEBgIGpEYLTqxKtdwV2nr+/3/VRnfmyVEOUxmVr5pXx5lfrgPaoPwsmOObe
-MaZ7oNGT8A==
-=W72Z
+iJUEARMJAB0WIQTZQAKMPDtVF2lL6mjL9prZIjzKfgUCaPa56AAKCRDL9prZIjzK
+fpuUAYCfctJ4S7AXhebJON6tgtZ5/V1qoOxGC5rY/k6T9dZSIjtLx3hB8XN9odqV
+0zRSrZMBeQFV5DWiBqShzucpUzMp/V9h9MHqrCj3Inmi1MHn36X0Fk6+U/BHc5Y/
+05HstYOByw==
+=ydA/
 -----END PGP SIGNATURE-----

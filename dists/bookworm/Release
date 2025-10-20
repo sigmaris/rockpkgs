@@ -1,7 +1,7 @@
 Origin: sigmaris.github.io/rockpkgs
 Label: sigmaris.github.io/rockpkgs
 Codename: bookworm
-Date: Wed, 12 Mar 2025 19:11:09 UTC
+Date: Mon, 20 Oct 2025 22:38:32 UTC
 Architectures: arm64 armhf
 Components: main
 Description: Packages for Rockchip (arm64) and Raspberry Pi (armhf) SBC
